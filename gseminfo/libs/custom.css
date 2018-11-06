@@ -1,0 +1,68 @@
+/*
+
+	INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. link this stylesheet in the head of your HTML
+  	 <link href="YOUR PATH/custom.css" rel="stylesheet" type="text/css" />
+     
+  2. Set the file name as data-theme attribute on your input
+  	 <input data-theme="custom" />
+     
+  3. That's it!
+  
+  When you run script the style will be automatically applied.
+
+*/
+div.datedropper.custom {
+  border-radius: 0;
+  width: 250px;
+}
+div.datedropper.custom .picker {
+  border-radius: 0;
+  box-shadow: 0 0 26px 4px rgba(0, 0, 0, 0.12);
+}
+div.datedropper.custom .pick-l {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+div.datedropper.custom:before,
+div.datedropper.custom .pick-submit,
+div.datedropper.custom .pick-lg-b .pick-sl:before,
+div.datedropper.custom .pick-m,
+div.datedropper.custom .pick-lg-h {
+  background-color: #f4b042;
+}
+div.datedropper.custom .pick-y.pick-jump,
+div.datedropper.custom .pick li span,
+div.datedropper.custom .pick-lg-b .pick-wke,
+div.datedropper.custom .pick-btn {
+  color: #f4b042;
+}
+div.datedropper.custom .picker,
+div.datedropper.custom .pick-l {
+  background-color: #FFF;
+}
+div.datedropper.custom .picker,
+div.datedropper.custom .pick-arw,
+div.datedropper.custom .pick-l {
+  color: #4D4D4D;
+}
+div.datedropper.custom .pick-m,
+div.datedropper.custom .pick-m .pick-arw,
+div.datedropper.custom .pick-lg-h,
+div.datedropper.custom .pick-lg-b .pick-sl,
+div.datedropper.custom .pick-submit {
+  color: #FFF;
+}
+div.datedropper.custom.picker-tiny:before,
+div.datedropper.custom.picker-tiny .pick-m {
+  background-color: #FFF;
+}
+div.datedropper.custom.picker-tiny .pick-m,
+div.datedropper.custom.picker-tiny .pick-m .pick-arw {
+  color: #4D4D4D;
+}
+div.datedropper.custom.picker-lkd .pick-submit {
+  background-color: #FFF;
+  color: #4D4D4D;
+}

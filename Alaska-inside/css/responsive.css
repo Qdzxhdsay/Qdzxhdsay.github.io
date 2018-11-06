@@ -1,0 +1,359 @@
+/*1600-1919*/
+@media (min-width: 1920px) and (max-width: 2650px) {
+
+}
+
+/*1600-1919*/
+@media (min-width: 1600px) and (max-width: 1919px) {
+
+}
+
+/*1400-1599*/
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+
+}
+
+/*1200-1399*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 80vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+
+    .content__text {
+        top: 40px;
+        width: 435px;
+        font-size: 1.5em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 60vh 0 3vh 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 60vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+}
+
+/*<<<--------------------------------*991-1199-начало*---------------------------------->>>*/
+@media (min-width: 992px) and (max-width: 1023px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 76vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+    .glitch__img {
+        background-size: cover;
+    }
+    .content__text {
+        top: 50px;
+        width: 420px;
+        font-size: 1.5em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 480px 0 30px 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+
+
+}
+
+/*<<<--------------------------------*991-1199-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*768-991-начало*---------------------------------->>>*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 45vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+    .glitch__img {
+        background-size: cover;
+    }
+    .content__text {
+        top: 10px;
+        width: 360px;
+        font-size: 1.25em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 350px 0 40px 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+
+}
+
+/*<<<--------------------------------*768-991-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*767-начало*---------------------------------->>>*/
+@media (max-width: 767px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 40vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+    .glitch__img {
+        background-size: cover;
+    }
+
+    .content__text {
+        top: 10px;
+        width: 360px;
+        font-size: 1.25em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 33vh 0 3vh 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+
+
+}
+
+/*<<<--------------------------------*767-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*414-начало*---------------------------------->>>*/
+@media (min-width: 414px)and (max-width: 567px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 33vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+    .glitch__img {
+        background-size: cover;
+    }
+    .content__text {
+        top: 10px;
+        width: 180px;
+        font-size: 0.6em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 25vh 0 3vh 0;
+    }
+
+
+
+}
+
+/*<<<--------------------------------*414-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*375-начало*---------------------------------->>>*/
+@media (min-width: 375px)and (max-width: 413px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 32vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+    .glitch__img {
+        background-size: cover;
+    }
+
+    .content__text {
+        top: 10px;
+        width: 180px;
+        font-size: 0.6em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 25vh 0 3vh 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+
+}
+
+/*<<<--------------------------------*375-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*320-начало*---------------------------------->>>*/
+@media (min-width: 320px)and (max-width: 374px) {
+    .demo-1 {
+        --glitch-width: 320px;
+        --glitch-height: 200px;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+
+    .glitch__img {
+        background-size: cover;
+    }
+
+    .content__text {
+        top: 10px;
+        width: 160px;
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 25vh 0 3vh 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+
+
+}
+
+/*<<<--------------------------------*320-конец*---------------------------------->>>*/
+
+/*<--------------Портретный режим-------------->*/
+
+/*<<<--------------------------------*568-320-начало*---------------------------------->>>*/
+@media (min-width: 568px) and (max-height: 320px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 100vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+
+    .glitch__img {
+        background-size: cover;
+    }
+
+    .content__text {
+        top: 10px;
+        width: 160px;
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 80vh 0 3vh 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+}
+
+/*<<<--------------------------------*568-320-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*667-375-конец*---------------------------------->>>*/
+@media (min-width: 667px) and (max-height: 375px) {
+    .demo-1 {
+        --glitch-width: 100vw;
+        --glitch-height: 100vh;
+        --gap-horizontal: 10px;
+        --gap-vertical: 5px;
+    }
+
+    .glitch {
+        position: absolute;
+    }
+
+    .glitch__img {
+        background-size: cover;
+    }
+
+    .content__text {
+        top: 10px;
+        width: 160px;
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    .content__title {
+        font-size: 5vw;
+        margin: 80vh 0 3vh 0;
+        position: relative;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    }
+}
+
+/*<<<--------------------------------*667-375-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*736-414-конец*---------------------------------->>>*/
+@media (min-width: 736px) and (max-height: 414px) {
+
+}
+
+/*<<<--------------------------------*736-414-конец*---------------------------------->>>*/

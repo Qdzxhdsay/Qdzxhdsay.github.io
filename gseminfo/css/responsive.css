@@ -1,0 +1,924 @@
+/*1919-2650*/
+@media (min-width: 1920px) and (max-width: 2649px) {
+    .gsemhelp-header__wrapper {
+        width: 1700px;
+    }
+    #i-have-a-tooltip:before {
+        left:87%;
+        top:90px;
+        margin-left:-50px;
+    }
+
+    #i-have-a-tooltip:after {
+        left:91%;
+    }
+}
+
+/*1600-1919*/
+@media (min-width: 1600px) and (max-width: 1919px) {
+    .gsemhelp-header__wrapper {
+        width: 1600px;
+    }
+    #i-have-a-tooltip:before {
+        left:92%;
+        top:90px;
+        margin-left:-50px;
+    }
+
+    #i-have-a-tooltip:after {
+        left:97%;
+    }
+}
+
+/*1400-1599*/
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+}
+
+/*1200-1399*/
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .gsemhelp-header__wrapper {
+        width: 1200px;
+    }
+
+    .gsemhelp__description-text {
+        width: 1200px;
+    }
+
+    .gsemhelp__faq-content-wrapper {
+        width: 1200px;
+    }
+}
+
+/*991-1199-начало*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .gsemhelp-header__wrapper {
+        width: 992px;
+    }
+
+    .gsemhelp__description-text {
+        width: 992px;
+    }
+
+    .gsemhelp__faq-content-wrapper {
+        width: 992px;
+    }
+
+    .gsemhelp__mobile-social-wrapper{
+        display: none;
+        justify-content: center;
+
+    }
+
+    .gsemhelp__mobile-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #4d4d4d;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gsemhelp__wp-social{
+        color: #c4c4c4;
+        font-size: 25px;
+    }
+
+    .gsemhelp__tg-social{
+        color: #c4c4c4;
+        font-size: 25px;
+        margin: 0 40px;
+    }
+
+    .gsemhelp__phone-social{
+        color: #c4c4c4;
+        font-size: 23px;
+    }
+
+    .gsemhelp__wp-icon.fab.fa-whatsapp{
+        display: none;
+    }
+
+    .gsemhelp__tg-icon.fab.fa-telegram{
+        display: none;
+    }
+
+}
+
+/*991-1199-конец*/
+
+/*768-991-начало*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .gsemhelp-header__wrapper {
+        width: 768px;
+    }
+
+    .gsemhelp__description-text {
+        width: 768px;
+    }
+
+    .gsemhelp__faq-content-wrapper {
+        width: 768px;
+    }
+
+    .gsemhelp_form-block-wrapper {
+        width: 768px;
+    }
+
+    .gsemhelp__priority-label {
+        margin: 0 0 0 108px;
+    }
+
+    .gsemhelp__date-label {
+        margin: 0 0 10px 108px;
+    }
+
+
+    .gsemhelp__mobile-social-wrapper{
+        display: none;
+        justify-content: center;
+
+    }
+
+    .gsemhelp__mobile-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #4d4d4d;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gsemhelp__wp-social{
+        color: #c4c4c4;
+        font-size: 25px;
+    }
+
+    .gsemhelp__tg-social{
+        color: #c4c4c4;
+        font-size: 25px;
+        margin: 0 40px;
+    }
+
+    .gsemhelp__phone-social{
+        color: #c4c4c4;
+        font-size: 23px;
+    }
+
+    .gsemhelp__wp-icon.fab.fa-whatsapp{
+        display: none;
+    }
+
+    .gsemhelp__tg-icon.fab.fa-telegram{
+        display: none;
+    }
+}
+
+/*768-991-конец*/
+
+/*767-начало*/
+@media (max-width: 767px) {
+    .gsemhelp-header__wrapper {
+        max-width: 767px;
+    }
+
+    .gsemhelp__description {
+        height: 150px;
+    }
+
+    .gsemhelp__description-text {
+        width: 414px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .gsemhelp__faq-headline-text {
+        font-size: 24px;
+    }
+
+    .gsemhelp__faq-headline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 40px 0;
+    }
+
+    .gsemhelp__faq-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .gsemhelp__faq-content-wrapper {
+        display: flex;
+        width: 414px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gsemhelp__faq-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gsemhelp__arrow {
+        width: 5px;
+        height: 30px;
+        transform: rotate(0deg);
+        display: flex;
+        margin: 20px 0;
+    }
+
+    .gsemhelp__arrow-two {
+        width: 20px;
+        height: 10px;
+        margin: 30px 0 20px 0;
+        display: flex;
+    }
+
+    .gsemhelp__arrow-desktop {
+        width: 30px;
+        height: 15px;
+        margin: 20px auto 50px auto;
+        display: none;
+    }
+
+    .gsemhelp_form-block-wrapper {
+        width: 414px;
+    }
+
+    .gsemhelp__form-headline {
+        height: 80px;
+    }
+
+    .gsemhelp__form-headline-text {
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .gsemhelp__form-underline {
+        width: 60px;
+        height: 3px;
+        background-color: black;
+        border: none;
+    }
+
+    .gsemhelp__priority-label {
+        margin: 0 0 0 24px;
+    }
+
+    .gsemhelp__date-label {
+        margin: 0 0 10px 24px;
+    }
+
+    .gsemhelp__name-input {
+        width: 320px;
+    }
+
+    .gsemhelp__phone-input {
+        width: 320px;
+    }
+
+    .gsemhelp__message-input {
+        width: 320px;
+    }
+
+    .gsemhelp__priority-select {
+        width: 330px;
+    }
+
+    .gsemhelp__datepicker {
+        width: 320px;
+    }
+
+    .gsemhelp__logotype-icon-link {
+        font-size: 30px;
+    }
+
+    .gsemhelp__logotype-icon-link-footer {
+        font-size: 30px;
+    }
+
+
+
+
+    .gsemhelp__mobile-social-wrapper{
+        display: none;
+        justify-content: center;
+
+    }
+
+    .gsemhelp__mobile-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #4d4d4d;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gsemhelp__wp-social{
+        color: #c4c4c4;
+        font-size: 25px;
+    }
+
+    .gsemhelp__tg-social{
+        color: #c4c4c4;
+        font-size: 25px;
+        margin: 0 30px;
+    }
+
+    .gsemhelp__phone-social{
+        color: #c4c4c4;
+        font-size: 23px;
+    }
+
+    .gsemhelp__wp-icon.fab.fa-whatsapp{
+        display: none;
+    }
+
+    .gsemhelp__tg-icon.fab.fa-telegram{
+        display: none;
+    }
+}
+
+/*767-конец*/
+
+/*414-начало*/
+@media (min-width: 414px)and (max-width: 567px) {
+    .gsemhelp-header__wrapper {
+        width: 414px;
+    }
+
+    .gsemhelp__description {
+        height: 150px;
+    }
+
+    .gsemhelp__description-text {
+        width: 414px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .gsemhelp__faq-headline-text {
+        font-size: 24px;
+    }
+
+    .gsemhelp__faq-headline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 40px 0;
+    }
+
+    .gsemhelp__faq-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .gsemhelp__faq-content-wrapper {
+        display: flex;
+        width: 414px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gsemhelp__faq-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gsemhelp__arrow {
+        width: 5px;
+        height: 25px;
+        display: block;
+        margin: 20px 0;
+    }
+
+    .gsemhelp__arrow-two {
+        width: 20px;
+        height: 10px;
+        display: block;
+        margin: 30px 0;
+    }
+
+    .gsemhelp_form-block-wrapper {
+        width: 414px;
+    }
+
+    .gsemhelp__form-headline {
+        height: 80px;
+    }
+
+    .gsemhelp__form-headline-text {
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .gsemhelp__form-underline {
+        width: 60px;
+        height: 3px;
+        background-color: black;
+        border: none;
+    }
+
+    .gsemhelp__priority-label {
+        margin: 0 0 0 24px;
+    }
+
+    .gsemhelp__date-label {
+        margin: 0 0 10px 24px;
+    }
+
+    .gsemhelp__name-input {
+        width: 320px;
+    }
+
+    .gsemhelp__phone-input {
+        width: 320px;
+    }
+
+    .gsemhelp__message-input {
+        width: 320px;
+    }
+
+    .gsemhelp__priority-select {
+        width: 330px;
+    }
+
+    .gsemhelp__datepicker {
+        width: 320px;
+    }
+
+    .gsemhelp__logotype-icon-link {
+        font-size: 30px;
+    }
+
+    .gsemhelp__logotype-icon-link-footer {
+        font-size: 30px;
+    }
+
+
+    .gsemhelp__mobile-social-wrapper{
+        display: none;
+        justify-content: center;
+
+    }
+
+    .gsemhelp__mobile-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #4d4d4d;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gsemhelp__wp-social{
+        color: #c4c4c4;
+        font-size: 25px;
+    }
+
+    .gsemhelp__tg-social{
+        color: #c4c4c4;
+        font-size: 25px;
+        margin: 0 30px;
+    }
+
+    .gsemhelp__phone-social{
+        color: #c4c4c4;
+        font-size: 23px;
+    }
+
+    .gsemhelp__wp-icon.fab.fa-whatsapp{
+        display: none;
+    }
+
+    .gsemhelp__tg-icon.fab.fa-telegram{
+        display: none;
+    }
+
+}
+
+/*414-конец**/
+
+/*375-начало*/
+@media (min-width: 375px)and (max-width: 413px) {
+    .gsemhelp-header__wrapper {
+        width: 370px;
+    }
+
+    .gsemhelp__logotype-icon {
+        width: 130px;
+        height: 28px;
+    }
+
+    .gsemhelp__description {
+        height: 150px;
+    }
+
+    .gsemhelp__description-text {
+        width: 340px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .gsemhelp__faq-headline-text {
+        font-size: 24px;
+    }
+
+    .gsemhelp__faq-headline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 40px 0;
+    }
+
+    .gsemhelp__faq-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .gsemhelp__faq-content-wrapper {
+        display: flex;
+        width: 370px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gsemhelp__faq-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gsemhelp__arrow {
+        width: 5px;
+        height: 25px;
+        display: block;
+        margin: 20px 0;
+    }
+
+    .gsemhelp__arrow-two {
+        width: 20px;
+        height: 10px;
+        display: block;
+        margin: 30px 0;
+    }
+
+    .gsemhelp_form-block-wrapper {
+        width: 375px;
+    }
+
+    .gsemhelp__form-headline {
+        height: 80px;
+    }
+
+    .gsemhelp__form-headline-text {
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .gsemhelp__form-underline {
+        width: 60px;
+        height: 3px;
+        background-color: black;
+        border: none;
+    }
+
+    .gsemhelp__priority-label {
+        margin: 0 0 0 22px;
+    }
+
+    .gsemhelp__date-label {
+        margin: 0 0 10px 22px;
+    }
+
+    .gsemhelp__name-input {
+        width: 290px;
+    }
+
+    .gsemhelp__phone-input {
+        width: 290px;
+    }
+
+    .gsemhelp__message-input {
+        width: 290px;
+    }
+
+    .gsemhelp__priority-select {
+        width: 300px;
+    }
+
+    .gsemhelp__datepicker {
+        width: 290px;
+    }
+
+    .gsemhelp__logotype-icon-link {
+        font-size: 30px;
+    }
+
+    .gsemhelp__logotype-icon-link-footer {
+        font-size: 30px;
+    }
+
+
+    .gsemhelp__mobile-social-wrapper{
+        display: none;
+        justify-content: center;
+    }
+
+    .gsemhelp__mobile-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #4d4d4d;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gsemhelp__wp-social{
+        color: #c4c4c4;
+        font-size: 25px;
+    }
+
+    .gsemhelp__tg-social{
+        color: #c4c4c4;
+        font-size: 25px;
+        margin: 0 30px;
+    }
+
+    .gsemhelp__phone-social{
+        color: #c4c4c4;
+        font-size: 23px;
+    }
+
+
+    .gsemhelp__wp-icon.fab.fa-whatsapp{
+        display: none;
+    }
+
+    .gsemhelp__tg-icon.fab.fa-telegram{
+        display: none;
+    }
+
+
+}
+
+/*375-конец*/
+
+/*320-начало*/
+@media (min-width: 320px)and (max-width: 374px) {
+    .gsemhelp-header__wrapper {
+        width: 320px;
+    }
+
+    .gsemhelp__description {
+        height: 130px;
+    }
+
+    .gsemhelp__question-icon {
+        font-size: 20px;
+        margin: 0 0 0 12px;
+    }
+
+    .gsemhelp__phone-icon {
+        font-size: 20px;
+        margin: 0 12px 0 0;
+    }
+
+    .gsemhelp__search-icon {
+        font-size: 20px;
+        margin: 0 12px 0 0;
+    }
+
+    .gsemhelp__logotype-icon {
+        width: 130px;
+        height: 26px;
+    }
+
+    .gsemhelp__description-text {
+        width: 300px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .gsemhelp__faq-content-question-icon {
+        font-size: 65px;
+    }
+
+    .gsemhelp__faq-content-order-icon {
+        font-size: 65px;
+    }
+
+    .gsemhelp__faq-content-phone-icon {
+        font-size: 60px;
+    }
+
+    .gsemhelp__faq-headline-text {
+        font-size: 24px;
+    }
+
+    .gsemhelp__faq-headline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 40px 0;
+    }
+
+    .gsemhelp__faq-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .gsemhelp__faq-content-wrapper {
+        display: flex;
+        width: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gsemhelp__faq-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gsemhelp__faq-content-question-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gsemhelp__faq-content-order-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gsemhelp__faq-content-question-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gsemhelp__arrow {
+        width: 5px;
+        height: 25px;
+        display: block;
+        margin: 20px 0;
+    }
+
+    .gsemhelp__arrow-two {
+        width: 20px;
+        height: 10px;
+        display: block;
+        margin: 30px 0;
+    }
+
+    .gsemhelp_form-block-wrapper {
+        width: 320px;
+    }
+
+    .gsemhelp__form-headline {
+        height: 80px;
+    }
+
+    .gsemhelp__form-headline-text {
+        font-family: Roboto, sans-serif;
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .gsemhelp__form-underline {
+        width: 60px;
+        height: 3px;
+        background-color: black;
+        border: none;
+    }
+
+    .gsemhelp__priority-label {
+        margin: 0 0 0 16px;
+    }
+
+    .gsemhelp__date-label {
+        margin: 0 0 10px 16px;
+    }
+
+    .gsemhelp__name-input {
+        width: 250px;
+    }
+
+    .gsemhelp__phone-input {
+        width: 250px;
+    }
+
+    .gsemhelp__message-input {
+        width: 250px;
+    }
+
+    .gsemhelp__priority-select {
+        width: 260px;
+    }
+
+    .gsemhelp__datepicker {
+        width: 250px;
+    }
+
+    .gsemhelp__footer-logotype-icon {
+        margin: 10px 0 0 0;
+    }
+
+    .gsemhelp__footer-headline-text {
+        font-size: 14px;
+    }
+
+    .gsemhelp__sendform-button {
+        padding: 15px 25px;
+    }
+
+    .gsemhelp__logotype-icon-link {
+        font-size: 30px;
+    }
+
+    .gsemhelp__logotype-icon-link-footer {
+        font-size: 30px;
+    }
+
+
+    .gsemhelp__mobile-social-wrapper{
+        display: none;
+        justify-content: center;
+
+    }
+
+    .gsemhelp__mobile-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #4d4d4d;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gsemhelp__wp-social{
+        color: #c4c4c4;
+        font-size: 25px;
+    }
+
+    .gsemhelp__tg-social{
+        color: #c4c4c4;
+        font-size: 25px;
+        margin: 0 30px;
+    }
+
+    .gsemhelp__phone-social{
+        color: #c4c4c4;
+        font-size: 23px;
+    }
+
+
+    .gsemhelp__wp-icon.fab.fa-whatsapp{
+        display: none;
+    }
+
+    .gsemhelp__tg-icon.fab.fa-telegram{
+        display: none;
+    }
+
+    .gsemhelp__backarrow{
+        width: auto;
+        height: 30px;
+    }
+
+}
+
+/*320-конец*/
+

@@ -1,0 +1,185 @@
+.mailform {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../img/bgform.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mailform-wrapper {
+    background: #37589c;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px;
+    border-radius: 12px;
+    margin: auto auto auto auto;
+    background: linear-gradient(-45deg, white, #7092d8, #6687ca, lightblue);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+.mailform-message {
+    font-size: 22px;
+    line-height: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.mailform-headline{
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+
+.mailform-sendbutton {
+    border: 1px solid white;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: transparent;
+    height: 55px;
+    width: 200px;
+    padding: 0 15px;
+    margin: 40px auto;
+    letter-spacing: 1px;
+}
+
+.mailform-sendbutton:hover {
+    cursor: pointer;
+}
+
+.mailform-sendbutton:active {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+/*<<<--------------------------------*991-1199-начало*---------------------------------->>>*/
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+    .mailform-wrapper {
+    width: 450px;
+    padding: 50px;
+    }
+    .mailform-message {
+    font-size: 20px;
+    line-height: 30px;
+    }
+
+}
+
+/*<<<--------------------------------*991-1199-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*768-991-начало*---------------------------------->>>*/
+@media (min-width: 768px) and (max-width: 991px) {
+   .mailform-wrapper {
+    width: 450px;
+    padding: 50px;
+    }
+    .mailform-message {
+    font-size: 20px;
+    line-height: 30px;
+    }
+}
+
+/*<<<--------------------------------*768-991-начало*---------------------------------->>>*/
+@media (max-width: 767px) {
+    .mailform-wrapper {
+    width: 450px;
+    padding: 50px;
+    }
+    .mailform-message {
+    font-size: 20px;
+    line-height: 30px;
+    }
+}
+
+/*<<<--------------------------------*414-начало*---------------------------------->>>*/
+@media (max-width: 414px) {
+    .mailform-wrapper {
+    width: 250px;
+    padding: 50px;
+    }
+    .mailform-message {
+    font-size: 18px;
+    line-height: 26px;
+    }
+}
+
+/*<<<--------------------------------*414-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*375-начало*---------------------------------->>>*/
+    @media (max-width: 375px) {
+    .mailform-wrapper {
+    width: 200px;
+    padding: 50px;
+    }
+    .mailform-message {
+    font-size: 18px;
+    line-height: 26px;
+    }
+}
+ /*<<<--------------------------------*375-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*320-начало*---------------------------------->>>*/
+    @media (max-width: 320px) {
+    .mailform-wrapper {
+    width: 200px;
+    padding: 50px;
+    }
+    .mailform-message {
+    font-size: 16px;
+    line-height: 24px;
+    }
+}
+/*<<<--------------------------------*320-конец*---------------------------------->>>*/

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GSEMinfo - Сайт технической поддержки ВШЭМ</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="libs/datedropper.css" rel="stylesheet" type="text/css"/>
+    <link href="libs/custom.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="libs/datedropper.js"></script>
+</head>
+<body>
+<header class="gsemhelp-header">
+    <div class="gsemhelp-header__wrapper">
+        <div class="gsemhelp__question">
+            <a href="pagenotfound.html"><i class="gsemhelp__question-icon fas fa-question"></i></a>
+        </div>
+        <div class="gsemhelp__logotype">
+            <a class="gsemhelp__logotype-icon-link" href="index.html"><p><span>gsem</span>info</p></a>
+        </div>
+        <div class="gsemhelp__right-bar">
+            <!--<a href="#"><i class="gsemhelp__search-icon fas fa-search"></i></a>-->
+            <a href="https://wa.me/79126145923"><i class="gsemhelp__wp-icon fab fa-whatsapp"></i></a>
+            <a href="https://telegram.me/echepurov"><i class="gsemhelp__tg-icon fab fa-telegram"></i></a>
+            <a id="i-have-a-tooltip" data-description="+7(912)61-45-923" href="#"><i
+                    class="gsemhelp__phone-icon fas fa-phone"></i></a>
+        </div>
+    </div>
+</header>
+<div id="mobilink" class="gsemhelp__mobile-social-wrapper">
+    <div class="gsemhelp__mobile-social">
+        <a href="https://wa.me/79126145923"><i class="gsemhelp__wp-social fab fa-whatsapp"></i></a>
+        <a href="https://telegram.me/echepurov"><i class="gsemhelp__tg-social fab fa-telegram"></i></a>
+        <a data-description="+7(912)61-45-923" href="tel:+79126145923"><i
+                class="gsemhelp__phone-social fas fa-phone"></i></a>
+    </div>
+</div>
+<main class="gsemhelp-main">
+    <div class="gsemhelp__description">
+        <p class="gsemhelp__description-text">Сайт технической поддержки ВШЭМ</p>
+    </div>
+    <section class="gsemhelp__faq-block">
+        <div class="gsemhelp__faq-content-wrapper">
+            <div class="gsemhelp__faq-content">
+                <i class="gsemhelp__faq-content-question-icon fas fa-question"></i>
+                <p class="gsemhelp__faq-content-question-description">Загляните в базу знаний,<br> возможно, вашу
+                    проблему
+                    уже
+                    решали</p>
+            </div>
+            <img class="gsemhelp__arrow" src="img/Arrow.svg" alt="arrow icon">
+            <div class="gsemhelp__faq-content">
+                <i class="gsemhelp__faq-content-order-icon fas fa-clipboard-list"></i>
+                <p class="gsemhelp__faq-content-order-description">Не нашли информацию по вашей проблеме?<br>
+                    Сформируйте заявку на техническое обслуживание
+            </div>
+            <img class="gsemhelp__arrow" src="img/Arrow.svg" alt="arrow icon">
+            <div class="gsemhelp__faq-content">
+                <i class="gsemhelp__faq-content-phone-icon fas fa-phone"></i>
+                <p class="gsemhelp__faq-content-question-description">А что если срочно?<br>Смело нажимайте кнопки
+                    сверху, чтобы связаться с нами с помощью месседжеров, либо по телефону.
+            </div>
+            <img class="gsemhelp__arrow-two" src="img/arrow2.svg" alt="arrow2 icon">
+        </div>
+    </section>
+    <img id="arrowanchor" class="gsemhelp__arrow-desktop" src="img/arrow2.svg" alt="arrow2 icon">
+    <section class="gsemhelp__form-block">
+        <div class="gsemhelp_form-block-wrapper">
+            <div class="gsemhelp__form-headline">
+                <p class="gsemhelp__form-headline-text">Новая заявка</p>
+                <hr class="gsemhelp__form-underline">
+            </div>
+            <form id="gsemForm" class="gsemhelp__form">
+                <input class="gsemhelp__name-input" name="name" type="text" placeholder="Имя" required>
+                <input class="gsemhelp__phone-input" name="phone" type="text" placeholder="Телефон или E-mail" required>
+                <textarea class="gsemhelp__message-input" name="message" type="text"
+                          placeholder="Описание проблемы"></textarea>
+                <label class="gsemhelp__priority-label">Приоритет</label>
+                <select class="gsemhelp__priority-select" name="priority">
+                    <option value="0">Обычный</option>
+                    <option value="1">Высокий</option>
+                </select>
+                <label class="gsemhelp__date-label">Дата исполнения</label>
+                <!-- datepicker -->
+                <input id="datepicker" class="gsemhelp__datepicker" type="text" name="deadline" data-lang="ru"
+                       data-theme="custom"
+                       data-large-mode="true" data-large-default="true">
+                <div class="gsemhelp__sendform-button" id="send">Отправить заявку</div>
+            </form>
+        </div>
+    </section>
+    <footer class="gsemhelp-footer">
+        <div class="gsemhelp__footer-logotype">
+            <a class="gsemhelp__logotype-icon-link-footer" href="index.html"><p><span>gsem</span>help</p></a>
+        </div>
+        <div class="gsemhelp__footer-headline">
+            <p class="gsemhelp__footer-headline-text">Отдел ит поддержки ВШЭМ</p>
+        </div>
+        <div class="gsemhelp__footer-social">
+            <a href="https://wa.me/79126145923"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://telegram.me/echepurov"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+</main>
+<script>
+    $('#datepicker').dateDropper();
+</script>
+<script src="js/script.js"></script>
+<script src="js/scroll.js"></script>
+</body>
+</html>

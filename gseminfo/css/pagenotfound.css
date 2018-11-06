@@ -1,0 +1,33 @@
+.gsemhelp__pagenotfound-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0 0 0;
+}
+
+.fa-exclamation-triangle{
+    font-size: 100px;
+    margin: 0 0 20px 0;
+    color: #595858;
+}
+
+.gsemhelp__pagenotfound-wrapper p{
+    text-align: center;
+    padding: 0 5px;
+    line-height: 20px;
+}
+
+.gsemhelp__pagenotfound-wrapper h1{
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    padding: 0 5px;
+    line-height: 20px;
+}
+
+.gsemhelp__backarrow{
+    transform: rotate(90deg);
+    margin: 0 0 0 20px;
+    width: 40px;
+    height: 40px;
+}

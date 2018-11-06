@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hook studio chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="soket-io-wrapper">
+    <header class="soket-io-header">
+        <h1 class="soket-io__logotype">Hook Studio chat</h1>
+    </header>
+    <main class="soket-io-content">
+        <aside class="soket-io__left-sidebar">
+            <div class="soket-io__main-user">
+                <div class="soket-io__user-avatar">
+                    <img class="soket-io__user-img" src="user.png" alt="user image">
+                    <div class="soket-io__online-circle"></div>
+                </div>
+                <div class="soket-io__user-bar">
+                    <h2 class="soket-io__user-name">Anton Arefev</h2>
+                    <p class="soket-io__user-status">online</p>
+                </div>
+            </div>
+            <div class="soket-io__online-users">
+            </div>
+        </aside>
+        <section class="soket-io-chat-view">
+            <div class="soket-io__statusbar">
+                <div class="soket-io__member-number">
+                    <p class="soket-io__member-text">3 members in chat</p>
+                    <button class="soket-io__sound-button">
+                        <img class="soket-io__sound-button-image" src="sound.png" alt="sound lock button">
+                    </button>
+                </div>
+                <p class="soket-io__member-status">
+                </p>
+            </div>
+            <div class="soket-io_chat-field">
+            </div>
+            <div class="soket-io-chat__writebar">
+                <input id="mes" class="soket-io__message-input" placeholder="Write a message..." type="text">
+                <button id="but" class="soket-io__message-sendbutton">Send</button>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

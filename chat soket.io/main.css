@@ -1,0 +1,353 @@
+/* Стили хэдэра*/
+.soket-io-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.soket-io-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.soket-io__logotype {
+    font-family: Poiret one, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #e9e9e9;
+    margin: 0;
+}
+
+/* Стили мэйн блока*/
+.soket-io-content {
+    display: flex;
+}
+
+/* Сайдбар*/
+.soket-io__left-sidebar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+    height: 800px;
+    background-color: #343232;
+}
+
+.soket-io__main-user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 320px;
+    margin: 40px 0 0 0;
+}
+
+.soket-io__user-avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.soket-io__user-bar {
+    margin: 0 0 0 40px;
+}
+
+.soket-io__user-img {
+    width: 60px;
+    height: 60px;
+}
+
+.soket-io__user-name {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    color: #e9e9e9;
+    font-size: 24px;
+}
+
+.soket-io__online-circle {
+    height: 10px;
+    width: 10px;
+    background-color: #98F179;
+    border-radius: 20px;
+}
+
+.soket-io__user-status {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    color: #98F179;
+    font-size: 16px;
+}
+
+.soket-io__online-users {
+    margin: 50px auto 0 auto;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+.soket-io__online-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid gray;
+}
+
+.soket-io__online-user-name {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-align: left;
+    color: #e9e9e9;
+    font-size: 20px;
+    margin: 0;
+}
+
+.soket-io__user-online-circle {
+    height: 10px;
+    width: 10px;
+    background-color: #98F179;
+    border-radius: 20px;
+    margin: 0 20px 0 30px;
+
+}
+
+.off {
+    height: 10px;
+    width: 10px;
+    background-color: #E77B7B;
+    border-radius: 20px;
+
+}
+
+/* Тело чата*/
+.soket-io-chat-view {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 70%;
+    background-color: #e9e9e9;
+}
+
+/* Статусбар*/
+.soket-io__statusbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #B9B7B7;
+}
+
+.soket-io__member-status {
+    font-family: Roboto, sans-serif;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.soket-io__member-status span {
+    color: #E77B7B;
+}
+
+.soket-io__member-number {
+    display: flex;
+    align-items: center;
+}
+
+.soket-io__member-text {
+    font-family: Roboto, sans-serif;
+    padding: 0 15px 0 20px;
+    margin: 0;
+}
+
+.soket-io__sound-button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.soket-io__sound-button-image {
+    width: 20px;
+    height: 20px;
+
+}
+
+/*Спейс для сообщений*/
+
+.soket-io_chat-field {
+    width: 100%;
+    height: 680px;
+    overflow: auto;
+}
+
+.chat-field__cloud_you {
+    display: flex;
+    flex-direction: column;
+    background-color: #383535;
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    max-width: 600px;
+    min-width: 140px;
+    padding: 20px 20px 0 20px;
+    margin: 40px 20px 40px 20px;
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.chat-field__headline_you {
+    color: #E77B7B;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0 0 16px 0;
+}
+
+.chat-field__message_you {
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0 0 16px 0;
+}
+
+.chat-field__time_you {
+    align-self: flex-end;
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.chat-field__cloud_you:after {
+    content: '';
+    display: block;
+    width: 1px;
+    margin: 5px 0 0 -25px;
+    border-left: 12px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #343232;
+    border-bottom: none;
+    transform: rotate(170deg);
+}
+
+
+
+
+
+
+
+
+
+.chat-field__cloud_user {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    background-color: #383535;
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    max-width: 600px;
+    min-width: 140px;
+    padding: 20px 20px 0 20px;
+    margin: 40px 20px 40px auto;
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.chat-field__headline_user {
+    color: #98F179;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0 0 16px 0;
+}
+
+.chat-field__message_user {
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0 0 16px 0;
+}
+
+.chat-field__time_user {
+    align-self: flex-end;
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.chat-field__cloud_user:after {
+    align-self: flex-end;
+    content: '';
+    width: 1px;
+    margin: 5px -29px 0 0;
+    border-left: 12px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #3e3e3e;
+    border-bottom: none;
+    transform: rotate(-170deg);
+}
+
+
+
+
+
+
+
+
+
+.soket-io-chat__writebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585757;
+    height: 80px;
+}
+
+.soket-io__message-input {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    padding: 12px 10px 12px 15px;
+    width: 600px;
+}
+
+.soket-io__message-input::placeholder {
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+INPUT[type="text"] {
+    color: #e9e9e9;
+    font-size: 20px;
+}
+
+.soket-io__message-sendbutton {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #383535;
+    padding: 17px 35px;
+    margin: 0 0 0 10px;
+    color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}

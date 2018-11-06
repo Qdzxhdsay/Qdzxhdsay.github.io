@@ -1,0 +1,3201 @@
+/*1600-1919*/
+@media (min-width: 1920px) and (max-width: 2650px) {
+    .top-header-offer-studenthat {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 110px;
+        left: 660px;
+    }
+}
+
+/*1600-1919*/
+@media (min-width: 1600px) and (max-width: 1919px) {
+    .top-header-offer-studenthat {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 110px;
+        left: 505px;
+    }
+}
+
+/*1400-1599*/
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .top-header-offer-studenthat {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 115px;
+        left: 405px;
+    }
+}
+
+/*1200-1399*/
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .top-header-offer-studenthat {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 115px;
+        left: 270px;
+    }
+}
+
+/*<<<--------------------------------*991-1199-начало*---------------------------------->>>*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*Начало Header блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 900px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        padding: 22px 10px 0 10px;
+    }
+
+    .top-header-consultbutton {
+        margin: 0 170px 0 0;
+    }
+
+    .top-header-offer-container {
+        max-width: 900px;
+        background-image: url(../img/bgheader1024.png);
+    }
+
+    .top-header-offertext {
+        width: 600px;
+        margin: 160px auto 50px auto;
+        font-size: 40px;
+    }
+
+    .top-header-offerbutton {
+        width: 320px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 80px;
+        width: 80px;
+        top: 115px;
+        left: 260px;
+    }
+
+    /*Конец Header блока*/
+    /*Начало Aboutus блока*/
+    .main-aboutus-headline {
+        font-size: 40px;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 10px 0;
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 950px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 22px;
+        width: 700px;
+        margin: 60px auto;
+        padding: 30px 20px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto 60px auto;
+        max-width: 900px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 50px;
+    }
+
+    .main-aboutus-dubinindescription {
+        margin: 20px 0 0 0;
+    }
+
+    .main-aboutus-bergdescription {
+        margin: 20px 0 0 0;
+    }
+
+    /*Конец Aboutus блока*/
+    /*Начало Advantages блока*/
+    .advantages-img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .advantages-container {
+        max-width: 950px;
+        margin-bottom: 30px;
+    }
+
+    /*Конец Advantages блока*/
+    /*Начало Review блока*/
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*Конец Review блока*/
+    /*Начало Variants блока*/
+    .variants-headline {
+        font-size: 46px;
+        margin: 0 0 20px 0;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 900px;
+        flex-direction: column;
+        margin: 0 auto 60px auto;
+    }
+
+    .variant-content {
+        width: 800px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 16px;
+        line-height: 26px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: black;
+    }
+
+    .variant-content-text span {
+        font-weight: bold;
+    }
+
+    .variants-offerbutton {
+        border: 1px solid #37589c;
+        border-radius: 6px;
+        outline: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        color: #37589c;
+        background-color: white;
+        height: 60px;
+        width: 250px;
+        padding: 0 15px;
+        margin: 30px auto 0 auto;
+        letter-spacing: 1px;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 770px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 900px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 768px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /*Конец Variants блока*/
+    /*Начало Contacts блока*/
+    .contact-us-info-text-adress {
+        width: 450px;
+    }
+
+    .contacts-wrapper {
+        max-width: 1024px;
+    }
+
+    .contacts-info-bar {
+        max-width: 50vw;
+    }
+
+    #myMap {
+        max-width: 50vw;
+    }
+
+    /*Конец Contacts блока*/
+}
+
+/*<<<--------------------------------*991-1199-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*768-991-начало*---------------------------------->>>*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Начало Header блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 768px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        padding: 22px 10px 0 10px;
+    }
+
+    .top-header-consultbutton {
+        margin: 0 95px 0 0;
+    }
+
+    .top-header-offer-container {
+        max-width: 768px;
+        background-image: url(../img/bgheader768.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        width: 600px;
+        margin: 160px auto 50px auto;
+        font-size: 40px;
+    }
+
+    .top-header-offerbutton {
+        width: 300px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 80px;
+        width: 80px;
+        top: 115px;
+        left: 135px;
+    }
+
+    /*Конец Header блока*/
+    /*Начало Aboutus блока*/
+    .main-aboutus-headline {
+        font-size: 40px;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 5px 0 0 0;
+        font-size: 23px;
+        line-height: 35px;
+        width: 650px;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 750px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 22px;
+        width: 550px;
+        margin: 60px auto;
+        padding: 30px 20px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto 60px auto;
+        max-width: 700px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 30px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 280px;
+        height: 100px;
+        margin: 20px 0 0 0;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 280px;
+        height: 100px;
+        margin: 20px 0 0 0;
+    }
+
+    /*Конец Aboutus блока*/
+    /*Начало Advantages блока*/
+    .advantages-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .advantages-container {
+        max-width: 700px;
+    }
+
+    /*Конец Advantages блока*/
+    /*Начало Review блока*/
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*Начало Review блока*/
+    /*Начало Variants блока*/
+    .variants-headline {
+        font-size: 46px;
+        margin: 0 auto 20px auto;
+        line-height: 70px;
+        width: 600px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 768px;
+        flex-direction: column;
+        margin: 0 auto 60px auto;
+    }
+
+    .variant-content {
+        width: 600px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 570px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 768px;
+        margin: 50px auto 60px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 568px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /*Конец Variants блока*/
+    /*Начало Form блока*/
+    .contact-us-form-wrapper {
+        width: 450px;
+        padding: 50px;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .contact-us-input {
+        height: 40px;
+        margin: 10px 0;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+    }
+
+    /*Конец Form блока*/
+    /*Начало Contacts блока*/
+    .contact-us-info-headline {
+        text-align: center;
+        margin: 60px auto 10px auto;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 25px auto 25px auto;
+    }
+
+    .contact-us-info-text {
+        text-align: center;
+        margin: 0 auto 20px auto;
+    }
+
+    .telephone {
+        font-size: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        text-align: center;
+        width: 450px;
+        margin: 0 auto 20px auto;
+    }
+
+    .adressi {
+        font-size: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        text-align: center;
+        width: 280px;
+    }
+
+    .contacts-wrapper {
+        max-width: 768px;
+        /* height: 530px;*/
+    }
+
+    .contacts-info-bar {
+        max-width: 384px;
+        /*height: 530px;*/
+    }
+
+    #myMap {
+        max-width: 384px;
+        /* height: 530px;*/
+    }
+
+    /*Конец Contacts блока*/
+
+}
+
+/*<<<--------------------------------*768-991-конец*---------------------------------->>>*/
+
+
+/*<<<--------------------------------*767-начало*---------------------------------->>>*/
+@media (max-width: 767px) {
+    /*Начало header блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 667px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 22px 10px 5px 10px;
+    }
+
+    .top-header-consultbutton {
+        margin: 0 100px 0 0;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .top-header-offer-container {
+        max-width: 667px;
+        background-image: url(../img/bgheader768.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        font-size: 30px;
+        width: 400px;
+        margin: 130px auto 40px auto;
+        line-height: 55px;
+    }
+
+    .top-header-subbuttontext {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .top-header-offerbutton {
+        font-size: 14px;
+        height: 50px;
+        width: 220px;
+        padding: 0 20px;
+        margin: 0 auto 50px auto;
+        letter-spacing: 1px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 50px;
+        width: 50px;
+        top: 100px;
+        left: 200px;
+    }
+
+    /*Конец Header блока*/
+    /*Стили второго блока*/
+    .main-aboutus-headline {
+        margin: 50px 0 40px 0;
+        font-size: 30px;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 10px 0 0 0;
+        font-size: 18px;
+        line-height: 36px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: black;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 667px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 16px;
+        width: 400px;
+        margin: 50px auto;
+        padding: 30px 20px;
+    }
+
+    .main-aboutus-dubininphoto {
+        width: 220px;
+    }
+
+    .main-aboutus-bergphoto {
+        width: 220px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto;
+        max-width: 700px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 60px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 280px;
+        margin: 10px auto 40px auto;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 280px;
+        margin: 10px auto 40px auto;
+    }
+
+    /*Стили второго блока - конец*/
+    /*Стили третьего блока - начало*/
+    .advantages {
+        padding-top: 50px;
+    }
+
+    .advantages-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .advantages-slogan-container {
+        margin: 0 0 60px 0;
+    }
+
+    .advantages-slogan-container h2 {
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .advantages-slogan-container {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto 40px auto;
+    }
+
+    .advantages-container {
+        flex-direction: row;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one {
+        width: 568px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one h3 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 150px;
+        margin: 30px auto 40px auto;
+    }
+
+    /*Стили третьего блока - конец*/
+    /*Стили четвертого блока - начало*/
+    .slider-wrapper {
+        width: 414px;
+        margin: 50px auto;
+    }
+
+    .review-content-one-headline {
+        font-size: 30px;
+        margin: 50px auto 20px auto;
+    }
+
+    .review-content-one-subheadline {
+        font-size: 20px;
+    }
+
+    .slider-wrapper {
+        width: 500px;
+        margin: 50px auto;
+    }
+
+    .review-item-img {
+        height: 250px !important;
+        width: 260px !important;
+    }
+
+    .review-feedback {
+        font-size: 16px;
+        line-height: 24px;
+        width: 460px;
+        margin: 30px auto 30px auto;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*varaint style*/
+    .variants {
+        padding-top: 50px;
+    }
+
+    .variants-headline {
+        font-size: 30px;
+        margin: 0 auto 0 auto;
+        line-height: 50px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 667px;
+        flex-direction: column;
+        margin: 0 auto 50px auto;
+    }
+
+    .variant-content {
+        width: 500px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 568px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .variant-content-text-two {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 470px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+        width: 220px;
+        height: 55px;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 667px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 468px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* forma*/
+    .contact-us-form-wrapper {
+        width: 470px;
+        padding: 50px 10px;
+        margin: 0 auto 100px auto;
+    }
+
+    .contact-us-headline {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    /*kontakti*/
+    .contact-us-info-headline {
+        font-size: 30px;
+        margin: 50px auto 10px auto;
+        text-align: center;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 20px auto 20px auto;
+        height: 4px;
+        border: none
+    }
+
+    .contact-us-info-text {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 0 auto 15px auto;
+        text-align: center;
+    }
+
+    .telephone {
+        font-size: 26px;
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        width: 300px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .adressi {
+        font-size: 26px;
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        max-width: 767px;
+        flex-direction: column;
+    }
+
+    .contacts-info-bar {
+        max-width: 767px;
+        width: 100%;
+    }
+
+    #myMap {
+        max-width: 767px;
+        height: 441px;
+        width: 100%;
+    }
+
+}
+
+/*<<<--------------------------------*414-начало*---------------------------------->>>*/
+@media (max-width: 414px) {
+    /*Стили первого блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 414px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        font-size: 12px;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+        line-height: 18px;
+        padding: 14px 5px 6px 5px;
+    }
+
+    .top-header-consultbutton {
+        margin: 0;
+        font-size: 12px;
+        padding: 0 12px;
+    }
+
+    .top-header-offer-container {
+        max-width: 414px;
+        background-image: url(../img/bgheader375.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        font-size: 24px;
+        width: 340px;
+        margin: 130px auto 40px auto;
+        line-height: 40px;
+    }
+
+    .top-header-offerbutton {
+        font-size: 14px;
+        height: 55px;
+        width: 220px;
+        padding: 0 20px;
+        margin: 0 auto 40px auto;
+        letter-spacing: 1px;
+    }
+
+    .top-header-subbuttontext {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 50px;
+        width: 50px;
+        top: 95px;
+        left: 54px;
+    }
+
+    /*Стили первого блока-конец*/
+    /*Стили второго блока*/
+    .main-aboutus-headline {
+        font-size: 24px;
+        margin: 40px 0 40px 0;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 0;
+        font-size: 16px;
+        line-height: 22px;
+        width: 350px;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 380px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 16px;
+        line-height: 20px;
+        width: 260px;
+        margin: 40px auto;
+        padding: 20px 10px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto 0 auto;
+        max-width: 350px;
+        flex-direction: column;
+    }
+
+    .lavr {
+        height: 135px;
+        width: 65px;
+    }
+
+    .main-aboutus-dubininphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-bergphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 20px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 260px;
+        margin: 10px auto 30px;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 260px;
+        margin: 10px auto 40px;
+    }
+
+    /*Стили второго блока - конец*/
+    /*Стили третьего блока - начало*/
+    .advantages {
+        padding-top: 23px;
+    }
+
+    .advantages-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .advantages-slogan-container {
+        margin: 0 0 60px 0;
+    }
+
+    .advantages-slogan-container h2 {
+        font-size: 24px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .advantages-slogan-container {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto 40px auto;
+    }
+
+    .advantages-container {
+        flex-direction: column;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one h3 {
+        font-size: 16px;
+        max-width: 270px;
+        line-height: 23px;
+        margin: 30px auto 40px auto;
+    }
+
+    /*Стили третьего блока - конец*/
+    /*Стили четвертого блока - начало*/
+    .slider-wrapper {
+        width: 350px;
+        margin: 40px auto;
+    }
+
+    .review-content-one-headline {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        margin: 40px auto 40px auto;
+    }
+
+    .review-content-one-subheadline {
+        font-size: 18px;
+    }
+
+    .slider-wrapper {
+        width: 350px;
+        margin: 40px auto;
+    }
+
+    .review-item-img {
+        height: 250px !important;
+        width: 260px !important;
+    }
+
+    .review-feedback {
+        font-size: 16px;
+        line-height: 24px;
+        width: 300px;
+        margin: 30px auto 30px auto;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*varaint style*/
+    .variants {
+        padding-top: 40px;
+    }
+
+    .variants-headline {
+        font-size: 24px;
+        margin: 0 auto 0 auto;
+        line-height: 40px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 414px;
+        flex-direction: column;
+        margin: 0 auto 40px auto;
+    }
+
+    .variant-content {
+        width: 360px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 410px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 330px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+        width: 220px;
+        height: 55px;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 414px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 328px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .variants-offerbutton {
+        height: 55px;
+        width: 220px;
+        font-size: 14px;
+    }
+
+    /* forma*/
+    .contact-us-headline {
+        font-size: 24px;
+        margin: 40px auto 40px auto;
+    }
+
+    .contact-us {
+        margin: 0 auto;
+        background-image: url(../img/bgform414.jpg);
+    }
+
+    .contact-us-form-wrapper {
+        width: 350px;
+        padding: 50px 10px;
+        margin: 0 auto 80px auto;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .contact-us-sendbutton {
+        width: 220px;
+    }
+
+    /*kontakti*/
+    .contact-us-info-headline {
+        font-size: 34px;
+        margin: 60px auto 10px auto;
+        text-align: center;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 25px auto 25px auto;
+        height: 4px;
+        border: none
+    }
+
+    .contact-us-info-text {
+        font-size: 30px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    .telephone {
+        font-size: 30px;
+        margin: 40px auto 30px auto;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        width: 280px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+    }
+
+    .adressi {
+        font-size: 30px;
+        margin: 40px auto 30px auto;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        max-width: 414px;
+        flex-direction: column;
+    }
+
+    .contacts-info-bar {
+        max-width: 414px;
+        width: 100%;
+    }
+
+    #myMap {
+        max-width: 414px;
+        height: 576px;
+        width: 100%;
+    }
+}
+
+/*<<<--------------------------------*414-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*375-начало*---------------------------------->>>*/
+@media (max-width: 375px) {
+    /*Стили первого блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 375px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        font-size: 10px;
+        width: 120px;
+        height: 40px;
+        line-height: 18px;
+        padding: 14px 0 6px 0;
+    }
+
+    .top-header-consultbutton {
+        margin: 0;
+        font-size: 10px;
+        padding: 0 12px;
+    }
+
+    .top-header-offer-container {
+        max-width: 375px;
+        background-image: url(../img/bgheader375.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        font-size: 22px;
+        width: 320px;
+        margin: 120px auto 30px auto;
+        line-height: 40px;
+    }
+
+    .top-header-offerbutton {
+        font-size: 14px;
+        height: 55px;
+        width: 200px;
+        padding: 0 20px;
+        margin: 0 auto 40px auto;
+        letter-spacing: 1px;
+    }
+
+    .top-header-subbuttontext {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 40px;
+        width: 40px;
+        top: 95px;
+        left: 55px;
+    }
+
+    /*Стили первого блока-конец*/
+    /*Стили второго блока*/
+    .main-aboutus-headline {
+        font-size: 22px;
+        margin: 40px 0 40px 0;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 0;
+        font-size: 14px;
+        line-height: 22px;
+        width: 300px;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 360px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 14px;
+        line-height: 20px;
+        width: 240px;
+        margin: 40px auto;
+        padding: 20px 10px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto 0 auto;
+        max-width: 330px;
+        flex-direction: column;
+    }
+
+    .main-aboutus-dubininphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-bergphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 20px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 240px;
+        margin: 10px auto 30px;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 240px;
+        margin: 10px auto 40px;
+    }
+
+    /*Стили второго блока - конец*/
+    /*Стили третьего блока - начало*/
+    .advantages-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .advantages-slogan-container {
+        margin: 0 0 60px 0;
+    }
+
+    .advantages-slogan-container h2 {
+        font-size: 22px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .advantages-slogan-container {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto 40px auto;
+    }
+
+    .advantages-container {
+        flex-direction: column;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one h3 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 270px;
+        margin: 30px auto 40px auto;
+    }
+
+    /*Стили третьего блока - конец*/
+    /*Стили четвертого блока - начало*/
+    .review-content-one-headline {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        margin: 40px auto 40px auto;
+    }
+
+    .review-content-one-subheadline {
+        font-size: 16px;
+    }
+
+    .slider-wrapper {
+        width: 320px;
+        margin: 40px auto;
+    }
+
+    .review-item-img {
+        height: 220px !important;
+        width: 230px !important;
+    }
+
+    .review-name {
+        font-size: 16px;
+    }
+
+    .review-feedback {
+        font-size: 14px;
+        line-height: 24px;
+        width: 280px;
+        margin: 30px auto 30px auto;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*varaint style*/
+    .variants-headline {
+        font-size: 22px;
+        margin: 0 auto 0 auto;
+        line-height: 35px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 360px;
+        flex-direction: column;
+        margin: 0 auto 40px auto;
+    }
+
+    .variant-content {
+        width: 320px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 360px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .variant-content-text-two {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 290px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+        width: 200px;
+        height: 55px;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 360px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 288px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .variants-individual-content-text {
+        font-size: 14px;
+    }
+
+    .variants-individual-headline {
+        font-size: 16px;
+    }
+
+    .variants-offerbutton {
+        height: 55px;
+        width: 200px;
+        font-size: 14px;
+
+    }
+
+    /* forma*/
+    .contact-us-headline {
+        font-size: 24px;
+        margin: 60px 0 60px 0;
+    }
+
+    .contact-us {
+        margin: 0 auto;
+        background-image: url(../img/bgform414.jpg);
+    }
+
+    .contact-us-form-wrapper {
+        width: 300px;
+        padding: 50px 10px;
+        margin: 0 auto 80px auto;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .contact-us-textarea {
+        margin: 15px 0 0 0;
+    }
+
+    .contact-us-sendbutton {
+        width: 200px;
+    }
+
+    /*kontakti*/
+    .contact-us-info-headline {
+        font-size: 22px;
+        margin: 60px auto 10px auto;
+        text-align: center;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 25px auto 25px auto;
+        height: 4px;
+        border: none
+    }
+
+    .contact-us-info-text {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    .telephone {
+        font-size: 20px;
+        margin: 40px auto 30px auto;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        width: 280px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+    }
+
+    .adressi {
+        font-size: 20px;
+        margin: 40px auto 30px auto;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        max-width: 375px;
+        flex-direction: column;
+    }
+
+    .contacts-info-bar {
+        max-width: 375px;
+        width: 100%;
+    }
+
+    #myMap {
+        max-width: 375px;
+        height: 532px;
+        width: 100%;
+    }
+}
+
+/*<<<--------------------------------*375-конец*---------------------------------->>>*/
+
+/*<<<--------------------------------*320-начало*---------------------------------->>>*/
+@media (max-width: 320px) {
+    /*Стили первого блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 320px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        font-size: 9px;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        line-height: 18px;
+        padding: 14px 0 6px 0;
+    }
+
+    .top-header-consultbutton {
+        margin: 0;
+        font-size: 9px;
+        padding: 0 6px;
+    }
+
+    .top-header-offer-container {
+        max-width: 320px;
+        background-image: url(../img/bgheader320.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        font-size: 20px;
+        width: 300px;
+        margin: 115px auto 30px auto;
+        line-height: 40px;
+    }
+
+    .top-header-offerbutton {
+        font-size: 14px;
+        height: 50px;
+        width: 180px;
+        padding: 0 20px;
+        margin: 0 auto 40px auto;
+        letter-spacing: 1px;
+    }
+
+    .top-header-subbuttontext {
+        font-size: 14px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 30px;
+        width: 30px;
+        top: 98px;
+        left: 45px;
+    }
+
+    /*Стили первого блока-конец*/
+    /*Стили второго блока*/
+    .main-aboutus-headline {
+        font-size: 20px;
+        margin: 40px auto 40px auto;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 0;
+        font-size: 14px;
+        line-height: 22px;
+        width: 280px;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 320px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 14px;
+        line-height: 20px;
+        width: 220px;
+        margin: 40px auto;
+        padding: 20px 10px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto 0 auto;
+        max-width: 310px;
+        flex-direction: column;
+    }
+
+    .lavr {
+        height: 135px;
+        width: 65px;
+    }
+
+    .main-aboutus-dubininphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-bergphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 20px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 220px;
+        margin: 10px auto 30px;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 25px 15px;
+        width: 220px;
+        margin: 10px auto 40px;
+    }
+
+    /*Стили второго блока - конец*/
+    /*Стили третьего блока - начало*/
+    .advantages {
+        padding-top: 40px;
+    }
+
+    .advantages-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .advantages-slogan-container {
+        margin: 50px 0 60px 0;
+    }
+
+    .advantages-slogan-container h2 {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto 40px auto;
+    }
+
+    .advantages-slogan-container {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .advantages-container {
+        flex-direction: column;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one {
+        width: 320px;
+        margin: 0 auto;
+        line-height: 20px;
+    }
+
+    .advantages-content-one h3 {
+        font-size: 14px;
+        max-width: 270px;
+        margin: 30px auto 40px auto;
+    }
+
+    /*Стили третьего блока - конец*/
+    /*Стили четвертого блока - начало*/
+    .review-content-one-headline {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        margin: 40px auto 20px auto;
+    }
+
+    .review-content-one-subheadline {
+        font-size: 14px;
+    }
+
+    .slider-wrapper {
+        width: 300px;
+        margin: 50px auto 40px auto;
+    }
+
+    .review-item-img {
+        height: 200px !important;
+        width: 200px !important;
+    }
+
+    .review-name {
+        font-size: 16px;
+    }
+
+    .review-feedback {
+        font-size: 14px;
+        line-height: 24px;
+        width: 260px;
+        margin: 30px auto 30px auto;
+    }
+
+    .revew-contactlink {
+        font-size: 14px;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*varaint style*/
+    .variants-headline {
+        font-size: 20px;
+        margin: 0 auto 0 auto;
+        line-height: 35px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 320px;
+        flex-direction: column;
+        margin: 0 auto 40px auto;
+    }
+
+    .variant-content {
+        width: 280px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .variant-content-text-two {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 250px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+        width: 200px;
+        height: 55px;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 320px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 248px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .variants-individual-headline {
+        font-size: 16px;
+
+    }
+
+    .variants-individual-content-text {
+        font-size: 14px;
+
+    }
+
+    .variants-offerbutton {
+        height: 53px;
+        width: 190px;
+        font-size: 14px;
+
+    }
+
+    /* forma*/
+    .contact-us-headline {
+        font-size: 20px;
+        margin: 40px 0 40px 0;
+    }
+
+    .contact-us {
+        margin: 0 auto;
+        background-image: url(../img/bgform414.jpg);
+    }
+
+    .contact-us-form-wrapper {
+        width: 260px;
+        padding: 50px 10px;
+        margin: 0 auto 80px auto;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 230px;
+        margin: 0 auto;
+    }
+
+    .contact-us-textarea {
+        margin: 15px 0 0 0;
+    }
+
+    .contact-us-sendbutton {
+        width: 190px;
+    }
+
+    /*kontakti*/
+    .contact-us-info-headline {
+        font-size: 20px;
+        margin: 60px auto 10px auto;
+        text-align: center;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 20px auto 20px auto;
+        height: 4px;
+        border: none
+    }
+
+    .contact-us-info-text {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 0 auto 10px auto;
+        text-align: center;
+    }
+
+    .telephone {
+        font-size: 18px;
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        width: 200px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .adressi {
+        font-size: 18px;
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        max-width: 320px;
+        flex-direction: column;
+    }
+
+    .contacts-info-bar {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    #myMap {
+        max-width: 320px;
+        height: 455px;
+        width: 100%;
+    }
+}
+
+/*<<<--------------------------------*320-конец*---------------------------------->>>*/
+
+/*<--------------Портретный режим-------------->*/
+
+/*<<<--------------------------------*568-320-начало*---------------------------------->>>*/
+@media (min-width: 568px) and (max-height: 320px) {
+    /*Начало header блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 568px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 22px 10px 5px 10px;
+    }
+
+    .top-header-consultbutton {
+        margin: 0 30px 0 0;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .top-header-offer-container {
+        max-width: 568px;
+        background-image: url(../img/BGHEADER414.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        font-size: 30px;
+        width: 400px;
+        margin: 130px auto 40px auto;
+        line-height: 55px;
+    }
+
+    .top-header-subbuttontext {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .top-header-offerbutton {
+        font-size: 14px;
+        height: 50px;
+        width: 220px;
+        padding: 0 20px;
+        margin: 0 auto 50px auto;
+        letter-spacing: 1px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 50px;
+        width: 50px;
+        top: 100px;
+        left: 105px;
+    }
+
+    /*Конец Header блока*/
+    /*Стили второго блока*/
+    .main-aboutus-headline {
+        margin: 50px 0 40px 0;
+        font-size: 30px;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 10px 0 0 0;
+        width: 500px;
+        font-size: 18px;
+        line-height: 36px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: black;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 650px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 16px;
+        width: 400px;
+        margin: 50px auto;
+        padding: 30px 20px;
+    }
+
+    .lavr {
+        height: 145px;
+        width: 65px;
+    }
+
+    .main-aboutus-dubininphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-bergphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto;
+        max-width: 650px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 20px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 220px;
+        margin: 10px auto 40px auto;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 220px;
+        margin: 10px auto 40px auto;
+    }
+
+    /*Стили второго блока - конец*/
+    /*Стили третьего блока - начало*/
+    .advantages {
+        padding-top: 50px;
+    }
+
+    .advantages-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .advantages-slogan-container {
+        margin: 0 0 60px 0;
+    }
+
+    .advantages-slogan-container h2 {
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .advantages-slogan-container {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto 40px auto;
+    }
+
+    .advantages-container {
+        flex-direction: row;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one {
+        width: 568px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one h3 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 150px;
+        margin: 30px auto 40px auto;
+    }
+
+    /*Стили третьего блока - конец*/
+    /*Стили четвертого блока - начало*/
+    .slider-wrapper {
+        width: 414px;
+        margin: 50px auto;
+    }
+
+    .review-content-one-headline {
+        font-size: 30px;
+        margin: 50px auto 20px auto;
+    }
+
+    .review-content-one-subheadline {
+        font-size: 20px;
+    }
+
+    .slider-wrapper {
+        width: 500px;
+        margin: 50px auto;
+    }
+
+    .review-item-img {
+        height: 250px !important;
+        width: 260px !important;
+    }
+
+    .review-feedback {
+        font-size: 16px;
+        line-height: 24px;
+        width: 460px;
+        margin: 30px auto 30px auto;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*varaint style*/
+    .variants {
+        padding-top: 50px;
+    }
+
+    .variants-headline {
+        font-size: 30px;
+        margin: 0 auto 0 auto;
+        line-height: 50px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 568px;
+        flex-direction: column;
+        margin: 0 auto 50px auto;
+    }
+
+    .variant-content {
+        width: 500px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 568px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .variant-content-text-two {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 470px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+        width: 220px;
+        height: 55px;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 568px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 468px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* forma*/
+    .contact-us-form-wrapper {
+        width: 470px;
+        padding: 50px 10px;
+        margin: 0 auto 100px auto;
+    }
+
+    .contact-us-headline {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    /*kontakti*/
+    .contact-us-info-headline {
+        font-size: 30px;
+        margin: 50px auto 10px auto;
+        text-align: center;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 20px auto 20px auto;
+        height: 4px;
+        border: none
+    }
+
+    .contact-us-info-text {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 0 auto 15px auto;
+        text-align: center;
+    }
+
+    .telephone {
+        font-size: 26px;
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        width: 300px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .adressi {
+        font-size: 26px;
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        max-width: 568px;
+        flex-direction: column;
+    }
+
+    .contacts-info-bar {
+        max-width: 568px;
+        width: 100%;
+    }
+
+    #myMap {
+        max-width: 568px;
+        height: 471px;
+        width: 100%;
+    }
+}
+
+/*<<<--------------------------------*568-320-конец*---------------------------------->>>*/
+
+/*
+!*<<<--------------------------------*736-414-начало*---------------------------------->>>*!*/
+@media (min-width: 736px) and (max-height: 414px) {
+    /*Начало header блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 667px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 22px 10px 5px 10px;
+    }
+
+    .top-header-consultbutton {
+        margin: 0 100px 0 0;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .top-header-offer-container {
+        max-width: 736px;
+        background-image: url(../img/bgheader768.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        font-size: 30px;
+        width: 400px;
+        margin: 130px auto 40px auto;
+        line-height: 55px;
+    }
+
+    .top-header-subbuttontext {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .top-header-offerbutton {
+        font-size: 14px;
+        height: 50px;
+        width: 220px;
+        padding: 0 20px;
+        margin: 0 auto 50px auto;
+        letter-spacing: 1px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 50px;
+        width: 50px;
+        top: 100px;
+        left: 190px;
+    }
+
+    /*Конец Header блока*/
+
+    /*Начало Aboutus блока*/
+    .main-aboutus-headline {
+        margin: 50px 0 40px 0;
+        font-size: 30px;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 0 auto;
+        width: 500px;
+        font-size: 18px;
+        line-height: 36px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: black;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 736px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 16px;
+        width: 400px;
+        margin: 50px auto;
+        padding: 30px 20px;
+    }
+
+    .main-aboutus-dubininphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-bergphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto;
+        max-width: 736px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 60px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 220px;
+        margin: 10px auto 40px auto;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 220px;
+        margin: 10px auto 40px auto;
+    }
+
+    /*Стили второго блока - конец*/
+    /*Стили третьего блока - начало*/
+    .advantages {
+        padding-top: 50px;
+    }
+
+    .advantages-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .advantages-slogan-container {
+        margin: 0 0 60px 0;
+    }
+
+    .advantages-slogan-container h2 {
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .advantages-slogan-container {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto 40px auto;
+    }
+
+    .advantages-container {
+        flex-direction: row;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one {
+        width: 568px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one h3 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 150px;
+        margin: 30px auto 40px auto;
+    }
+
+    /*Стили третьего блока - конец*/
+    /*Стили четвертого блока - начало*/
+    .slider-wrapper {
+        width: 414px;
+        margin: 50px auto;
+    }
+
+    .review-content-one-headline {
+        font-size: 30px;
+        margin: 50px auto 20px auto;
+    }
+
+    .review-content-one-subheadline {
+        font-size: 20px;
+    }
+
+    .slider-wrapper {
+        width: 500px;
+        margin: 50px auto;
+    }
+
+    .review-item-img {
+        height: 250px !important;
+        width: 260px !important;
+    }
+
+    .review-feedback {
+        font-size: 16px;
+        line-height: 24px;
+        width: 460px;
+        margin: 30px auto 30px auto;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*varaint style*/
+    .variants {
+        padding-top: 50px;
+    }
+
+    .variants-headline {
+        font-size: 30px;
+        margin: 0 auto 0 auto;
+        line-height: 50px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 667px;
+        flex-direction: column;
+        margin: 0 auto 50px auto;
+    }
+
+    .variant-content {
+        width: 500px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 568px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .variant-content-text-two {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 470px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+        width: 220px;
+        height: 55px;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 667px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 468px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* forma*/
+    .contact-us-form-wrapper {
+        width: 470px;
+        padding: 50px 10px;
+        margin: 0 auto 100px auto;
+    }
+
+    .contact-us-headline {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    /*kontakti*/
+    .contact-us-info-headline {
+        font-size: 30px;
+        margin: 50px auto 10px auto;
+        text-align: center;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 20px auto 20px auto;
+        height: 4px;
+        border: none
+    }
+
+    .contact-us-info-text {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 0 auto 15px auto;
+        text-align: center;
+    }
+
+    .telephone {
+        font-size: 26px;
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        width: 300px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .adressi {
+        font-size: 26px;
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        max-width: 667px;
+        flex-direction: column;
+    }
+
+    .contacts-info-bar {
+        max-width: 667px;
+        width: 100%;
+    }
+
+    #myMap {
+        max-width: 667px;
+        height: 471px;
+        width: 100%;
+    }
+
+}
+
+/*!*<<<--------------------------------*736-414-конец*---------------------------------->>>*!*/
+
+/*!*<<<--------------------------------*667-375-конец*-----------------------------*/
+@media (min-width: 667px) and (max-height: 375px) {
+    /*Начало header блока*/
+    .button {
+        display: block;
+    }
+
+    .top-header-nav {
+        display: none;
+    }
+
+    .top-header-container {
+        max-width: 667px;
+        justify-content: flex-end;
+    }
+
+    .top-header-phone {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 22px 10px 5px 10px;
+    }
+
+    .top-header-consultbutton {
+        margin: 0 90px 0 0;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .top-header-offer-container {
+        max-width: 667px;
+        background-image: url(../img/bgheader414.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-header-offertext {
+        font-size: 30px;
+        width: 400px;
+        margin: 130px auto 40px auto;
+        line-height: 55px;
+    }
+
+    .top-header-subbuttontext {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .top-header-offerbutton {
+        font-size: 14px;
+        height: 50px;
+        width: 220px;
+        padding: 0 20px;
+        margin: 0 auto 50px auto;
+        letter-spacing: 1px;
+    }
+
+    .top-header-offer-studenthat {
+        height: 50px;
+        width: 50px;
+        top: 100px;
+        left: 150px;
+    }
+
+    /*Конец Header блока*/
+    /*Стили второго блока*/
+    .main-aboutus-headline {
+        margin: 50px 0 40px 0;
+        font-size: 30px;
+    }
+
+    .main-aboutus-subheadline {
+        margin: 10px 0 0 0;
+        width: 500px;
+        font-size: 18px;
+        line-height: 36px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: black;
+    }
+
+    .main-aboutus-subheadline-wrapper {
+        max-width: 667px;
+    }
+
+    .main-aboutus-subheadlinetext {
+        font-size: 16px;
+        width: 400px;
+        margin: 50px auto;
+        padding: 30px 20px;
+    }
+
+    .lavr {
+        height: 145px;
+        width: 65px;
+    }
+
+    .main-aboutus-dubininphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-bergphoto {
+        height: 220px;
+        width: 220px;
+    }
+
+    .main-aboutus-person-wrapper {
+        margin: 10px auto;
+        max-width: 667px;
+    }
+
+    .main-aboutus-persone {
+        margin: 0 40px;
+    }
+
+    .main-aboutus-dubinindescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 220px;
+        margin: 10px auto 40px auto;
+    }
+
+    .main-aboutus-bergdescription {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 220px;
+        margin: 10px auto 40px auto;
+    }
+
+    /*Стили второго блока - конец*/
+    /*Стили третьего блока - начало*/
+    .advantages {
+        padding-top: 50px;
+    }
+
+    .advantages-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .advantages-slogan-container {
+        margin: 0 0 60px 0;
+    }
+
+    .advantages-slogan-container h2 {
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .advantages-slogan-container {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0 auto 40px auto;
+    }
+
+    .advantages-container {
+        flex-direction: row;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one {
+        width: 568px;
+        margin: 0 auto;
+    }
+
+    .advantages-content-one h3 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 150px;
+        margin: 30px auto 40px auto;
+    }
+
+    /*Стили третьего блока - конец*/
+    /*Стили четвертого блока - начало*/
+    .slider-wrapper {
+        width: 414px;
+        margin: 50px auto;
+    }
+
+    .review-content-one-headline {
+        font-size: 30px;
+        margin: 50px auto 20px auto;
+    }
+
+    .review-content-one-subheadline {
+        font-size: 20px;
+    }
+
+    .slider-wrapper {
+        width: 500px;
+        margin: 50px auto;
+    }
+
+    .review-item-img {
+        height: 250px !important;
+        width: 260px !important;
+    }
+
+    .review-feedback {
+        font-size: 16px;
+        line-height: 24px;
+        width: 460px;
+        margin: 30px auto 30px auto;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        display: none;
+    }
+
+    /*varaint style*/
+    .variants {
+        padding-top: 50px;
+    }
+
+    .variants-headline {
+        font-size: 30px;
+        margin: 0 auto 0 auto;
+        line-height: 50px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .variants-content-wrapper {
+        display: flex;
+        max-width: 667px;
+        flex-direction: column;
+        margin: 0 auto 50px auto;
+    }
+
+    .variant-content {
+        width: 500px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-wrapper {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .variant-content-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .variant-content-two {
+        width: 568px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .variant-content-text-two {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .content-text-wrapper-two {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 15px;
+        width: 470px;
+        margin: 50px auto 0 auto;
+    }
+
+    .variants-offerbutton-two {
+        margin: 30px auto 0 auto;
+        width: 220px;
+        height: 55px;
+
+    }
+
+    .variants-individual-wrapper {
+        display: flex;
+        max-width: 667px;
+        margin: 50px auto 50px auto;
+    }
+
+    .variants-individuals-text-wrapper {
+        width: 468px;
+    }
+
+    .variants-individual-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* forma*/
+    .contact-us-form-wrapper {
+        width: 470px;
+        padding: 50px 10px;
+        margin: 0 auto 100px auto;
+    }
+
+    .contact-us-headline {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    /*kontakti*/
+    .contact-us-info-headline {
+        font-size: 30px;
+        margin: 50px auto 10px auto;
+        text-align: center;
+    }
+
+    .contact-us-underline {
+        width: 80px;
+        margin: 20px auto 20px auto;
+        height: 4px;
+        border: none
+    }
+
+    .contact-us-info-text {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 0 auto 15px auto;
+        text-align: center;
+    }
+
+    .telephone {
+        font-size: 26px;
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+
+    .contact-us-info-text-adress {
+        width: 300px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .adressi {
+        font-size: 26px;
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        max-width: 667px;
+        flex-direction: column;
+    }
+
+    .contacts-info-bar {
+        max-width: 667px;
+        width: 100%;
+    }
+
+    #myMap {
+        max-width: 667px;
+        height: 471px;
+        width: 100%;
+    }
+}
+
+/*!*<<<--------------------------------*667-375-конец*---------------------------------->>>*!*/

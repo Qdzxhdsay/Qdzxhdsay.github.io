@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://libraryschool-nt.ru/sitemap.xml

@@ -1,0 +1,2150 @@
+/*1920-1080*/
+@media (min-width: 1920px) and (max-width: 2650px) {
+    .item {
+        height: 100vh;
+        max-height: 1200px;
+    }
+
+    .desktop-menu__nav-link {
+        color: white;
+        margin: 0 25px;
+        font-family: Roboto, sans-serif;
+        font-size: 1.2rem;
+        line-height: 30px;
+        text-decoration: none;
+    }
+
+    .bcg1 {
+        background-image: url(../img/headbg2.jpg);
+    }
+
+    .bcg2 {
+        background-image: url(../img/headbg5.jpg);
+    }
+
+    .bcg3 {
+        background-image: url(../img/headbg6.jpg);
+    }
+
+    .bcg4 {
+        background-image: url(../img/headbg7.jpg);
+    }
+
+    .ice-cube__headline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1700px;
+        margin: 160px 0 80px 0;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+        letter-spacing: 3px;
+        margin: 0;
+    }
+
+    .ice-cube__advantages-droparrow {
+        margin: 70px 0 50px 0;
+        height: 60px;
+    }
+
+    .ice-cube__advantages-wrapper {
+        width: 1600px;
+    }
+
+    .advantages__one {
+        margin: 0 0 0 5%;
+    }
+
+    .advantages__one h2 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin: 0 10px 0 0;
+    }
+
+    .advantages__two {
+        margin: 70px 0 70px 45%;
+    }
+
+    .advantages__two h2 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        margin: 0 0 0 5%;
+    }
+
+    .advantages__three h2 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin: 0 10px 0 0;
+    }
+
+    .assortment-card__content {
+        width: 1600px;
+    }
+
+    .ice-cube__assortment-card-wrapper {
+        margin: 0 0 120px 0;
+    }
+
+    .assortment-card__picture {
+        width: 660px;
+        height: 600px;
+    }
+
+    .assortment-underline {
+        width: 90%;
+        margin: 90px auto;
+        color: #000;
+    }
+
+    .ice-cube__assortment-headline {
+        height: 280px;
+    }
+
+    .ice-cube__assortment-headline h1 {
+        font-size: 3rem;
+    }
+
+    .assortment-card__lot-name {
+        font-size: 3rem;
+    }
+
+    .assortment-card__headlinehr {
+        width: 40px;
+        margin: 15px 0 0 0;
+    }
+
+    .assortment-card__lot-description {
+        font-size: 1.3rem;
+        line-height: 32px;
+    }
+
+    .assortment-card__price-headline {
+        font-size: 3rem;
+        line-height: 25px;
+        margin: 40px 0;
+    }
+
+    .assortment-card__option {
+        font-size: 1.3rem;
+        line-height: 32px;
+    }
+
+    .ice-cube__sendform-headline {
+        margin: 110px 0 0 0;
+    }
+
+    .ice-cube__sendform-headline h1 {
+        font-size: 3rem;
+    }
+
+    .assortment-card__button {
+        width: 250px;
+    }
+
+    .ice-cube__delivery-headline h1 {
+        font-size: 3rem;
+        margin: 60px 0 60px 0;
+    }
+
+    .ice-cube__contacts-info-headline {
+        font-size: 3rem;
+    }
+
+    .ice-cube__contacts-info-phone-headline {
+        font-size: 3rem;
+    }
+
+    .ice-cube__contacts-info-phone-text {
+        font-size: 2rem;
+    }
+
+    .ice-cube__contacts-info-email-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 3rem;
+    }
+
+    .ice-cube__contacts-info-email-text {
+        font-size: 2rem;
+    }
+
+    .fab {
+        font-size: 3rem;
+    }
+}
+
+/*1440-900*/
+@media (min-width: 1600px) and (max-width: 1919px) {
+    .assortment-card__content {
+        width: 1400px;
+    }
+
+    .assortment-card__picture {
+        width: 540px;
+        height: 510px;
+    }
+
+}
+
+/*1280-800*/
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .assortment-card__content {
+        width: 1200px;
+    }
+
+    .assortment-card__picture {
+        width: 540px;
+        height: 510px;
+    }
+}
+
+/*991-1199-начало*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .item {
+        height: 100vh;
+    }
+
+    .ice-cube__desktop-menu {
+        display: none;
+    }
+
+    .ice-cube__phone {
+        display: none;
+    }
+
+    .icecube__header-container {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo-icon {
+        margin: 0 20px 0 0;
+    }
+
+    .ice-cube__burger-button {
+        display: block;
+    }
+
+    .ice-cube__headline {
+        width: 940px;
+    }
+
+    .assortment-card__lot-name {
+        font-size: 36px;
+    }
+
+    .assortment-card__headlinehr {
+        width: 45px;
+        margin: 15px 0 0 0;
+    }
+
+    .assortment-card__lot-description {
+        font-size: 20px;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 36px;
+        line-height: 70px;
+    }
+
+    .assortment-card__price-headline {
+        font-size: 36px;
+        margin: 30px 0;
+    }
+
+    .assortment-card__option {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: 5px 0 5px 0;
+    }
+
+    .ice-cube__assortment-headline h1 {
+        font-size: 36px;
+    }
+
+    .ice-cube__sendform-headline h1 {
+        font-size: 36px;
+    }
+
+    .ice-cube__mobile-menu {
+        display: block;
+    }
+
+    .ice-cube__advantages-wrapper {
+        width: 960px;
+    }
+
+    .advantages__one {
+        width: 60%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__one h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin: 0 10px 0 0;
+    }
+
+    .advantages__two {
+        width: 60%;
+        margin: 60px 0 60px 38%;
+    }
+
+    .advantages__two h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        width: 60%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__three h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin: 0 10px 0 0;
+    }
+
+    .assortment-card__content {
+        width: 960px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .assortment-card__description {
+        margin: 40px 0 0 0;
+        font-size: 22px;
+        width: 82%;
+        order: 2;
+    }
+
+    .assortment-card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .assortment-card__picture {
+        width: 800px;
+        height: 760px;
+    }
+
+    .ice-cube__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 768px;
+        height: 600px;
+        margin: 20px 0 0 0;
+    }
+
+    .form__name {
+        width: 380px;
+        font-size: 20px;
+    }
+
+    .form__phone {
+        width: 380px;
+        font-size: 20px;
+    }
+
+    .form__message {
+        width: 380px;
+        font-size: 20px;
+    }
+
+    .form__sendbutton {
+        width: 220px;
+    }
+
+    .ice-cube__delivery-headline h1 {
+        font-size: 36px;
+        margin: 60px 0 60px 0;
+    }
+
+    .ice-cube__delivery-info {
+        font-size: 20px;
+        line-height: 45px;
+        width: 700px;
+    }
+
+    .ice-cube__contacts-info-headline {
+        font-size: 36px;
+        margin: 60px 0 10px 0;
+    }
+
+    .ice-cube__contacts-info-phone-text {
+        font-size: 26px;
+        margin: 20px 0 20px 0;
+    }
+
+    .ice-cube__contacts-info-email-text {
+        font-size: 26px;
+        margin: 20px 0 20px 0;
+    }
+}
+
+/*991-1199-конец*/
+
+/*768-991-начало*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .ice-cube__desktop-menu {
+        display: none;
+    }
+
+    .ice-cube__phone {
+        display: none;
+    }
+
+    .icecube__header-container {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo-icon {
+        margin: 0 20px 0 0;
+    }
+
+    .ice-cube__burger-button {
+        display: block;
+    }
+
+    .ice-cube__headline {
+        width: 750px;
+    }
+
+    .item {
+        height: 100vh;
+    }
+
+    .assortment-card__lot-name {
+        font-size: 32px;
+    }
+
+    .assortment-card__headlinehr {
+        width: 45px;
+        margin: 15px 0 0 0;
+    }
+
+    .assortment-card__lot-description {
+        font-size: 20px;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 32px;
+        line-height: 65px;
+    }
+
+    .assortment-card__price-headline {
+        font-size: 32px;
+        margin: 30px 0;
+    }
+
+    .assortment-card__option {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: 5px 0 5px 0;
+    }
+
+    .ice-cube__assortment-headline h1 {
+        font-size: 32px;
+    }
+
+    .ice-cube__sendform-headline h1 {
+        font-size: 32px;
+    }
+
+    .ice-cube__mobile-menu {
+        display: block;
+    }
+
+    .ice-cube__advantages-wrapper {
+        width: 768px;
+    }
+
+    .advantages__one {
+        width: 60%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__one h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin: 0 10px 0 20px;
+    }
+
+    .advantages__two {
+        width: 60%;
+        margin: 60px 0 60px 38%;
+    }
+
+    .advantages__two h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        width: 60%;
+        margin: 0 0 0 20px;
+    }
+
+    .advantages__three h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin: 0 10px 0 0;
+    }
+
+    .assortment-card__content {
+        width: 768px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .assortment-card__description {
+        margin: 40px 0 0 0;
+        font-size: 22px;
+        width: 82%;
+        order: 2;
+    }
+
+    .assortment-card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .assortment-card__picture {
+        width: 630px;
+        height: 610px;
+    }
+
+    .ice-cube__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 768px;
+        height: 600px;
+        margin: 20px 0 0 0;
+    }
+
+    .form__name {
+        width: 380px;
+        font-size: 20px;
+    }
+
+    .form__phone {
+        width: 380px;
+        font-size: 20px;
+    }
+
+    .form__message {
+        width: 380px;
+        font-size: 20px;
+    }
+
+    .form__sendbutton {
+        width: 220px;
+    }
+
+    .ice-cube__delivery-headline h1 {
+        font-size: 32px;
+        margin: 80px 0 60px 0;
+    }
+
+    .ice-cube__delivery-info {
+        font-size: 20px;
+        line-height: 45px;
+        width: 700px;
+    }
+
+    .ice-cube__contacts-info-headline {
+        font-size: 32px;
+        margin: 60px 0 10px 0;
+    }
+
+    .ice-cube__contacts-info-phone-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube__contacts-info-email-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+}
+
+/*768-991-конец*/
+
+/*767-начало*/
+@media (max-width: 767px) {
+    .item {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    .ice-cube__desktop-menu {
+        display: none;
+    }
+
+    .ice-cube__phone {
+        display: none;
+    }
+
+    .icecube__header-container {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .ice-cube__logo-icon {
+        width: 66px;
+        height: 40px;
+        margin: 0 20px 0 0;
+    }
+
+    .ice-cube__burger-button {
+        display: block;
+    }
+
+    .ice-cube__headline {
+        height: 340px;
+        width: 360px;
+    }
+
+    .assortment-card__lot-name {
+        font-size: 25px;
+    }
+
+    .assortment-card__headlinehr {
+        width: 30px;
+        margin: 15px 0 0 0;
+    }
+
+    .assortment-card__lot-description {
+        font-size: 16px;
+    }
+
+    .assortment-card__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .ice-cube__headline {
+        margin: 130px 0 50px 0;
+        height: auto;
+    }
+
+    .ice-cube__assortment-headline {
+        height: 160px;
+    }
+
+    .assortment-card__price-headline {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .assortment-card__option {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: 5px 0 5px 0;
+    }
+
+    .assortment-card__button {
+        width: 200px;
+        height: 55px;
+        border: none;
+        border-radius: 4px;
+        background-color: #C4C4C4;
+        margin: 30px 0 0 0;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .ice-cube__assortment-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__sendform-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__mobile-menu {
+        display: block;
+    }
+
+    .ice-cube__advantages-wrapper {
+        width: 414px;
+    }
+
+    .advantages__one {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__one h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .advantages__two {
+        width: 90%;
+        margin: 50px 0 50px 0;
+    }
+
+    .advantages__two h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__three h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .ice-cube__advantages-droparrow {
+        margin: 40px 0 50px 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    .owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+        zoom: 0.6;
+    }
+
+    .assortment-card__content {
+        width: 414px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .assortment-card__description {
+        margin: 30px 0 0 0;
+        font-size: 22px;
+        width: 82%;
+        order: 2;
+    }
+
+    .assortment-card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .assortment-card__picture {
+        width: 350px;
+        height: 330px;
+    }
+
+    .ice-cube__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 414px;
+        height: 450px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube-sendform {
+        background-image: url(../img/formbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        margin-top: 80px;
+    }
+
+    .form__name {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__message {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__name::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__message::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .ice-cube__sendform-headline {
+        margin: 60px 0 0 0;
+    }
+
+    .form__sendbutton {
+        width: 200px;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube__delivery-headline h1 {
+        font-size: 22px;
+        margin: 60px 0 40px 0;
+    }
+
+    .ice-cube__delivery-info {
+        font-size: 16px;
+        line-height: 35px;
+        width: 320px;
+    }
+
+    .ice-cube-delivery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 480px;
+    }
+
+    .fa-truck {
+        font-size: 80px;
+        margin: 20px 0 40px 0;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .ice-cube__contacts-info-headline {
+        font-size: 22px;
+        margin: 60px 0 10px 0;
+    }
+
+    .ice-cube__contacts-info-phone-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube__contacts-info-email-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube-contacts {
+        flex-direction: column-reverse;
+    }
+
+    .ice-cube__contacts-map {
+        width: 100%;
+        height: 350px;
+    }
+
+    .ice-cube__contacts-info {
+        width: 100%;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ice-cube__contacts-info-headlinehr {
+        width: 45px;
+        height: 3px;
+        border: none;
+        background-color: white;
+        margin: 0;
+    }
+
+    .ice-cube__contacts-info-phone-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 40px 0 20px 0;
+        color: white;
+    }
+
+    .ice-cube__contacts-info-email-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+    }
+
+    .fab {
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+/*767-конец*/
+
+/*414-начало*/
+@media (min-width: 414px)and (max-width: 567px) {
+    .item {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    .ice-cube__desktop-menu {
+        display: none;
+    }
+
+    .ice-cube__phone {
+        display: none;
+    }
+
+    .icecube__header-container {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .ice-cube__logo-icon {
+        width: 66px;
+        height: 40px;
+        margin: 0 20px 0 0;
+    }
+
+    .ice-cube__burger-button {
+        display: block;
+    }
+
+    .ice-cube__headline {
+        height: 340px;
+        width: 360px;
+    }
+
+    .assortment-card__lot-name {
+        font-size: 25px;
+    }
+
+    .assortment-card__headlinehr {
+        width: 30px;
+        margin: 15px 0 0 0;
+    }
+
+    .assortment-card__lot-description {
+        font-size: 16px;
+    }
+
+    .assortment-card__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .ice-cube__headline {
+        margin: 130px 0 50px 0;
+        height: auto;
+    }
+
+    .ice-cube__assortment-headline {
+        height: 160px;
+    }
+
+    .assortment-card__price-headline {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .assortment-card__option {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: 5px 0 5px 0;
+    }
+
+    .assortment-card__button {
+        width: 200px;
+        height: 55px;
+        border: none;
+        border-radius: 4px;
+        background-color: #C4C4C4;
+        margin: 30px 0 0 0;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .ice-cube__assortment-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__sendform-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__mobile-menu {
+        display: block;
+    }
+
+    .ice-cube__advantages-wrapper {
+        width: 414px;
+    }
+
+    .advantages__one {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__one h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .advantages__two {
+        width: 90%;
+        margin: 50px 0 50px 0;
+    }
+
+    .advantages__two h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__three h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .ice-cube__advantages-droparrow {
+        margin: 40px 0 50px 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    .owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+        zoom: 0.6;
+    }
+
+    .assortment-card__content {
+        width: 414px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .assortment-card__description {
+        margin: 30px 0 0 0;
+        font-size: 22px;
+        width: 82%;
+        order: 2;
+    }
+
+    .assortment-card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .assortment-card__picture {
+        width: 350px;
+        height: 330px;
+    }
+
+    .ice-cube__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 414px;
+        height: 450px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube-sendform {
+        background-image: url(../img/formbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        margin-top: 80px;
+    }
+
+    .form__name {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__message {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__name::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__message::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .ice-cube__sendform-headline {
+        margin: 60px 0 0 0;
+    }
+
+    .form__sendbutton {
+        width: 200px;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube__delivery-headline h1 {
+        font-size: 22px;
+        margin: 60px 0 40px 0;
+    }
+
+    .ice-cube__delivery-info {
+        font-size: 16px;
+        line-height: 35px;
+        width: 320px;
+    }
+
+    .ice-cube-delivery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 480px;
+    }
+
+    .fa-truck {
+        font-size: 80px;
+        margin: 20px 0 40px 0;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .ice-cube__contacts-info-headline {
+        font-size: 22px;
+        margin: 60px 0 10px 0;
+    }
+
+    .ice-cube__contacts-info-phone-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube__contacts-info-email-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube-contacts {
+        flex-direction: column-reverse;
+    }
+
+    .ice-cube__contacts-map {
+        width: 100%;
+        height: 350px;
+    }
+
+    .ice-cube__contacts-info {
+        width: 100%;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ice-cube__contacts-info-headlinehr {
+        width: 45px;
+        height: 3px;
+        border: none;
+        background-color: white;
+        margin: 0;
+    }
+
+    .ice-cube__contacts-info-phone-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 40px 0 20px 0;
+        color: white;
+    }
+
+    .ice-cube__contacts-info-email-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+    }
+
+    .fab {
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+/*414-конец**/
+
+/*375-начало*/
+@media (min-width: 375px)and (max-width: 413px) {
+    .item {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    .ice-cube__desktop-menu {
+        display: none;
+    }
+
+    .ice-cube__phone {
+        display: none;
+    }
+
+    .icecube__header-container {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .ice-cube__logo-icon {
+        width: 66px;
+        height: 40px;
+        margin: 0 20px 0 0;
+    }
+
+    .ice-cube__burger-button {
+        display: block;
+    }
+
+    .ice-cube__headline {
+        height: 340px;
+        width: 360px;
+    }
+
+    .assortment-card__lot-name {
+        font-size: 25px;
+    }
+
+    .assortment-card__headlinehr {
+        width: 30px;
+        margin: 15px 0 0 0;
+    }
+
+    .assortment-card__lot-description {
+        font-size: 16px;
+    }
+
+    .assortment-card__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .ice-cube__headline {
+        margin: 130px 0 50px 0;
+        height: auto;
+    }
+
+    .ice-cube__assortment-headline {
+        height: 160px;
+    }
+
+    .assortment-card__price-headline {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .assortment-card__option {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: 5px 0 5px 0;
+    }
+
+    .assortment-card__button {
+        width: 200px;
+        height: 55px;
+        border: none;
+        border-radius: 4px;
+        background-color: #C4C4C4;
+        margin: 30px 0 0 0;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .ice-cube__assortment-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__sendform-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__mobile-menu {
+        display: block;
+    }
+
+    .ice-cube__advantages-wrapper {
+        width: 375px;
+    }
+
+    .advantages__one {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__one h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .advantages__two {
+        width: 90%;
+        margin: 50px 0 50px 0;
+    }
+
+    .advantages__two h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__three h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .ice-cube__advantages-droparrow {
+        margin: 40px 0 50px 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    .owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+        zoom: 0.6;
+    }
+
+    .assortment-card__content {
+        width: 375px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .assortment-card__description {
+        margin: 30px 0 0 0;
+        font-size: 22px;
+        width: 82%;
+        order: 2;
+    }
+
+    .assortment-card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .assortment-card__picture {
+        width: 350px;
+        height: 330px;
+    }
+
+    .ice-cube__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        height: 450px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube-sendform {
+        background-image: url(../img/formbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        margin-top: 80px;
+    }
+
+    .form__name {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__message {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__name::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__message::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .ice-cube__sendform-headline {
+        margin: 60px 0 0 0;
+    }
+
+    .form__sendbutton {
+        width: 200px;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube__delivery-headline h1 {
+        font-size: 22px;
+        margin: 60px 0 40px 0;
+    }
+
+    .ice-cube__delivery-info {
+        font-size: 16px;
+        line-height: 35px;
+        width: 320px;
+    }
+
+    .ice-cube-delivery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 480px;
+    }
+
+    .fa-truck {
+        font-size: 80px;
+        margin: 20px 0 40px 0;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .ice-cube__contacts-info-headline {
+        font-size: 22px;
+        margin: 60px 0 10px 0;
+    }
+
+    .ice-cube__contacts-info-phone-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube__contacts-info-email-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube-contacts {
+        flex-direction: column-reverse;
+    }
+
+    .ice-cube__contacts-map {
+        width: 100%;
+        height: 350px;
+    }
+
+    .ice-cube__contacts-info {
+        width: 100%;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ice-cube__contacts-info-headlinehr {
+        width: 45px;
+        height: 3px;
+        border: none;
+        background-color: white;
+        margin: 0;
+    }
+
+    .ice-cube__contacts-info-phone-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 40px 0 20px 0;
+        color: white;
+    }
+
+    .ice-cube__contacts-info-email-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+    }
+
+    .fab {
+        font-size: 2rem;
+        color: white;
+    }
+
+}
+
+/*375-конец*/
+
+/*320-начало*/
+@media (min-width: 320px)and (max-width: 374px) {
+    .item {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    .ice-cube__desktop-menu {
+        display: none;
+    }
+
+    .ice-cube__phone {
+        display: none;
+    }
+
+    .icecube__header-container {
+        justify-content: flex-end;
+    }
+
+    .ice-cube__logo {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .ice-cube__logo-icon {
+        width: 66px;
+        height: 40px;
+        margin: 0 20px 0 0;
+    }
+
+    .ice-cube__burger-button {
+        display: block;
+    }
+
+    .ice-cube__headline {
+        height: 340px;
+        width: 320px;
+    }
+
+    .assortment-card__lot-name {
+        font-size: 25px;
+    }
+
+    .assortment-card__headlinehr {
+        width: 30px;
+        margin: 15px 0 0 0;
+    }
+
+    .assortment-card__lot-description {
+        font-size: 16px;
+    }
+
+    .assortment-card__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .ice-cube__headline {
+        margin: 130px 0 50px 0;
+        height: auto;
+    }
+
+    .ice-cube__assortment-headline {
+        height: 160px;
+    }
+
+    .assortment-card__price-headline {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .assortment-card__option {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: 5px 0 5px 0;
+    }
+
+    .assortment-card__button {
+        width: 200px;
+        height: 55px;
+        border: none;
+        border-radius: 4px;
+        background-color: #C4C4C4;
+        margin: 30px 0 0 0;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .ice-cube__assortment-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__sendform-headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__mobile-menu {
+        display: block;
+    }
+
+    .ice-cube__advantages-wrapper {
+        width: 320px;
+    }
+
+    .advantages__one {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__one h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .advantages__two {
+        width: 90%;
+        margin: 50px 0 50px 0;
+    }
+
+    .advantages__two h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .advantages__three h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    .ice-cube__advantages-droparrow {
+        margin: 40px 0 50px 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    .owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+        zoom: 0.6;
+    }
+
+    .assortment-card__content {
+        width: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .assortment-card__description {
+        margin: 30px 0 0 0;
+        font-size: 22px;
+        width: 82%;
+        order: 2;
+    }
+
+    .assortment-card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .assortment-card__picture {
+        width: 300px;
+        height: 280px;
+    }
+
+    .ice-cube__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        height: 450px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube-sendform {
+        background-image: url(../img/formbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        margin-top: 80px;
+    }
+
+    .form__name {
+        width: 290px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone {
+        width: 290px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__message {
+        width: 290px;
+        height: 80px;
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .form__phone::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__name::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .form__message::placeholder {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        opacity: 0.8;
+    }
+
+    .ice-cube__sendform-headline {
+        margin: 60px 0 0 0;
+    }
+
+    .form__sendbutton {
+        width: 200px;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .ice-cube__delivery-headline h1 {
+        font-size: 22px;
+        margin: 60px 0 40px 0;
+    }
+
+    .ice-cube__delivery-info {
+        font-size: 16px;
+        line-height: 30px;
+        width: 320px;
+    }
+
+    .ice-cube-delivery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 480px;
+    }
+
+    .fa-truck {
+        font-size: 80px;
+        margin: 20px 0 40px 0;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .ice-cube__contacts-info-headline {
+        font-size: 22px;
+        margin: 60px 0 10px 0;
+    }
+
+    .ice-cube__contacts-info-phone-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 10px 0 10px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube__contacts-info-email-text {
+        font-family: Poiret one, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 10px 0 10px 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .ice-cube-contacts {
+        flex-direction: column-reverse;
+    }
+
+    .ice-cube__contacts-map {
+        width: 100%;
+        height: 350px;
+    }
+
+    .ice-cube__contacts-info {
+        width: 100%;
+    }
+
+    .ice-cube__contacts-info-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ice-cube__contacts-info-headlinehr {
+        width: 45px;
+        height: 3px;
+        border: none;
+        background-color: white;
+        margin: 0;
+    }
+
+    .ice-cube__contacts-info-phone-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 40px 0 20px 0;
+        color: white;
+    }
+
+    .ice-cube__contacts-info-email-headline {
+        font-family: Poiret one, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 20px 0 20px 0;
+        color: white;
+    }
+
+    .fab {
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+/*320-конец*/
+
+

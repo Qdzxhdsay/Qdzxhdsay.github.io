@@ -1,0 +1,728 @@
+/* Header block */
+
+.icecube-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.icecube__header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    height: 66px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    background-color: black;
+}
+
+.ice-cube__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+}
+
+.ice-cube__mobile-menu {
+    display: none;
+}
+
+.ice-cube__desktop-menu {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.ice-cube__phone {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.ice-cube__logo-icon {
+    width: 66px;
+    height: 44px;
+    margin: 0 0 0 20px;
+}
+
+.ice-cube__phone a {
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px 0 5px;
+}
+
+.desktop-menu__nav-link {
+    color: white;
+    margin: 0 25px;
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.desktop-menu__nav-link:after {
+    background-color: white;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0;
+    -webkit-transition: width .25s ease-in-out;
+    -moz-transition: width .25s ease-in-out;
+    transition: width .25s ease-in-out;
+}
+
+.desktop-menu__nav-link:hover:after,
+.desktop-menu__nav-link:focus:after {
+    width: 100%;
+}
+
+.mobile-menu__nav-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    padding: 15px 10px;
+    padding-left: 70px;
+    z-index: 20;
+}
+
+.ice-cube__burger-button {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 100;
+    background: transparent;
+    width: 50px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    display: none;
+}
+
+.ice-cube__burger-button:hover {
+    cursor: pointer;
+}
+
+.ice-cube__burger-button > .line {
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: #fff;
+    margin: 8px auto;
+}
+
+.ice-cube__burger-button .line:nth-child(1), .ice-cube__burger-button .line:nth-child(3) {
+    -webkit-transform: rotate(0deg) translateY(0);
+    -moz-transform: rotate(0deg) translateY(0);
+    transform: rotate(0deg) translateY(0);
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.ice-cube__burger-button .line:nth-child(2) {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+.close .line:nth-child(1) {
+    -webkit-transform: rotate(45deg) translateY(15px);
+    -moz-transform: rotate(45deg) translateY(15px);
+    transform: rotate(45deg) translateY(15px);
+}
+
+.close .line:nth-child(2) {
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    transform: translateX(-100px);
+}
+
+.close .line:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translateY(-15px);
+    -moz-transform: rotate(-45deg) translateY(-15px);
+    transform: rotate(-45deg) translateY(-15px);
+}
+
+.close {
+    position: fixed;
+}
+
+body.nav_is_visible .ice-cube__mobile-menu {
+    left: -5px;
+    transition: all 0.7s;
+}
+
+.ice-cube__mobile-menu {
+    position: fixed;
+    left: -300px;
+    width: 290px;
+    height: 4000px;
+    overflow: hidden;
+    padding-left: 0;
+    transition: 0.4s;
+    background-color: #202020;
+    z-index: 20;
+}
+
+.ice-cube__mobile-menu nav {
+    margin: 2000px 0 0 0;
+}
+
+.ice-cube__mobile-menu nav ul {
+    padding: 55px 0;
+    list-style: none;
+    z-index: 20;
+}
+
+.ice-cube__mobile-menu nav ul li {
+    margin: 0;
+    padding: 0;
+    z-index: 20;
+}
+
+.ice-cube__mobile-menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    padding: 15px 10px;
+    padding-left: 70px;
+    z-index: 20;
+}
+
+.ice-cube__mobile-menu nav ul li a:hover {
+    background: rgba(1, 1, 1, .3);
+}
+
+/*Slider block*/
+
+.item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bcg1 {
+    background-image: url(../img/headbg2.jpg);
+}
+
+.bcg2 {
+    background-image: url(../img/headbg5.jpg);
+}
+
+.bcg3 {
+    background-image: url(../img/headbg6.jpg);
+}
+
+.bcg4 {
+    background-image: url(../img/headbg7.jpg);
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    position:relative;
+    z-index:99;
+    margin-top:-35px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 0.7;
+    outline: none;
+}
+
+.ice-cube__headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    margin: 130px 0 60px 0;
+}
+
+.ice-cube__headline h1 {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    line-height: 4rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.ice-cube__advantages-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1140px;
+}
+
+.advantages__one {
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+    border-right: 3px solid white;
+    margin: 0 0 0 5%;
+}
+
+.advantages__one h2 {
+    font-family: Poiret one, sans-serif;
+    font-size: 1.375rem;
+    letter-spacing: 1px;
+    line-height: 34px;
+    font-weight: normal;
+    color: white;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+.advantages__two {
+    display: flex;
+    align-self: center;
+    width: 50%;
+    border-left: 3px solid white;
+    margin: 60px 0 60px 45%;
+}
+
+.advantages__two h2 {
+    font-family: Poiret one, sans-serif;
+    font-size: 1.375rem;
+    letter-spacing: 1px;
+    line-height: 34px;
+    font-weight: normal;
+    color: white;
+    margin: 0 0 0 10px;
+}
+
+.advantages__three {
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+    border-right: 3px solid white;
+    margin: 0 0 0 5%;
+}
+
+.advantages__three h2 {
+    font-family: Poiret one, sans-serif;
+    font-size: 1.375rem;
+    letter-spacing: 1px;
+    line-height: 34px;
+    font-weight: normal;
+    color: white;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+.ice-cube__advantages-droparrow {
+    margin: 40px 0 40px 0;
+    height: 50px;
+}
+
+/* Assortment card block*/
+
+.ice-cube__assortment-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.assortment-card__content {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.ice-cube__assortment-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.ice-cube__assortment-headline h1 {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.assortment-card__description {
+    font-family: Poiret one, sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+.assortment-card__button {
+    width: 220px;
+    height: 65px;
+    border: none;
+    border-radius: 4px;
+    background-color: #C4C4C4;
+    margin: 30px 0 0 0;
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: white;
+    outline: none;
+}
+
+.assortment-card__button:hover {
+    background-color: #b4b2b2;
+    transition: all 0.3s;
+}
+
+.assortment-card__button:active {
+    background-color: #c9c6c6;
+    transition: all 0.3s;
+}
+
+.assortment-card__lot-name {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 9px 0 0 0;
+}
+
+.assortment-card__headlinehr {
+    width: 35px;
+    height: 3px;
+    border: none;
+    background-color: black;
+    margin: 10px 0 0 0;
+}
+
+.assortment-card__lot-description {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.assortment-card__img {
+    width: 50%;
+}
+
+.assortment-card__picture {
+    width: 530px;
+    height: 490px;
+}
+
+.assortment-card__price-headline {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.assortment-card__option {
+    font-family:  Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.assortment-underline {
+    width: 90%;
+    margin: 90px auto;
+    color: #000;
+}
+
+/* Send form block */
+
+.ice-cube-sendform {
+    background-image: url(../img/formbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    margin-top: 80px;
+}
+
+.ice-cube__sendform-headline {
+    margin: 90px 0 0 0;
+}
+
+.ice-cube__sendform-headline h1 {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+}
+
+.ice-cube__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 600px;
+    margin: 20px 0 0 0;
+}
+
+.form__name {
+    width: 450px;
+    height: 50px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 6px;
+    margin: 0 0 40px 0;
+    opacity: 0.8;
+    padding: 0 0 0 10px;
+    outline: none;
+
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: white;
+}
+
+.form__phone {
+    width: 450px;
+    height: 50px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 6px;
+    margin: 0 0 40px 0;
+    opacity: 0.8;
+    padding: 0 0 0 10px;
+    outline: none;
+
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: white;
+}
+
+.form__message {
+    width: 450px;
+    height: 90px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background: none;
+    opacity: 0.8;
+    padding: 10px 0 0 10px;
+    resize: none;
+    outline: none;
+
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: white;
+}
+
+.form__phone::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: white;
+    opacity: 0.8;
+}
+
+.form__name::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: white;
+    opacity: 0.8;
+}
+
+.form__message::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: white;
+    opacity: 0.8;
+}
+
+.form__sendbutton {
+    width: 250px;
+    height: 65px;
+    border: none;
+    border-radius: 4px;
+    background-color: #C4C4C4;
+    opacity: 0.8;
+    margin: 60px 0 0 0;
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: white;
+    outline: none;
+}
+
+/* Delivery block */
+
+.ice-cube-delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.ice-cube__delivery-headline h1 {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 60px 0 60px 0;
+    color: black;
+}
+
+.fa-truck {
+    font-size: 120px;
+    margin: 20px 0 40px 0;
+}
+
+.ice-cube__delivery-info {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    line-height: 40px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    margin: 0;
+    width: 1200px;
+}
+
+.ice-cube-contacts {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.ice-cube__contacts-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    background-color: #2b2b2b;
+}
+
+.ice-cube__contacts-map {
+    width: 50%;
+}
+
+.ice-cube__contacts-mapframe {
+    width: 100%;
+    height: 100%;
+}
+
+.ice-cube__contacts-info-wrapper {
+    width: 80%;
+}
+
+.ice-cube__contacts-info-headline {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 60px 0 10px 0;
+    color: white;
+}
+
+.ice-cube__contacts-info-headlinehr {
+    width: 45px;
+    height: 3px;
+    border: none;
+    background-color: white;
+    margin: 0;
+}
+
+.ice-cube__contacts-info-phone-headline {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 40px 0 20px 0;
+    color: white;
+}
+
+.ice-cube__contacts-info-phone-text {
+    font-family: Poiret one, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.ice-cube__contacts-info-email-headline {
+    font-family: Poiret one, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 40px 0 20px 0;
+    color: white;
+}
+
+.ice-cube__contacts-info-email-text {
+    font-family: Poiret one, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0 20px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.ice-cube__social-links {
+    margin: 40px 0 60px 0;
+}
+
+.fab {
+    font-size: 2rem;
+    color: white;
+}
+
+.fa-vk {
+    margin: 0 30px;
+}

@@ -1,0 +1,722 @@
+@media (min-width: 1280px) and (max-width: 2560px){
+    #i-have-a-tooltip:before {
+        content:attr(data-description);
+        box-sizing:border-box;
+        display:block;
+        background:rgba(0,0,0,.7);
+        color:white;
+        padding:18px 20px;
+        position:absolute;
+        left:92%;
+        top:90px;
+        margin-left:-70px;
+        line-height:25px;
+        border-radius:5px;
+        opacity:0;
+        transition:.45s ease-in-out;
+    }
+
+    #i-have-a-tooltip:after {
+        content:'';
+        display:block;
+        position:absolute;
+        top:82px;
+        left:96%;
+        border-left:8px solid transparent;
+        border-right:8px solid transparent;
+        border-top:8px solid rgba(0,0,0,.7);
+        border-bottom: none;
+        transform: rotate(180deg);
+        transition:.45s ease-in-out;
+        opacity:0;
+    }
+
+    #i-have-a-tooltip:hover:before {
+        opacity:1;
+    }
+
+    #i-have-a-tooltip:hover:after {
+        opacity:1;
+    }
+
+     #i-have-a-tooltip {
+        text-decoration: none;
+    }
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+/*Header style*/
+
+.gsemhelp-header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #e7e7e7;
+}
+
+.gsemhelp-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+}
+
+.gsemhelp__mobile-social-wrapper{
+    display: none;
+    justify-content: center;
+}
+
+.gsemhelp__mobile-social{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #4d4d4d;
+    width: 100%;
+}
+
+.gsemhelp__wp-social{
+    color: #c4c4c4;
+    font-size: 25px;
+}
+
+.gsemhelp__tg-social{
+    color: #c4c4c4;
+    font-size: 25px;
+    margin: 0 30px;
+}
+
+.gsemhelp__phone-social{
+    color: #c4c4c4;
+    font-size: 23px;
+}
+
+.gsemhelp__question {
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+}
+
+.gsemhelp__logotype {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.gsemhelp__right-bar {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gsemhelp__wp-icon{
+    color: black;
+    font-size: 25px;
+    margin: 0 10px;
+    display: none;
+}
+
+.gsemhelp__tg-icon{
+    color: black;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.gsemhelp__logotype-icon-link {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #f4b042;
+}
+
+.gsemhelp__logotype-icon-link p {
+    margin: 0;
+}
+
+.gsemhelp__logotype-icon-link span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.gsemhelp__question-icon {
+    font-size: 24px;
+    margin: 0 0 0 20px;
+    color: #000;
+}
+
+.gsemhelp__phone-icon {
+    font-size: 22px;
+    margin: 0 20px 0 8px;
+    color: #000;
+}
+
+.gsemhelp__search-icon.fas.fa-phone {
+    font-size: 22px;
+    margin: 0 20px 0 0;
+    color: #000;
+}
+
+/*Main style*/
+
+/*Faq block style*/
+
+.gsemhelp-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.gsemhelp__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.gsemhelp__description-text {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+    width: 1400px;
+}
+
+.gsemhelp__faq-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 70px 0;
+}
+
+.gsemhelp__faq-headline-text {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.gsemhelp__faq-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 60px 0;
+}
+
+.gsemhelp__faq-content-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+}
+
+.gsemhelp__faq-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+}
+
+.gsemhelp__arrow {
+    width: 16px;
+    height: 55px;
+    transform: rotate(-90deg);
+    display: flex;
+    margin: 20px 0;
+}
+
+.gsemhelp__arrow-two {
+    width: 20px;
+    height: 10px;
+    display: none;
+}
+
+.gsemhelp__arrow-desktop {
+    width: 30px;
+    height: 15px;
+    margin: 20px auto 50px auto;
+    cursor: pointer;
+}
+
+.gsemhelp__faq-content-question-icon {
+    font-size: 70px;
+    color: #595858;
+}
+
+.gsemhelp__faq-content-order-icon {
+    font-size: 70px;
+    color: #595858;
+}
+
+.gsemhelp__faq-content-phone-icon {
+    font-size: 65px;
+    color: #595858;
+}
+
+.gsemhelp__faq-content-question-description {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 30px 0 0 0;
+}
+
+.gsemhelp__faq-content-order-description {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 30px 0 0 0;
+}
+
+.gsemhelp__faq-content-question-description {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 30px 0 0 0;
+}
+
+/*Form block style*/
+
+.gsemhelp__form-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../img/formbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 800px;
+}
+
+.gsemhelp_form-block-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 0 0;
+    width: 750px;
+}
+
+.gsemhelp__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gsemhelp__form-headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100px;
+}
+
+.gsemhelp__form-underline {
+    width: 60px;
+    height: 3px;
+    background-color: black;
+    border: none;
+    margin: 8px auto;
+}
+
+.gsemhelp__form-headline-text {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.gsemhelp__name-input {
+    width: 470px;
+    height: 36px;
+    border: 1px solid #595858;
+    background: transparent;
+    border-radius: 6px;
+    outline: none;
+    margin: 60px 0 20px 0;
+    padding: 0 0 0 8px;
+}
+
+.gsemhelp__phone-input {
+    width: 470px;
+    height: 36px;
+    border: 1px solid #595858;
+    background: transparent;
+    border-radius: 6px;
+    outline: none;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 8px;
+}
+
+.gsemhelp__message-input {
+    width: 470px;
+    height: 90px;
+    border: 1px solid #595858;
+    background: transparent;
+    border-radius: 6px;
+    outline: none;
+    margin: 0 0 20px 0;
+    padding: 8px 0 0 8px;
+    resize: none;
+    overflow: hidden;
+}
+
+.gsemhelp__priority-select {
+    width: 480px;
+    height: 38px;
+    border: 1px solid #595858;
+    border-radius: 6px;
+    outline: none;
+    background: none;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #595858;
+    padding: 0 0 0 8px;
+}
+
+.gsemhelp__datepicker {
+    width: 468px;
+    height: 36px;
+    border: 1px solid #595858;
+    border-radius: 6px;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #595858;
+    padding: 0 0 0 8px;
+}
+
+.gsemhelp__priority-label {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0 0 0 102px;
+    align-self: flex-start;
+    color: #595858;
+}
+
+.gsemhelp__name-input::placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.gsemhelp__name-input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.gsemhelp__phone-input::placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.gsemhelp__phone-input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.gsemhelp__message-input::placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.gsemhelp__message-iput::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.gsemhelp__datepicker, .picker-input {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.gsemhelp__sendform-button {
+     font-size: 16px;
+     font-family: "Roboto", sans-serif;
+     font-weight: normal;
+     background: #f4b042;
+     color: white;
+     text-align: center;
+     padding: 20px 40px;
+     margin: 40px 0;
+     border-radius: 6px;
+     cursor: pointer;
+ }
+
+.gsemhelp__sendform-button:hover {
+    background: #f8bd5e;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.gsemhelp__sendform-button:active {
+    background: #f59c0d;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.gsemhelp__date-label {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 10px 0 10px 102px;
+    align-self: flex-start;
+    color: #595858;
+}
+
+
+.knowledge__arrow {
+    transform: rotate(90deg);
+    width: 5px;
+    height: 25px;
+    margin: 0 0 0 20px;
+}
+
+.gsemhelp-footer {
+    display: flex;
+    height: 280px;
+    background-color: #4d4d4d;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gsemhelp__logotype-icon-link-footer {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+.gsemhelp__logotype-icon-link-footer p {
+    margin: 0;
+}
+
+.gsemhelp__logotype-icon-link-footer span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gsemhelp__footer-headline-text {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #c4c4c4;
+    margin: 30px 0;
+}
+
+.gsemhelp__footer-social i {
+    color: #c4c4c4;
+    font-size: 30px;
+    margin: 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.gsemhelp__knowlegebase-headline-text{
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+
+.gsemhelp__knowlegebase-main-content-wrapper{
+    display: flex;
+    flex-direction: row;
+    min-height: 60vh;
+    max-height: fit-content;
+}
+
+.gsemhelp__knowlegebase-main-content-sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    background-color: #c4c2c2;
+}
+
+.gsemhelp__knowlegebase-main-content-aside{
+    /*border: 1px dashed greenyellow;*/
+    width: 85vw;
+    background-color: #f3f3f3;
+}
+
+.tabs-preview{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/basebg.png);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tabs-preview p{
+    display: block;
+    border-radius: 2px;
+    padding: 50px 40px;
+    margin: 0 10% 0 10%;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+
+    background-color: rgba(0,0,0, 0.7);
+}
+
+
+.gsemhelp__tabs{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+.gsemhelp__tabs li{
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #d5d5d5;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.gsemhelp__tabs li:hover{
+    transition: all 0.3s;
+    background-color: #636363;
+    cursor: pointer;
+}
+
+
+.tabs-content {
+    padding: 20px;
+    background-color: #f3f3f3;
+    display: none;
+
+}
+
+.tabs__content-name{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+.tabs-content ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.gsemhelp__tabs h3{
+    text-align: center;\font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.tabs__content-headline{
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.tab {
+    background: gray;
+    color: #fff;
+    padding: 20px 0 20px 15px;
+    margin: 15px 0 0 0;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.tab:hover{
+    transition: all 0.3s;
+    background-color: #636363;
+    cursor: pointer;
+}
+
+
+
+.tabs__content-text{
+    background: #eaeaea	;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
+
+#one{
+    display: none;
+}
+#two{
+    display: none;
+}
+#three{
+    display: none;
+}
+#four{
+    display: none;
+}
+#five{
+    display: none;
+}
+#six{
+    display: none;
+}
+#seven{
+    display: none;
+}
+#eight{
+    display: none;
+}
+#nine{
+    display: none;
+}
+#ten{
+    display: none;
+}
+
+
+
+
+
