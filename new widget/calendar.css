@@ -1,0 +1,301 @@
+.monthCol{
+    width: 50px;
+    height: 300px;
+    background: rgb(28, 33, 42);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.monthCol div{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monthCol div:hover{
+    background: rgb(73,77,85);
+}
+.activeMon{
+    background: white;
+    color: rgb(85,169,221);
+}
+
+:root{
+    --size: 300px;
+    --round: calc(var(--size) /10);
+    --roundBorder:  calc(var(--round) /2);
+    --mainBack: rgb(28, 33, 42);
+    --mainTextColor: rgb(255, 255, 255);
+}
+.calendar-container{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(28, 33, 42);
+    overflow: hidden;
+    max-height: 100vw;
+}
+.calendar-monthRow{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 10.5vw;
+    padding-top: 2vw;
+    background: rgb(28, 33, 42);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.calendar-monthLeft,
+.calendar-monthRight{
+    width: 14.28%;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.calendar-monthLabel{
+    text-transform: capitalize;
+}
+.days-container{
+    height: 85.5vw;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+    background: var(--mainBack);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--mainTextColor);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+
+}
+.calendar-row{
+    flex-basis: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-grow: 1;
+    z-index: 10;
+    min-height: 12.2vw;
+}
+.calendar-datesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(28, 33, 42);
+    z-index: 2;
+
+}
+.clone{
+    position: absolute;
+    width: 90vw;
+    margin-top: 12.2vw;
+    z-index: 2;
+}
+.CrMD,
+.PrMD,
+.NxMD{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    max-width: var(--round);
+    min-height: var(--round);
+    max-height: var(--round);
+    border-radius: var(--roundBorder);
+    vertical-align: center;
+    cursor: pointer;
+    color: whitesmoke;
+    line-height: 31px;
+}
+.calendar-daysRow{
+    flex-basis: 100%;
+    justify-content: space-between;
+    display: flex;
+    z-index: 10;
+    font-weight: 300;
+    max-height: 12.2vw;
+}
+.calendar-daysCell,
+.calendar-dateCell{
+    width: 14.28%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.CrMD:hover,
+.PrMD:hover,
+.NxMD:hover{
+    background: rgb(73,77,85);
+}
+/*.calendar-dateCell:not(:hover) > span {*/
+/*transition: 3s;*/
+/*}*/
+.NxMD,
+.PrMD{
+    color: rgb(164,166,170);
+}
+
+.NxMD{
+    color: whitesmoke;
+}
+.archive{
+    color: rgb(164,166,170);
+
+}
+.chekedDay{
+    color: rgb(85,169,221);
+    background: white;
+}
+.chekedDay:hover{
+    color: rgb(85,169,221);
+    background: white;
+}
+.chekedDay >*:after{
+    background:  rgb(85,169,221);
+}
+.clone .chekedDay{
+    color: white;
+    background: rgb(28, 33, 42);
+}
+.today:after {
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    content: '';
+    height: 4px;
+    margin-top: 12px;
+    position: absolute;
+    width: 4px;
+}
+.gyg:before{
+    border: solid 1px white;
+
+    display: block;
+    content: '';
+    height: 28px;
+    position: absolute;
+    width: 28px;
+    transform: rotate(45deg);
+    animation-name: wtf;
+    animation-duration: 2s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+.gg:after{
+    border: solid 1px white;
+    display: block;
+    content: '';
+    height: 25px;
+    position: absolute;
+    width: 25px;
+    /*animation-name: wtf;*/
+    animation-duration: 2s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+.gyyg:after{
+    border: solid 2px white;
+    display: block;
+    content: '';
+    height: 30px;
+    position: absolute;
+    width: 30px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    animation-name: wtf;
+    animation-duration: 2s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes wtf {
+    0% {
+
+        opacity: 1;
+        transform: rotate(45deg);
+
+    }
+    50% {
+        opacity: 0;
+
+        transform: rotate(90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(135deg);
+    }
+}
+.ani{
+
+}
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0%, 0);
+        transform: translate3d(-100%, 0, 0);
+
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0%, 0);
+        transform: translate3d(100%, 0, 0);
+
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.fadeinleft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.fadeinright {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+.fadeout {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+.animated {
+    z-index: 200;
+    -webkit-animation-duration: .35s;
+    animation-duration: .35s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}

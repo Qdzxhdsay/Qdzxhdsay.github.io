@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slider.css">
+    <!--<link rel="stylesheet" href="ionicons-extentended.css">-->
+    <link rel="stylesheet" href="calendar.css">
+    <!--<script type="text/javascript" src="moment.min.js"></script>-->
+    <script type="text/javascript" src="moment-with-locales.js"></script>
+    <script type="text/javascript" src="calendar.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>New Widget</title>
+</head>
+<body>
+    <header>
+        <h1>Hook</h1>
+    </header>
+
+    <!-- Кнопки выбора: -->
+    <div class="buttons-container-background">
+        <div class="buttons-container">
+            <div class="buttons-button buttons-button_times" id="chooseTime">
+                <div class="button-label">
+                    <i class="icon ion-ios-time"></i>
+                    <div>Время</div>
+                </div>
+
+            </div>
+            <div class="buttons-button buttons-button_master" id="chooseMaster">
+                <div class="button-label">
+                    <i class="icon ion-ios-cut"></i>
+                    <div>Услуга</div>
+                </div>
+            </div>
+            <div class="buttons-button buttons-button_service" id="chooseService">
+                <div class="button-label">
+                    <i class="icon ion-ios-contact"></i>
+                    <div>Мастер</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Кнопки выбора: -->
+
+    <!-- Содержимое выпадающее по клику на кнопки выбора: -->
+    <main id="main">
+        <!-- Календарь -->
+        <div id="SetTime" class="showedSection">
+            <div class="calendar-container" id="clndr1">
+                <div class="calendar-monthRow">
+                    <div class="calendar-monthLeft">←</div>
+                    <div class="calendar-monthLabel">август</div>
+                    <div class="calendar-monthRight">→</div>
+                </div>
+                <div class="days-container" id="jj">
+                    <input type="text" class="showingDate" style="display:none">
+                    <input type="text" class="checkedDate" style="display:none">
+                    <div class="calendar-daysRow">
+                        <div class="calendar-daysCell">Пн</div>
+                        <div class="calendar-daysCell">Вт</div>
+                        <div class="calendar-daysCell">Ср</div>
+                        <div class="calendar-daysCell">Чт</div>
+                        <div class="calendar-daysCell">Пт</div>
+                        <div class="calendar-daysCell">Сб</div>
+                        <div class="calendar-daysCell">Вс</div>
+                    </div>
+                    <div class="calendar-datesContainer" id="ji">
+                        <div class="calendar-dateRow calendar-row">
+                            <div class="calendar-dateCell clnd_1-1"><span>1</span></div>
+                            <div class="calendar-dateCell clnd_1-2"><span>1</span></div>
+                            <div class="calendar-dateCell clnd_1-3"><span>1</span></div>
+                            <div class="calendar-dateCell clnd_1-4"><span>1</span></div>
+                            <div class="calendar-dateCell clnd_1-5"><span>1</span></div>
+                            <div class="calendar-dateCell clnd_1-6"><span>1</span></div>
+                            <div class="calendar-dateCell clnd_1-7"><span>1</span></div>
+                        </div>
+                        <div class="calendar-dateRow calendar-row">
+                            <div class="calendar-dateCell clnd_2-1"><span>2</span></div>
+                            <div class="calendar-dateCell clnd_2-2"><span>2</span></div>
+                            <div class="calendar-dateCell clnd_2-3"><span>2</span></div>
+                            <div class="calendar-dateCell clnd_2-4"><span>2</span></div>
+                            <div class="calendar-dateCell clnd_2-5"><span>2</span></div>
+                            <div class="calendar-dateCell clnd_2-6"><span>2</span></div>
+                            <div class="calendar-dateCell clnd_2-7"><span>2</span></div>
+                        </div>
+                        <div class="calendar-dateRow calendar-row">
+                            <div class="calendar-dateCell clnd_3-1"><span>3</span></div>
+                            <div class="calendar-dateCell clnd_3-2"><span>3</span></div>
+                            <div class="calendar-dateCell clnd_3-3"><span>3</span></div>
+                            <div class="calendar-dateCell clnd_3-4"><span>3</span></div>
+                            <div class="calendar-dateCell clnd_3-5"><span>3</span></div>
+                            <div class="calendar-dateCell clnd_3-6"><span>3</span></div>
+                            <div class="calendar-dateCell clnd_3-7"><span>3</span></div>
+                        </div>
+                        <div class="calendar-dateRow calendar-row">
+                            <div class="calendar-dateCell clnd_4-1"><span>4</span></div>
+                            <div class="calendar-dateCell clnd_4-2"><span>4</span></div>
+                            <div class="calendar-dateCell clnd_4-3"><span>4</span></div>
+                            <div class="calendar-dateCell clnd_4-4"><span>4</span></div>
+                            <div class="calendar-dateCell clnd_4-5 "><span>4</span></div>
+                            <div class="calendar-dateCell clnd_4-6"><span>4</span></div>
+                            <div class="calendar-dateCell clnd_4-7"><span>4</span></div>
+                        </div>
+                        <div class="calendar-dateRow calendar-row">
+                            <div class="calendar-dateCell clnd_5-1"><span>5</span></div>
+                            <div class="calendar-dateCell clnd_5-2"><span>5</span></div>
+                            <div class="calendar-dateCell clnd_5-3"><span>5</span></div>
+                            <div class="calendar-dateCell clnd_5-4 today"><span>5</span></div>
+                            <div class="calendar-dateCell clnd_5-5"><span>5</span></div>
+                            <div class="calendar-dateCell clnd_5-6 today"><span>5</span></div>
+                            <div class="calendar-dateCell clnd_5-7"><span>5</span></div>
+                        </div>
+                        <div class="calendar-dateRow calendar-row">
+                            <div class="calendar-dateCell clnd_6-1"><span>6</span></div>
+                            <div class="calendar-dateCell clnd_6-2"><span>6</span></div>
+                            <div class="calendar-dateCell clnd_6-3 today"><span>6</span></div>
+                            <div class="calendar-dateCell clnd_6-4"><span>6</span></div>
+                            <div class="calendar-dateCell clnd_6-5 today"><span>6</span></div>
+                            <div class="calendar-dateCell clnd_6-6"><span>6</span></div>
+                            <div class="calendar-dateCell clnd_6-7"><span>6</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Мастер -->
+        <div id="setMaster" class="hiddenSection">
+
+        </div>
+        <!-- Услуги -->
+        <div id="setService" class="hiddenSection">
+
+        </div>
+    </main>
+    <!-- Содержимое выпадающее по клику на кнопки выбора: -->
+    <footer>
+        <nav class="mobileNavbar">
+            <ul>
+                <li><i class="fas fa-user-circle"></i><a href="#">О нас</a></li>
+                <li><i class="fas fa-list"></i><a href="#">Календарь</a></li>
+                <li><i class="fas fa-address-book"></i><a href="#">Расписание</a></li>
+                <li><i class="fas fa-envelope"></i><a href="#">Почта</a></li>
+                <li><i class="fas fa-book-open"></i><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </footer>
+<!--<i class="icon ion-md-heart"></i>-->
+</body>
+</html>

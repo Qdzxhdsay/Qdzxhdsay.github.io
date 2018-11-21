@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    color: white;
+    background: rgb(28, 33, 42);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    width: 100vw;
+    margin-bottom: 45px;
+    z-index: 1000;
+
+}
+h1{
+    padding: 10px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+.buttons-container-background{
+    background-image: url("back.png");
+    background-size: cover;
+
+    margin-top: 50px;
+    position: fixed;
+    z-index: 1000;
+
+}
+.buttons-container{
+    display: flex;
+    background: rgba(0,0,0,.4);
+}
+.buttons-button{
+    display: flex;
+    width: 33.33vw;
+    height: 33.33vw;
+    box-sizing: border-box;
+    border: solid 1px white;
+
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.buttons-button:active{
+    background: rgba(255,255,255,.4);
+}
+.buttons-button:nth-child(2){
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.buttons-button:first-child{
+    border-left-width: 0;
+}
+.buttons-button:last-child{
+    border-right-width: 0;
+}
+.button-label{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 300;
+}
+.button-label .icon{
+    font-size: 300%;
+}
+.showedSection{
+    display: flex;
+}
+.hiddenSection{
+    display: none;
+}
+#setMaster{
+    width: 100vw;
+    height: 500px;
+    background: darkgreen;
+}
+#setService{
+    width: 100vw;
+    height: 500px;
+    background: pink;
+}
+
+main{
+    min-height: 1000px;
+    margin-top: calc(50px + 33.33333vw);
+
+    display: flex;
+    background: greenyellow;
+    flex-grow: 1;
+}
+
+.mobileNavbar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 16px 0;
+    padding: 0;
+}
+
+.mobileNavbar li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 2%;
+    width: auto;
+}
+
+.mobileNavbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin: 5px 0 0 0;
+
+
+
+}
+
+footer{
+    background-color: darkgray;
+    width: 100%;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10001;
+}
+
+#test{
+    background: darkgreen;
+}

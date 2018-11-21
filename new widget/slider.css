@@ -1,0 +1,10 @@
+.trick{
+    height: 11.33vh;
+    -webkit-transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -o-transition: ease-in 0.25s;
+    transition: ease-in 0.25s;
+}
+.crik{
+    margin-top: calc(50px + (33.33333vw/3));
+}
