@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    margin-top: 8vh;
+    margin-top: 2vh;
 }
 
 .header-brand p{
@@ -16,7 +16,7 @@ body{
 }
 
 .choise-cards{
-    margin-top: 4vh;
+    margin-top: 1vh;
 }
 
 .choise-cards-list{
@@ -66,14 +66,6 @@ p,a{
 
 
 @media (min-width: 768px) {
-    .header-brand{
-        margin-top: 4vh;
-    }
-
-    .choise-cards{
-        margin-top: 3vh;
-    }
-
     .choise-list-item{
         width: 60vw;
         height: 30vh;
@@ -83,14 +75,15 @@ p,a{
 }
 
 @media (min-width: 960px) {
-    .header-brand{
-        margin-top: 2vh;
-    }
+    .choise-list-item{
+        width: 60vw;
+        height: 35vh;
 
-    .choise-cards{
-        margin-top: 1vh;
+        box-shadow:  16px 16px 0 #D6D6D6;
     }
+}
 
+@media (min-width: 1200px) {
     .choise-list-item{
         width: 38vw;
         height: 35vh;
@@ -98,4 +91,3 @@ p,a{
         box-shadow:  16px 16px 0 #D6D6D6;
     }
 }
-
