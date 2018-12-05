@@ -34,12 +34,12 @@ body{
     justify-content: center;
     align-items: center;
 
-    width: 85vw;
-    height: 50vw;
+    width: 75vw;
+    height: 25vh;
     margin: 3vh 0;
 
     border: 1px solid #000;
-    box-shadow:  6px 6px 0 #D6D6D6;
+    box-shadow:  8px 8px 0 #D6D6D6;
 }
 
 .choise-list-item a{
@@ -47,23 +47,24 @@ body{
     text-decoration: none;
 }
 
+/* Адптивные шрифты + адаптивные лайн хейты */
+
 p,a{
     font-size: 1rem;
 }
 
 @media (min-width: 320px) and (max-width: 959px) {
     p,a {
-        font-size: calc( 1.25rem + 16 * (100vw - 320px) / (960 - 320) );
+        font-size: calc( 1rem + 16 * (100vw - 320px) / (960 - 320) );
         line-height: calc( 120% + 3.2 * (100vw - 960px) / (320 - 960) );
     }
 }
 
 @media (min-width: 960px) {
-    p,a { font-size: calc( 1.25rem + 16px ); }
+    p,a { font-size: calc( 1rem + 16px ); }
 }
 
-
-
+/* Адптив для блоков */
 
 @media (min-width: 768px) {
     .choise-list-item{
