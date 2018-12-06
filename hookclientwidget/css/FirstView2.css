@@ -172,8 +172,6 @@ button{
     font-size: 12px;
 }
 
-
-
 .card-list-item-quickwrite{
     display: flex;
     justify-content: space-between;
@@ -187,18 +185,16 @@ button{
     margin: 0;
 
     font-size: 14px;
-
-
 }
 
 .card-list-item-quickwrite-date{
     display: block;
-    padding: 3px 7px;
+    padding: 4px 8px;
     margin: 0 6px;
 
     font-size: 10px;
 
-    border: 1px solid #000;
+    border: 1px solid #8d8d8d;
     box-shadow:  3px 3px 0 var(--blocks-shadow-color-default);
 }
 
