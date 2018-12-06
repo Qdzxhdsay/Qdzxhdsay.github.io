@@ -190,11 +190,11 @@ button{
 .card-list-item-quickwrite-date{
     display: block;
     padding: 4px 8px;
-    margin: 0 6px;
+    margin: 0 5px;
 
-    font-size: 10px;
+    font-size: 12px;
 
-    border: 1px solid #8d8d8d;
+    border: 1px solid #333333;
     box-shadow:  3px 3px 0 var(--blocks-shadow-color-default);
 }
 
