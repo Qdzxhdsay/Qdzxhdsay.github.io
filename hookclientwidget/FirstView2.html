@@ -16,6 +16,8 @@
             <img src="img/logo.svg" alt="Логотип Компании">
             <p>Your Co</p>
         </section>
+    </header>
+    <main class="container">
         <section class="choise-buttons">
             <h1 class="visually-hidden">Список мастеров</h1>
             <ul class="choise-buttons-list">
@@ -26,15 +28,16 @@
                     <button class="button choise-buttons-item" type="button">Услуги</button>
                 </li>
             </ul>
-            <div class="choise-bar">
-                <p>Выберите мастера</p>
-                <button type="button" class="button">
+        </section>
+        <section class="search-bar">
+            <label for="search" class="visually-hidden">Поиск по мастерам</label>
+            <form action="" method="get" class="search-input" id="search">
+                <input name="s" placeholder="Выбрать мастера" type="text">
+                <button type="submit">
                     <img src="img/searchicon.svg" alt="Иконка поиска">
                 </button>
-            </div>
+            </form>
         </section>
-    </header>
-    <main class="container">
         <section class="master-cards">
             <div class="master-cards-wrapper">
                 <div class="master-cards-info">
@@ -59,16 +62,30 @@
                         Быстрая запись
                     </p>
                     <div class="card-list-item-quickwrite-dates">
-                        <p class="card-list-item-quickwrite-date">
+                        <button class="button card-list-item-quickwrite-date">
                             01.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
                             02.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
                             03.12
-                        </p>
+                        </button>
                     </div>
+                </div>
+                <div class="card-list-item-quickwrite-time">
+                    <button>
+                        <img src="img/leftarrow.svg" alt="Левая стрелка">
+                    </button>
+                    <a href="#">10:00</a>
+                    <a href="#">11:00</a>
+                    <a href="#">12:00</a>
+                    <a href="#">13:00</a>
+                    <a href="#">14:00</a>
+                    <a href="#">15:00</a>
+                    <button>
+                        <img src="img/rightarrow.svg" alt="Правая стрелка">
+                    </button>
                 </div>
             </div>
             <div class="master-cards-wrapper">
@@ -94,15 +111,15 @@
                         Быстрая запись
                     </p>
                     <div class="card-list-item-quickwrite-dates">
-                        <p class="card-list-item-quickwrite-date">
+                        <button class="button card-list-item-quickwrite-date">
                             01.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
                             02.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
                             03.12
-                        </p>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -129,15 +146,15 @@
                         Быстрая запись
                     </p>
                     <div class="card-list-item-quickwrite-dates">
-                        <p class="card-list-item-quickwrite-date">
+                        <button class="button card-list-item-quickwrite-date">
                             01.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
                             02.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
                             03.12
-                        </p>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -164,15 +181,15 @@
                         Быстрая запись
                     </p>
                     <div class="card-list-item-quickwrite-dates">
-                        <p class="card-list-item-quickwrite-date">
+                        <button class="button card-list-item-quickwrite-date">
                             01.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
                             02.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
                             03.12
-                        </p>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -199,19 +216,193 @@
                         Быстрая запись
                     </p>
                     <div class="card-list-item-quickwrite-dates">
-                        <p class="card-list-item-quickwrite-date">
+                        <button class="button card-list-item-quickwrite-date">
                             01.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
                             02.12
-                        </p>
-                        <p class="card-list-item-quickwrite-date">
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
                             03.12
-                        </p>
+                        </button>
                     </div>
                 </div>
             </div>
-
+            <div class="master-cards-wrapper">
+                <div class="master-cards-info">
+                    <div class="master-cards-info-avatar">
+                        <img class="card-list-item-avatar" src="img/master1.png" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Анатолий Китайцев</p>
+                            <p class="card-list-item-specialisation">Топ-барбер</p>
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starempty.svg" alt="Иконка рейтинг мастера">
+                        </div>
+                    </div>
+                    <button class="button card-list-item-addbutton">
+                        <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                    </button>
+                </div>
+                <div class="card-list-item-quickwrite">
+                    <p class="card-list-item-quickwrite-headline">
+                        Быстрая запись
+                    </p>
+                    <div class="card-list-item-quickwrite-dates">
+                        <button class="button card-list-item-quickwrite-date">
+                            01.12
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
+                            02.12
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
+                            03.12
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="master-cards-wrapper">
+                <div class="master-cards-info">
+                    <div class="master-cards-info-avatar">
+                        <img class="card-list-item-avatar" src="img/master2.png" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Алена Пичугина</p>
+                            <p class="card-list-item-specialisation">Топ-стилист</p>
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starempty.svg" alt="Иконка рейтинг мастера">
+                        </div>
+                    </div>
+                    <button class="button card-list-item-addbutton">
+                        <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                    </button>
+                </div>
+                <div class="card-list-item-quickwrite">
+                    <p class="card-list-item-quickwrite-headline">
+                        Быстрая запись
+                    </p>
+                    <div class="card-list-item-quickwrite-dates">
+                        <button class="button card-list-item-quickwrite-date">
+                            01.12
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
+                            02.12
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
+                            03.12
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="master-cards-wrapper">
+                <div class="master-cards-info">
+                    <div class="master-cards-info-avatar">
+                        <img class="card-list-item-avatar" src="img/master5.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Юлия Антохина</p>
+                            <p class="card-list-item-specialisation">Стилист, визажист</p>
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starempty.svg" alt="Иконка рейтинг мастера">
+                        </div>
+                    </div>
+                    <button class="button card-list-item-addbutton">
+                        <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                    </button>
+                </div>
+                <div class="card-list-item-quickwrite">
+                    <p class="card-list-item-quickwrite-headline">
+                        Быстрая запись
+                    </p>
+                    <div class="card-list-item-quickwrite-dates">
+                        <button class="button card-list-item-quickwrite-date">
+                            01.12
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
+                            02.12
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
+                            03.12
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="master-cards-wrapper">
+                <div class="master-cards-info">
+                    <div class="master-cards-info-avatar">
+                        <img class="card-list-item-avatar" src="img/master3.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Екатерина Бровина</p>
+                            <p class="card-list-item-specialisation">Парикмахер</p>
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starempty.svg" alt="Иконка рейтинг мастера">
+                        </div>
+                    </div>
+                    <button class="button card-list-item-addbutton">
+                        <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                    </button>
+                </div>
+                <div class="card-list-item-quickwrite">
+                    <p class="card-list-item-quickwrite-headline">
+                        Быстрая запись
+                    </p>
+                    <div class="card-list-item-quickwrite-dates">
+                        <button class="button card-list-item-quickwrite-date">
+                            01.12
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
+                            02.12
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
+                            03.12
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="master-cards-wrapper">
+                <div class="master-cards-info">
+                    <div class="master-cards-info-avatar">
+                        <img class="card-list-item-avatar" src="img/master4.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Екатерина Ногтевая</p>
+                            <p class="card-list-item-specialisation">Мастер маникюра</p>
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starfull.svg" alt="Иконка рейтинг мастера">
+                            <img src="img/starempty.svg" alt="Иконка рейтинг мастера">
+                        </div>
+                    </div>
+                    <button class="button card-list-item-addbutton">
+                        <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                    </button>
+                </div>
+                <div class="card-list-item-quickwrite">
+                    <p class="card-list-item-quickwrite-headline">
+                        Быстрая запись
+                    </p>
+                    <div class="card-list-item-quickwrite-dates">
+                        <button class="button card-list-item-quickwrite-date">
+                            01.12
+                        </button>
+                        <button class="button card-list-item-quickwrite-date">
+                            02.12
+                        </button>
+                        <button class=" button card-list-item-quickwrite-date">
+                            03.12
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
