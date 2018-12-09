@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hook client widget</title>
     <link rel="stylesheet" href="css/normalize.css">
@@ -12,14 +12,13 @@
 </head>
 <body>
     <header class="main-header">
+        <h1 class="visually-hidden">Виджет онлайн записи</h1>
         <section class="header-brand">
             <img src="img/logo.svg" alt="Логотип Компании">
             <p>Your Co</p>
         </section>
-    </header>
-    <main class="container">
         <section class="choise-buttons">
-            <h1 class="visually-hidden">Список мастеров</h1>
+            <h2 class="visually-hidden">Кнопки выбора мастера или услуги</h2>
             <ul class="choise-buttons-list">
                 <li>
                     <button class="button choise-buttons-item active" type="button">Мастера</button>
@@ -29,15 +28,19 @@
                 </li>
             </ul>
         </section>
+    </header>
+    <main class="container">
+        <h2 class="visually-hidden">Панель поиска мастера</h2>
         <section class="search-bar">
             <label for="search" class="visually-hidden">Поиск по мастерам</label>
-            <form action="" method="get" class="search-input" id="search">
-                <input name="s" placeholder="Выбрать мастера" type="text">
+            <form action="" method="get" class="search-input" id="searchform">
+                <input name="search" id="search" placeholder="Выбрать мастера" type="text">
                 <button type="submit">
                     <img src="img/searchicon.svg" alt="Иконка поиска">
                 </button>
             </form>
         </section>
+        <h2 class="visually-hidden">Карточки мастеров</h2>
         <section class="master-cards">
             <div class="master-cards-wrapper">
                 <div class="master-cards-info">
