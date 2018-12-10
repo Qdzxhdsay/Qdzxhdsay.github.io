@@ -59,6 +59,11 @@ button{
 .dropShadow{
     transition: all ease-in 0.3s;
     box-shadow: 0 5px 16px -4px #d6d6d6;
+    -webkit-box-shadow: 0 5px 16px -4px #d6d6d6;
+
+    -webkit-appearance: none;
+
+    z-index: 1000;
 }
 
 .header-brand img{
