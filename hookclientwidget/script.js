@@ -7,16 +7,36 @@ window.addEventListener('scroll', function() {
 });
 
 
-let quickWriteLink = document.getElementsByClassName("card-list-item-quickwrite-date");
-let quickWriteTime = document.getElementsByClassName("card-list-item-quickwrite-time");
+/*let quickWriteLink = document.getElementsByClassName("card-list-item-quickwrite-date");
+let quickWriteTime = document.getElementsByClassName("card-list-item-quickwrite-time");*/
+
+const masterBlocks = document.querySelectorAll('.master-cards-wrapper');
+
+masterBlocks.forEach(function (block) {
+   let buttons = block.querySelectorAll('button.button.card-list-item-quickwrite-date');
+   buttons.forEach(function (button) {
+       button.addEventListener('click', function(event){
+           let timeline = block.querySelector('.card-list-item-quickwrite-time');
+           if(timeline.classList.contains('qw')) timeline.classList.remove('qw');
+           else timeline.classList.add('qw');
+       })
+   })
+});
 
 
-for (let i = 0; i < quickWriteLink.length; i++) {
+
+
+
+
+
+
+/*for (let i = 0; i < quickWriteLink.length; i++) {
     let collectLinks = quickWriteLink[i];
     collectLinks.addEventListener('click', function () {
         if (collectLinks.classList.contains('quickwrite-active')) {
             collectLinks.classList.remove("quickwrite-active");
-            collectLinks.parentNode.getElementsByClassName('card-list-item-quickwrite-time');
+            let korobka = collectLinks.parentNode.parentNode.parentNode;
+
             for (let j = 0; j < quickWriteTime.length; j++) {
                 let collectTime = quickWriteTime[j];
                 collectTime.classList.remove('qw');
@@ -24,13 +44,17 @@ for (let i = 0; i < quickWriteLink.length; i++) {
         }
         else {
             collectLinks.classList.add("quickwrite-active");
+
+            let korobka = collectLinks.parentNode.parentNode.parentNode;
+
+
             for (let j = 0; j < quickWriteTime.length; j++) {
                 let collectTime = quickWriteTime[j];
                 collectTime.classList.add('qw');
             }
         }
     });
-}
+}*/
 
 /*
 quickWriteButtons.addEventListener('click',function () {
