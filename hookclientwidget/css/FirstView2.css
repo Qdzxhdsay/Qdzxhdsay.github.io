@@ -58,8 +58,8 @@ button{
 
 .dropShadow{
     transition: all ease-in 0.3s;
-    box-shadow: 0 5px 16px -4px #d6d6d6;
-    -webkit-box-shadow: 0 5px 16px -4px #d6d6d6;
+    box-shadow: 0 5px 16px -4px var(--main-shadow-color);
+    -webkit-box-shadow: 0 5px 16px -4px var(--main-shadow-color);
 
     -webkit-appearance: none;
 
@@ -121,7 +121,6 @@ button{
     box-shadow:  4px 4px 0 var(--main-shadow-color);
 }
 
-
 .search-bar{
     display: flex;
     justify-content: center;
@@ -144,7 +143,6 @@ button{
     border: none;
 }
 
-
 .choise-bar p{
     font-size: 1rem;
 
@@ -157,6 +155,10 @@ button{
 
 .choise-buttons-item{
     font-size: 0.875rem;
+}
+
+.master-cards{
+    margin: 10px 0 70px 0;
 }
 
 .card-list-item-addbutton{
@@ -304,6 +306,58 @@ button{
     display: flex;
 }
 
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--main-color-white);
+    width: 100vw;
+    height: 55px;
+    color: var(--main-color-black);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+
+    box-shadow: 0 -5px 16px -4px var(--main-shadow-color);
+}
+
+.mobileNavbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobileNavbar li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    margin: 0;
+    width: auto;
+}
+
+.mobileNavbar li a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+
+    color: var(--main-color-black);
+    font-size: 0.625rem;
+    margin: 0;
+}
+
+.mobileNavbar li img{
+    margin: 0 0 5px 0;
+}
 
 /* Адптив для блоков */
 
@@ -333,6 +387,10 @@ button{
     .active{
         box-shadow:  6px 6px 0 var(--main-shadow-color);
     }
+
+    .master-cards{
+        margin: 10px 0 100px 0;
+    }
     /* Панель поиска */
     .search-bar {
         height: 80px;
@@ -348,8 +406,25 @@ button{
     .master-cards-wrapper{
         margin: 20px 0;
     }
+    .card-list-item-avatar{
+        width: 85px;
+        height: 85px;
+    }
+    .main-footer{
+        height: 80px;
+    }
+    .card-list-item-addbutton img{
+        width: 35px;
+        height: 35px;
+    }
+    .mobileNavbar li img{
+        margin: 0 0 8px 0;
+    }
 
-
+    .mobileNavbar img{
+        width: 25px;
+        height: 25px;
+    }
 
 }
 
