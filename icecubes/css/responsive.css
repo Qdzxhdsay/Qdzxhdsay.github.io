@@ -2,7 +2,6 @@
 @media (min-width: 1920px) and (max-width: 2650px) {
     .item {
         height: 100vh;
-        max-height: 1200px;
     }
 
     .desktop-menu__nav-link {
@@ -34,15 +33,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 1700px;
-        margin: 160px 0 80px 0;
+        width: 550px;
+        margin: 110px 0 40px 0;
+    }
+
+    .ice-cube__headline p {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        margin: 30px 0 30px 0;
     }
 
     .ice-cube__headline h1 {
-        font-size: 3rem;
-        line-height: 5rem;
+        font-size: 3.5rem;
         letter-spacing: 3px;
-        margin: 0;
+        margin: 0 0 50px 0;
+    }
+
+    .ice-cube__headline h1:before {
+        width: 50px;
+        margin: 62px 0 0 -34px;
+    }
+
+    .ice-cube__headline h1:after {
+        width: 50px;
+        margin: 0 0 0 -14px;
     }
 
     .ice-cube__advantages-droparrow {
@@ -182,8 +196,12 @@
     }
 }
 
-/*1440-900*/
+/*1600*/
 @media (min-width: 1600px) and (max-width: 1919px) {
+
+    .item {
+        height: 100vh;
+    }
     .assortment-card__content {
         width: 1400px;
     }
@@ -195,8 +213,11 @@
 
 }
 
-/*1280-800*/
+/*1400*/
 @media (min-width: 1400px) and (max-width: 1599px) {
+    .item {
+        height: 100vh;
+    }
     .assortment-card__content {
         width: 1200px;
     }
@@ -205,12 +226,55 @@
         width: 540px;
         height: 510px;
     }
+
+    .ice-cube__headline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        margin: 110px 0 50px 0;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .ice-cube__headline p {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        margin: 25px 0 25px 0;
+    }
+
+    .ice-cube__headline h1 {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        margin: 0 0 40px 0;
+        padding: 8px 20px;
+    }
+
+    .ice-cube__headline h1:after{
+        width: 40px;
+        border-top: 2px solid white;
+        margin: 0 0 0 -8px;
+    }
+
+    .ice-cube__headline h1:before{
+        width: 40px;
+        border-top: 2px solid white;
+        margin: 55px 0 0 -32px;
+    }
+
+    .ice-cube__advantages-droparrow {
+        height: 45px;
+        margin: 45px 0 40px 0;
+        transition: all 0.3s;
+        cursor: pointer;
+    }
 }
 
 /*991-1199-начало*/
 @media (min-width: 992px) and (max-width: 1199px) {
     .item {
-        height: 100vh;
+        height: auto;
     }
 
     .ice-cube__desktop-menu {
@@ -238,7 +302,8 @@
     }
 
     .ice-cube__headline {
-        width: 940px;
+        width: 450px;
+        margin: 120px 0 30px 0;
     }
 
     .assortment-card__lot-name {
@@ -256,7 +321,6 @@
 
     .ice-cube__headline h1 {
         font-size: 36px;
-        line-height: 70px;
     }
 
     .assortment-card__price-headline {
@@ -271,6 +335,15 @@
         line-height: 30px;
         letter-spacing: 1px;
         margin: 5px 0 5px 0;
+    }
+
+    .ice-cube__headline h1:before {
+        content: "";
+        position: absolute;
+        width: 40px;
+        margin: 42px 0 0 -31px;
+        transform: rotate(45deg);
+        border-top: 2px solid white;
     }
 
     .ice-cube__assortment-headline h1 {
@@ -303,7 +376,7 @@
 
     .advantages__two {
         width: 60%;
-        margin: 60px 0 60px 38%;
+        margin: 50px 0 50px 38%;
     }
 
     .advantages__two h2 {
@@ -323,6 +396,12 @@
         letter-spacing: 1px;
         line-height: 30px;
         margin: 0 10px 0 0;
+    }
+
+    .ice-cube__advantages-droparrow {
+        height: 40px;
+        margin: 40px 0 40px 0;
+        transition: all 0.3s;
     }
 
     .assortment-card__content {
@@ -436,11 +515,19 @@
     }
 
     .ice-cube__headline {
-        width: 750px;
+        width: 450px;
+        margin: 120px 0 30px 0;
     }
-
+    .ice-cube__headline h1:before {
+        content: "";
+        position: absolute;
+        width: 40px;
+        margin: 36px 0 0 -31px;
+        transform: rotate(45deg);
+        border-top: 2px solid white;
+    }
     .item {
-        height: 100vh;
+        height: auto;
     }
 
     .assortment-card__lot-name {
@@ -458,7 +545,6 @@
 
     .ice-cube__headline h1 {
         font-size: 32px;
-        line-height: 65px;
     }
 
     .assortment-card__price-headline {
@@ -497,7 +583,7 @@
     }
 
     .advantages__one h2 {
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 1px;
         line-height: 30px;
         margin: 0 10px 0 20px;
@@ -505,11 +591,11 @@
 
     .advantages__two {
         width: 60%;
-        margin: 60px 0 60px 38%;
+        margin: 50px 0 50px 30%;
     }
 
     .advantages__two h2 {
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 1px;
         line-height: 30px;
         margin: 0 0 0 10px;
@@ -521,10 +607,16 @@
     }
 
     .advantages__three h2 {
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 1px;
         line-height: 30px;
         margin: 0 10px 0 0;
+    }
+
+    .ice-cube__advantages-droparrow {
+        height: 40px;
+        margin: 40px 0 40px 0;
+        transition: all 0.3s;
     }
 
     .assortment-card__content {
@@ -686,13 +778,32 @@
 
     .ice-cube__headline h1 {
         font-size: 22px;
-        line-height: 40px;
+
     }
 
     .ice-cube__headline {
-        margin: 130px 0 50px 0;
+        margin: 110px 0 50px 0;
         height: auto;
     }
+
+    .ice-cube__headline h1:after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        margin: -1px 0 0 -9px;
+        transform: rotate(45deg);
+        border-top: 2px solid white;
+    }
+
+    .ice-cube__headline h1:before{
+        content: "";
+        position: absolute;
+        width: 40px;
+        margin: 26px 0 0 -31px;
+        transform: rotate(45deg);
+        border-top: 2px solid white;
+    }
+
 
     .ice-cube__assortment-headline {
         height: 160px;
@@ -1030,8 +1141,8 @@
     }
 
     .ice-cube__logo-icon {
-        width: 66px;
-        height: 40px;
+        width: 54px;
+        height: 36px;
         margin: 0 20px 0 0;
     }
 
@@ -1041,7 +1152,17 @@
 
     .ice-cube__headline {
         height: 340px;
-        width: 360px;
+        width: 320px;
+    }
+
+    .ice-cube__headline h1:after{
+        width: 38px;
+        margin: -3px 0 0 -7px;
+    }
+
+    .ice-cube__headline h1:before{
+        width: 38px;
+        margin: 37px 0 0 -31px;
     }
 
     .assortment-card__lot-name {
@@ -1066,18 +1187,24 @@
     }
 
     .ice-cube__headline h1 {
-        font-size: 22px;
-        line-height: 40px;
+        font-size: 32px;
+    }
+
+    .ice-cube__headline p {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        margin: 20px 0 20px 0;
     }
 
     .ice-cube__headline {
-        margin: 130px 0 50px 0;
+        margin: 120px 0 40px 0;
         height: auto;
     }
 
     .ice-cube__assortment-headline {
-        height: 160px;
+        height: 120px;
     }
+
 
     .assortment-card__price-headline {
         font-size: 22px;
@@ -1160,8 +1287,8 @@
 
     .ice-cube__advantages-droparrow {
         margin: 40px 0 50px 0;
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
 
     .owl-theme .owl-dots .owl-dot {
@@ -1411,8 +1538,8 @@
     }
 
     .ice-cube__logo-icon {
-        width: 66px;
-        height: 40px;
+        width: 54px;
+        height: 36px;
         margin: 0 20px 0 0;
     }
 
@@ -1422,7 +1549,7 @@
 
     .ice-cube__headline {
         height: 340px;
-        width: 360px;
+        width: 320px;
     }
 
     .assortment-card__lot-name {
@@ -1447,17 +1574,22 @@
     }
 
     .ice-cube__headline h1 {
-        font-size: 22px;
-        line-height: 40px;
+        font-size: 28px;
+    }
+
+    .ice-cube__headline p {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        margin: 20px 0 20px 0;
     }
 
     .ice-cube__headline {
-        margin: 130px 0 50px 0;
+        margin: 110px 0 30px 0;
         height: auto;
     }
 
     .ice-cube__assortment-headline {
-        height: 160px;
+        height: 120px;
     }
 
     .assortment-card__price-headline {
@@ -1487,6 +1619,16 @@
         color: white;
     }
 
+    .ice-cube__headline h1:after{
+        width: 38px;
+        margin: -3px 0 0 -7px;
+    }
+
+    .ice-cube__headline h1:before{
+        width: 38px;
+        margin: 33px 0 0 -31px;
+    }
+
     .ice-cube__assortment-headline h1 {
         font-size: 22px;
     }
@@ -1505,7 +1647,7 @@
 
     .advantages__one {
         width: 90%;
-        margin: 0 0 0 0;
+        margin: 0 0 0 4%;
     }
 
     .advantages__one h2 {
@@ -1517,7 +1659,7 @@
 
     .advantages__two {
         width: 90%;
-        margin: 50px 0 50px 0;
+        margin: 50px 0 50px 2%;
     }
 
     .advantages__two h2 {
@@ -1529,7 +1671,7 @@
 
     .advantages__three {
         width: 90%;
-        margin: 0 0 0 0;
+        margin: 0 0 0 4%;
     }
 
     .advantages__three h2 {
@@ -1540,7 +1682,7 @@
     }
 
     .ice-cube__advantages-droparrow {
-        margin: 40px 0 50px 0;
+        margin: 30px 0 40px 0;
         width: 35px;
         height: 35px;
     }
@@ -1574,6 +1716,11 @@
     .assortment-card__picture {
         width: 350px;
         height: 330px;
+    }
+
+    .assortment-underline {
+        margin: 60px auto;
+        color: #000;
     }
 
     .ice-cube__form {
@@ -1695,7 +1842,7 @@
         font-size: 20px;
         font-weight: normal;
         letter-spacing: 1px;
-        margin: 20px 0 20px 0;
+        margin: 15px 0 15px 0;
         color: white;
         text-decoration: none;
     }
@@ -1705,7 +1852,7 @@
         font-size: 20px;
         font-weight: normal;
         letter-spacing: 1px;
-        margin: 20px 0 20px 0;
+        margin: 15px 0 15px 0;
         color: white;
         text-decoration: none;
     }
@@ -1793,8 +1940,8 @@
     }
 
     .ice-cube__logo-icon {
-        width: 66px;
-        height: 40px;
+        width: 54px;
+        height: 36px;
         margin: 0 20px 0 0;
     }
 
@@ -1804,9 +1951,69 @@
 
     .ice-cube__headline {
         height: 340px;
-        width: 320px;
+        width: 280px;
     }
 
+    .ice-cube__headline h1 {
+        font-size: 22px;
+    }
+
+    .ice-cube__headline {
+        margin: 100px 0 20px 0;
+        height: auto;
+    }
+
+    .ice-cube__headline p {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin: 15px 0 15px 0;
+    }
+
+    .ice-cube__headline h1:after{
+        width: 38px;
+        margin: -3px 0 0 -7px;
+    }
+
+    .ice-cube__headline h1:before{
+        width: 38px;
+        margin: 26px 0 0 -31px;
+    }
+
+    .advantages__one {
+        width: 90%;
+        margin: 0 0 0 2%;
+    }
+
+    .advantages__one h2 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 18px;
+        margin: 0 10px 0 0;
+    }
+
+    .advantages__two {
+        width: 90%;
+        margin: 40px 0 40px 0;
+    }
+
+    .advantages__two h2 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 18px;
+        margin: 0 0 0 10px;
+    }
+
+    .advantages__three {
+        width: 90%;
+        margin: 0 0 0 2%;
+    }
+
+    .advantages__three h2 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 18px;
+        margin: 0 10px 0 0;
+    }
     .assortment-card__lot-name {
         font-size: 25px;
     }
@@ -1817,7 +2024,7 @@
     }
 
     .assortment-card__lot-description {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .assortment-card__description {
@@ -1828,18 +2035,8 @@
         text-align: center;
     }
 
-    .ice-cube__headline h1 {
-        font-size: 22px;
-        line-height: 40px;
-    }
-
-    .ice-cube__headline {
-        margin: 130px 0 50px 0;
-        height: auto;
-    }
-
     .ice-cube__assortment-headline {
-        height: 160px;
+        height: 100px;
     }
 
     .assortment-card__price-headline {
@@ -1849,9 +2046,9 @@
 
     .assortment-card__option {
         font-family: Roboto, sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: normal;
-        line-height: 30px;
+        line-height: 26px;
         letter-spacing: 1px;
         margin: 5px 0 5px 0;
     }
@@ -1867,6 +2064,11 @@
         font-size: 16px;
         font-weight: normal;
         color: white;
+    }
+
+    .assortment-underline {
+        margin: 50px auto;
+        color: #000;
     }
 
     .ice-cube__assortment-headline h1 {
@@ -1885,44 +2087,8 @@
         width: 320px;
     }
 
-    .advantages__one {
-        width: 90%;
-        margin: 0 0 0 0;
-    }
-
-    .advantages__one h2 {
-        font-size: 16px;
-        letter-spacing: 1px;
-        line-height: 20px;
-        margin: 0 10px 0 0;
-    }
-
-    .advantages__two {
-        width: 90%;
-        margin: 50px 0 50px 0;
-    }
-
-    .advantages__two h2 {
-        font-size: 16px;
-        letter-spacing: 1px;
-        line-height: 20px;
-        margin: 0 0 0 10px;
-    }
-
-    .advantages__three {
-        width: 90%;
-        margin: 0 0 0 0;
-    }
-
-    .advantages__three h2 {
-        font-size: 16px;
-        letter-spacing: 1px;
-        line-height: 20px;
-        margin: 0 10px 0 0;
-    }
-
     .ice-cube__advantages-droparrow {
-        margin: 40px 0 50px 0;
+        margin: 20px 0 40px 0;
         width: 35px;
         height: 35px;
     }
@@ -1954,7 +2120,7 @@
     }
 
     .assortment-card__picture {
-        width: 300px;
+        width: 290px;
         height: 280px;
     }
 
@@ -1981,21 +2147,21 @@
     }
 
     .form__name {
-        width: 290px;
+        width: 270px;
         height: 40px;
         font-size: 20px;
         margin: 0 0 30px 0;
     }
 
     .form__phone {
-        width: 290px;
+        width: 270px;
         height: 40px;
         font-size: 20px;
         margin: 0 0 30px 0;
     }
 
     .form__message {
-        width: 290px;
+        width: 270px;
         height: 80px;
         font-size: 20px;
         margin: 0 0 30px 0;
@@ -2042,9 +2208,9 @@
     }
 
     .ice-cube__delivery-info {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 30px;
-        width: 320px;
+        width: 290px;
     }
 
     .ice-cube-delivery {
