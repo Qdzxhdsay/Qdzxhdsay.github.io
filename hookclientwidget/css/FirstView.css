@@ -7,12 +7,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-top: 2vh;
+    box-shadow: 0 5px 16px -4px var(--main-shadow-color);
 }
 
 .header-brand p{
     font-weight: bold;
+}
+
+.dropShadow{
+    transition: all ease-in 0.3s;
+    box-shadow: 0 5px 16px -4px var(--main-shadow-color);
+    z-index: 1000;
 }
 
 .choise-cards{
@@ -51,17 +56,6 @@ body{
 
 p,a{
     font-size: 1rem;
-}
-
-@media (min-width: 320px) and (max-width: 959px) {
-    p,a {
-        font-size: calc( 1rem + 16 * (100vw - 320px) / (960 - 320) );
-        line-height: calc( 120% + 3.2 * (100vw - 960px) / (320 - 960) );
-    }
-}
-
-@media (min-width: 960px) {
-    p,a { font-size: calc( 1rem + 16px ); }
 }
 
 /* Адптив для блоков */

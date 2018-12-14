@@ -23,7 +23,6 @@
     --main-shadow-color: #d6d6d6;
 }
 
-
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
@@ -72,10 +71,92 @@ button{
     font-weight: bold;
 }
 
-/*Кнопки выбора*/
+/*Выборанный мастер*/
+
+.master-picked{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.master-avatar{
+    width: 60px;
+    height: 60px;
+}
+
+.master-picked-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 40px;
+    margin: 80px 0 20px 0;
+
+    border: 1px solid var(--main-color-gray2);
+    box-shadow:  4px 4px 0 var(--main-shadow-color);
+}
+
+.master-picked-block h2{
+    width: 100%;
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.master-picked-block button {
+    display: flex;
+    padding: 0 8px 0 0;
+}
+
+.master-picked-block img {
+    width: 14px;
+    height: 14px;
+}
+
+.master-picked-card{
+    display: flex;
+
+    width: 90vw;
+    height: 60px;
+    margin: 0 0 20px 0;
+
+    border: 1px solid var(--main-color-gray2);
+    box-shadow:  4px 4px 0 var(--main-shadow-color);
+}
+
+.master-picked-card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    margin: 0 0 0 3%;
+}
+
+.master-picked-card-info p{
+    margin: 0;
+
+}
+
+.master-picked-card-info button{
+    display: flex;
+    padding: 0 10px 0 0;
+}
+
+.master-picked-card-info button img{
+    width: 13px;
+    height: 13px;
+}
+
+/*Кнопки выбора (скрыты в данном вью)*/
 
 .choise-buttons{
     margin: 80px 0 25px 0;
+    display: none;
 }
 
 .choise-buttons-list{
@@ -159,6 +240,10 @@ button{
 }
 
 /*Карточки мастеров*/
+
+.master-picked-block{
+    height: 40px;
+}
 
 .master-cards{
     margin: 10px 0 70px 0;
@@ -382,13 +467,11 @@ button{
 @media (min-width: 768px) {
 
     /* Шрифты */
-
     html{
         font-size: 24px;
     }
 
     /* Хэдэр */
-
     .header-brand{
         height: 80px;
     }
@@ -398,7 +481,6 @@ button{
     }
 
     /* Кнопки выбора */
-
     .choise-buttons {
         margin: 120px 0 40px 0;
     }
@@ -411,13 +493,19 @@ button{
     .active{
         box-shadow:  6px 6px 0 var(--main-shadow-color);
     }
-
+    .master-picked-block{
+        height: 60px;
+        box-shadow:  6px 6px 0 var(--main-shadow-color);
+    }
+    .master-picked-block img {
+        width: 18px;
+        height: 18px;
+    }
     .master-cards{
         margin: 10px 0 100px 0;
     }
 
     /* Панель поиска */
-
     .search-bar {
         height: 80px;
     }
@@ -430,7 +518,6 @@ button{
     }
 
     /* Карточки мастеров */
-
     .master-cards-wrapper{
         margin: 20px 0;
     }
@@ -453,7 +540,6 @@ button{
         width: 25px;
         height: 25px;
     }
-
 }
 
 @media (min-width: 960px) {

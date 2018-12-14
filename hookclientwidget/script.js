@@ -13,16 +13,19 @@ window.addEventListener('scroll', function() {
 const masterBlocks = document.querySelectorAll('.master-cards-wrapper');
 
 masterBlocks.forEach(function (block) {
-    let buttons = block.querySelectorAll('button.button.card-list-item-quickwrite-date');
+    let buttons = block.querySelectorAll('button.card-list-item-quickwrite-date');
     buttons.forEach(function (button) {
         button.addEventListener('click', function(event){
             let timeline = block.querySelector('.card-list-item-quickwrite-time');
-            if(timeline.classList.contains('qw')) timeline.classList.remove('qw');
-            else timeline.classList.add('qw');
+            if(timeline.classList.contains('qw')){
+                timeline.classList.remove('qw');
+            }
+            else {
+                timeline.classList.add('qw');
+            }
         })
     })
 });
-
 
 
 
