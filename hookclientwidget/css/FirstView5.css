@@ -291,6 +291,7 @@ button{
     height: 58vw;
     margin: 10px 5px;
 
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,0.14);
     background: var(--main-color-white);
 }
 
@@ -330,7 +331,6 @@ button{
     margin:0;
 }
 
-
 .master-card-info{
     display: flex;
     justify-content: center;
@@ -347,15 +347,15 @@ button{
 }
 
 .master-card-info h3{
-    font-family: 'Monceratt',sans-serif;
+    /*font-family: 'Monceratt',sans-serif;*/
     font-size: 0.875rem;
     font-weight: normal;
     margin: 8px 0;
 }
 
 .master-card-info p{
-    font-family: 'Monceratt',sans-serif;
-    font-size: 0.75rem;
+    /*font-family: 'Monceratt',sans-serif;*/
+    font-size: 0.625rem;
     margin: 0;
 
     color: var(--main-color-gray2);
@@ -366,8 +366,6 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 
     margin: 0;
 
@@ -466,7 +464,6 @@ button{
 .quick-write-dates button img{
     height: 12px;
 }
-
 
 .quick-write-bottombar{
     display: flex;
