@@ -288,7 +288,7 @@ button{
     justify-content: space-between;
     flex-direction: column;
     width: 45vw;
-    height: 58vw;
+    height: 61vw;
     margin: 10px 5px;
 
     box-shadow: 0 4px 25px 0 rgba(0,0,0,0.14);
@@ -301,7 +301,7 @@ button{
     align-items: center;
 
     width: 100%;
-    margin: 8px 0;
+    margin: 8px 0 2px 0;
 }
 
 .master-card-topbar button{
@@ -341,23 +341,26 @@ button{
 
 .master-card-info img{
     width: 40%;
-    height: 40%;
+    height: auto;
     border-radius: 50%;
 
     margin: -10px 0 0 0;
 }
 
 .master-card-info h3{
-    /*font-family: 'Monceratt',sans-serif;*/
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
+    line-height: 18px;
     font-weight: normal;
-    margin: 8px 0;
+    margin: 8px 5px 8px 5px;
+
+    text-align: center;
 }
 
 .master-card-info p{
-    /*font-family: 'Monceratt',sans-serif;*/
-    font-size: 0.625rem;
-    margin: 0;
+    font-size: 0.6875rem;
+    margin: 0 5px 8px 5px;
+
+    text-align: center;
 
     color: var(--main-color-gray2);
 }
@@ -407,7 +410,7 @@ button{
     justify-content: space-between;
     align-items: center;
 
-    margin: 12px 0 8px 0;
+    margin: 11px 0 11px 0;
 }
 
 .quick-write-topbar p{
@@ -441,7 +444,7 @@ button{
     justify-content: space-around;
     align-items: center;
 
-    height: 29vw;
+    height: 120px;
 
     overflow: auto;
 }
@@ -463,7 +466,7 @@ button{
     font-size: 0.625rem;
 
     padding: 0 5px;
-    margin: 8px 4px;
+    margin: 0 4px 8px 4px;;
 
     background: var(--main-color-gray-opacity);
     border-radius: 14px;
@@ -557,6 +560,47 @@ button{
 }
 
 /* Адптив для блоков */
+
+
+
+
+
+@media(min-width: 375px){
+    .master-card-info img{
+        width: 55%;
+    }
+
+    .quick-write-dates {
+        height: 140px;
+    }
+
+    .quick-write-dates button{
+        margin: 0 8px 6px 8px;
+    }
+}
+
+
+@media(min-width: 400px){
+    .master-card-info img{
+        width: 60%;
+    }
+
+    .quick-write-dates {
+        height: 160px;
+    }
+
+    .quick-write-dates button{
+        margin: 0 8px 6px 8px;
+    }
+}
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
 
