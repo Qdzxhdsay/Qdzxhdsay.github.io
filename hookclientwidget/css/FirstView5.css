@@ -426,7 +426,8 @@ button{
 
 
 .gg{
-    background: grey !important; ;
+    background: grey !important;
+    color: white;
 }
 
 .quick-write-dates{
