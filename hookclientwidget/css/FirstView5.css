@@ -306,6 +306,7 @@ button{
 
 .master-card-topbar button{
     padding: 0 0 0 15px;
+    visibility: hidden;
 }
 
 .rating{
@@ -428,6 +429,10 @@ button{
 .gg{
     background: grey !important;
     color: white;
+}
+
+.choised{
+    visibility: visible !important;
 }
 
 .quick-write-dates{
