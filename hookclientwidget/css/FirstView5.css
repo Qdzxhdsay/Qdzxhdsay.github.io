@@ -19,6 +19,7 @@
 
     --main-color-gray2: #b2b2b2;
     --main-color-gray: #ececec;
+    --main-color-gray-opacity:rgba(236,236,236,0.5);
 
     --main-shadow-color: #d6d6d6;
 }
@@ -74,7 +75,7 @@ button{
 /*Выборанный мастер*/
 
 .master-picked{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -152,11 +153,34 @@ button{
     height: 13px;
 }
 
+.master-picked-card-quick-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.master-picked-quick-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 0 0;
+}
+
+.master-picked-quick-time p{
+    display: flex;
+
+    margin: 0 10px 0 0;
+}
+
+.master-picked-quick-time p img{
+    margin: 0 5px 0 0;
+}
+
 /*Кнопки выбора (скрыты в данном вью)*/
 
 .choise-buttons{
     margin: 80px 0 25px 0;
-    display: none;
+
 }
 
 .choise-buttons-list{
@@ -246,166 +270,231 @@ button{
 }
 
 .master-cards{
-    margin: 10px 0 70px 0;
-}
-
-.card-list-item-addbutton{
     display: flex;
-    padding: 0 10px 0 10px;
-    border: none;
+
+    padding:10px 0 70px 0;
+
+    background: var(--main-color-gray-opacity);
 }
 
-.card-list-item-addbutton img{
-    width: 25px;
-    height: 25px;
-}
-
-.card-list{
+.master-cards-wrapper{
     display: flex;
     justify-content: center;
-
-    padding: 0;
-    margin: 0;
-
-    list-style-type: none;
+    flex-wrap: wrap;
 }
 
-.card-list-item{
+.master-cards-container{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 45vw;
+    height: 58vw;
+    margin: 10px 5px;
 
-    border-left: 0.5px solid var(--main-color-gray2);
+    background: var(--main-color-white);
 }
 
-.card-list-item-user{
+.master-card-topbar{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    width: 90vw;
+    width: 100%;
+    margin: 8px 0;
 }
 
-.card-list-item-info{
+.master-card-topbar button{
+    padding: 0 0 0 15px;
+}
+
+.rating{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    margin: 0;
+    width: 40px;
+    height: 22px;
+    margin: 0 8px 0 0;
+
+    background: var(--main-color-gray-opacity);
+    border-radius: 14px;
+
 }
 
-.card-list-item-avatar{
-    width: 65px;
-    height: 65px;
-
-    box-shadow: 4px 4px 0 var(--main-shadow-color);
+.rating img{
+    margin: 0 1px 2px 0;
 }
 
-.card-list-item-name{
-    font-size: 1rem;
-
-    margin: 0;
-}
-
-.card-list-item-specialisation{
-    margin: 8px 0 5px 0;
+.rating p{
     font-size: 0.75rem;
-
-    color: var(--main-color-black);
+    margin:0;
 }
 
-.card-list-item-quickwrite{
+
+.master-card-info{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
-    width: 90vw;
-
-    margin: 10px 0 0 10px;
+    flex-direction: column;
 }
 
-.card-list-item-quickwrite-headline{
-    margin: 0;
+.master-card-info img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
 
+    margin: -10px 0 0 0;
+}
+
+.master-card-info h3{
+    font-family: 'Monceratt',sans-serif;
     font-size: 0.875rem;
+    font-weight: normal;
+    margin: 8px 0;
 }
 
-.card-list-item-quickwrite-date{
-    display: flex;
-
-    padding: 4px 8px;
-    margin: 0 5px;
-
+.master-card-info p{
+    font-family: 'Monceratt',sans-serif;
     font-size: 0.75rem;
+    margin: 0;
 
-    border: 1px solid var(--main-color-gray2);
-    box-shadow:  3px 3px 0 var(--main-shadow-color);
+    color: var(--main-color-gray2);
 }
 
-.card-list-item-quickwrite-time{
+
+.master-card-bottombar{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    width: 90vw;
-    margin: 20px 0 0 10px;
 
-    transition: all ease-in 0.3s;
+
+    margin: 0;
+
+    border-top: 1px solid var(--main-color-gray);
 }
 
-.card-list-item-quickwrite-time button{
-    display: flex;
-    padding: 0;
-    height: 14px;
-}
-
-.card-list-item-quickwrite-time img{
-    height: 14px;
-}
-
-.qw{
-    display: none;
-}
-
-.card-list-item-quickwrite-time a{
-    font-size: 0.875rem;
-
-    color: var(--main-color-black);
-}
-
-.master-cards{
+.master-card-bottombar button{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
+    width: 40px;
+    height: 22px;
+
+    font-size: 0.625rem;
+
+    padding: 0 5px;
+    margin: 10px 0;
+
+    background: var(--main-color-gray-opacity);
+    border-radius: 14px;
 }
 
-.master-cards-wrapper{
-    border-left: 1px solid var(--main-color-gray2);
-    margin: 18px 0;
-}
 
-.master-cards-info-avatar{
-    display: flex;
-    align-items: center;
-}
 
-.master-cards-info-text{
-    margin: 0 0 0 15px;
-}
 
-.master-cards-info{
-    display: flex;
+
+
+
+
+
+
+
+
+
+.quick-write-topbar{
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
-    margin: 0 0 0 10px;
+
+    margin: 12px 0 8px 0;
 }
 
-.card-list-item-quickwrite-dates{
-    display: flex;
+.quick-write-topbar p{
+    font-size: 0.75rem;
+    margin: 0 0 0 8px;
 }
+
+
+.quick-write-topbar button{
+    display: flex;
+
+}
+
+.quick-write-topbar button img{
+    height: 11px;
+}
+
+
+
+
+.quick-write-dates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 29vw;
+
+    overflow: auto;
+}
+
+.quick-write-dates p{
+    font-size: 0.75rem;
+    margin: 0 0 0 8px;
+}
+
+
+.quick-write-dates button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 22px;
+
+    font-size: 0.625rem;
+
+    padding: 0 5px;
+    margin: 8px 4px;
+
+    background: var(--main-color-gray-opacity);
+    border-radius: 14px;
+}
+
+.quick-write-dates button img{
+    height: 12px;
+}
+
+
+.quick-write-bottombar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0;
+
+    border-top: 1px solid var(--main-color-gray);
+}
+
+.quick-write-bottombar button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 22px;
+
+    font-size: 0.625rem;
+
+    padding: 0 5px;
+    margin: 10px 4px;
+
+    background: var(--main-color-gray-opacity);
+    border-radius: 14px;
+}
+
 
 /*Нижнее меню*/
 
