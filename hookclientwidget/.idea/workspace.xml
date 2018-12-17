@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstView2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstView2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstView3.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstView3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstView4.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstView4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstView5.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstView5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/FirstView4.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/FirstView4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/FirstView5.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/FirstView5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/master2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/master2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2018-12-05 16.23.51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/master1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/master2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/master3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/master3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/master4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/master4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/master5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/master5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/master6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/master6.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FirstView5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="81" column="59" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
+            <state relative-caret-position="468">
+              <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
               <folding>
                 <element signature="n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -44,19 +50,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FirstView4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FirstView3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="314" column="73" selection-start-line="314" selection-start-column="73" selection-end-line="314" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FirstView2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FirstView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/FirstView5.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
+            <state relative-caret-position="-4089">
               <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/FirstView4.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+            <state relative-caret-position="-438">
+              <caret line="174" column="1" lean-forward="true" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -81,14 +123,14 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/FirstView.html" />
-        <option value="$PROJECT_DIR$/FirstView4.html" />
-        <option value="$PROJECT_DIR$/FirstView3.html" />
         <option value="$PROJECT_DIR$/css/FirstView3.css" />
         <option value="$PROJECT_DIR$/css/FirstView2.css" />
-        <option value="$PROJECT_DIR$/FirstView2.html" />
-        <option value="$PROJECT_DIR$/FirstView5.html" />
         <option value="$PROJECT_DIR$/css/FirstView5.css" />
         <option value="$PROJECT_DIR$/css/FirstView4.css" />
+        <option value="$PROJECT_DIR$/FirstView2.html" />
+        <option value="$PROJECT_DIR$/FirstView3.html" />
+        <option value="$PROJECT_DIR$/FirstView4.html" />
+        <option value="$PROJECT_DIR$/FirstView5.html" />
       </list>
     </option>
   </component>
@@ -167,12 +209,12 @@
       <workItem from="1544952342076" duration="574000" />
       <workItem from="1544956522450" duration="14380000" />
       <workItem from="1545042967241" duration="6000" />
-      <workItem from="1545048706041" duration="3971000" />
+      <workItem from="1545048706041" duration="5071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27202000" />
+    <option name="totallyTimeSpent" value="28302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -204,24 +246,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.css" />
-    <entry file="file://$PROJECT_DIR$/FirstView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/FirstView.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstView2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7167">
-          <caret line="543" column="36" lean-forward="true" selection-start-line="543" selection-start-column="36" selection-end-line="543" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -239,24 +267,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/FirstView4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="174" column="1" lean-forward="true" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/FirstView5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4089">
+          <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstView2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FirstView3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="534" column="25" selection-start-line="534" selection-start-column="25" selection-end-line="534" selection-end-column="25" />
+        <state relative-caret-position="435">
+          <caret line="314" column="73" selection-start-line="314" selection-start-column="73" selection-end-line="314" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FirstView4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="574" column="56" selection-start-line="574" selection-end-line="574" selection-end-column="56" />
+        <state relative-caret-position="291">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FirstView5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="81" column="59" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
+        <state relative-caret-position="468">
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
           <folding>
             <element signature="n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -275,20 +331,6 @@
             <element signature="n#div#2;n#div#3;n#div#0;n#section#1;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/FirstView5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/FirstView4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
         </state>
       </provider>
     </entry>
