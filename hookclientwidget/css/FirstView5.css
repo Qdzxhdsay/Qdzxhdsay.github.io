@@ -17,7 +17,7 @@
     --main-color-white: #fff;
     --main-color-black: #333333;
 
-    choise: #b2b2b2;
+    --main-color-gray2: #b2b2b2;
     --main-color-gray: #ececec;
     --main-color-gray-opacity:rgba(236,236,236,0.5);
 
@@ -431,7 +431,7 @@ button{
     color: white;
 }
 
-.choised{
+.hh{
     visibility: visible !important;
 }
 

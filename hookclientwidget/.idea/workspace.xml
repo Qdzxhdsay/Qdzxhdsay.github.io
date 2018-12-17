@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstView5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="73" column="46" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="46" />
+            <state relative-caret-position="474">
+              <caret line="114" column="55" lean-forward="true" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
               <folding>
                 <element signature="n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -44,8 +44,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/FirstView5.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="434" column="35" selection-start-line="434" selection-start-column="35" selection-end-line="434" selection-end-column="35" />
+            <state relative-caret-position="209">
+              <caret line="428" selection-start-line="428" selection-end-line="436" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/FirstView4.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -154,12 +163,12 @@
       <workItem from="1544951686663" duration="43000" />
       <workItem from="1544951788602" duration="394000" />
       <workItem from="1544952342076" duration="574000" />
-      <workItem from="1544956522450" duration="13683000" />
+      <workItem from="1544956522450" duration="14025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22528000" />
+    <option name="totallyTimeSpent" value="22870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -233,13 +242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/FirstView4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstView4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
@@ -249,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FirstView5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="73" column="46" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="46" />
+        <state relative-caret-position="474">
+          <caret line="114" column="55" lean-forward="true" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
           <folding>
             <element signature="n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -273,10 +275,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/FirstView4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/FirstView5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="434" column="35" selection-start-line="434" selection-start-column="35" selection-end-line="434" selection-end-column="35" />
+        <state relative-caret-position="209">
+          <caret line="428" selection-start-line="428" selection-end-line="436" />
         </state>
       </provider>
     </entry>
