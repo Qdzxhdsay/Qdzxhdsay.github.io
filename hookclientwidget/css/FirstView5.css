@@ -17,7 +17,7 @@
     --main-color-white: #fff;
     --main-color-black: #333333;
 
-    --main-color-gray2: #b2b2b2;
+    choise: #b2b2b2;
     --main-color-gray: #ececec;
     --main-color-gray-opacity:rgba(236,236,236,0.5);
 
@@ -425,7 +425,9 @@ button{
 }
 
 
-
+.gg{
+    background: grey !important; ;
+}
 
 .quick-write-dates{
     display: flex;
