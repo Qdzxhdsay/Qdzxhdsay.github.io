@@ -167,7 +167,7 @@ button{
 
 .master-picked-quick-time p{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 
     font-size: 0.75rem;
 
