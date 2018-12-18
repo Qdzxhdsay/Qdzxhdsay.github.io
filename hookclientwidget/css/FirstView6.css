@@ -75,7 +75,7 @@ button{
 /*Выборанный мастер*/
 
 .master-picked{
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@ button{
     font-size: 1rem;
     font-weight: normal;
     text-align: center;
-    text-transform: uppercase;
+
 }
 
 .master-picked-block button {
@@ -180,6 +180,7 @@ button{
 
 .choise-buttons{
     margin: 80px 0 25px 0;
+    display: none;
 
 }
 
