@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstView5.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstView5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/FirstView3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/FirstView3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/FirstView5.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/FirstView5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pickmasterbutton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/pickmasterbutton.svg" afterDir="false" />
-    </list>
+    <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,29 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FirstView6.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-              <folding>
-                <element signature="n#section#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/FirstView6.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +23,7 @@
     <findStrings>
       <find>button</find>
       <find>quick</find>
+      <find>h2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,16 +125,15 @@
       <workItem from="1544956522450" duration="14380000" />
       <workItem from="1545042967241" duration="6000" />
       <workItem from="1545048706041" duration="5691000" />
-      <workItem from="1545119736073" duration="2047000" />
+      <workItem from="1545119736073" duration="2191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30969000" />
+    <option name="totallyTimeSpent" value="31113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11980831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -313,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/FirstView6.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+        <state relative-caret-position="662">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
