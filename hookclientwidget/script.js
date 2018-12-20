@@ -30,3 +30,19 @@ masterBlocks.forEach(function (block) {
 
 
 
+
+
+
+
+
+
+let profileBar = document.getElementsByClassName('profile-bar')[0];
+
+
+window.addEventListener('scroll', function() {
+    if(window.pageYOffset>0){
+        profileBar.classList.add('dropShadow');
+    }else{
+        profileBar.classList.remove('dropShadow');
+    }
+});
