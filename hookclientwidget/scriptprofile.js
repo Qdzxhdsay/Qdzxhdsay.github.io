@@ -3,7 +3,7 @@ let profileCard = document.getElementsByClassName('profile-card')[0];
 let profileName = document.getElementsByClassName('profile-bar-name')[0];
 
 window.addEventListener('scroll', function() {
-    if(window.pageYOffset>330){
+    if(window.pageYOffset>280){
         profileBar.classList.add('dropShadow');
         profileName.classList.add('vs');
         profileCard.classList.add('vm');
