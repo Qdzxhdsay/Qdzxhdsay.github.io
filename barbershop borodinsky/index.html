@@ -97,7 +97,7 @@
     <section class="appointment">
         <h2 class="appointment-headline">Записаться</h2>
         <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-        <form class="appointment-form" action="" method="post">
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
             <p class="appointment-date">
                 <label for="appointment-date">Дата</label>
                 <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2018">
@@ -141,7 +141,7 @@
 <section class="modal modal-login">
     <h2 class="modal-login-headline">Личный кабинет</h2>
     <p>Введите логин и пароль</p>
-    <form action="" class="login-form" method="post">
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
         <p>
             <label for="user-login" class="visually-hidden">Логин</label>
             <input id="user-login" type="text" name="login" placeholder="Логин">
@@ -150,13 +150,26 @@
             <label for="user-password" class="visually-hidden">Пароль</label>
             <input id="user-password" type="password" name="password" placeholder="Пароль">
         </p>
+        <p class="login-password-info">
+
+            <label for="login-password-info" class="visually-hidden">
+                <input type="checkbox" name="remember" class="visually-hidden" id="login-password-info">
+                <span class="checkbox-indicator"></span>
+            </label>
+            <a class="restore" href="#">Восстановить пароль</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
     </form>
-    <button class="modal-close">x</button>
+    <button class="modal-close" type="button">x</button>
 </section>
 
 <section class="modal modal-map">
-    <h2 class="visually-hidden">Как до нас добраться?</h2>password
-    <span class="modal-close">x</span>
+    <h2 class="visually-hidden">Как до нас добраться?</h2>
+    <p>
+        <img src="img/map.png" width="780" height="560"
+             alt="Оффис компании по адресу ул. Большая Коннюшенная 19/8, Санкт-Петербург">
+    </p>
+    <button class="modal-close" type="button">x</button>
 </section>
 </body>
 </html>

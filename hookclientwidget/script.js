@@ -36,6 +36,7 @@ masterBlocks.forEach(function (block) {
 
 
 
+/*
 let profileBar = document.getElementsByClassName('profile-bar')[0];
 
 
@@ -46,3 +47,4 @@ window.addEventListener('scroll', function() {
         profileBar.classList.remove('dropShadow');
     }
 });
+*/
