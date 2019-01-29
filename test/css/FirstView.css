@@ -23,12 +23,16 @@
     --main-color-gray-opacity:rgba(236,236,236,0.5);
 
     --main-shadow-color: #d6d6d6;
+
+    --main-bg-color: #ECE9E7;
+    --search-bar-color: #F2F2F2;
 }
 
 
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+    background-color: var(--main-bg-color);
 }
 
 button{
@@ -50,9 +54,9 @@ button{
 
     position: fixed;
     width: 100vw;
-    height: 60px;
+    height: 50px;
 
-    background: white;
+
     z-index: 99;
 
     transition: all ease-in 0.3s;
@@ -61,31 +65,70 @@ button{
 .dropShadow{
     transition: all ease-in 0.3s;
     box-shadow: 0 5px 16px -4px var(--main-shadow-color);
-
+    background-color: white;
     z-index: 1000;
 }
 
 .header-brand img{
     width: 35px;
     height: 35px;
+    margin: 0 0 0 10px;
 }
 
 .header-brand p{
     font-weight: bold;
 }
 
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 60px 0 0 0;
+}
+
+.main-block{
+    margin: -30px 0 0 0;
+}
+
+.main-block-triangleCap{
+    width: 100%;
+    height: auto;
+    fill: white;
+}
+
+.top-block-triangleCap{
+    width: 90%;
+    height: auto;
+    fill: #F2F2F2;
+}
+
+.top-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+}
+
+.top-block-content{
+    width: 90%;
+    background-color: #F2F2F2;
+    height: 20px;
+}
+
 /*Кнопки выбора*/
 
 .choise-buttons{
-    margin: 70px 0 25px 0;
+    background-color: white;
 }
 
 .choise-buttons-list{
     display: flex;
     justify-content: space-around;
 
-    padding: 0;
-    margin: 0;
+    padding: 10px 0 20px 0;
+    margin: -7px 0 0 0;
     list-style-type: none;
 }
 
@@ -94,10 +137,8 @@ button{
     justify-content: center;
     align-items: center;
 
-    width: 38vw;
-    height: 32px;
-
-    padding: 0;
+    width: 24vw;
+    padding: 0 0 10px 0;
     margin: 0;
 
     background: var(--main-color-white);
@@ -108,19 +149,25 @@ button{
 }
 
 .choise-buttons-item:active{
-    background-color: var(--main-color-black);
-    color: var(--main-color-white);
+
 }
 
 .choise-buttons-item:focus{
-    border: 1px solid var(--main-color-gray2);
-    box-shadow:  4px 4px 0 var(--main-shadow-color);
+
 }
 
 .active{
-    border: 1px solid var(--main-color-gray2);
-    box-shadow:  4px 4px 0 var(--main-shadow-color);
+
 }
+
+.choise-buttons-subline{
+    height: 3px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #F3CFC2;
+    border: none;
+}
+
 
 /*Панель поиска мастера*/
 
@@ -128,17 +175,18 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 95vw;
 
-    height: 50px;
+    height: 40px;
 
-    background-color: var(--main-color-gray);
+    background-color: var(--search-bar-color);
 }
 
 .search-input{
     display: flex;
     justify-content: flex-start;
 
-    width: 95vw;
+    width: 95%;
 }
 
 .search-input input{
@@ -153,7 +201,7 @@ button{
 }
 
 .search-input button img{
-    width: 18px;
+    width: 14px;
 }
 
 .choise-bar p{
@@ -170,6 +218,8 @@ button{
     font-size: 0.75rem;
 }
 
+
+
 /*Карточки мастеров*/
 
 .master-cards{
@@ -177,17 +227,17 @@ button{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
 
-    margin: 10px 0 70px 0;
+    padding: 10px 0 70px 0;
 }
 
 .master-cards-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95vw;
+    width: 92vw;
 
-    border-left: 1px solid var(--main-color-gray2);
     margin: 18px 0;
 }
 
@@ -241,8 +291,8 @@ button{
 }
 
 .card-list-item-avatar{
-    width: 22%;
-    margin: 0 3%;
+    width: 23%;
+    margin: 0 3% 0 0;
 
     box-shadow: 4px 4px 0 var(--main-shadow-color);
 }
@@ -272,9 +322,7 @@ button{
     align-items: center;
 
     margin: 0 0 0 4px;
-
-    width: 40px;
-    height: 22px;
+    padding: 6px 9px;
 
     background: var(--main-color-gray-opacity);
     border-radius: 14px;
@@ -282,6 +330,8 @@ button{
 }
 
 .rating img{
+    width: 8px;
+    height: 8px;
     margin: 0 1px 2px 0;
 }
 
@@ -290,7 +340,6 @@ button{
 
     margin:0;
 }
-
 
 .card-list-item-quickwrite{
     display: flex;
@@ -308,7 +357,7 @@ button{
 .card-list-item-quickwrite-date{
     display: flex;
 
-    padding: 4px 8px;
+    padding: 6px 8px 4px 8px;
     margin: 0 5px;
 
     font-size: 0.625rem;
@@ -351,7 +400,7 @@ button{
 }
 
 .card-list-item-quickwrite-time a{
-    font-size: 0.875rem;
+    font-size: 0.75rem;
 
     color: var(--main-color-black);
 }
@@ -368,13 +417,15 @@ button{
     align-items: center;
 
     background-color: var(--main-color-white);
-    width: 100vw;
+
     height: 55px;
     color: var(--main-color-black);
     position: fixed;
-    left: 0;
+
     bottom: 0;
     z-index: 1000;
+
+    border-radius: 8px 8px 0 0;
 
     box-shadow: 0 -5px 16px -4px var(--main-shadow-color);
 }
@@ -383,7 +434,7 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 95vw;
 
     list-style-type: none;
     margin: 0;
@@ -426,16 +477,22 @@ button{
     .card-list-item-addbutton img{
         width: 18px;
     }
+   /* .main-block {
+        margin: -32px 0 0 0;
+    }*/
 }
 
 
-@media(min-width: 400px){
+@media(min-width:400px){
     html{
         font-size: 20px;
     }
     .card-list-item-addbutton img{
         width: 20px;
     }
+ /*   .main-block {
+        margin: -33px 0 0 0;
+    }*/
 }
 
 
@@ -443,7 +500,6 @@ button{
 
 
 @media (min-width: 768px) {
-
     /* Шрифты */
 
     html{
@@ -455,44 +511,39 @@ button{
     .header-brand{
         height: 80px;
     }
-    .header-brand img {
-        width: 65px;
-        height: 65px;
+
+    .main-block {
+        margin: -45px 0 0 0;
     }
 
     /* Кнопки выбора */
 
-    .choise-buttons {
-        margin: 120px 0 40px 0;
+    .choise-buttons-item {
+        width: 22vw;
     }
-    .choise-buttons-item{
-        height: 56px;
-    }
-    .choise-buttons-item:focus{
-        box-shadow:  6px 6px 0 var(--main-shadow-color);
-    }
-    .active{
-        box-shadow:  6px 6px 0 var(--main-shadow-color);
-    }
-
-    .master-cards{
-        margin: 10px 0 100px 0;
+    .choise-buttons-list {
+        padding: 10px 0 30px 0;
     }
 
     /* Панель поиска */
 
     .search-bar {
-        height: 80px;
+        height: 65px;
     }
     .search-input input{
         width: 60vw;
     }
-    .search-input img{
-        width: 35px;
-        height: 35px;
+    .search-input button img {
+        width: 20px;
     }
 
     /* Карточки мастеров */
+
+    .card-list-item-avatar {
+        width: 18%;
+    }
+
+    /* Футер */
 
     .main-footer{
         height: 80px;
@@ -508,14 +559,5 @@ button{
     }
 
 }
-
-@media (min-width: 960px) {
-
-}
-
-@media (min-width: 1200px) {
-
-}
-
 
 
