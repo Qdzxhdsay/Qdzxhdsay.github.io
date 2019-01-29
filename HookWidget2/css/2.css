@@ -140,8 +140,8 @@ button{
 .master-avatar{
     width: auto;
     height: 60%;
-
-    border-radius:50%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 0 var(--main-shadow-color);
 }
 
 .master-picked-card-info{
@@ -604,6 +604,19 @@ button{
     .main-block {
         margin: -45px 0 0 0;
     }
+
+
+    .master-picked-card {
+        padding: 0 0 30px 0;
+    }
+
+    .master-avatar{
+        width: auto;
+        height: 80%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 0 var(--main-shadow-color);
+    }
+
 
     /* Кнопки выбора */
 
