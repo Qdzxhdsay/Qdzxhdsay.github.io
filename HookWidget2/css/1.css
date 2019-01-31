@@ -24,10 +24,9 @@
 
     --main-shadow-color: #d6d6d6;
 
-    --main-bg-color: #ECE9E7;
-    --search-bar-color: #F2F2F2;
+    --main-bg-color: #ece9e7;
+    --light-coral-chocolate: #f2f2f2;
 }
-
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -79,6 +78,34 @@ button{
     font-weight: bold;
 }
 
+/*Мэйн обертка-подложка с свг капом + топ блок с  свг капом */
+
+.top-block-triangleCap{
+    width: 90%;
+    height: auto;
+
+    fill: var(--light-coral-chocolate);
+}
+
+.top-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 95vw;
+}
+
+.top-block-content{
+    display: flex;
+    justify-content: center;
+
+    width: 90%;
+    height: 20px;
+
+    background-color: var(--light-coral-chocolate);
+}
+
 .main-container{
     display: flex;
     flex-direction: column;
@@ -94,27 +121,78 @@ button{
 .main-block-triangleCap{
     width: 100%;
     height: auto;
+
     fill: white;
 }
 
-.top-block-triangleCap{
+/*Карточка пикнутого мастера + данные при клике из быстрой записи*/
+
+.master-picked-card{
+    display: flex;
+
     width: 90%;
-    height: auto;
-    fill: #F2F2F2;
+    height: 60px;
+
+    padding: 0 0 10px 0;
 }
 
-.top-block{
+.master-avatar{
+    width: auto;
+    height: 60%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 0 var(--main-shadow-color);
+}
+
+.master-picked-card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+
+    margin: 0 0 0 5%;
+}
+
+.master-picked-card-info p{
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.master-picked-card-info button{
+    padding: 0;
+}
+
+.master-picked-card-info button img{
+    width: 10px;
+    height: 10px;
+}
+
+.master-picked-card-quick-info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 95vw;
 }
 
-.top-block-content{
-    width: 90%;
-    background-color: #F2F2F2;
-    height: 20px;
+.master-picked-quick-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5px 0 0 0;
+}
+
+.master-picked-quick-time p{
+    display: flex;
+    align-items: center;
+
+    font-size: 0.625rem;
+
+    margin: 0 10px 0 0;
+}
+
+.master-picked-quick-time p img{
+    width: 13px;
+    height: 13px;
+
+    margin: 0 3px 0 0;
 }
 
 /*Кнопки выбора*/
@@ -168,7 +246,6 @@ button{
     border: none;
 }
 
-
 /*Панель поиска мастера*/
 
 .search-bar{
@@ -179,7 +256,7 @@ button{
 
     height: 40px;
 
-    background-color: var(--search-bar-color);
+    background-color: var(--light-coral-chocolate);
 }
 
 .search-input{
@@ -218,8 +295,6 @@ button{
     font-size: 0.75rem;
 }
 
-
-
 /*Карточки мастеров*/
 
 .master-cards{
@@ -236,9 +311,9 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 92vw;
+    width: 90vw;
 
-    margin: 18px 0;
+    margin: 15px 0;
 }
 
 .master-cards-info-text{
@@ -291,8 +366,10 @@ button{
 }
 
 .card-list-item-avatar{
-    width: 23%;
+    width: 22%;
     margin: 0 3% 0 0;
+
+    border-radius: 5px;
 
     box-shadow: 4px 4px 0 var(--main-shadow-color);
 }
@@ -310,7 +387,7 @@ button{
 .card-list-item-specialisation{
     display: flex;
     align-items: center;
-    margin: 2% 0;
+    margin: 10px 0 6px 0;
     font-size: 0.75rem;
 
     color: var(--main-color-graystrong);
@@ -322,11 +399,8 @@ button{
     align-items: center;
 
     margin: 0 0 0 4px;
-    padding: 6px 9px;
 
-    background: var(--main-color-gray-opacity);
     border-radius: 14px;
-
 }
 
 .rating img{
@@ -345,6 +419,7 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     width: 100%;
 }
 
@@ -387,8 +462,10 @@ button{
 
 .card-list-item-quickwrite-time button{
     display: flex;
-    padding: 0;
+
     height: 14px;
+    padding: 0;
+
 }
 
 .card-list-item-quickwrite-time img{
@@ -416,16 +493,17 @@ button{
     justify-content: center;
     align-items: center;
 
-    background-color: var(--main-color-white);
-
     height: 55px;
-    color: var(--main-color-black);
+
     position: fixed;
 
     bottom: 0;
     z-index: 1000;
 
     border-radius: 8px 8px 0 0;
+    background-color: var(--main-color-white);
+
+    color: var(--main-color-black);
 
     box-shadow: 0 -5px 16px -4px var(--main-shadow-color);
 }
@@ -434,11 +512,13 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     width: 95vw;
 
-    list-style-type: none;
     margin: 0;
     padding: 0;
+
+    list-style-type: none;
 }
 
 .mobileNavbar li{
@@ -446,9 +526,11 @@ button{
     flex-direction: column;
     justify-content: center;
 
-    text-align: center;
-    margin: 0;
     width: auto;
+
+    margin: 0;
+
+    text-align: center;
 }
 
 .mobileNavbar li a{
@@ -457,49 +539,54 @@ button{
     flex-direction: column;
     text-decoration: none;
 
-    color: var(--main-color-black);
-    font-size: 0.625rem;
     margin: 0;
+
+    font-size: 0.625rem;
+
+    color: var(--main-color-black);
 }
 
 .mobileNavbar li img{
     margin: 0 0 5px 0;
 }
 
-
-
-
+/*Media запросы*/
 
 @media(min-width: 375px){
+
+    /* Шрифты */
+
     html{
         font-size: 18px;
     }
     .card-list-item-addbutton img{
         width: 18px;
     }
-   /* .main-block {
-        margin: -32px 0 0 0;
-    }*/
+    .master-picked-card-info button img {
+        width: 11px;
+        height: 11px;
+    }
 }
 
-
 @media(min-width:400px){
+
+    /* Шрифты */
+
     html{
         font-size: 20px;
     }
+
     .card-list-item-addbutton img{
         width: 20px;
     }
- /*   .main-block {
-        margin: -33px 0 0 0;
-    }*/
+    .master-picked-card-info button img {
+        width: 13px;
+        height: 13px;
+    }
 }
 
-
-
-
-
 @media (min-width: 768px) {
+
     /* Шрифты */
 
     html{
@@ -514,6 +601,18 @@ button{
 
     .main-block {
         margin: -45px 0 0 0;
+    }
+
+    .master-picked-card {
+        padding: 0 0 30px 0;
+    }
+
+    .master-avatar{
+        width: auto;
+        height: 80%;
+
+        border-radius: 5px;
+        box-shadow: 3px 3px 0 var(--main-shadow-color);
     }
 
     /* Кнопки выбора */
@@ -560,4 +659,66 @@ button{
 
 }
 
+@media (min-width: 1024px){
+    /* Шрифты */
 
+    html{
+        font-size: 28px;
+    }
+
+    .main-block {
+        margin: -65px 0 0 0;
+    }
+
+    .master-picked-card {
+        padding: 0 0 60px 0;
+    }
+}
+
+@media (min-width: 1440px){
+    /* Шрифты */
+
+    html{
+        font-size: 28px;
+    }
+
+    .main-block {
+        margin: -65px 0 0 0;
+    }
+
+    .master-picked-card {
+        padding: 0 0 60px 0;
+    }
+}
+
+@media (min-width: 1600px){
+    /* Шрифты */
+
+    html{
+        font-size: 28px;
+    }
+
+    .main-block {
+        margin: -75px 0 0 0;
+    }
+
+    .master-picked-card {
+        padding: 0 0 70px 0;
+    }
+}
+
+@media (min-width: 1920px){
+    /* Шрифты */
+
+    html{
+        font-size: 28px;
+    }
+
+    .main-block {
+        margin: -85px 0 0 0;
+    }
+
+    .master-picked-card {
+        padding: 0 0 80px 0;
+    }
+}
