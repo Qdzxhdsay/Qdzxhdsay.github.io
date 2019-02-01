@@ -599,6 +599,10 @@ button{
         height: 80px;
     }
 
+    .main-header {
+        margin: 0 0 90px 0;
+    }
+
     .main-block {
         margin: -45px 0 0 0;
     }
@@ -721,4 +725,16 @@ button{
     .master-picked-card {
         padding: 0 0 80px 0;
     }
+}
+
+@media (min-width: 2560px){
+
+    .main-block {
+        margin: -107px 0 0 0;
+    }
+
+    .master-picked-card {
+        padding: 0 0 90px 0;
+    }
+
 }

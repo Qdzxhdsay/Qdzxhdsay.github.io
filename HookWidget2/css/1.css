@@ -82,7 +82,7 @@ button{
 /*Мэйн обертка-подложка с свг капом + топ блок с  свг капом */
 
 .top-block-triangleCap{
-    width: 90%;
+    width: 100%;
     height: auto;
 
     fill: var(--light-coral-chocolate);
@@ -94,14 +94,14 @@ button{
     justify-content: center;
     align-items: center;
 
-    width: 90vw;
+    width: 80vw;
 }
 
 .top-block-content{
     display: flex;
     justify-content: center;
 
-    width: 90%;
+    width: 100%;
     height: 20px;
 
     background-color: var(--light-coral-chocolate);
@@ -598,6 +598,10 @@ button{
         height: 80px;
     }
 
+    .main-header {
+        margin: 0 0 90px 0;
+    }
+
     .main-block {
         margin: -45px 0 0 0;
     }
@@ -659,11 +663,6 @@ button{
 }
 
 @media (min-width: 1024px){
-    /* Шрифты */
-
-    html{
-        font-size: 28px;
-    }
 
     .main-block {
         margin: -65px 0 0 0;
@@ -675,11 +674,6 @@ button{
 }
 
 @media (min-width: 1440px){
-    /* Шрифты */
-
-    html{
-        font-size: 28px;
-    }
 
     .main-block {
         margin: -65px 0 0 0;
@@ -691,11 +685,6 @@ button{
 }
 
 @media (min-width: 1600px){
-    /* Шрифты */
-
-    html{
-        font-size: 28px;
-    }
 
     .main-block {
         margin: -75px 0 0 0;
@@ -707,11 +696,6 @@ button{
 }
 
 @media (min-width: 1920px){
-    /* Шрифты */
-
-    html{
-        font-size: 28px;
-    }
 
     .main-block {
         margin: -85px 0 0 0;
@@ -720,4 +704,16 @@ button{
     .master-picked-card {
         padding: 0 0 80px 0;
     }
+}
+
+@media (min-width: 2560px){
+
+    .main-block {
+        margin: -107px 0 0 0;
+    }
+
+    .master-picked-card {
+        padding: 0 0 90px 0;
+    }
+
 }
