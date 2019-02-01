@@ -83,7 +83,7 @@ button{
 /*Мэйн обертка-подложка с свг капом + топ блок с  свг капом */
 
 .top-block-triangleCap{
-    width: 90%;
+    width: 100%;
     height: auto;
 
     fill: var(--light-coral-chocolate);
@@ -95,14 +95,14 @@ button{
     justify-content: center;
     align-items: center;
 
-    width: 90vw;
+    width: 80vw;
 }
 
 .top-block-content{
     display: flex;
     justify-content: center;
 
-    width: 90%;
+    width: 100%;
 
     background-color: var(--light-coral-chocolate);
 }
