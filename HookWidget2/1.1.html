@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вьюха 1, состояние - до выбора мастера</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/1.1.css">
+</head>
+<body>
+<header class="main-header">
+    <h1 class="visually-hidden">Виджет онлайн записи</h1>
+    <section class="header-brand">
+        <p>Your Co</p>
+        <img src="img/circleimg.svg" alt="Логотип Компании">
+    </section>
+</header>
+
+<main class="main-container">
+    <section class="top-block">
+        <svg class="top-block-triangleCap" xmlns="http://www.w3.org/2000/svg" width="294" height="24" viewBox="0 0 294 24" fill="none">
+            <path d="M15.6766 0.707853L283.161 12.7857C289.176 13.0573 293.933 17.9787 294 24L0 24V15.6926C0 7.14274 7.13547 0.322191 15.6766 0.707853Z" fill="inherit"/>
+        </svg>
+        <div class="top-block-content"></div>
+    </section>
+    <section class="main-block">
+        <svg class="main-block-triangleCap" xmlns="http://www.w3.org/2000/svg" width="293" height="25" viewBox="0 0 293 25" preserveAspectRatio="none" fill="none">
+            <path d="M277.293 0.741306L11.2842 13.2957C5.01599 13.5915 0.0665924 18.7252 0 25L293 25V15.7246C293 7.16273 285.845 0.337673 277.293 0.741306Z" fill="inherit"/>
+        </svg>
+        <div class="main-block-content">
+            <h2 class="visually-hidden">Кнопки выбора вкладки мастера либо вкладки услуг</h2>
+            <section class="choise-buttons">
+                <h2 class="visually-hidden">Кнопки выбора мастера или услуги</h2>
+                <ul class="choise-buttons-list">
+                    <li>
+                        <button class="choise-buttons-item active" type="button">Мастера</button>
+                        <hr class="choise-buttons-subline">
+                    </li>
+                    <li>
+                        <button class="choise-buttons-item" type="button">Услуги</button>
+                    </li>
+                </ul>
+            </section>
+            <h2 class="visually-hidden">Панель поиска мастера</h2>
+            <section class="search-bar">
+                <label for="search" class="visually-hidden">Поиск по мастерам</label>
+                <form action="" method="get" class="search-input" id="searchform">
+                    <button type="submit">
+                        <img src="img/searchicon.svg" alt="Иконка поиска">
+                    </button>
+                    <input name="search" id="search" placeholder="Выбрать мастера" type="text">
+                </form>
+            </section>
+            <h2 class="visually-hidden">Карточки мастеров</h2>
+            <section class="master-cards">
+                <div class="master-cards-wrapper">
+                    <div class="master-cards-container">
+                        <div class="master-card-topbar">
+                            <button><img src="img/accepticon.svg" alt="кнопка выбора мастера"></button>
+                            <div class="rating">
+                                <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                <p>9.8</p>
+                            </div>
+                        </div>
+                        <div class="master-card-info">
+                            <img src="img/master2.jpg" alt="фото мастера">
+                            <h3>Алина Кравцова</h3>
+                            <p>Мастер маникюра</p>
+                        </div>
+                        <div class="master-card-bottombar">
+                            <button>17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                    <div class="master-cards-container">
+                        <div class="quick-write-topbar">
+                            <p>Быстрая запись</p>
+                            <button>
+                                <img src="img/cross.svg" alt="кнопка закрытия быстрой записи">
+                            </button>
+                        </div>
+                        <div class="quick-write-dates">
+                            <button>9:00</button>
+                            <button>10:00</button>
+                            <button>11:00</button>
+                            <button>12:00</button>
+                            <button>13:00</button>
+                            <button>14:00</button>
+                            <button>15:00</button>
+                            <button>16:00</button>
+                            <button>19:00</button>
+                            <button>18:00</button>
+                            <button>19:00</button>
+                            <button>20:00</button>
+                            <button>21:00</button>
+                            <button>22:00</button>
+                            <button>23:00</button>
+                        </div>
+                        <div class="quick-write-bottombar">
+                            <button class="gg">17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                    <div class="master-cards-container">
+                        <div class="master-card-topbar">
+                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
+                            <div class="rating">
+                                <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                <p>9.8</p>
+                            </div>
+                        </div>
+                        <div class="master-card-info">
+                            <img src="img/master4.jpg" alt="фото мастера">
+                            <h3>Анастасия Ногтевая</h3>
+                            <p>Мастер ногтевой</p>
+                        </div>
+                        <div class="master-card-bottombar">
+                            <button>17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                    <div class="master-cards-container">
+                        <div class="master-card-topbar">
+                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
+                            <div class="rating">
+                                <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                <p>9.8</p>
+                            </div>
+                        </div>
+                        <div class="master-card-info">
+                            <img src="img/master3.jpg" alt="фото мастера">
+                            <h3>Юлия Антехина</h3>
+                            <p>Мастер кудрястер</p>
+                        </div>
+                        <div class="master-card-bottombar">
+                            <button>17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                    <div class="master-cards-container">
+                        <div class="master-card-topbar">
+                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
+                            <div class="rating">
+                                <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                <p>9.8</p>
+                            </div>
+                        </div>
+                        <div class="master-card-info">
+                            <img src="img/master3.jpg" alt="фото мастера">
+                            <h3>Анастасия Ногтевая</h3>
+                            <p>Мастер ногтевой</p>
+                        </div>
+                        <div class="master-card-bottombar">
+                            <button>17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                    <div class="master-cards-container">
+                        <div class="master-card-topbar">
+                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
+                            <div class="rating">
+                                <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                <p>9.8</p>
+                            </div>
+                        </div>
+                        <div class="master-card-info">
+                            <img src="img/master4.jpg" alt="фото мастера">
+                            <h3>Юлия Антехина</h3>
+                            <p>Мастер кудрястер</p>
+                        </div>
+                        <div class="master-card-bottombar">
+                            <button>17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                    <div class="master-cards-container">
+                        <div class="master-card-topbar">
+                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
+                            <div class="rating">
+                                <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                <p>9.8</p>
+                            </div>
+                        </div>
+                        <div class="master-card-info">
+                            <img src="img/master5.jpg" alt="фото мастера">
+                            <h3>Алина Куличенко</h3>
+                            <p>Мастер ногтевой</p>
+                        </div>
+                        <div class="master-card-bottombar">
+                            <button>17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                    <div class="master-cards-container">
+                        <div class="master-card-topbar">
+                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
+                            <div class="rating">
+                                <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                <p>9.8</p>
+                            </div>
+                        </div>
+                        <div class="master-card-info">
+                            <img src="img/master6.jpg" alt="фото мастера">
+                            <h3>Екатерина Полозова</h3>
+                            <p>Мастер ногтевой</p>
+                        </div>
+                        <div class="master-card-bottombar">
+                            <button>17.03</button>
+                            <button>18.03</button>
+                            <button>19.03</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="main-footer">
+                <nav class="mobileNavbar">
+                    <ul>
+                        <li><a href="#"><img src="img/homeicon.svg" alt="иконка главной странцы">Главная</a></li>
+                        <li><a href="#"><img src="img/bagicon.svg" alt="иконка магазина">Магазин</a></li>
+                        <li><a href="#"><img src="img/calendaricon.svg" alt="иконка календаря">Записаться</a></li>
+                        <li><a href="#"><img src="img/saleicon.svg" alt="иконка главной странцы">Скидки</a></li>
+                        <li><a href="#"><img src="img/profileicon.svg" alt="иконка главной странцы">Профиль</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </section>
+
+</main>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
