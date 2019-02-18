@@ -70,13 +70,17 @@ button{
 }
 
 .header-brand img{
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 20px;
     margin: 0 0 0 10px;
 }
 
 .header-brand p{
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 20px;
+    font-weight: lighter;
 }
 
 /*Мэйн обертка-подложка с свг капом + топ блок с  свг капом */
@@ -253,7 +257,7 @@ button{
     align-items: center;
     width: 95vw;
 
-    height: 40px;
+    height: 35px;
 
     background-color: var(--light-coral-chocolate);
 }
@@ -274,10 +278,11 @@ button{
 .search-input button {
     display: flex;
     align-items: center;
+    padding: 0 5px 2px 5px;
 }
 
 .search-input button img{
-    width: 14px;
+    width: 15px;
 }
 
 .choise-bar p{
@@ -405,7 +410,7 @@ button{
 .rating img{
     width: 8px;
     height: 8px;
-    margin: 0 1px 2px 0;
+    margin: 0 3px 0 0;
 }
 
 .rating p{
@@ -431,7 +436,7 @@ button{
 .card-list-item-quickwrite-date{
     display: flex;
 
-    padding: 6px 8px 4px 8px;
+    padding: 5px 8px 5px 8px;
     margin: 0 5px;
 
     font-size: 0.625rem;
@@ -454,7 +459,7 @@ button{
     align-items: center;
 
     width: 90vw;
-    margin: 20px 0 0 10px;
+    margin: 0;
 
     transition: all ease-in 0.3s;
 }
@@ -476,7 +481,7 @@ button{
 }
 
 .card-list-item-quickwrite-time a{
-    font-size: 0.75rem;
+    font-size: 0.625rem;
 
     color: var(--main-color-black);
 }
@@ -497,6 +502,7 @@ button{
     position: fixed;
 
     bottom: 0;
+    left: 0;
     z-index: 1000;
 
     border-radius: 8px 8px 0 0;
@@ -512,7 +518,7 @@ button{
     justify-content: space-around;
     align-items: center;
 
-    width: 95vw;
+    width: 100vw;
 
     margin: 0;
     padding: 0;
@@ -546,6 +552,10 @@ button{
 }
 
 .mobileNavbar li img{
+
+    width: 17px;
+    height: 17px;
+
     margin: 0 0 5px 0;
 }
 
