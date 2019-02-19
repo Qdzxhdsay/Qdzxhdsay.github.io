@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Вьюха 1, состояние - до выбора мастера</title>
+    <title>Вью 1.1,прямоугольные карточки, состояние - после выбора мастера без быстрой записи</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
     <link rel="stylesheet" href="css/1.1.css">
@@ -14,8 +14,13 @@
 <header class="main-header">
     <h1 class="visually-hidden">Виджет онлайн записи</h1>
     <section class="header-brand">
-        <p>Your Co</p>
-        <img src="img/circleimg.svg" alt="Логотип Компании">
+        <div class="header-brand-company">
+            <p>Your Co</p>
+            <img class="brand-logo" src="img/MainLogo.svg" alt="Логотип Компании">
+        </div>
+        <button class="brand-next-arrow">
+            <img src="img/BigArrowRightButton.svg" alt="Кнопка перехода далее">
+        </button>
     </section>
 </header>
 
@@ -24,7 +29,23 @@
         <svg class="top-block-triangleCap" xmlns="http://www.w3.org/2000/svg" width="294" height="24" viewBox="0 0 294 24" fill="none">
             <path d="M15.6766 0.707853L283.161 12.7857C289.176 13.0573 293.933 17.9787 294 24L0 24V15.6926C0 7.14274 7.13547 0.322191 15.6766 0.707853Z" fill="inherit"/>
         </svg>
-        <div class="top-block-content"></div>
+        <div class="top-block-content">
+            <div class="master-picked-card">
+                <img class="master-avatar" src="img/master5.jpg" alt="фото выбранного мастера">
+                <div class="master-picked-card-info">
+                    <div class="master-picked-card-quick-info">
+                        <p>Юлия Антохина</p>
+                        <div class="master-picked-quick-time">
+                            <p><img src="img/ClockButtonIcon.svg" alt="Иконка часов">10:15</p>
+                            <p><img src="img/CalendarButtonIcon.svg" alt="Иконка календаря">19-01-19</p>
+                        </div>
+                    </div>
+                    <button>
+                        <img src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="main-block">
         <svg class="main-block-triangleCap" xmlns="http://www.w3.org/2000/svg" width="293" height="25" viewBox="0 0 293 25" preserveAspectRatio="none" fill="none">
@@ -49,187 +70,358 @@
                 <label for="search" class="visually-hidden">Поиск по мастерам</label>
                 <form action="" method="get" class="search-input" id="searchform">
                     <button type="submit">
-                        <img src="img/searchicon.svg" alt="Иконка поиска">
+                        <img src="img/SearchButton.svg" alt="Иконка поиска">
                     </button>
                     <input name="search" id="search" placeholder="Выбрать мастера" type="text">
                 </form>
             </section>
             <h2 class="visually-hidden">Карточки мастеров</h2>
             <section class="master-cards">
-                <div class="master-cards-wrapper">
-                    <div class="master-cards-container">
-                        <div class="master-card-topbar">
-                            <button><img src="img/accepticon.svg" alt="кнопка выбора мастера"></button>
-                            <div class="rating">
-                                <img src="img/blackstar.svg" alt="иконка рейтинга">
-                                <p>9.8</p>
+                <div class="card-item">
+                    <div class="master-cards-wrapper">
+                        <img class="card-list-item-avatar" src="img/master1.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Алина Кравцова
+                                <button class="card-list-item-addbutton">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
+                                </button>
+                            </p>
+                            <div class="card-list-item-specialisation">Премиум-стилист
+                                <div class="rating">
+                                    <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                    <p>9.8</p>
+                                </div>
+                            </div>
+                            <div class="card-list-item-quickwrite">
+                                <p class="card-list-item-quickwrite-headline">
+                                    Быстрая запись
+                                </p>
+                                <div class="card-list-item-quickwrite-dates">
+                                    <button class="card-list-item-quickwrite-date">
+                                        01.19
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        02.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        03.12
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="master-card-info">
-                            <img src="img/master2.jpg" alt="фото мастера">
-                            <h3>Алина Кравцова</h3>
-                            <p>Мастер маникюра</p>
-                        </div>
-                        <div class="master-card-bottombar">
-                            <button>17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
                     </div>
-                    <div class="master-cards-container">
-                        <div class="quick-write-topbar">
-                            <p>Быстрая запись</p>
-                            <button>
-                                <img src="img/cross.svg" alt="кнопка закрытия быстрой записи">
-                            </button>
-                        </div>
-                        <div class="quick-write-dates">
-                            <button>9:00</button>
-                            <button>10:00</button>
-                            <button>11:00</button>
-                            <button>12:00</button>
-                            <button>13:00</button>
-                            <button>14:00</button>
-                            <button>15:00</button>
-                            <button>16:00</button>
-                            <button>19:00</button>
-                            <button>18:00</button>
-                            <button>19:00</button>
-                            <button>20:00</button>
-                            <button>21:00</button>
-                            <button>22:00</button>
-                            <button>23:00</button>
-                        </div>
-                        <div class="quick-write-bottombar">
-                            <button class="gg">17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
+                    <div class="qw card-list-item-quickwrite-time">
+                        <button class="prev">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
+                        </button>
+                        <a href="#" class="quick-link fade">10:00</a>
+                        <a href="#" class="quick-link fade">11:00</a>
+                        <a href="#" class="quick-link fade">12:00</a>
+                        <a href="#" class="quick-link fade">13:00</a>
+                        <a href="#" class="quick-link fade">14:00</a>
+                        <a href="#" class="quick-link fade">15:00</a>
+                        <button class="next">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
+                        </button>
                     </div>
-                    <div class="master-cards-container">
-                        <div class="master-card-topbar">
-                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
-                            <div class="rating">
-                                <img src="img/blackstar.svg" alt="иконка рейтинга">
-                                <p>9.8</p>
+                </div>
+                <div class="card-item">
+                    <div class="master-cards-wrapper">
+                        <img class="card-list-item-avatar" src="img/master2.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Александра Колосова
+                                <button class="card-list-item-addbutton">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
+                                </button>
+                            </p>
+                            <div class="card-list-item-specialisation">Барбер, бровист
+                                <div class="rating">
+                                    <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                    <p>8.0</p>
+                                </div>
+                            </div>
+                            <div class="card-list-item-quickwrite">
+                                <p class="card-list-item-quickwrite-headline">
+                                    Быстрая запись
+                                </p>
+                                <div class="card-list-item-quickwrite-dates">
+                                    <button class="card-list-item-quickwrite-date">
+                                        01.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        02.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        03.12
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="master-card-info">
-                            <img src="img/master4.jpg" alt="фото мастера">
-                            <h3>Анастасия Ногтевая</h3>
-                            <p>Мастер ногтевой</p>
-                        </div>
-                        <div class="master-card-bottombar">
-                            <button>17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
                     </div>
-                    <div class="master-cards-container">
-                        <div class="master-card-topbar">
-                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
-                            <div class="rating">
-                                <img src="img/blackstar.svg" alt="иконка рейтинга">
-                                <p>9.8</p>
+                    <div class="qw card-list-item-quickwrite-time">
+                        <button class="prev">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
+                        </button>
+                        <a href="#" class="quick-link fade">10:00</a>
+                        <a href="#" class="quick-link fade">11:00</a>
+                        <a href="#" class="quick-link fade">12:00</a>
+                        <a href="#" class="quick-link fade">13:00</a>
+                        <a href="#" class="quick-link fade">14:00</a>
+                        <a href="#" class="quick-link fade">15:00</a>
+                        <button class="next">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
+                        </button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="master-cards-wrapper">
+                        <img class="card-list-item-avatar" src="img/master3.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Юлия Антехина
+                                <button class="card-list-item-addbutton">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
+                                </button>
+                            </p>
+                            <div class="card-list-item-specialisation">Стилист, визажист
+                                <div class="rating">
+                                    <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                    <p>7.8</p>
+                                </div>
+                            </div>
+                            <div class="card-list-item-quickwrite">
+                                <p class="card-list-item-quickwrite-headline">
+                                    Быстрая запись
+                                </p>
+                                <div class="card-list-item-quickwrite-dates">
+                                    <button class="card-list-item-quickwrite-date">
+                                        01.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        02.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        03.12
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="master-card-info">
-                            <img src="img/master3.jpg" alt="фото мастера">
-                            <h3>Юлия Антехина</h3>
-                            <p>Мастер кудрястер</p>
-                        </div>
-                        <div class="master-card-bottombar">
-                            <button>17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
                     </div>
-                    <div class="master-cards-container">
-                        <div class="master-card-topbar">
-                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
-                            <div class="rating">
-                                <img src="img/blackstar.svg" alt="иконка рейтинга">
-                                <p>9.8</p>
+                    <div class="qw card-list-item-quickwrite-time">
+                        <button class="prev">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
+                        </button>
+                        <a href="#" class="quick-link fade">10:00</a>
+                        <a href="#" class="quick-link fade">11:00</a>
+                        <a href="#" class="quick-link fade">12:00</a>
+                        <a href="#" class="quick-link fade">13:00</a>
+                        <a href="#" class="quick-link fade">14:00</a>
+                        <a href="#" class="quick-link fade">15:00</a>
+                        <button class="next">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
+                        </button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="master-cards-wrapper">
+                        <img class="card-list-item-avatar" src="img/master4.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Наталья Орейро
+                                <button class="card-list-item-addbutton">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
+                                </button>
+                            </p>
+                            <div class="card-list-item-specialisation">Бровист, стилист
+                                <div class="rating">
+                                    <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                    <p>8.3</p>
+                                </div>
+                            </div>
+                            <div class="card-list-item-quickwrite">
+                                <p class="card-list-item-quickwrite-headline">
+                                    Быстрая запись
+                                </p>
+                                <div class="card-list-item-quickwrite-dates">
+                                    <button class="card-list-item-quickwrite-date">
+                                        01.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        02.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        03.12
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="master-card-info">
-                            <img src="img/master3.jpg" alt="фото мастера">
-                            <h3>Анастасия Ногтевая</h3>
-                            <p>Мастер ногтевой</p>
-                        </div>
-                        <div class="master-card-bottombar">
-                            <button>17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
                     </div>
-                    <div class="master-cards-container">
-                        <div class="master-card-topbar">
-                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
-                            <div class="rating">
-                                <img src="img/blackstar.svg" alt="иконка рейтинга">
-                                <p>9.8</p>
+                    <div class="qw card-list-item-quickwrite-time">
+                        <button class="prev">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
+                        </button>
+                        <a href="#" class="quick-link fade">10:00</a>
+                        <a href="#" class="quick-link fade">11:00</a>
+                        <a href="#" class="quick-link fade">12:00</a>
+                        <a href="#" class="quick-link fade">13:00</a>
+                        <a href="#" class="quick-link fade">14:00</a>
+                        <a href="#" class="quick-link fade">15:00</a>
+                        <button class="next">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
+                        </button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="master-cards-wrapper">
+                        <img class="card-list-item-avatar" src="img/master5.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Мария Ленина
+                                <button class="card-list-item-addbutton">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
+                                </button>
+                            </p>
+                            <div class="card-list-item-specialisation">Маникюрист, бровист
+                                <div class="rating">
+                                    <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                    <p>9.0</p>
+                                </div>
+                            </div>
+                            <div class="card-list-item-quickwrite">
+                                <p class="card-list-item-quickwrite-headline">
+                                    Быстрая запись
+                                </p>
+                                <div class="card-list-item-quickwrite-dates">
+                                    <button class="card-list-item-quickwrite-date">
+                                        01.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        02.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        03.12
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="master-card-info">
-                            <img src="img/master4.jpg" alt="фото мастера">
-                            <h3>Юлия Антехина</h3>
-                            <p>Мастер кудрястер</p>
-                        </div>
-                        <div class="master-card-bottombar">
-                            <button>17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
                     </div>
-                    <div class="master-cards-container">
-                        <div class="master-card-topbar">
-                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
-                            <div class="rating">
-                                <img src="img/blackstar.svg" alt="иконка рейтинга">
-                                <p>9.8</p>
+                    <div class="qw card-list-item-quickwrite-time">
+                        <button class="prev">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
+                        </button>
+                        <a href="#" class="quick-link fade">10:00</a>
+                        <a href="#" class="quick-link fade">11:00</a>
+                        <a href="#" class="quick-link fade">12:00</a>
+                        <a href="#" class="quick-link fade">13:00</a>
+                        <a href="#" class="quick-link fade">14:00</a>
+                        <a href="#" class="quick-link fade">15:00</a>
+                        <button class="next">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
+                        </button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="master-cards-wrapper">
+                        <img class="card-list-item-avatar" src="img/master6.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Екатерина Ногтевая
+                                <button class="card-list-item-addbutton">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
+                                </button>
+                            </p>
+                            <div class="card-list-item-specialisation">Парикмахер
+                                <div class="rating">
+                                    <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                    <p>9.8</p>
+                                </div>
+                            </div>
+                            <div class="card-list-item-quickwrite">
+                                <p class="card-list-item-quickwrite-headline">
+                                    Быстрая запись
+                                </p>
+                                <div class="card-list-item-quickwrite-dates">
+                                    <button class="card-list-item-quickwrite-date">
+                                        01.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        02.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        03.12
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="master-card-info">
-                            <img src="img/master5.jpg" alt="фото мастера">
-                            <h3>Алина Куличенко</h3>
-                            <p>Мастер ногтевой</p>
-                        </div>
-                        <div class="master-card-bottombar">
-                            <button>17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
                     </div>
-                    <div class="master-cards-container">
-                        <div class="master-card-topbar">
-                            <button><img src="img/pickmasterbutton.svg" alt="кнопка выбора мастера"></button>
-                            <div class="rating">
-                                <img src="img/blackstar.svg" alt="иконка рейтинга">
-                                <p>9.8</p>
+                    <div class="qw card-list-item-quickwrite-time">
+                        <button class="prev">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
+                        </button>
+                        <a href="#" class="quick-link fade">10:00</a>
+                        <a href="#" class="quick-link fade">11:00</a>
+                        <a href="#" class="quick-link fade">12:00</a>
+                        <a href="#" class="quick-link fade">13:00</a>
+                        <a href="#" class="quick-link fade">14:00</a>
+                        <a href="#" class="quick-link fade">15:00</a>
+                        <button class="next">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
+                        </button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="master-cards-wrapper">
+                        <img class="card-list-item-avatar" src="img/master3.jpg" alt="Фото мастера">
+                        <div class="master-cards-info-text">
+                            <p class="card-list-item-name">Анастасия Леонова
+                                <button class="card-list-item-addbutton">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
+                                </button>
+                            </p>
+                            <div class="card-list-item-specialisation">Шугаринг, депиляция
+                                <div class="rating">
+                                    <img src="img/blackstar.svg" alt="иконка рейтинга">
+                                    <p>9.8</p>
+                                </div>
+                            </div>
+                            <div class="card-list-item-quickwrite">
+                                <p class="card-list-item-quickwrite-headline">
+                                    Быстрая запись
+                                </p>
+                                <div class="card-list-item-quickwrite-dates">
+                                    <button class="card-list-item-quickwrite-date">
+                                        01.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        02.12
+                                    </button>
+                                    <button class="card-list-item-quickwrite-date">
+                                        03.12
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="master-card-info">
-                            <img src="img/master6.jpg" alt="фото мастера">
-                            <h3>Екатерина Полозова</h3>
-                            <p>Мастер ногтевой</p>
-                        </div>
-                        <div class="master-card-bottombar">
-                            <button>17.03</button>
-                            <button>18.03</button>
-                            <button>19.03</button>
-                        </div>
+                    </div>
+                    <div class="qw card-list-item-quickwrite-time">
+                        <button class="prev">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
+                        </button>
+                        <a href="#" class="quick-link fade">10:00</a>
+                        <a href="#" class="quick-link fade">11:00</a>
+                        <a href="#" class="quick-link fade">12:00</a>
+                        <a href="#" class="quick-link fade">13:00</a>
+                        <a href="#" class="quick-link fade">14:00</a>
+                        <a href="#" class="quick-link fade">15:00</a>
+                        <button class="next">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
+                        </button>
                     </div>
                 </div>
             </section>
             <footer class="main-footer">
                 <nav class="mobileNavbar">
                     <ul>
-                        <li><a href="#"><img src="img/homeicon.svg" alt="иконка главной странцы">Главная</a></li>
-                        <li><a href="#"><img src="img/bagicon.svg" alt="иконка магазина">Магазин</a></li>
-                        <li><a href="#"><img src="img/calendaricon.svg" alt="иконка календаря">Записаться</a></li>
-                        <li><a href="#"><img src="img/saleicon.svg" alt="иконка главной странцы">Скидки</a></li>
-                        <li><a href="#"><img src="img/profileicon.svg" alt="иконка главной странцы">Профиль</a></li>
+                        <li><a href="#"><img src="img/HomeButtonICon.svg" alt="иконка главной странцы">Главная</a></li>
+                        <li><a href="#"><img src="img/ShopBagButtonIcon.svg" alt="иконка магазина">Магазин</a></li>
+                        <li><a href="#"><img src="img/CalendarButtonIcon.svg" alt="иконка календаря">Записаться</a></li>
+                        <li><a href="#"><img src="img/SaleButtonIcon.svg" alt="иконка главной странцы">Скидки</a></li>
+                        <li><a href="#"><img src="img/ProfileButtonIcon.svg" alt="иконка главной странцы">Профиль</a></li>
                     </ul>
                 </nav>
             </footer>

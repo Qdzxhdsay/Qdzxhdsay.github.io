@@ -28,6 +28,7 @@
     --light-coral-chocolate: #f2f2f2;
 }
 
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
@@ -43,7 +44,6 @@ button{
 
 .main-header{
     display: flex;
-    flex-direction: column;
     margin: 0 0 50px 0;
 }
 
@@ -69,14 +69,35 @@ button{
     z-index: 1000;
 }
 
-.header-brand img{
-    width: 35px;
-    height: 35px;
+.header-brand-company{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    margin: 0 0 0 10%;
+}
+
+.brand-logo{
+    width: 25px;
+    height: 18px;
     margin: 0 0 0 10px;
 }
 
 .header-brand p{
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 20px;
+    font-weight: lighter;
+}
+
+.brand-next-arrow{
+    width: 45px;
+    height: 35px;
+    padding: 0 5px;
+}
+
+.brand-next-arrow img{
+    width: 30px;
 }
 
 /*Мэйн обертка-подложка с свг капом + топ блок с  свг капом */
@@ -102,7 +123,6 @@ button{
     justify-content: center;
 
     width: 100%;
-    height: 20px;
 
     background-color: var(--light-coral-chocolate);
 }
@@ -139,15 +159,14 @@ button{
     width: auto;
     height: 60%;
     border-radius: 50%;
-    box-shadow: 3px 3px 0 var(--main-shadow-color);
 }
 
 .master-picked-card-info{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-
+    height: 35px;
     margin: 0 0 0 5%;
 }
 
@@ -157,12 +176,14 @@ button{
 }
 
 .master-picked-card-info button{
+    display: flex;
+    align-self: center;
     padding: 0;
 }
 
 .master-picked-card-info button img{
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
 }
 
 .master-picked-card-quick-info{
@@ -171,7 +192,7 @@ button{
 }
 
 .master-picked-quick-time{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 
@@ -188,10 +209,10 @@ button{
 }
 
 .master-picked-quick-time p img{
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
 
-    margin: 0 3px 0 0;
+    margin: 0 3px 2px 0;
 }
 
 /*Кнопки выбора*/
@@ -253,7 +274,7 @@ button{
     align-items: center;
     width: 95vw;
 
-    height: 40px;
+    height: 35px;
 
     background-color: var(--light-coral-chocolate);
 }
@@ -274,10 +295,11 @@ button{
 .search-input button {
     display: flex;
     align-items: center;
+    padding: 0 5px 2px 5px;
 }
 
 .search-input button img{
-    width: 14px;
+    width: 15px;
 }
 
 .choise-bar p{
@@ -296,50 +318,100 @@ button{
 
 /*Карточки мастеров*/
 
-
 .master-cards{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
 
-    padding:10px 0 70px 0;
-
-    background: var(--main-color-gray-opacity);
+    padding: 10px 0 70px 0;
 }
 
 .master-cards-wrapper{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+
+    margin: 15px 0;
 }
 
-.master-cards-container{
+.master-cards-info-text{
+    margin: 0 ;
+    width: 80%;
+}
+
+.master-cards-info{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    width: 45vw;
-    height: 61vw;
-    margin: 10px 5px;
-
-    box-shadow: 0 4px 25px 0 rgba(0,0,0,0.14);
-    background: var(--main-color-white);
+    align-items: center;
+    width: 90vw;
+    margin: 0 0 0 10px;
 }
 
-.master-card-topbar{
+.card-list-item-addbutton{
+    display: flex;
+    padding: 0 5px;
+    border: none;
+}
+
+.card-list-item-addbutton img{
+    width: 16px;
+}
+
+.card-list{
+    display: flex;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+.card-list-item-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90vw;
+}
+
+.card-list-item-info{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+.card-list-item-avatar{
+    width: 22%;
+    margin: 0 3% 0 0;
+
+    border-radius: 5px;
+
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+}
+
+.card-list-item-name{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    width: 90%;
-    margin: 8px auto 0 auto;
+    font-size: 0.85rem;
+
+    margin: 0;
 }
 
-.master-card-topbar button{
-    padding: 0;
+.card-list-item-specialisation{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 6px 0;
+    font-size: 0.75rem;
 
-}
-
-.master-card-topbar button img{
-    width: 16px;
-
+    color: var(--main-color-graystrong);
 }
 
 .rating{
@@ -347,194 +419,92 @@ button{
     justify-content: center;
     align-items: center;
 
-    width: 40px;
-    height: 22px;
+    margin: 0 0 0 4px;
 
-
-    background: var(--main-color-gray-opacity);
     border-radius: 14px;
-
 }
 
-.rating img{
-    margin: 0 1px 2px 0;
+.rating img {
+    width: 9px;
+    height: 9px;
+    margin: 0 3px 1px 0;
 }
 
 .rating p{
     font-size: 0.625rem;
+
     margin:0;
 }
 
-.master-card-info{
+.card-list-item-quickwrite{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+
+    width: 100%;
 }
 
-.master-card-info img{
-    width: 40%;
-    height: auto;
-    border-radius: 50%;
+.card-list-item-quickwrite-headline{
+    margin: 0;
 
-    margin: -10px 0 0 0;
+    font-size: 0.625rem;
 }
 
-.master-card-info h3{
-    font-size: 0.8125rem;
-    line-height: 18px;
-    font-weight: normal;
-    margin: 8px 5px 8px 5px;
+.card-list-item-quickwrite-date{
+    display: flex;
 
-    text-align: center;
+    padding: 5px 8px 5px 8px;
+    margin: 0 5px;
+
+    font-size: 0.625rem;
+
+    border-radius: 14px;
+    border: 1px solid var(--main-color-gray);
 }
 
-.master-card-info p{
-    font-size: 0.6875rem;
-    margin: 0 5px 8px 5px;
-
-    text-align: center;
-
-    color: var(--main-color-gray2);
+.card-list-item-quickwrite-date:first-child{
+    margin: 0;
 }
 
+.card-list-item-quickwrite-date:last-child{
+    margin: 0;
+}
 
-.master-card-bottombar{
+.card-list-item-quickwrite-time{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    margin: 0;
+    width: 90vw;
+    margin: 20px 0 0 10px;
 
-    border-top: 1px solid var(--main-color-gray);
+    transition: all ease-in 0.3s;
 }
 
-.master-card-bottombar button{
+.card-list-item-quickwrite-time button{
     display: flex;
-    justify-content: center;
-    align-items: center;
 
-    width: 40px;
-    height: 22px;
-
-    font-size: 0.625rem;
-
-    padding: 0 5px;
-    margin: 10px 0;
-
-    background: var(--main-color-gray-opacity);
-    border-radius: 14px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.quick-write-topbar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 90%;
-
-    margin: 11px auto 6px auto;
-}
-
-.quick-write-topbar p{
-    font-size: 0.75rem;
-    margin: 0;
-}
-
-
-.quick-write-topbar button{
-    display: flex;
+    height: 14px;
     padding: 0;
 
 }
 
-.quick-write-topbar button img{
-    height: 11px;
+.card-list-item-quickwrite-time img{
+    height: 14px;
 }
 
-
-.gg{
-    background: grey !important;
-    color: white;
+.qw{
+    display: none;
 }
 
-
-
-.quick-write-dates{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-
-    height: 120px;
-
-    overflow: auto;
-}
-
-.quick-write-dates p{
-    font-size: 0.75rem;
-    margin: 0 0 0 8px;
-}
-
-
-.quick-write-dates button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 40px;
-    height: 22px;
-
+.card-list-item-quickwrite-time a{
     font-size: 0.625rem;
 
-    padding: 0 5px;
-    margin: 0 4px 8px 4px;;
-
-    background: var(--main-color-gray-opacity);
-    border-radius: 14px;
+    color: var(--main-color-black);
 }
 
-.quick-write-dates button img{
-    height: 12px;
-}
-
-.quick-write-bottombar{
+.card-list-item-quickwrite-dates{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    margin: 0;
-
-    border-top: 1px solid var(--main-color-gray);
-}
-
-.quick-write-bottombar button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 40px;
-    height: 22px;
-
-    font-size: 0.625rem;
-
-    padding: 0 5px;
-    margin: 10px 4px;
-
-    background: var(--main-color-gray-opacity);
-    border-radius: 14px;
 }
 
 /*Нижнее меню*/
@@ -549,6 +519,7 @@ button{
     position: fixed;
 
     bottom: 0;
+    left: 0;
     z-index: 1000;
 
     border-radius: 8px 8px 0 0;
@@ -564,7 +535,7 @@ button{
     justify-content: space-around;
     align-items: center;
 
-    width: 95vw;
+    width: 100vw;
 
     margin: 0;
     padding: 0;
@@ -598,6 +569,10 @@ button{
 }
 
 .mobileNavbar li img{
+
+    width: 17px;
+    height: 17px;
+
     margin: 0 0 5px 0;
 }
 
@@ -631,8 +606,8 @@ button{
         width: 20px;
     }
     .master-picked-card-info button img {
-        width: 13px;
-        height: 13px;
+        width: 16px;
+        height: 16px;
     }
 }
 
@@ -666,7 +641,7 @@ button{
         width: auto;
         height: 80%;
 
-        border-radius: 5px;
+        border-radius: 50%;
         box-shadow: 3px 3px 0 var(--main-shadow-color);
     }
 
@@ -715,6 +690,11 @@ button{
 }
 
 @media (min-width: 1024px){
+    /* Шрифты */
+
+    html{
+        font-size: 28px;
+    }
 
     .main-block {
         margin: -65px 0 0 0;
@@ -726,6 +706,11 @@ button{
 }
 
 @media (min-width: 1440px){
+    /* Шрифты */
+
+    html{
+        font-size: 28px;
+    }
 
     .main-block {
         margin: -65px 0 0 0;
@@ -737,6 +722,11 @@ button{
 }
 
 @media (min-width: 1600px){
+    /* Шрифты */
+
+    html{
+        font-size: 28px;
+    }
 
     .main-block {
         margin: -75px 0 0 0;
@@ -748,6 +738,11 @@ button{
 }
 
 @media (min-width: 1920px){
+    /* Шрифты */
+
+    html{
+        font-size: 28px;
+    }
 
     .main-block {
         margin: -85px 0 0 0;

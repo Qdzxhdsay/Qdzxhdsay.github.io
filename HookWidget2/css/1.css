@@ -43,7 +43,7 @@ button{
 
 .main-header{
     display: flex;
-    flex-direction: column;
+
     margin: 0 0 50px 0;
 }
 
@@ -69,9 +69,16 @@ button{
     z-index: 1000;
 }
 
-.header-brand img{
+.header-brand-company{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+   /* margin: 0 0 0 10%;*/
+}
+
+.brand-logo{
     width: 25px;
-    height: 20px;
+    height: 18px;
     margin: 0 0 0 10px;
 }
 
@@ -81,6 +88,17 @@ button{
     margin: 0;
     height: 20px;
     font-weight: lighter;
+}
+
+.brand-next-arrow{
+    display: none;
+    width: 45px;
+    height: 35px;
+    padding: 0 5px;
+}
+
+.brand-next-arrow img{
+    width: 30px;
 }
 
 /*Мэйн обертка-подложка с свг капом + топ блок с  свг капом */
@@ -408,9 +426,9 @@ button{
 }
 
 .rating img{
-    width: 8px;
-    height: 8px;
-    margin: 0 3px 0 0;
+    width: 9px;
+    height: 9px;
+    margin: 0 3px 1px 0;
 }
 
 .rating p{

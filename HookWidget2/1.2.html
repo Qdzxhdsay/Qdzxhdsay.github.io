@@ -5,17 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Вьюха 2, состояние - выбран мастер через быструю запись(квадратная аватарка)</title>
+    <title>Вью 1.2,прямоугольные карточки, состояние - после выбора мастера + быстрая запись</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/3.css">
+    <link rel="stylesheet" href="css/1.2.css">
 </head>
 <body>
 <header class="main-header">
     <h1 class="visually-hidden">Виджет онлайн записи</h1>
     <section class="header-brand">
-        <p>Your Co</p>
-        <img src="img/circleimg.svg" alt="Логотип Компании">
+        <div class="header-brand-company">
+            <p>Your Co</p>
+            <img class="brand-logo" src="img/MainLogo.svg" alt="Логотип Компании">
+        </div>
+        <button class="brand-next-arrow">
+            <img src="img/BigArrowRightButton.svg" alt="Кнопка перехода далее">
+        </button>
     </section>
 </header>
 
@@ -31,12 +36,12 @@
                     <div class="master-picked-card-quick-info">
                         <p>Юлия Антохина</p>
                         <div class="master-picked-quick-time">
-                            <p><img src="img/clock.svg" alt="Иконка часов">10:15</p>
-                            <p><img src="img/calendar.svg" alt="Иконка календаря">19-01-19</p>
+                            <p><img src="img/ClockButtonIcon.svg" alt="Иконка часов">10:15</p>
+                            <p><img src="img/CalendarButtonIcon.svg" alt="Иконка календаря">19-01-19</p>
                         </div>
                     </div>
                     <button>
-                        <img src="img/cross.svg" alt="кнопка отмены выбора мастера">
+                        <img src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
                     </button>
                 </div>
             </div>
@@ -65,7 +70,7 @@
                 <label for="search" class="visually-hidden">Поиск по мастерам</label>
                 <form action="" method="get" class="search-input" id="searchform">
                     <button type="submit">
-                        <img src="img/searchicon.svg" alt="Иконка поиска">
+                        <img src="img/SearchButton.svg" alt="Иконка поиска">
                     </button>
                     <input name="search" id="search" placeholder="Выбрать мастера" type="text">
                 </form>
@@ -78,7 +83,7 @@
                         <div class="master-cards-info-text">
                             <p class="card-list-item-name">Алина Кравцова
                                 <button class="card-list-item-addbutton">
-                                    <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
                                 </button>
                             </p>
                             <div class="card-list-item-specialisation">Премиум-стилист
@@ -107,7 +112,7 @@
                     </div>
                     <div class="qw card-list-item-quickwrite-time">
                         <button class="prev">
-                            <img src="img/leftarrow.svg" alt="Левая стрелка">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
                         </button>
                         <a href="#" class="quick-link fade">10:00</a>
                         <a href="#" class="quick-link fade">11:00</a>
@@ -116,7 +121,7 @@
                         <a href="#" class="quick-link fade">14:00</a>
                         <a href="#" class="quick-link fade">15:00</a>
                         <button class="next">
-                            <img src="img/rightarrow.svg" alt="Правая стрелка">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
                         </button>
                     </div>
                 </div>
@@ -126,7 +131,7 @@
                         <div class="master-cards-info-text">
                             <p class="card-list-item-name">Александра Колосова
                                 <button class="card-list-item-addbutton">
-                                    <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
                                 </button>
                             </p>
                             <div class="card-list-item-specialisation">Барбер, бровист
@@ -155,7 +160,7 @@
                     </div>
                     <div class="qw card-list-item-quickwrite-time">
                         <button class="prev">
-                            <img src="img/leftarrow.svg" alt="Левая стрелка">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
                         </button>
                         <a href="#" class="quick-link fade">10:00</a>
                         <a href="#" class="quick-link fade">11:00</a>
@@ -164,7 +169,7 @@
                         <a href="#" class="quick-link fade">14:00</a>
                         <a href="#" class="quick-link fade">15:00</a>
                         <button class="next">
-                            <img src="img/rightarrow.svg" alt="Правая стрелка">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
                         </button>
                     </div>
                 </div>
@@ -174,7 +179,7 @@
                         <div class="master-cards-info-text">
                             <p class="card-list-item-name">Юлия Антехина
                                 <button class="card-list-item-addbutton">
-                                    <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
                                 </button>
                             </p>
                             <div class="card-list-item-specialisation">Стилист, визажист
@@ -203,7 +208,7 @@
                     </div>
                     <div class="qw card-list-item-quickwrite-time">
                         <button class="prev">
-                            <img src="img/leftarrow.svg" alt="Левая стрелка">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
                         </button>
                         <a href="#" class="quick-link fade">10:00</a>
                         <a href="#" class="quick-link fade">11:00</a>
@@ -212,7 +217,7 @@
                         <a href="#" class="quick-link fade">14:00</a>
                         <a href="#" class="quick-link fade">15:00</a>
                         <button class="next">
-                            <img src="img/rightarrow.svg" alt="Правая стрелка">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
                         </button>
                     </div>
                 </div>
@@ -222,7 +227,7 @@
                         <div class="master-cards-info-text">
                             <p class="card-list-item-name">Наталья Орейро
                                 <button class="card-list-item-addbutton">
-                                    <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
                                 </button>
                             </p>
                             <div class="card-list-item-specialisation">Бровист, стилист
@@ -251,7 +256,7 @@
                     </div>
                     <div class="qw card-list-item-quickwrite-time">
                         <button class="prev">
-                            <img src="img/leftarrow.svg" alt="Левая стрелка">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
                         </button>
                         <a href="#" class="quick-link fade">10:00</a>
                         <a href="#" class="quick-link fade">11:00</a>
@@ -260,7 +265,7 @@
                         <a href="#" class="quick-link fade">14:00</a>
                         <a href="#" class="quick-link fade">15:00</a>
                         <button class="next">
-                            <img src="img/rightarrow.svg" alt="Правая стрелка">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
                         </button>
                     </div>
                 </div>
@@ -270,7 +275,7 @@
                         <div class="master-cards-info-text">
                             <p class="card-list-item-name">Мария Ленина
                                 <button class="card-list-item-addbutton">
-                                    <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
                                 </button>
                             </p>
                             <div class="card-list-item-specialisation">Маникюрист, бровист
@@ -299,7 +304,7 @@
                     </div>
                     <div class="qw card-list-item-quickwrite-time">
                         <button class="prev">
-                            <img src="img/leftarrow.svg" alt="Левая стрелка">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
                         </button>
                         <a href="#" class="quick-link fade">10:00</a>
                         <a href="#" class="quick-link fade">11:00</a>
@@ -308,7 +313,7 @@
                         <a href="#" class="quick-link fade">14:00</a>
                         <a href="#" class="quick-link fade">15:00</a>
                         <button class="next">
-                            <img src="img/rightarrow.svg" alt="Правая стрелка">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
                         </button>
                     </div>
                 </div>
@@ -318,7 +323,7 @@
                         <div class="master-cards-info-text">
                             <p class="card-list-item-name">Екатерина Ногтевая
                                 <button class="card-list-item-addbutton">
-                                    <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
                                 </button>
                             </p>
                             <div class="card-list-item-specialisation">Парикмахер
@@ -347,7 +352,7 @@
                     </div>
                     <div class="qw card-list-item-quickwrite-time">
                         <button class="prev">
-                            <img src="img/leftarrow.svg" alt="Левая стрелка">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
                         </button>
                         <a href="#" class="quick-link fade">10:00</a>
                         <a href="#" class="quick-link fade">11:00</a>
@@ -356,7 +361,7 @@
                         <a href="#" class="quick-link fade">14:00</a>
                         <a href="#" class="quick-link fade">15:00</a>
                         <button class="next">
-                            <img src="img/rightarrow.svg" alt="Правая стрелка">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
                         </button>
                     </div>
                 </div>
@@ -366,7 +371,7 @@
                         <div class="master-cards-info-text">
                             <p class="card-list-item-name">Анастасия Леонова
                                 <button class="card-list-item-addbutton">
-                                    <img src="img/pickmasterbutton.svg" alt="Иконка выбор мастера">
+                                    <img src="img/UserPickButton.svg" alt="Иконка выбор мастера">
                                 </button>
                             </p>
                             <div class="card-list-item-specialisation">Шугаринг, депиляция
@@ -395,7 +400,7 @@
                     </div>
                     <div class="qw card-list-item-quickwrite-time">
                         <button class="prev">
-                            <img src="img/leftarrow.svg" alt="Левая стрелка">
+                            <img src="img/ArrowLeftButton.svg" alt="Левая стрелка">
                         </button>
                         <a href="#" class="quick-link fade">10:00</a>
                         <a href="#" class="quick-link fade">11:00</a>
@@ -404,7 +409,7 @@
                         <a href="#" class="quick-link fade">14:00</a>
                         <a href="#" class="quick-link fade">15:00</a>
                         <button class="next">
-                            <img src="img/rightarrow.svg" alt="Правая стрелка">
+                            <img src="img/ArrowRightButton.svg" alt="Правая стрелка">
                         </button>
                     </div>
                 </div>
@@ -412,11 +417,11 @@
             <footer class="main-footer">
                 <nav class="mobileNavbar">
                     <ul>
-                        <li><a href="#"><img src="img/homeicon.svg" alt="иконка главной странцы">Главная</a></li>
-                        <li><a href="#"><img src="img/bagicon.svg" alt="иконка магазина">Магазин</a></li>
-                        <li><a href="#"><img src="img/calendaricon.svg" alt="иконка календаря">Записаться</a></li>
-                        <li><a href="#"><img src="img/saleicon.svg" alt="иконка главной странцы">Скидки</a></li>
-                        <li><a href="#"><img src="img/profileicon.svg" alt="иконка главной странцы">Профиль</a></li>
+                        <li><a href="#"><img src="img/HomeButtonICon.svg" alt="иконка главной странцы">Главная</a></li>
+                        <li><a href="#"><img src="img/ShopBagButtonIcon.svg" alt="иконка магазина">Магазин</a></li>
+                        <li><a href="#"><img src="img/CalendarButtonIcon.svg" alt="иконка календаря">Записаться</a></li>
+                        <li><a href="#"><img src="img/SaleButtonIcon.svg" alt="иконка главной странцы">Скидки</a></li>
+                        <li><a href="#"><img src="img/ProfileButtonIcon.svg" alt="иконка главной странцы">Профиль</a></li>
                     </ul>
                 </nav>
             </footer>
