@@ -543,7 +543,9 @@ button{
 }
 
 
-
+.tab-content{
+    height: 100%;
+}
 
 #tabs .hide {
     display: none;
