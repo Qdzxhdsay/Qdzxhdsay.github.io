@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="608" column="16" selection-start-line="608" selection-start-column="16" selection-end-line="608" selection-end-column="16" />
+              <caret line="608" column="13" selection-start-line="608" selection-start-column="13" selection-end-line="608" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,12 +159,12 @@
       <workItem from="1550228295227" duration="22130000" />
       <workItem from="1550645912703" duration="2901000" />
       <workItem from="1550649960908" duration="9922000" />
-      <workItem from="1550765626858" duration="1169000" />
+      <workItem from="1550765626858" duration="1305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59554000" />
+    <option name="totallyTimeSpent" value="59690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -235,7 +235,7 @@
     <entry file="file://$PROJECT_DIR$/css/innertpl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="608" column="16" selection-start-line="608" selection-start-column="16" selection-end-line="608" selection-end-column="16" />
+          <caret line="608" column="13" selection-start-line="608" selection-start-column="13" selection-end-line="608" selection-end-column="13" />
         </state>
       </provider>
     </entry>
