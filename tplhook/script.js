@@ -1,9 +1,5 @@
 var tabContent = document.getElementsByClassName('tab-content');
 var tab = document.getElementsByClassName('tab');
-console.log(tab);
-console.log(tabContent);
-
-
 
 document.getElementById('tabs').onclick = function (event) {
     var target = event.target;
@@ -36,3 +32,5 @@ function showTabsContent(b){
         tabContent[b].classList.add('show');
     }
 }
+
+

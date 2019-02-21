@@ -554,6 +554,139 @@ button{
 
 /* ВТОРАЯ ВКЛАДКА */
 
+.write-block{
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 1px solid var(--main-color-gray);
+}
+
+.write-buttons{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 30px 0;
+}
+
+.button-write{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 300;
+}
+
+.button-write img{
+    width: 40px;
+    height: auto;
+
+    margin: 0 0 15px 0;
+}
+
+.add-client-subname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-client-subname p{
+    font-weight: 300;
+    margin: 40px 0 0 0;
+}
+
+.select-buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 0 0 40px 0;
+}
+
+.select-button-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 20vh;
+    margin: 20px 0;
+
+    border-radius: 10px;
+
+    font-weight: 300;
+
+    border: 1px solid var(--main-color-gray);
+}
+
+.select-button-item img{
+    margin: 0 0 10px 0;
+}
+
+
+
+.write-info-solo{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--main-color-gray);
+
+    padding: 20px 0;
+}
+
+.write-info-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+
+}
+
+.write-item-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.write-item-close{
+    display: flex;
+    align-items: center;
+}
+
+.write-item-name h3{
+    display: flex;
+    align-items: center;
+
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.write-item-name p{
+    margin:  5px 0;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: var(--main-color-gray);
+}
+
+
+
+.salered{
+    background-image: url(../img/SaleIcon2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    padding: 5px 13px 5px 13px;
+    margin: 0;
+
+    font-weight: 300;
+    font-size: 0.6rem;
+}
 
 
 
