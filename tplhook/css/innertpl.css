@@ -543,9 +543,7 @@ button{
 }
 
 
-.tab-content{
-    height: 90%;
-}
+
 
 #tabs .hide {
     display: none;
@@ -606,7 +604,7 @@ button{
 
     width: 100%;
 
-    padding: 10px 0 77px 0;
+    margin: 0 0 40px 0;
 }
 
 .select-button-item{
@@ -694,7 +692,7 @@ button{
 
 
 
-@media (min-width: 320px) and (max-width: 760px) {
+@media (max-width: 760px) {
     html{
         font-size: 12px;
     }
@@ -738,7 +736,7 @@ button{
 
     .tpl-main-content-wrapper{
         width: 100%;
-        height: 100%;
+        height: 90%;
 
         order: 1;
 
