@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/innertpl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/innertpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/innertpl.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="517">
@@ -33,20 +30,16 @@
                 <element signature="n#div#1;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="643" column="17" selection-start-line="643" selection-start-column="17" selection-end-line="643" selection-end-column="17" />
-              <folding>
-                <element signature="e#8430#10496#0" />
-              </folding>
+            <state relative-caret-position="606">
+              <caret line="606" column="10" selection-start-line="606" selection-start-column="10" selection-end-line="606" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -102,10 +95,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="141" />
-    <option name="y" value="131" />
-    <option name="width" value="733" />
-    <option name="height" value="731" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -115,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,7 +118,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,14 +160,15 @@
       <workItem from="1550228295227" duration="22130000" />
       <workItem from="1550645912703" duration="2901000" />
       <workItem from="1550649960908" duration="9922000" />
+      <workItem from="1550765626858" duration="136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58385000" />
+    <option name="totallyTimeSpent" value="58521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16772375" />
@@ -214,23 +206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/innertpl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="643" column="17" selection-start-line="643" selection-start-column="17" selection-end-line="643" selection-end-column="17" />
-          <folding>
-            <element signature="e#8430#10496#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/innertpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -247,8 +222,21 @@
             <element signature="n#div#1;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/innertpl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="606" column="10" selection-start-line="606" selection-start-column="10" selection-end-line="606" selection-end-column="10" />
         </state>
       </provider>
     </entry>
