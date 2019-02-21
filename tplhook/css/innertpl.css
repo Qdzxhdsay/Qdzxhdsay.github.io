@@ -581,12 +581,20 @@ button{
     }
 
     .tpl-main-asside-wrapper{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+
+        z-index: 10;
+
         align-items: center;
 
         width: 100%;
         height: 10%;
 
         order: 2;
+
+        background-color: var(--main-color-white);
 
         border-top: 1px solid var(--main-color-gray);
         border-left: none;

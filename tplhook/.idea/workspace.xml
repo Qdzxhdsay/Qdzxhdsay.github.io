@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/innertpl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/innertpl.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9545">
-              <caret line="556" selection-start-line="556" selection-end-line="556" />
-              <folding>
-                <element signature="e#8430#10496#0" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="588" selection-start-line="588" selection-end-line="588" />
             </state>
           </provider>
         </entry>
@@ -67,6 +62,7 @@
       <find>tpl-main-content-conponent</find>
       <find>.status-list-main-info</find>
       <find>tpl-main-content-component</find>
+      <find>.tpl-main-asside-wrapper</find>
     </findStrings>
     <replaceStrings>
       <replace>--main-color-black</replace>
@@ -83,8 +79,8 @@
         <option value="$PROJECT_DIR$/css/tpl.css" />
         <option value="$PROJECT_DIR$/tpl.html" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/css/innertpl.css" />
         <option value="$PROJECT_DIR$/innertpl.html" />
+        <option value="$PROJECT_DIR$/css/innertpl.css" />
       </list>
     </option>
   </component>
@@ -155,12 +151,12 @@
       <workItem from="1545729280587" duration="23432000" />
       <workItem from="1550228295227" duration="22130000" />
       <workItem from="1550645912703" duration="2901000" />
-      <workItem from="1550649960908" duration="1717000" />
+      <workItem from="1550649960908" duration="2218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50180000" />
+    <option name="totallyTimeSpent" value="50681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -194,20 +190,17 @@
     <entry file="file://$PROJECT_DIR$/2.html" />
     <entry file="file://$PROJECT_DIR$/css/tpl.css" />
     <entry file="file://$PROJECT_DIR$/tpl.html" />
+    <entry file="file://$PROJECT_DIR$/css/innertpl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="588" selection-start-line="588" selection-end-line="588" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/innertpl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9545">
-          <caret line="556" selection-start-line="556" selection-end-line="556" />
-          <folding>
-            <element signature="e#8430#10496#0" />
-          </folding>
         </state>
       </provider>
     </entry>
