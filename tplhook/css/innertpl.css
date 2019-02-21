@@ -193,6 +193,11 @@ button{
 }
 
 
+
+
+
+/* ПЕРВАЯ ВКЛАДКА */
+
 /* Инфо-блок */
 
 .client-info{
@@ -540,17 +545,15 @@ button{
 
 
 
-
-
-
-
-
 #tabs .hide {
     display: none;
 }
 #tabs .show {
     display: block;
 }
+
+/* ВТОРАЯ ВКЛАДКА */
+
 
 
 

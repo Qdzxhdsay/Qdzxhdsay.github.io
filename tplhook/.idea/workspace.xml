@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="" />
+    <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/innertpl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/innertpl.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/innertpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="193" column="59" selection-start-line="193" selection-start-column="59" selection-end-line="193" selection-end-column="59" />
+            <state relative-caret-position="479">
+              <caret line="202" column="34" selection-start-line="202" selection-start-column="34" selection-end-line="202" selection-end-column="34" />
               <folding>
-                <element signature="n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -25,10 +31,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="552" column="1" selection-start-line="552" selection-start-column="1" selection-end-line="552" selection-end-column="1" />
+            <state relative-caret-position="9545">
+              <caret line="556" selection-start-line="556" selection-end-line="556" />
               <folding>
-                <element signature="e#8348#10414#0" />
+                <element signature="e#8430#10496#0" />
               </folding>
             </state>
           </provider>
@@ -76,13 +82,13 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/tpl.css" />
         <option value="$PROJECT_DIR$/tpl.html" />
+        <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/css/innertpl.css" />
         <option value="$PROJECT_DIR$/innertpl.html" />
-        <option value="$PROJECT_DIR$/script.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="141" />
     <option name="y" value="131" />
     <option name="width" value="733" />
@@ -149,11 +155,12 @@
       <workItem from="1545729280587" duration="23432000" />
       <workItem from="1550228295227" duration="22130000" />
       <workItem from="1550645912703" duration="2901000" />
+      <workItem from="1550649960908" duration="1717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48463000" />
+    <option name="totallyTimeSpent" value="50180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -196,20 +203,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/innertpl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="552" column="1" selection-start-line="552" selection-start-column="1" selection-end-line="552" selection-end-column="1" />
+        <state relative-caret-position="9545">
+          <caret line="556" selection-start-line="556" selection-end-line="556" />
           <folding>
-            <element signature="e#8348#10414#0" />
+            <element signature="e#8430#10496#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/innertpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="193" column="59" selection-start-line="193" selection-start-column="59" selection-end-line="193" selection-end-column="59" />
+        <state relative-caret-position="479">
+          <caret line="202" column="34" selection-start-line="202" selection-start-column="34" selection-end-line="202" selection-end-column="34" />
           <folding>
-            <element signature="n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
