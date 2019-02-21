@@ -605,7 +605,7 @@ button{
     justify-content: center;
 
     width: 100%;
-    
+
 }
 
 .select-button-item{
@@ -724,7 +724,7 @@ button{
         align-items: center;
 
         width: 100%;
-        height: 10%;
+        height: 60px;
 
         order: 2;
 
