@@ -606,7 +606,7 @@ button{
 
     width: 100%;
 
-    margin: 10px 0 77px 0;
+    padding: 10px 0 77px 0;
 }
 
 .select-button-item{
@@ -694,7 +694,7 @@ button{
 
 
 
-@media (max-width: 760px) {
+@media (min-width: 320px) and (max-width: 760px) {
     html{
         font-size: 12px;
     }
