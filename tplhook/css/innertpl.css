@@ -30,9 +30,14 @@ button{
 
 /* Общий враппер тплки*/
 
+.body-tpl-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .tpl-wrapper{
     display: flex;
-    position: fixed;
+   /* position: fixed;*/
     flex-wrap: wrap;
 
     width: 70vw;
@@ -47,7 +52,6 @@ button{
     align-items: center;
 
     width: 100%;
-    height: 8vh;
 
     border-left: 1px solid var(--main-color-gray);
     border-bottom: 1px solid var(--main-color-gray);
@@ -66,7 +70,7 @@ button{
     font-size: 1.5rem;
     font-weight: normal;
 
-    margin: 0;
+    margin: 15px 0;
 }
 
 .tpl-header-component i{
@@ -92,7 +96,7 @@ button{
 .tpl-main-wrapper {
     display: flex;
     width: 100%;
-    height: 92vh;
+    /*height: 92vh;*/
 }
 
 
@@ -147,10 +151,24 @@ button{
 /* Общий враппер контента (справа) */
 
 .tpl-main-content-wrapper{
+    display: flex;
     position: relative;
+
     width: 100%;
+
     overflow-y: auto;
     overflow-x:hidden;
+}
+.tpl-main-content-component{
+    display: flex;
+
+    width: 100%;
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .inner-tpl-main-content-component{
@@ -549,7 +567,7 @@ button{
     display: none;
 }
 #tabs .show {
-    display: block;
+    display: flex;
 }
 
 /* ВТОРАЯ ВКЛАДКА */
@@ -697,19 +715,19 @@ button{
     }
 
     .tab-content{
-        margin: 45px 0 100px 0;
+        margin: 45px 0 55px 0;
     }
 
     .tpl-wrapper{
         width: 100vw;
-        height: 100%;
+        /*height: 100%;*/
     }
 
     .tpl-main-wrapper {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 100%;
+        /*height: 100%;*/
     }
 
     .tpl-header-wrapper{
@@ -747,11 +765,12 @@ button{
     }
 
     .tpl-main-content-component{
-        height: 100%;
+        width: 100%;
+        /*height: 100%;*/
     }
     .tpl-main-content-wrapper{
         width: 100%;
-        height: 100%;
+        /*height: 100%;*/
 
         order: 1;
 
