@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/innertpl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/innertpl.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +18,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/innertpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="807">
+              <caret line="340" column="55" selection-start-line="340" selection-start-column="55" selection-end-line="340" selection-end-column="55" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#2;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#0;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#1;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#1;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#2;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#2;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#3;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#li#3;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,8 +53,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="817" column="23" selection-start-line="817" selection-start-column="23" selection-end-line="817" selection-end-column="23" />
+              <folding>
+                <element signature="e#10715#13228#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +91,8 @@
       <find>tpl-main-content-component</find>
       <find>.tpl-main-asside-wrapper</find>
       <find>sale</find>
+      <find>tab</find>
+      <find>select</find>
     </findStrings>
     <replaceStrings>
       <replace>--main-color-black</replace>
@@ -81,8 +115,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="141" />
+    <option name="y" value="131" />
+    <option name="width" value="733" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -148,18 +184,18 @@
       <workItem from="1550649960908" duration="9922000" />
       <workItem from="1550765626858" duration="2418000" />
       <workItem from="1550823288151" duration="365000" />
-      <workItem from="1550824757890" duration="3379000" />
+      <workItem from="1550824757890" duration="10493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64547000" />
+    <option name="totallyTimeSpent" value="71661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16772375" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16772375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -179,6 +215,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16772375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -203,15 +260,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/innertpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="807">
+          <caret line="340" column="55" selection-start-line="340" selection-start-column="55" selection-end-line="340" selection-end-column="55" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#1;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#2;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#3;n#ul#1;n#div#0;n#div#2;n#section#2;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/innertpl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="817" column="23" selection-start-line="817" selection-start-column="23" selection-end-line="817" selection-end-column="23" />
+          <folding>
+            <element signature="e#10715#13228#0" />
+          </folding>
         </state>
       </provider>
     </entry>
