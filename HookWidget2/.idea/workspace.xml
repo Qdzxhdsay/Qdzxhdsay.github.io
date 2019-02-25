@@ -4,7 +4,6 @@
     <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tplhook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tplhook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tplhook/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../tplhook/css/innertpl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tplhook/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tplhook/innertpl.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-849">
+            <state relative-caret-position="1482">
               <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
               <folding>
                 <element signature="n#ul#0;n#nav#0;n#footer#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -33,7 +32,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3480">
+            <state relative-caret-position="19">
               <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
@@ -42,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/2.2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7224">
+            <state relative-caret-position="3686">
               <caret line="194" column="18" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
             </state>
           </provider>
@@ -151,11 +150,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="141" />
-    <option name="y" value="131" />
-    <option name="width" value="733" />
-    <option name="height" value="731" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -273,14 +270,16 @@
       <workItem from="1550226591131" duration="1367000" />
       <workItem from="1550485010744" duration="14313000" />
       <workItem from="1550921855209" duration="1570000" />
+      <workItem from="1551035921335" duration="4000" />
+      <workItem from="1551079604250" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130840000" />
+    <option name="totallyTimeSpent" value="131198000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.10782241" />
@@ -449,7 +448,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-849">
+        <state relative-caret-position="1482">
           <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
           <folding>
             <element signature="n#ul#0;n#nav#0;n#footer#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -459,14 +458,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/2.2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7224">
+        <state relative-caret-position="3686">
           <caret line="194" column="18" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3480">
+        <state relative-caret-position="19">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>

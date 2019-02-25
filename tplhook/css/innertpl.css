@@ -771,7 +771,7 @@ button{
 .choise-service-search-bar input{
     width: 90%;
     height: 35px;
-    padding: 0 0 0 15px;
+    padding: 0 0 0 5px;
     background: none;
     border: none;
     outline: none;
@@ -854,6 +854,107 @@ button{
     display: flex;
 }
 
+.service-list-item-info-price p{
+    display: flex;
+}
+
+.service-list-item-info-price img{
+    margin: 0 0 0 3px;
+
+}
+
+
+
+
+
+
+/*ЧЕТВЕРТАЯ ВКЛАДКА*/
+
+.top-master-service-bar{
+    display: flex;
+    border-bottom: 1px solid var(--main-color-gray);
+}
+
+.master-service-bar-avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 10% 0 0;
+
+    width: 100%;
+}
+
+.top-master-service-bar-leftbutton{
+    height: 35px;
+}
+
+.top-master-service-bar-leftbutton img{
+    width: 30px;
+    height: 30px;
+}
+
+.master-service-bar-avatar img{
+    display: none;
+    width: 30px;
+    height: 30px;
+
+    margin: 0 10px 0 0;
+
+    border-radius: 50%;
+}
+
+.master-service-bar-avatar h3{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.master-service-search-bar-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0 30px 0;
+}
+
+
+.master-service-search-bar{
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--main-color-gray);
+    border-radius: 30px;
+
+    width: 95%;
+}
+
+.master-service-search-bar input{
+    width: 90%;
+    height: 35px;
+    padding: 0 0 0 5px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.master-service-search-bar input::placeholder{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.master-service-search-bar input::-moz-placeholder{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+.service-calendar-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.service-calendar{
+    width: 90%;
+}
 
 
 @media (max-width: 760px) {
@@ -999,6 +1100,10 @@ button{
 
     .inner-tpl-main-content-component-header i{
         font-size: 1.25rem;
+    }
+
+    .choise-service-bar input{
+        padding: 0 0 0 15px;
     }
 
 }

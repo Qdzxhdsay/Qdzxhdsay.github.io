@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>innertpl</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/innertpl.css">
+    <link rel="stylesheet" href="css/miniCalendar.css">
 <body>
 <div class="body-tpl-wrapper">
     <div class="tpl-wrapper">
@@ -248,7 +250,7 @@
                             </button>
                         </div>
                     </section>
-                    <section class="tab-content ">
+                    <section class="tab-content hide">
                         <div class="top-choise-service-bar">
                             <button class="top-choise-service-bar-leftbutton">
                                 <img src="img/BigArrowLeftButton.svg" alt="Левая стрелка назад">
@@ -272,7 +274,7 @@
                                 <div class="service-category">
                                     <h3>Уход за волосами</h3>
                                     <button>
-                                        <img src="img/ArrowTopButton.svg" alt="Кнопка раскрыть\закрыть список">
+                                        <img src="img/ArrowDownButton.svg" alt="Кнопка раскрыть\закрыть список">
                                     </button>
                                 </div>
                                 <ul class="servise-list-items">
@@ -340,7 +342,7 @@
                                 <div class="service-category">
                                     <h3>Уход за Ногтями</h3>
                                     <button>
-                                        <img src="img/ArrowTopButton.svg" alt="Кнопка раскрыть\закрыть список">
+                                        <img src="img/ArrowDownButton.svg" alt="Кнопка раскрыть\закрыть список">
                                     </button>
                                 </div>
                                 <ul class="servise-list-items">
@@ -409,7 +411,30 @@
                         </div>
 
                     </section>
-                    <section class="tab-content hide">Вкладка 4</section>
+                    <section class="tab-content">
+                        <div class="top-master-service-bar">
+                            <button class="top-master-service-bar-leftbutton">
+                                <img src="img/BigArrowLeftButton.svg" alt="Левая стрелка назад">
+                            </button>
+                            <div class="master-service-bar-avatar">
+                                <img src="img/master1.jpg" alt="Аватар мастера">
+                                <h3>Выберите Мастера</h3>
+                            </div>
+                        </div>
+                        <div class="master-service-search-bar-wrapper">
+                            <div class="master-service-search-bar">
+                                <label for="master-search" class="visually-hidden">Поиск мастера</label>
+                                <input type="search" id="master-search" placeholder="Поиск мастера">
+                                <button>
+                                    <img src="img/SearchButton.svg" alt="Кнопка поиска">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="service-calendar-wrapper">
+                            <div class="service-calendar" id="calendar">
+                        </div>
+                        </div>
+                    </section>
                     <section class="tab-content hide">Вкладка 5</section>
                     <section class="tab-content hide">Вкладка 6</section>
                 </div>
@@ -418,6 +443,8 @@
     </div>
 </div>
 
+<script src="lib/moment/moment-with-locales.min.js"></script>
+<script src="miniCalendar.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

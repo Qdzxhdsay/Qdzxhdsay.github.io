@@ -1,18 +1,11 @@
 var tabContent = document.getElementsByClassName('tab-content');
 var tab = document.getElementsByClassName('tab');
 
-document.getElementById('tabs').onclick = function (event) {
-    var target = event.target;
-
-    if (target.className ==='tab') {
-        for (var i=0; i<tab.length; i++) {
-            if (target === tab[i]) {
-                showTabsContent(i);
-                break;
-            }
-        }
-    }
-};
+document.getElementById('tabs').querySelectorAll('.tab').forEach(function (elem, i) {
+    elem.addEventListener('click', function () {
+        showTabsContent(i);
+    });
+});
 
 
 function hideTabsContent(a) {
@@ -33,4 +26,8 @@ function showTabsContent(b){
     }
 }
 
+let calendar;
 
+document.addEventListener('DOMContentLoaded', function () {
+    calendar = new miniCalendar(document.getElementById('calendar'));
+});
