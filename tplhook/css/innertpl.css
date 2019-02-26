@@ -1004,8 +1004,8 @@ button{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 100vh;
-        overflow: auto;
+        height: calc(100vh - 50px);
+        overflow: scroll;
     }
 
     .tpl_header{
