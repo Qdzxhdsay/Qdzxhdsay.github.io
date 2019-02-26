@@ -28,129 +28,100 @@ button{
     background: none;
 }
 
-/* Общий враппер тплки*/
+/* Тпл стили */
 
-.body-tpl-wrapper{
+.tpl{
     display: flex;
-    justify-content: flex-end;
-}
-
-.tpl-wrapper{
-    display: flex;
-   /* position: fixed;*/
     flex-wrap: wrap;
-
-    width: 70vw;
+    width: 50vw;
+    position: fixed;
     right: 0;
+    top: 0;
+    background: var(--main-color-white);
 }
 
 /* Общий враппер хэдэра*/
 
-.tpl-header-wrapper{
+.tpl_header{
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 100%;
-
+    height: 60px;
     border-left: 1px solid var(--main-color-gray);
     border-bottom: 1px solid var(--main-color-gray);
 }
 
 /* Общий враппер хэдэра (КОМПОНЕНТ-ЗАГЛУШКА)*/
 
-.tpl-header-component{
+.tpl_header-content{
     display: flex;
     justify-content: space-between;
-
     width: 95%;
 }
 
-.tpl-header-component h2{
+.tpl_header-title{
     font-size: 1.5rem;
     font-weight: normal;
-
     margin: 15px 0;
 }
 
-.tpl-header-component i{
+.tpl_header-close i{
     font-size: 1.5rem;
+    color: var(--main-color-black);
+}
 
+.tpl_header-edit i{
+    font-size: 1.5rem;
     color: var(--main-color-black);
 }
 
 
-
-.tpl-header-component button i:hover{
-    color:gray;
-}
-
-.tpl-header-component button i:active{
-    color:gray;
-}
-
-
-
 /* Общий враппер мэйн-контента*/
 
-.tpl-main-wrapper {
+.tpl-main {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px);
 }
 
 
 /* Общий враппер навигации (слева) */
 
-.tpl-main-asside-wrapper {
+.tpl-main_asside {
     display: flex;
     justify-content: flex-start;
     min-width: 180px;
-
     border-right: 1px solid var(--main-color-gray);
     border-left: 1px solid var(--main-color-gray);
 }
 
-.tpl-main-asside-wrapper ul{
+.tpl-main_nav-list{
     list-style-type: none;
     margin: 0;
     padding: 0 0 0 15px;
 }
 
-.tpl-main-asside-wrapper li{
+.tpl-main_nav-item{
     width: auto;
-
     margin: 15px 0;
 }
 
-
-.tpl-main-asside-wrapper li button{
+.tpl-main_nav-btn{
     padding: 0 5px;
 }
 
-.tpl-main-asside-wrapper li i{
+.tpl-main_nav-btn i{
     width: 15px;
     height: auto;
-
     margin: 0 15px 0 0;
-
     font-size: 1.3rem;
-
     color: var(--main-color-black);
-}
-
-
-.tpl-main-asside-wrapper li button:hover{
-    color: gray;
-}
-
-.tpl-main-asside-wrapper li i:hover{
-    color: gray;
 }
 
 /* Общий враппер контента (справа) */
 
-.tpl-main-content-wrapper{
+.tpl-main_content{
     display: flex;
     position: relative;
 
@@ -171,7 +142,7 @@ button{
     width: 100%;
 }
 
-.inner-tpl-main-content-component{
+.tpl-main_innertpl{
     position: absolute;
     background-color: white;
     right: -100%;
@@ -181,7 +152,7 @@ button{
     height: 100%;
 }
 
-.inner-tpl-main-content-component-header{
+.tpl-main_innertpl-header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +163,7 @@ button{
     border-bottom: 1px solid var(--main-color-gray);
 }
 
-.inner-tpl-main-content-component-header h2{
+.tpl-main_innertpl-header h2{
     width: 90%;
 
     text-align: center;
@@ -202,7 +173,7 @@ button{
     margin: 0 0 0 -20px;
 }
 
-.inner-tpl-main-content-component-header i{
+.tpl-main_innertpl-header i{
     font-size: 1.625rem;
 }
 
@@ -957,28 +928,87 @@ button{
 }
 
 
+
+.service-write-wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.service-wrtite-toggle{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 30px 3% 30px 8%;
+}
+
+.service-write-toggle-info{
+    display: flex;
+    align-items: center;
+
+}
+
+.service-write-toggle-info img{
+    width: 50px;
+    height: 50px;
+
+    margin: 0 20px 0 0;
+
+    border-radius: 50%;
+}
+
+
+.service-write-toggle-name{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.service-write-toggle-name h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0 0 5px 0;
+}
+
+
+.service-write-toggle-name p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.service-toggle-name-btn img{
+    width: 30px;
+}
+
+
+
 @media (max-width: 760px) {
     html{
         font-size: 12px;
     }
 
     .tab-content{
-        margin: 40px 0 50px 0;
+        margin: 40px 0 0 0;
     }
 
-    .tpl-wrapper{
+    .tpl{
         width: 100vw;
-        /*height: 100%;*/
     }
 
-    .tpl-main-wrapper {
+    .tpl-main {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        /*height: 100%;*/
+        height: calc(100vh - 50px);
+        overflow: auto;
     }
 
-    .tpl-header-wrapper{
+    .tpl_header{
         position: fixed;
         top: 0;
         left: 0;
@@ -990,20 +1020,20 @@ button{
         border-left: none;
     }
 
+    .tpl-main_asside{
+        display: flex;
+        align-items: center;
 
-    .tpl-main-asside-wrapper{
         position: fixed;
         left: 0;
         bottom: 0;
-        display: flex;
-        z-index: 10;
-
-        align-items: center;
 
         width: 100%;
         height: 50px;
 
         order: 2;
+
+        z-index: 10;
 
         background-color: var(--main-color-white);
 
@@ -1014,11 +1044,9 @@ button{
 
     .tpl-main-content-component{
         width: 100%;
-        /*height: 100%;*/
     }
-    .tpl-main-content-wrapper{
+    .tpl-main_content{
         width: 100%;
-        /*height: 100%;*/
 
         order: 1;
 
@@ -1030,7 +1058,7 @@ button{
         font-size: 0.75rem;
     }
 
-    .tpl-main-asside-wrapper ul{
+    .tpl-main_asside ul{
         display: flex;
         align-items: center;
 
@@ -1040,7 +1068,7 @@ button{
         width: 100vw;
     }
 
-    .tpl-main-asside-wrapper li{
+    .tpl-main_asside li{
         display: flex;
         justify-content: center;
 
@@ -1049,7 +1077,7 @@ button{
         width: 20%;
     }
 
-    .tpl-main-asside-wrapper li button{
+    .tpl-main_asside li button{
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -1060,45 +1088,45 @@ button{
         margin: 0;
     }
 
-    .tpl-main-asside-wrapper li i{
+    .tpl-main_asside li i{
         width: auto;
         margin: 0 ;
     }
 
-    .tpl-header-component h2{
+    .tpl_header-content h2{
         font-size: 1rem;
         font-weight: normal;
 
         margin: 0;
     }
 
-    .tpl-header-component i{
+    .tpl_header-content i{
         font-size: 1rem;
 
         color: var(--main-color-black);
     }
 
-    .tpl-main-asside-wrapper li i{
+    .tpl-main_asside li i{
         margin: 0 0 4px 0;
 
         font-size: 1rem;
     }
 
 
-    .inner-tpl-main-content-component-header{
+    .tpl-main_innertpl-header{
         height: 5vh;
 
         border-bottom: 1px solid var(--main-color-gray);
 
     }
 
-    .inner-tpl-main-content-component-header h2{
+    .tpl-main_innertpl-header h2{
         font-size: 0.75rem;
 
         margin: 0 0 0 -30px;
     }
 
-    .inner-tpl-main-content-component-header i{
+    .tpl-main_innertpl-header i{
         font-size: 1.25rem;
     }
 
