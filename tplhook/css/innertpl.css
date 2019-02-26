@@ -998,14 +998,15 @@ button{
 
     .tpl{
         width: 100vw;
+        position: relative;
     }
 
     .tpl-main {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: calc(100vh - 50px);
-        overflow: scroll;
+        height: 100vh;
+        
     }
 
     .tpl_header{
