@@ -998,7 +998,7 @@ button{
 
     .tpl{
         width: 100vw;
-        overflow-x: auto;
+        overflow-y: auto;
     }
 
     .tpl-main {
