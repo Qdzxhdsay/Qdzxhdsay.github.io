@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HookWidget2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/innertpl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/innertpl.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="995" column="24" selection-start-line="995" selection-start-column="24" selection-end-line="995" selection-end-column="24" />
+            <state relative-caret-position="567">
+              <caret line="1006" column="16" selection-start-line="1006" selection-start-column="16" selection-end-line="1006" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -117,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="84" />
     <option name="y" value="25" />
     <option name="width" value="1440" />
@@ -190,15 +187,15 @@
       <workItem from="1550824757890" duration="10634000" />
       <workItem from="1551090655778" duration="5667000" />
       <workItem from="1551112477441" duration="345000" />
-      <workItem from="1551164284839" duration="8264000" />
+      <workItem from="1551164284839" duration="8453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86078000" />
+    <option name="totallyTimeSpent" value="86267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-50" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="84" y="25" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16772375" />
@@ -308,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/innertpl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="995" column="24" selection-start-line="995" selection-start-column="24" selection-end-line="995" selection-end-column="24" />
+        <state relative-caret-position="567">
+          <caret line="1006" column="16" selection-start-line="1006" selection-start-column="16" selection-end-line="1006" selection-end-column="16" />
         </state>
       </provider>
     </entry>
