@@ -592,7 +592,7 @@ button{
 
 
 
-.select-buttons-wrapper{
+.add-visit_select-btns-block{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -602,14 +602,14 @@ button{
 
 }
 
-.select-button-item{
+.add-visit_select-btnitem{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     width: 70%;
-    height: 15vh;
+    height: 135px;
     margin: 20px 0;
 
     border-radius: 10px;
@@ -619,7 +619,7 @@ button{
     border: 1px solid var(--main-color-gray);
 }
 
-.select-button-item img{
+.add-visit_select-btnitem img{
     margin: 0 0 10px 0;
 }
 
@@ -644,7 +644,7 @@ button{
 .add-visit_clientinfo-items{
     display: flex;
     justify-content: space-between;
-    padding: 1% 5%;
+    padding: 2% 5%;
 
 }
 
@@ -662,19 +662,21 @@ button{
     display: flex;
     align-items: center;
 
-    margin: 5px 0;
+    margin:  0;
     font-weight: 400;
     font-size: 1rem;
 }
 .add-visit_clientinfo-sale{
-    margin:  5px 0;
+    display: flex;
+    align-items: center;
+    margin:  0;
     font-weight: 300;
     font-size: 0.8rem;
     color: var(--main-color-gray);
 }
 
 .add-visit_clientinfo-phone{
-    margin:  5px 0;
+    margin:  0;
     font-weight: 300;
     font-size: 0.8rem;
     color: var(--main-color-gray);
@@ -682,15 +684,9 @@ button{
 
 
 .salered{
-    background-image: url(../img/SaleIcon2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 
     color: white;
-
-    padding: 5px 13px 5px 13px;
-    margin: 0;
+    margin: 0 0 0 -30px;
 
     font-weight: 300;
     font-size: 0.6rem;
