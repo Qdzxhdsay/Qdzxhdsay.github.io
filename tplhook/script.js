@@ -1,4 +1,4 @@
-var tabContent = document.getElementsByClassName('tab-content');
+var tabContent = document.getElementsByClassName('tpl-main_tabcontent');
 var tab = document.getElementsByClassName('tab');
 
 document.getElementById('tabs').querySelectorAll('.tab').forEach(function (elem, i) {

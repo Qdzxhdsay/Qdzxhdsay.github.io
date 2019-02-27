@@ -78,12 +78,84 @@
                     </button>
                     <h2 class="innertpl-header-title"><span data-id="">Просмотр заметки</span></h2>
                 </div>
-                <div class="inner-tpl-main-content-component-body">
-
-                </div>
+                <div class="tpl-main_innertpl-body"></div>
             </div>
-            <div class="tpl-main-content-component">
-                <section class="tab-content ">
+            <div class="tpl-main_tplcontent">
+                <section class="tpl-main_tabcontent ">
+                    <div class="add-visit_wrapper">
+                        <div class="add-visit_picker-block">
+                            <div class="add-visit_picker-btns">
+                                <button class="add-visit_picker-btn solo">
+                                    <img data-id="" src="img/SoloWrite.svg" alt="иконка соло записи">
+                                    <span data-id="">Одиночная запись</span>
+                                </button>
+                                <button class="add-visit_picker-btn group">
+                                    <img data-id="" src="img/GroupWrite.svg" alt="иконка групповой записи">
+                                    <span data-id="">Групповая запись</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="add-visit_client-add-block">
+                            <button class="add-visit_client-add-btn">
+                                <img data-id="" src="img/AddButton.svg" alt="Кнопка добавить">
+                                <span data-id="">Добавить клиента</span>
+                            </button>
+                        </div>
+                        <div class="add-visit_clientinfo-block">
+                            <div class="add-visit_clientinfo-solo">
+                                <div class="add-visit_clientinfo-items">
+                                    <div class="add-visit_clientinfo-item">
+                                        <h3 class="add-visit_clientinfo-name"><span data-id="">Анна Вон Гетельман</span></h3>
+                                        <p class="add-visit_clientinfo-sale"><span data-id="">Персональная скидка</span> <span class="salered">30%</span></p>
+                                        <p class="add-visit_clientinfo-phone"><span data-id="">+7(912)245-456-34</span></p>
+                                    </div>
+                                    <button class="add-visit_clientinfo-closebtn">
+                                        <img data-id="" src="img/CrossIcon.svg" alt="иконка крестика">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="add-visit_clientinfo-group">
+                                <div class="add-visit_clientinfo-items">
+                                    <div class="add-visit_clientinfo-item">
+                                        <h3 class="add-visit_clientinfo-name"><span data-id="">Анна Вон Гетельман</span></h3>
+                                        <p class="add-visit_clientinfo-sale"><span data-id="">Персональная скидка</span> <span class="salered">30%</span></p>
+                                        <p class="add-visit_clientinfo-phone"><span data-id="">+7(912)245-456-34</span></p>
+                                    </div>
+                                    <button class="add-visit_clientinfo-closebtn">
+                                        <img data-id="" src="img/CrossIcon.svg" alt="иконка крестика">
+                                    </button>
+                                </div>
+                                <div class="add-visit_clientinfo-items">
+                                    <div class="add-visit_clientinfo-item">
+                                        <h3 class="add-visit_clientinfo-name"><span data-id="">Анна Вон Гетельман</span></h3>
+                                        <p class="add-visit_clientinfo-sale"><span data-id="">Персональная скидка</span> <span class="salered">30%</span></p>
+                                        <p class="add-visit_clientinfo-phone"><span data-id="">+7(912)245-456-34</span></p>
+                                    </div>
+                                    <button class="add-visit_clientinfo-closebtn">
+                                        <img data-id="" src="img/CrossIcon.svg" alt="иконка крестика">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="select-buttons-wrapper">
+                            <button class="select-button-item">
+                                <img src="img/CalendarIcon.svg" alt="иконка календаря">
+                                Выберите время
+                            </button>
+                            <button class="select-button-item">
+                                <img src="img/UserIcon.svg" alt="иконка юзера">
+                                Выберите мастера
+                            </button>
+                            <button class="select-button-item">
+                                <img src="img/BurgerIcon.svg" alt="иконка услуги">
+                                Выберите услугу
+                            </button>
+                        </div>
+                    </div>
+
+
+                </section>
+                <section class="tpl-main_tabcontent hide">
                     <div class="client-info">
                         <ul class="info-list">
                             <li>
@@ -208,67 +280,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="tab-content hide">
-                    <div class="write-block">
-                        <div class="write-buttons">
-                            <button class="button-write wrb">
-                                <img src="img/SoloWrite.svg" alt="иконка соло записи">
-                                Одиночная запись
-                            </button>
-                            <button class="button-write wrb">
-                                <img src="img/GroupWrite.svg" alt="иконка групповой записи">
-                                Групповая запись
-                            </button>
-                        </div>
-                        <div class="add-button-item">
-                            <button>
-                                <img class="add-button" src="img/AddButton.svg" alt="Кнопка добавить">
-                            </button>
-                        </div>
-                    </div>
-                    <div class="add-client-subname">
-                        <p>Добавить клиента</p>
-                    </div>
-                    <div class="write-info-block">
-                        <div class="write-info-solo">
-                            <div class="write-info-items">
-                                <div class="write-item-name">
-                                    <h3>Анна Вон Гетельман</h3>
-                                    <p>Персональная скидка <span class="salered">30%</span></p>
-                                    <p>+7(912)245-456-34</p>
-                                </div>
-                                <button class="write-item-close">
-                                    <img src="img/CrossIcon.svg" alt="иконка крестика">
-                                </button>
-                            </div>
-                            <div class="write-info-items">
-                                <div class="write-item-name">
-                                    <h3>Анна Вон Гетельман</h3>
-                                    <p>Персональная скидка <span class="salered">30%</span></p>
-                                    <p>+7(912)245-456-34</p>
-                                </div>
-                                <button class="write-item-close">
-                                    <img src="img/CrossIcon.svg" alt="иконка крестика">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="select-buttons-wrapper">
-                        <button class="select-button-item">
-                            <img src="img/CalendarIcon.svg" alt="иконка календаря">
-                            Выберите время
-                        </button>
-                        <button class="select-button-item">
-                            <img src="img/UserIcon.svg" alt="иконка юзера">
-                            Выберите мастера
-                        </button>
-                        <button class="select-button-item">
-                            <img src="img/BurgerIcon.svg" alt="иконка услуги">
-                            Выберите услугу
-                        </button>
-                    </div>
-                </section>
-                <section class="tab-content hide">
+                <section class="tpl-main_tabcontent hide">
                     <div class="top-choise-service-bar">
                         <button class="top-choise-service-bar-leftbutton">
                             <img src="img/BigArrowLeftButton.svg" alt="Левая стрелка назад">
@@ -437,7 +449,7 @@
                     </div>
 
                 </section>
-                <section class="tab-content hide">
+                <section class="tpl-main_tabcontent hide">
                     <div class="top-master-service-bar">
                         <button class="top-master-service-bar-leftbutton">
                             <img src="img/BigArrowLeftButton.svg" alt="Левая стрелка назад">
@@ -475,8 +487,8 @@
 
                     </div>
                 </section>
-                <section class="tab-content hide">Вкладка 5</section>
-                <section class="tab-content hide">Вкладка 6</section>
+                <section class="tpl-main_tabcontent hide">Вкладка 5</section>
+                <section class="tpl-main_tabcontent hide">Вкладка 6</section>
             </div>
         </div>
     </main>
