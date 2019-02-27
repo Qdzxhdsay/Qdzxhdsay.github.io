@@ -34,9 +34,9 @@ button{
     display: flex;
     flex-wrap: wrap;
     width: 70vw;
-   /* position: fixed;*/
-    /*right: 0;
-    top: 0;*/
+    position: fixed;
+    right: 0;
+    top: 0;
     background: var(--main-color-white);
 }
 
@@ -998,6 +998,7 @@ button{
 
     .tpl{
         width: 100vw;
+        position: static;
     }
 
     .tpl-main {
