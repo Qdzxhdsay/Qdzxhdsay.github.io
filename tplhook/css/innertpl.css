@@ -533,7 +533,7 @@ button{
 
 
 .tab-content{
-    height: fit-content;
+    /*height: fit-content;*/
 }
 
 #tabs .hide {
@@ -1003,7 +1003,7 @@ button{
 
     .tpl-main {
         display: flex;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
         width: 100%;
         /*height: 100vh;*/
 
@@ -1013,7 +1013,6 @@ button{
         position: fixed;
         top: 0;
         left: 0;
-        background: white;
         z-index: 10;
 
         display: flex;
@@ -1036,8 +1035,6 @@ button{
 
         z-index: 10;
 
-        background-color: var(--main-color-white);
-
         border-top: 1px solid var(--main-color-gray);
         border-left: none;
         border-right: none;
@@ -1055,7 +1052,6 @@ button{
     }
 
     .inner-tpl-main-content-component p{
-
         font-size: 0.75rem;
     }
 
