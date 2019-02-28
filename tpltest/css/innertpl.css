@@ -902,9 +902,9 @@ button {
     .tpl {
         width: 100vw;
         height: 100%;
-        -webkit-overflow-scrolling:touch;
+        overflow-scrolling:touch;
         overflow-y: auto;
-        
+
     }
 
     .tpl-main {
