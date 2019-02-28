@@ -896,12 +896,14 @@ button {
     }
 
     .tpl-main_tabcontent {
-        margin: 40px 0 50px 0;
+       /* margin: 40px 0 50px 0;*/
     }
 
     .tpl {
         width: 100vw;
-        position: static;
+        height: 100%;
+        -webkit-overflow-scrolling:touch;
+        overflow-y: auto;
     }
 
     .tpl-main {
@@ -919,13 +921,13 @@ button {
         background: white;
         z-index: 10;
 
-        display: flex;
+        display: none;
         height: 40px;
         border-left: none;
     }
 
     .tpl-main_asside {
-        display: flex;
+        display: none;
         align-items: center;
 
         position: fixed;

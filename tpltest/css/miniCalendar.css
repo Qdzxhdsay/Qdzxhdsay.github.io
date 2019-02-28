@@ -1,0 +1,194 @@
+.main-block-mini-calendar{
+	min-width: 260px;
+	min-height: 260px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	/*запретить выделение текста*/
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.row-mini-calendar{
+	min-width: 260px;
+	min-height: 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.clickable:hover, .clickable:focus{
+	cursor: pointer;
+}
+
+
+/*заголовки*/
+.head-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-grow: 1;
+	flex-shrink: 1;
+	align-items: center;
+}
+.left-arrow-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.right-arrow-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.right-arrow-mini-calendar svg, .left-arrow-mini-calendar svg{
+	width: 14px;
+	height: 22px;
+}
+.date-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 22;
+	flex-shrink: 22;
+	cursor: default;
+}
+.month-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex-grow: 11;
+	flex-shrink: 11;
+	cursor: default;
+	min-width: 14px;
+	min-height: 22px;
+	padding: 0 4px;
+}
+.year-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-grow: 11;
+	flex-shrink: 11;
+	cursor: default;
+	min-width: 14px;
+	min-height: 22px;
+	padding: 0 4px;
+}
+
+
+/*дни недели*/
+.title-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 1;
+	flex-shrink: 1;
+	cursor: default;
+}
+.table-days-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-width: 30px;
+	align-items: center;
+}
+.field-name-mini-calendar{
+	position: absolute;
+	color: rgba(0,0,0,0.54);
+	font-weight: 700;
+	font-size: 90%;
+}
+.clear-selected-week{
+	display: none;
+	color: red;
+}
+
+
+/*тело календаря*/
+.main-mini-calendar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 1;
+	flex-shrink: 1;
+	cursor: default;
+}
+.table-days-mini-calendar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 32px;
+	min-height: 32px;
+}
+.day-mini-calendar, .field-mini-calendar{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 30px;
+	min-height: 30px;
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 300;
+	box-sizing: content-box;
+}
+.day-mini-calendar:hover, .day-mini-calendar:focus{
+	border: #e6e6e6 1px solid;
+	border-radius: 50%;
+	background: #e6e6e6;
+}
+.today{
+	border: #00a8ff 1px solid;
+	border-radius: 50%;
+}
+.today:hover, .today:focus{
+	border-color: #f99595;
+	background: #f99595;
+}
+.select-day{
+	border: #46c35f 1px solid;
+	border-radius: 50%;
+	background: #46c35f;
+	color: white;
+}
+.select-day:hover, .select-day:focus{
+	border-color: #46c35f;
+	background: #46c35f;
+	color: white;
+}
+.next-month, .prev-month{
+	color: rgba(57,57,57,.3);
+}
+.table-days-mini-calendar.column-0 input {
+    display: none;
+}
+.table-days-mini-calendar.column-0 label {
+    display: flex;
+    align-items: center;
+}
+.table-days-mini-calendar.column-0 input:checked + label::after {
+    border-color: #00a8ff;
+    background-color: #00a8ff;
+}
+.table-days-mini-calendar.column-0 input + label::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: solid 1px #c5d6de;
+        border-top-color: rgb(197, 214, 222);
+        border-right-color: rgb(197, 214, 222);
+        border-bottom-color: rgb(197, 214, 222);
+        border-left-color: rgb(197, 214, 222);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
