@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../tplhook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tplhook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tplhook/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../tplhook/css/innertpl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tplhook/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tplhook/innertpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tplhook/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tplhook/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/innertpl.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="901" column="10" lean-forward="true" selection-start-line="901" selection-start-column="10" selection-end-line="901" selection-end-column="10" />
+            <state relative-caret-position="355">
+              <caret line="906" column="8" selection-start-line="906" selection-start-column="8" selection-end-line="906" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -211,12 +208,12 @@
       <workItem from="1551164284839" duration="10747000" />
       <workItem from="1551251610413" duration="7598000" />
       <workItem from="1551263525862" duration="13110000" />
-      <workItem from="1551352259963" duration="228000" />
+      <workItem from="1551352259963" duration="359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109497000" />
+    <option name="totallyTimeSpent" value="109628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -321,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/innertpl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="901" column="10" lean-forward="true" selection-start-line="901" selection-start-column="10" selection-end-line="901" selection-end-column="10" />
+        <state relative-caret-position="355">
+          <caret line="906" column="8" selection-start-line="906" selection-start-column="8" selection-end-line="906" selection-end-column="8" />
         </state>
       </provider>
     </entry>
