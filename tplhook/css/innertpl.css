@@ -23,6 +23,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 button {
@@ -893,6 +894,10 @@ button {
 
     html {
         font-size: 12px;
+    }
+
+    body {
+        height: 100vh;
     }
 
     .tpl-main_tabcontent {
