@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3173dcc1-24de-4f6d-9931-bf62ec8f4185" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/innertpl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/innertpl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/innertpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/innertpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tpltest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tpltest/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/innertpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="387" column="52" selection-start-line="387" selection-start-column="52" selection-end-line="387" selection-end-column="52" />
+            <state relative-caret-position="4465">
+              <caret line="597" column="36" selection-start-line="597" selection-start-column="36" selection-end-line="597" selection-end-column="36" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#aside#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#2;n#div#0;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -34,21 +35,16 @@
                 <element signature="n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#2;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#2;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/innertpl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="899" column="21" selection-start-line="899" selection-start-column="21" selection-end-line="899" selection-end-column="21" />
+            <state relative-caret-position="3030">
+              <caret line="831" column="24" selection-start-line="831" selection-start-column="24" selection-end-line="831" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -75,52 +71,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>inner-tpl-main-content-component-header</find>
-      <find>tab-con</find>
-      <find>inner-tpl-main-content-component-body</find>
-      <find>tpl-main-content-component</find>
-      <find>tab-content</find>
-      <find>write-block</find>
-      <find>write-buttons</find>
-      <find>button-write</find>
-      <find>add-button-item</find>
-      <find>add-visit_client-add-btn</find>
-      <find>add-client-subname</find>
-      <find>add-visit_client-add-wrapper</find>
-      <find>add-visit_</find>
-      <find>add-visit_wrapper</find>
-      <find>add-visit_picker-btns</find>
-      <find>add-visit_picker</find>
-      <find>write-info-block</find>
-      <find>write-info-solo</find>
-      <find>write-info-items</find>
-      <find>write-item-name</find>
-      <find>write-item-close</find>
-      <find>select-buttons-wrapper</find>
-      <find>select-button-item</find>
-      <find>add-visit_clientinfo-sale</find>
-      <find>add-visit_clientinfo-solo</find>
-      <find>add-visit_clientinfo-group</find>
       <find>top-choise-service-bar</find>
       <find>top-choise-service-bar-leftbutton</find>
       <find>choise-service-bar-avatar</find>
       <find>choise-service-search-bar-wrapper</find>
+      <find>client-info</find>
+      <find>info-list</find>
+      <find>status-info-wrapper</find>
+      <find>status-info-bar-wrapper</find>
+      <find>status-list-info-wrapper</find>
+      <find>status-list-main-info</find>
+      <find>service-avatar</find>
+      <find>service-info</find>
+      <find>info-item</find>
+      <find>info-item-name</find>
+      <find>visit-info_about-client-block</find>
+      <find>visit-info_about-client-info-list</find>
+      <find>status-items</find>
+      <find>visit-info_status-items</find>
+      <find>visit-info_status-items-left</find>
+      <find>visit-info_status-item</find>
+      <find>visit-info_status-item-info</find>
+      <find>visit-info_status-item-info-status</find>
+      <find>visit-info_status-item-info-title</find>
+      <find>visit-info_avatar-block</find>
+      <find>visit-info_avatar-main</find>
+      <find>visit-info_avatar-redactbtn</find>
+      <find>visit-info_avatar-name</find>
+      <find>avatar-block_master</find>
+      <find>visit-info_service-info-item</find>
+      <find>visit-info_service-info-item__left</find>
     </findStrings>
     <replaceStrings>
-      <replace>--main-color-black</replace>
-      <replace>tpl_header</replace>
-      <replace>tpl_header-content</replace>
-      <replace>tpl-main</replace>
-      <replace>tpl-main_asside</replace>
-      <replace>tpl-main_tabcontent</replace>
-      <replace>add-visit_picker</replace>
-      <replace>add-visit_picker-btn</replace>
-      <replace>add-visit_client-add-btn</replace>
-      <replace>add-visit_client-add-wrapper</replace>
-      <replace>add-visit_client-add-btn-name</replace>
-      <replace>add-visit_picker-block</replace>
-      <replace>add-visit_client-add-block</replace>
-      <replace>add-visit_clientinfo-block</replace>
       <replace>add-visit_clientinfo-solo</replace>
       <replace>add-visit_clientinfo-items</replace>
       <replace>add-visit_clientinfo-item</replace>
@@ -129,6 +111,28 @@
       <replace>add-visit_select-btnitem</replace>
       <replace>add-visit_top-bar</replace>
       <replace>add-visit_avatar</replace>
+      <replace>visit_info_about-client</replace>
+      <replace>visit_info_about-client-info-list</replace>
+      <replace>visit_info-status-items</replace>
+      <replace>visit_info-status-items-left</replace>
+      <replace>visit_info-status-item</replace>
+      <replace>visit_info-status-item-info</replace>
+      <replace>visit-info_avatar-block</replace>
+      <replace>visit-info_service-info</replace>
+      <replace>visit-info_service-info-item</replace>
+      <replace>visit-info_info-block</replace>
+      <replace>info-list</replace>
+      <replace>status-items</replace>
+      <replace>status-info</replace>
+      <replace>status-info_column</replace>
+      <replace>visit-info_status-item-info-status</replace>
+      <replace>status-title</replace>
+      <replace>status-subtitle</replace>
+      <replace>avatar-block_master</replace>
+      <replace>avatar-block_redactbtn</replace>
+      <replace>avatar-block_master-name</replace>
+      <replace>master-info_avatar</replace>
+      <replace>service-info</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -142,8 +146,8 @@
         <option value="$PROJECT_DIR$/css/tpl.css" />
         <option value="$PROJECT_DIR$/tpl.html" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/innertpl.html" />
         <option value="$PROJECT_DIR$/css/innertpl.css" />
+        <option value="$PROJECT_DIR$/innertpl.html" />
       </list>
     </option>
   </component>
@@ -222,12 +226,12 @@
       <workItem from="1551164284839" duration="10747000" />
       <workItem from="1551251610413" duration="7598000" />
       <workItem from="1551263525862" duration="13110000" />
-      <workItem from="1551418756887" duration="353000" />
+      <workItem from="1551418756887" duration="20235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109622000" />
+    <option name="totallyTimeSpent" value="129504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -303,13 +307,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/innertpl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="831" column="24" selection-start-line="831" selection-start-column="24" selection-end-line="831" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/innertpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="387" column="52" selection-start-line="387" selection-start-column="52" selection-end-line="387" selection-end-column="52" />
+        <state relative-caret-position="4465">
+          <caret line="597" column="36" selection-start-line="597" selection-start-column="36" selection-end-line="597" selection-end-column="36" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#aside#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -322,19 +334,7 @@
             <element signature="n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#2;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#2;n#section#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#section#1;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/innertpl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="899" column="21" selection-start-line="899" selection-start-column="21" selection-end-line="899" selection-end-column="21" />
         </state>
       </provider>
     </entry>
