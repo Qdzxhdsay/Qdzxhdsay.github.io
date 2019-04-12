@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FIRST HOOK CLIENT WIDGET</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/First%20view%20-%20rectangular%20cards.css">
+</head>
+<body>
+<section class="hipster-widget">
+    <div class="main-header hipster-widget__header">
+        <div class="main-header__leftbar">
+            <button class="main-header__navbtn">
+                <img data-id="" src="img/ArrowLeftButton2.svg" alt="Кнопка назад">
+            </button>
+        </div>
+        <div class="main-header__midbar">
+            <span data-id="" class="main-header__headline">Your Co</span>
+            <img data-id="" class="main-header__logo" src="img/MainLogo2.svg" alt="Логотип Компании">
+        </div>
+        <div class="main-header__rightbar">
+            <button class="main-header__navbtn main-header__navbtn_btnshow">
+                <img data-id="" src="img/ArrowRightButton2.svg" alt="Кнопка Вперед">
+            </button>
+        </div>
+    </div>
+    <div class="hipster-widget__content">
+        <div class="select-buttons hipster-widget__select-buttons">
+            <button class="select-buttons__btnitem">
+                <span data-id="">Мастера</span>
+            </button>
+            <button class="select-buttons__btnitem">
+                <span data-id="">Услуги</span>
+            </button>
+        </div>
+        <div class="search-bar hipster-widget__search">
+            <div class="search-bar__leftbar">
+                <button class="search-bar__navbtn search-bar__navbtn_custompadding">
+                    <img data-id="" class="search-bar__searchicon" src="img/SearchButton.svg" alt="Кнопка поиск">
+                </button>
+                <label for="search" class="visually-hidden">Поиск по мастерам</label>
+                <form action="" method="get" class="search-bar__form" id="searchform">
+                    <input id="search" class="search-bar__input" name="search" type="text"
+                           placeholder="Выбрать мастера">
+                </form>
+            </div>
+            <div class="search-bar__rightbar">
+                <button id="quickPicker" class="search-bar__navbtn">
+                    <img data-id="" class="search-bar__quickwriteicon" src="img/CalendarButtonIcon.svg"
+                         alt="Кнопка быстрая запись">
+                </button>
+            </div>
+        </div>
+        <div id="quickPickerBtn" class="quickwrite-bar hipster-widget__quickwrite">
+            <span data-id="" class="quickwrite-bar__headline">Март</span>
+            <div class="quickwrite-bar__picker">
+                <div class="quickwrite-bar__leftbar">
+                    <button class="quickwrite-bar__navbtn">
+                        <img data-id="" src="img/ArrowLeftButton2.svg" alt="Кнопка назад">
+                    </button>
+                </div>
+                <div class="quickwrite-bar__midbar">
+                    <ul class="quickwrite-bar__picker-list">
+                        <li class="quickwrite-bar__item">
+                            <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">9</span>
+                            <span data-id="" class="quickwrite-bar__datetext">Пн</span>
+                        </li>
+                        <li class="quickwrite-bar__item">
+                            <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">10</span>
+                            <span data-id="" class="quickwrite-bar__datetext">Вт</span>
+                        </li>
+                        <li class="quickwrite-bar__item quickwrite-bar__pickeddate">
+                            <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">11</span>
+                            <span data-id="" class="quickwrite-bar__datetext">Ср</span>
+                        </li>
+                        <li class="quickwrite-bar__item">
+                            <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">12</span>
+                            <span data-id="" class="quickwrite-bar__datetext">Чт</span>
+                        </li>
+                        <li class="quickwrite-bar__item">
+                            <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">13</span>
+                            <span data-id="" class="quickwrite-bar__datetext">Пт</span>
+                        </li>
+                        <li class="quickwrite-bar__item">
+                            <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">16</span>
+                            <span data-id="" class="quickwrite-bar__datetext">Сб</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="quickwrite-bar__rightbar">
+                    <button class="quickwrite-bar__navbtn">
+                        <img data-id="" src="img/ArrowRightButton2.svg" alt="Кнопка Вперед">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hipster-widget__cards">
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master1.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Алина Кравцова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>9.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">01.19</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master2.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Катя Малина</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>7.0</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">04.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">13.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master3.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Алина Кравцова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>9.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">01.19</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master4.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Оля Калисто</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>6.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">13.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">17.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">20.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master5.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Настя Кракова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>9.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">01.19</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master6.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Юля Китова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>8.2</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">22.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.01</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.02</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master1.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Алина Кравцова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>9.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">01.19</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master2.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Катя Малина</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>7.0</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">04.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">13.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master3.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Алина Кравцова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>9.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">01.19</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master4.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Оля Калисто</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>6.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">13.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">17.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">20.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master5.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Настя Кракова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>9.8</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">01.19</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.12</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rect-card hipster-widget__item">
+                <div class="rect-card__leftbar">
+                    <img class="rect-card__avatar" src="img/Master6.jpg" alt="Фото мастера">
+                </div>
+                <div class="rect-card__rightbar">
+                    <div class="rect-card__master-info">
+                        <span class="rect-card__name">Юля Китова</span>
+                        <span class="rect-card__rating">
+                        <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
+                        <span>8.2</span>
+                    </span>
+                    </div>
+                    <span class="rect-card__master-spec">Премиум-стилист</span>
+                    <div class="rect-card__quickwrite-list">
+                        <span class="rect-card__quickwrite-headline">Быстрая запись</span>
+                        <div class="rect-card__quickwrite-dates">
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">22.12</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">02.01</span>
+                            </button>
+                            <button class="rect-card__quickwrite-date">
+                                <span data-id="">03.02</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="main-menu hipster-widget__nav">
+        <ul class="main-menu__list">
+            <li class="main-menu__item">
+                <button class="main-menu__item-btn">
+                    <img src="img/HomeButtonICon.svg" alt="иконка главной странцы">
+                    <span>Главная</span>
+                </button>
+            </li>
+            <li class="main-menu__item">
+                <button class="main-menu__item-btn">
+                    <img src="img/ShopBagButtonIcon.svg" alt="иконка главной странцы">
+                    <span>Магазин</span>
+                </button>
+            </li>
+            <li class="main-menu__item">
+                <button class="main-menu__item-btn">
+                    <img src="img/CalendarButtonIcon.svg" alt="иконка главной странцы">
+                    <span>Записаться</span>
+                </button>
+            </li>
+            <li class="main-menu__item">
+                <button class="main-menu__item-btn">
+                    <img src="img/SaleButtonIcon.svg" alt="иконка главной странцы">
+                    <span>Скидки</span>
+                </button>
+            </li>
+            <li class="main-menu__item">
+                <button class="main-menu__item-btn">
+                    <img src="img/ProfileButtonIcon.svg" alt="иконка главной странцы">
+                    <span>Профиль</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+</section>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
