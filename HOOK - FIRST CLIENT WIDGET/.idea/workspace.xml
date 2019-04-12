@@ -14,16 +14,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/First view - square cards.html">
+        <entry file="file://$PROJECT_DIR$/First view - rectangular cards.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+            <state relative-caret-position="209">
+              <caret line="101" column="54" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="54" />
               <folding>
-                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#9;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#10;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#11;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -31,10 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/First view - square cards.css">
+        <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="629" column="32" selection-start-line="629" selection-start-column="32" selection-end-line="629" selection-end-column="32" />
+            <state relative-caret-position="138">
+              <caret line="500" column="14" lean-forward="true" selection-start-line="500" selection-start-column="14" selection-end-line="500" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -42,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -76,15 +90,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/First view - rectangular cards.html" />
-        <option value="$PROJECT_DIR$/css/First view - rectangular cards.css" />
         <option value="$PROJECT_DIR$/First view - square cards.html" />
         <option value="$PROJECT_DIR$/css/First view - square cards.css" />
+        <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/css/First view - rectangular cards.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -150,11 +164,12 @@
       <updated>1554808235933</updated>
       <workItem from="1554808237157" duration="31193000" />
       <workItem from="1555052829252" duration="17029000" />
+      <workItem from="1555078951381" duration="1054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48222000" />
+    <option name="totallyTimeSpent" value="49276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -202,17 +217,25 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script.js">
+    <entry file="file://$PROJECT_DIR$/First view - square cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="400">
+          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
+    <entry file="file://$PROJECT_DIR$/css/First view - square cards.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="507" lean-forward="true" selection-start-line="507" selection-end-line="507" />
+        <state relative-caret-position="1638">
+          <caret line="602" column="24" lean-forward="true" selection-start-line="602" selection-start-column="24" selection-end-line="602" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -245,25 +268,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/First view - square cards.html">
+    <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/First view - square cards.css">
+    <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="629" column="32" selection-start-line="629" selection-start-column="32" selection-end-line="629" selection-end-column="32" />
+        <state relative-caret-position="138">
+          <caret line="500" column="14" lean-forward="true" selection-start-line="500" selection-start-column="14" selection-end-line="500" selection-end-column="14" />
         </state>
       </provider>
     </entry>

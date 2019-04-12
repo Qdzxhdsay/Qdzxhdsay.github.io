@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let headerShadow = document.getElementsByClassName('main-header hipster-widget__header')[0];
     let scrolledContent = document.getElementsByClassName('hipster-widget__content')[0];
     
-scrolledContent.addEventListener('scroll', function() {
-    if(scrolledContent.pageYOffset>0||scrolledContent.scrollTop>0){
+window.addEventListener('scroll', function() {
+    if(window.pageYOffset>0||scrolledContent.scrollTop>0){
         headerShadow.classList.add('dropShadow');
     }else{
         headerShadow.classList.remove('dropShadow');
