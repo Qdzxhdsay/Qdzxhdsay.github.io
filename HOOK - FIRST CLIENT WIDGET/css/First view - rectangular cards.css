@@ -205,11 +205,11 @@ body{
 
 /* Состояние активной кнопки */
 
-.select-buttons__btnitem:active{
+/*.select-buttons__btnitem:active{
     background-color: var(--main-color-lightgray);
     color: var(--main-color-black);
 
-}
+}*/
 
 /* Состояние выбранной кнопки */
 
@@ -274,6 +274,8 @@ body{
 /* Стилизация input'a в search-bar */
 
 .search-bar__input{
+    display: flex;
+    align-items: center;
     background: none;
     border: none;
 }
