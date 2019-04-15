@@ -227,6 +227,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 40px;
     background-color: var(--main-color-lightgray);
 }
 
@@ -234,14 +235,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+
 }
 
 .search-bar__rightbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+
 }
 
 /* Стилизация навигационных кнопок поиск/быстрая запись в search-bar */
