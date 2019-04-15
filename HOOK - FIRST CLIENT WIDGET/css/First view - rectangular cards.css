@@ -278,6 +278,7 @@ body{
     align-items: center;
     background: none;
     border: none;
+    font-size: 0.85rem;
 }
 
 .search-bar__input::placeholder{
