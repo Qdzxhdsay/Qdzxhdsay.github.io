@@ -597,6 +597,10 @@ body{
         padding: 0 5px;
         margin: 8px 4px 8px 4px;
     }
+
+    .square-card__avatar{
+        width: 45%;
+    }
 }
 
 @media(min-width:400px){
@@ -617,5 +621,9 @@ body{
         font-size: 0.625rem;
         padding: 0 5px;
         margin: 10px 4px 10px 4px;
+    }
+
+    .square-card__avatar{
+        width: 50%;
     }
 }
