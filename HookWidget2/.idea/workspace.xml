@@ -51,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/2.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="579">
@@ -90,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -211,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
@@ -339,15 +339,15 @@
       <workItem from="1551164284609" duration="22000" />
       <workItem from="1554885901981" duration="4285000" />
       <workItem from="1555052829457" duration="1238000" />
-      <workItem from="1555399491671" duration="4772000" />
+      <workItem from="1555399491671" duration="4862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141976000" />
+    <option name="totallyTimeSpent" value="142066000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1551" height="879" extended-state="1" />
+    <frame x="-8" y="-8" width="1551" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.10766182" />
@@ -475,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/2.2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3880">
@@ -540,6 +533,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
           <caret line="675" lean-forward="true" selection-start-line="613" selection-end-line="675" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
