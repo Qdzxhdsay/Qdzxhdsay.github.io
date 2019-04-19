@@ -50,9 +50,15 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /*height: calc(100vh - 120px);
-    overflow-y: auto;*/
     margin: 60px 0 60px 0;
+}
+
+/* {Позиционирование} компонента selected-master */
+
+.hipster-widget__selected-master{
+    width: 90%;
+    margin: 10px 0;
+
 }
 
 /* {Позиционирование} компонента select-buttons */
@@ -76,15 +82,35 @@ body{
     margin: 10px 0 0 0;
 }
 
-/* {Позиционирование} компонента rect-card */
+/* {Позиционирование} компонента cards */
 
 .hipster-widget__cards{
-    width: 94%;
-    margin: 0 0 35px 0;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
 }
 
-.hipster-widget__item{
-    margin: 35px 0 0 0;
+/* [Модификатор] - для для скрытия / раскрытия карточек мастеров  */
+
+.hipster-widget__cards_show{
+    display: flex;
+}
+
+.hipster-widget__card-item{
+    margin: 30px 0 0 0;
+}
+
+/* {Позиционирование} компонента services-list */
+
+.hipster-widget__services-list{
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+/* {Позиционирование} компонента simple-category */
+
+.hipster-widget__simple-category{
+    margin: 10px 0 10px 0;
 }
 
 /* {Позиционирование} компонента main-menu */
@@ -93,6 +119,7 @@ body{
     display: flex;
     width: 100%;
 }
+
 /* <--------------------------------------------------------------------------------> */
 
 /* |Компонент| main-header */
@@ -119,7 +146,7 @@ body{
     visibility: hidden;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 15%;
     height: 30px;
 }
 
@@ -127,7 +154,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     height: 30px;
 }
 
@@ -136,7 +163,7 @@ body{
     visibility: hidden;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 15%;
     height: 30px;
 }
 
@@ -173,6 +200,136 @@ body{
 }
 
 /* <--------------------------------------------------------------------------------> */
+
+/*Выборанный мастер*/
+
+.selected-master{
+    display: none;
+    height: 55px;
+    border: 1px solid var(--main-color-gray);
+    box-shadow:  4px 4px 0 var(--main-shadow-color);
+}
+
+
+
+.selected-master__leftbar{
+    display: flex;
+    align-items: center;
+}
+
+.selected-master__rightbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.selected-master__master-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-master__avatar{
+    width: 40px;
+    height: 40px;
+    padding: 0 8px;
+}
+
+.selected-master__quick-write{
+    display: flex;
+    align-items: center;
+}
+
+.selected-master__name{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.selected-master__spec{
+    font-size: 0.65rem;
+    font-weight: 300;
+    margin: 3px 0 0 0;
+    color: var(--main-color-gray);
+}
+
+.selected-master__time{
+    display: flex;
+    align-items: center;
+    margin: 3px 5px 0 0;
+}
+
+.selected-master__timetext{
+    font-size: 0.65rem;
+    font-weight: 300;
+    margin: 2px 0 0 0;
+}
+
+.selected-master__date{
+    display: flex;
+    align-items: center;
+    margin: 3px 0 0 5px;
+}
+
+.selected-master__datetext{
+    margin: 2px 0 0 0;
+    font-size: 0.65rem;
+    font-weight: 300;
+}
+
+.selected-master__closebtn {
+    display: flex;
+    border: none;
+    background: none;
+}
+
+.selected-master__closeicon {
+    width: 14px;
+    height: 14px;
+}
+
+
+.master-picked-quick-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 0 0;
+}
+
+.master-picked-quick-time p{
+    display: flex;
+    align-items: flex-end;
+
+    font-size: 0.75rem;
+
+    margin: 0 10px 0 0;
+}
+
+.master-picked-quick-time p img{
+    margin: 0 5px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* |Компонент| select-buttons */
 
@@ -213,11 +370,11 @@ body{
 
 /* Состояние выбранной кнопки */
 
-.select-buttons__btnitem:focus{
+/*.select-buttons__btnitem:focus{
     border: 1px solid var(--main-color-gray);
     box-shadow:  4px 4px 0 var(--main-shadow-color);
     background-color: var(--main-color-white);
-}
+}*/
 
 /* <--------------------------------------------------------------------------------> */
 
@@ -233,8 +390,9 @@ body{
 
 .search-bar__leftbar{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    width: 85%;
 
 }
 
@@ -242,6 +400,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 15%;
 
 }
 
@@ -412,6 +571,9 @@ body{
     width: 100%;
 }
 
+
+
+
 .rect-card__master-info{
     display: flex;
     justify-content: space-between;
@@ -561,4 +723,172 @@ body{
     width: 20px;
     height: 20px;
     margin: 0 0 5px 0;
+}
+
+
+
+
+/* СЕРВИСЫ  */
+
+/* обертка всего контента */
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* [Модификатор] - для для скрытия / раскрытия сервис листа */
+
+.service-list_show{
+    display: flex;
+}
+
+.services-list__content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* сервис категория блок */
+
+.simple-category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.simple-category__title {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 0 20px;
+    width: 85%;
+}
+
+.simple-category__btn i {
+    font-size: 20px;
+    color: var(--main-color-gray);
+}
+
+.simple-category__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background: transparent;
+    transform: rotate(0deg);
+    width: 15%;
+    transition: all 0.3s;
+}
+
+/* Модификатор для открытия закрытия списка (по умолчанию) */
+
+.simple-category_show .simple-category__btn{
+    transform: rotate(90deg);
+}
+
+.simple-category_show .simple-category__list{
+    display: flex;
+}
+
+.simple-category__list {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.service-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.service-info__main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 0 0 10px 30px;
+}
+
+.service-info__group{
+    display: flex;
+}
+
+.service-info__title {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 4px 0;
+    transition: all 0.3s;
+}
+
+
+.service-info__rightbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--main-color-gray);
+    width: 15%;
+}
+
+.service-info__rightbar i {
+    font-size: 16px;
+    padding: 0 5px;
+    color: var(--main-color-gray);
+}
+
+.service-info__infoicon{
+    width: 20px;
+    padding: 0 3px;
+}
+
+/* Ховер эффект при наведении на услуги из списка*/
+
+.service-info:hover .service-info__title {
+    opacity: 0.8;
+}
+
+/* Модификатор выбранной услуги из списка*/
+
+.service-info_picked .service-info__title {
+    opacity: 1;
+}
+
+
+.simple-category__category{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.service-info__subtitle {
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 5px 10px 5px 0;
+}
+
+.service-info__rubble-icon {
+    width: 7px;
+    height: 9px;
+}
+
+.service-info__time-icon{
+    width: 13px;
+}
+
+.service-info__subtitle_margin{
+    margin: 0 3px 0 0;
 }
