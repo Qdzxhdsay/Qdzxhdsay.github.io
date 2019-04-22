@@ -11,6 +11,10 @@
     overflow: hidden;
 }
 
+.super-hide{
+    display: none;
+}
+
 /* Переменные с цветами */
 
 :root{
@@ -88,6 +92,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 96%;
+    margin: 0 0 30px 0;
 }
 
 /* [Модификатор] - для для скрытия / раскрытия карточек мастеров  */
@@ -111,6 +116,7 @@ body{
 
 .hipster-widget__simple-category{
     margin: 10px 0 10px 0;
+    width: 95%;
 }
 
 /* {Позиционирование} компонента main-menu */
@@ -210,6 +216,12 @@ body{
     box-shadow:  4px 4px 0 var(--main-shadow-color);
 }
 
+.selected-master2{
+    display: none;
+    height: 55px;
+    border: 1px solid var(--main-color-gray);
+    box-shadow:  4px 4px 0 var(--main-shadow-color);
+}
 
 
 .selected-master__leftbar{
@@ -240,6 +252,11 @@ body{
     align-items: center;
 }
 
+.selected-master__quick-write2{
+    display: none;
+    align-items: center;
+}
+
 .selected-master__name{
     font-size: 1rem;
     font-weight: 300;
@@ -250,6 +267,10 @@ body{
     font-weight: 300;
     margin: 3px 0 0 0;
     color: var(--main-color-gray);
+}
+
+.selected-master__spec2{
+    display: none;
 }
 
 .selected-master__time{
@@ -316,6 +337,112 @@ body{
 
 
 
+.selected-service__closebtn {
+    display: flex;
+    border: none;
+    background: none;
+}
+
+.selected-service-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.selected-service-info__main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 0 0 10px 25px;
+}
+
+.selected-service-info__group{
+    display: flex;
+}
+
+.selected-service-info__title {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 4px 0;
+    transition: all 0.3s;
+}
+
+
+.selected-service-info__rightbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--main-color-gray);
+    width: 15%;
+}
+
+.selected-service-info__rightbar i {
+    font-size: 16px;
+    padding: 0 5px;
+    color: var(--main-color-gray);
+}
+
+.selected-service-info__infoicon{
+    width: 20px;
+    padding: 0 3px;
+}
+
+/* Ховер эффект при наведении на услуги из списка*/
+
+.selected-service-info:hover .selected-service-info__title {
+    opacity: 0.8;
+}
+
+/* Модификатор выбранной услуги из списка*/
+
+.selected-service-info_picked .selected-service-info__title {
+    opacity: 1;
+}
+
+
+.selected-simple-category__category{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.selected-simple-category__category_border_shadow .simple-category__category{
+    padding: 8px 0;
+    border: 1px solid var(--main-color-gray);
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+    background-color: var(--main-color-white);
+}
+
+.selected-simple-category__category_border_shadow .service-info__main{
+    border-left: 1px solid var(--main-color-gray);
+    margin: 0 0 15px 0;
+    padding: 0 0 0 15px;
+}
+
+
+.selected-service-info__subtitle {
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 5px 10px 5px 0;
+}
+
+.selected-service-info__rubble-icon {
+    width: 7px;
+    height: 9px;
+}
+
+.selected-service-info__time-icon{
+    width: 13px;
+}
+
+.selected-service-info__subtitle_margin{
+    margin: 0 3px 0 0;
+}
+
+
 
 
 
@@ -369,13 +496,11 @@ body{
 }*/
 
 /* Состояние выбранной кнопки */
-
-/*.select-buttons__btnitem:focus{
+/*.select-buttons__btnitem:focus {
     border: 1px solid var(--main-color-gray);
-    box-shadow:  4px 4px 0 var(--main-shadow-color);
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
     background-color: var(--main-color-white);
 }*/
-
 /* <--------------------------------------------------------------------------------> */
 
 /* |Компонент| search-bar */
@@ -764,8 +889,12 @@ body{
     background-color: transparent;
 }
 
+
+
+
+
 .simple-category__title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 300;
     margin: 0;
     padding: 0 0 0 20px;
@@ -802,7 +931,7 @@ body{
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     padding: 0;
     margin: 10px 0;
     list-style-type: none;
@@ -818,7 +947,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 85%;
-    padding: 0 0 10px 30px;
+    padding: 0 0 10px 25px;
 }
 
 .service-info__group{
@@ -868,9 +997,23 @@ body{
 
 .simple-category__category{
     display: flex;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
 }
+
+.simple-category__category_border_shadow .simple-category__category{
+    padding: 8px 0;
+    border: 1px solid var(--main-color-gray);
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+    background-color: var(--main-color-white);
+}
+
+.simple-category__category_border_shadow .service-info__main{
+    border-left: 1px solid var(--main-color-gray);
+    margin: 0 0 15px 0;
+    padding: 0 0 0 15px;
+}
+
 
 .service-info__subtitle {
     display: flex;
