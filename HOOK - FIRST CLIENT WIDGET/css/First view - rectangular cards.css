@@ -11,10 +11,6 @@
     overflow: hidden;
 }
 
-.super-hide{
-    display: none;
-}
-
 /* Переменные с цветами */
 
 :root{
@@ -28,6 +24,7 @@
 }
 
 body{
+
     font-family: Roboto,sans-serif;
 }
 
@@ -41,13 +38,13 @@ body{
     width: 100%;
 }
 
-/* (Позиционирование} компонента main-header */
+/* {Позиционирование} компонента main-header */
 
 .hipster-widget__header{
     width: 100%;
 }
 
-/* (Позиционирование} Обертки контента всего виджета */
+/* {Позиционирование} Обертки контента всего виджета */
 
 .hipster-widget__content{
     display: flex;
@@ -60,9 +57,15 @@ body{
 /* {Позиционирование} компонента selected-master */
 
 .hipster-widget__selected-master{
-    width: 90%;
+    width: 91%;
     margin: 10px 0;
+}
 
+/* {Позиционирование} компонента selected-service */
+
+.hipster-widget__selected-service{
+    width: 91%;
+    margin: 10px 0 0 3px;
 }
 
 /* {Позиционирование} компонента select-buttons */
@@ -91,7 +94,7 @@ body{
 .hipster-widget__cards{
     display: flex;
     flex-direction: column;
-    width: 96%;
+    width: 94%;
     margin: 0 0 30px 0;
 }
 
@@ -207,22 +210,26 @@ body{
 
 /* <--------------------------------------------------------------------------------> */
 
-/*Выборанный мастер*/
+/* Классы мимикрирующие под id для работы АНТУХА */
+
+/* висит на карточке только с быстрой записью */
+.qw{
+
+}
+
+/* висит на карточке только со специализацией */
+.wqw{
+
+}
+
+/* |Компонент| selected-master */
 
 .selected-master{
     display: none;
     height: 55px;
     border: 1px solid var(--main-color-gray);
-    box-shadow:  4px 4px 0 var(--main-shadow-color);
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
 }
-
-.selected-master2{
-    display: none;
-    height: 55px;
-    border: 1px solid var(--main-color-gray);
-    box-shadow:  4px 4px 0 var(--main-shadow-color);
-}
-
 
 .selected-master__leftbar{
     display: flex;
@@ -248,13 +255,14 @@ body{
 }
 
 .selected-master__quick-write{
-    display: flex;
+    display: none;
     align-items: center;
 }
 
-.selected-master__quick-write2{
-    display: none;
-    align-items: center;
+/* [Модификатор] - для показа строки быстрой записи у пикнутого мастера */
+
+.selected-master__quick-write_show .selected-master__quick-write{
+    display: flex;
 }
 
 .selected-master__name{
@@ -263,14 +271,17 @@ body{
 }
 
 .selected-master__spec{
+    display: none;
     font-size: 0.65rem;
     font-weight: 300;
     margin: 3px 0 0 0;
     color: var(--main-color-gray);
 }
 
-.selected-master__spec2{
-    display: none;
+/* [Модификатор] - для показа строки специализации у пикнутого мастера */
+
+.selected-master__spec_show .selected-master__spec{
+    display: flex;
 }
 
 .selected-master__time{
@@ -308,7 +319,6 @@ body{
     height: 14px;
 }
 
-
 .master-picked-quick-time{
     display: flex;
     align-items: center;
@@ -316,26 +326,49 @@ body{
     margin: 5px 0 0 0;
 }
 
-.master-picked-quick-time p{
+/* <--------------------------------------------------------------------------------> */
+
+/* |Компонент| selected-service */
+
+.selected-service {
+    display: none;
+    justify-content: space-between;
+}
+
+.selected-service__main {
     display: flex;
-    align-items: flex-end;
-
-    font-size: 0.75rem;
-
-    margin: 0 10px 0 0;
+    flex-direction: column;
 }
 
-.master-picked-quick-time p img{
-    margin: 0 5px 0 0;
+.selected-service__group{
+    display: flex;
 }
 
+.selected-service__title {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 4px 0;
+    transition: all 0.3s;
+}
 
+.selected-service__rightbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--main-color-gray);
+}
 
+.selected-service__rightbar i {
+    font-size: 16px;
+    padding: 0 5px;
+    color: var(--main-color-gray);
+}
 
-
-
-
-
+.selected-service__infoicon{
+    width: 20px;
+    padding: 0 3px;
+}
 
 .selected-service__closebtn {
     display: flex;
@@ -343,60 +376,20 @@ body{
     background: none;
 }
 
-.selected-service-info {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.selected-service-info__main {
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    padding: 0 0 10px 25px;
-}
-
-.selected-service-info__group{
-    display: flex;
-}
-
-.selected-service-info__title {
-    font-size: 1rem;
-    font-weight: 300;
-    margin: 4px 0;
-    transition: all 0.3s;
-}
-
-
-.selected-service-info__rightbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: var(--main-color-gray);
-    width: 15%;
-}
-
-.selected-service-info__rightbar i {
-    font-size: 16px;
-    padding: 0 5px;
-    color: var(--main-color-gray);
-}
-
-.selected-service-info__infoicon{
-    width: 20px;
-    padding: 0 3px;
+.selected-service__closeicon{
+    width: 14px;
+    height: 14px;
 }
 
 /* Ховер эффект при наведении на услуги из списка*/
 
-.selected-service-info:hover .selected-service-info__title {
+.selected-service:hover .selected-service__title {
     opacity: 0.8;
 }
 
 /* Модификатор выбранной услуги из списка*/
 
-.selected-service-info_picked .selected-service-info__title {
+.selected-service_picked .selected-service__title {
     opacity: 1;
 }
 
@@ -421,7 +414,7 @@ body{
 }
 
 
-.selected-service-info__subtitle {
+.selected-service__subtitle {
     display: flex;
     font-size: 0.8rem;
     font-weight: 300;
@@ -429,34 +422,20 @@ body{
     margin: 5px 10px 5px 0;
 }
 
-.selected-service-info__rubble-icon {
+.selected-service__rubble-icon {
     width: 7px;
     height: 9px;
 }
 
-.selected-service-info__time-icon{
+.selected-service__time-icon{
     width: 13px;
 }
 
-.selected-service-info__subtitle_margin{
+.selected-service__subtitle_margin{
     margin: 0 3px 0 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* <--------------------------------------------------------------------------------> */
 
 /* |Компонент| select-buttons */
 
@@ -501,6 +480,7 @@ body{
     box-shadow: 4px 4px 0 var(--main-shadow-color);
     background-color: var(--main-color-white);
 }*/
+
 /* <--------------------------------------------------------------------------------> */
 
 /* |Компонент| search-bar */
@@ -518,7 +498,6 @@ body{
     justify-content: flex-start;
     align-items: center;
     width: 85%;
-
 }
 
 .search-bar__rightbar{
@@ -526,7 +505,6 @@ body{
     justify-content: center;
     align-items: center;
     width: 15%;
-
 }
 
 /* Стилизация навигационных кнопок поиск/быстрая запись в search-bar */
@@ -619,7 +597,6 @@ body{
     align-items: center;
 }
 
-
 .quickwrite-bar__picker-list{
     display: flex;
     justify-content: space-between;
@@ -695,9 +672,6 @@ body{
     justify-content: center;
     width: 100%;
 }
-
-
-
 
 .rect-card__master-info{
     display: flex;
@@ -811,7 +785,6 @@ body{
     display: flex;
     width: 100%;
     height: 60px;
-
     box-shadow: 0 -5px 16px -4px var(--main-shadow-color);
     position: fixed;
     bottom: 0;
@@ -850,10 +823,9 @@ body{
     margin: 0 0 5px 0;
 }
 
+/* <--------------------------------------------------------------------------------> */
 
-
-
-/* СЕРВИСЫ  */
+/* |Компонент| services-list */
 
 /* обертка всего контента */
 
@@ -865,8 +837,9 @@ body{
     width: 100%;
 }
 
-
 /* [Модификатор] - для для скрытия / раскрытия сервис листа */
+
+
 
 .service-list_show{
     display: flex;
@@ -878,7 +851,7 @@ body{
     width: 100%;
 }
 
-/* сервис категория блок */
+/* simple-category блок */
 
 .simple-category {
     display: flex;
@@ -889,16 +862,12 @@ body{
     background-color: transparent;
 }
 
-
-
-
-
 .simple-category__title {
     font-size: 1.1rem;
     font-weight: 300;
     margin: 0;
     padding: 0 0 0 20px;
-    width: 85%;
+    width: 88%;
 }
 
 .simple-category__btn i {
@@ -913,11 +882,11 @@ body{
     border: none;
     background: transparent;
     transform: rotate(0deg);
-    width: 15%;
+    width: 11%;
     transition: all 0.3s;
 }
 
-/* Модификатор для открытия закрытия списка (по умолчанию) */
+/* [Модификатор] - для открытия закрытия списка (по умолчанию) */
 
 .simple-category_show .simple-category__btn{
     transform: rotate(90deg);
@@ -946,7 +915,7 @@ body{
 .service-info__main {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 90%;
     padding: 0 0 10px 25px;
 }
 
@@ -961,14 +930,13 @@ body{
     transition: all 0.3s;
 }
 
-
 .service-info__rightbar {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
     color: var(--main-color-gray);
-    width: 15%;
+    width: 10%;
 }
 
 .service-info__rightbar i {
@@ -982,24 +950,25 @@ body{
     padding: 0 3px;
 }
 
-/* Ховер эффект при наведении на услуги из списка*/
+/* ~Ховер эффект~ при наведении на услуги из списка */
 
 .service-info:hover .service-info__title {
     opacity: 0.8;
 }
 
-/* Модификатор выбранной услуги из списка*/
+/* [Модификатор] - выбранной услуги из списка */
 
 .service-info_picked .service-info__title {
     opacity: 1;
 }
-
 
 .simple-category__category{
     display: flex;
     width: 95%;
     justify-content: space-between;
 }
+
+/* [Модификатор] - рамка и тень для категорий */
 
 .simple-category__category_border_shadow .simple-category__category{
     padding: 8px 0;
@@ -1013,7 +982,6 @@ body{
     margin: 0 0 15px 0;
     padding: 0 0 0 15px;
 }
-
 
 .service-info__subtitle {
     display: flex;
@@ -1035,3 +1003,5 @@ body{
 .service-info__subtitle_margin{
     margin: 0 3px 0 0;
 }
+
+/* <--------------------------------------------------------------------------------> */

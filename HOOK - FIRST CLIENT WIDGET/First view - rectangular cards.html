@@ -32,16 +32,17 @@
     <!--Контент виджета-->
     <main class="hipster-widget__content">
         <!--Панель пикнутого мастера-->
+
         <!--с быстрой записью-->
-        <div class="selected-master2 hipster-widget__selected-master">
+        <div class="qw selected-master hipster-widget__selected-master">
             <div class="selected-master__leftbar">
                 <img class="selected-master__avatar" src="img/Master1.jpg" alt="фото выбранного мастера">
             </div>
-            <div class="selected-master__rightbar">
+            <div class="selected-master__rightbar selected-master__quick-write_show">
                 <div class="selected-master__info">
                     <div class="selected-master__master-info">
                         <span class="selected-master__name" data-id="">Юлия Антохина</span>
-                        <span class="selected-master__spec2" data-id="">Премиум-стилист</span>
+                        <span class="selected-master__spec" data-id="">Премиум-стилист</span>
                     </div>
                     <div class="selected-master__quick-write">
                         <div class="selected-master__time" data-id="">
@@ -60,17 +61,17 @@
             </div>
         </div>
         <!--без быстрой записи -->
-        <div class="selected-master hipster-widget__selected-master">
+        <div class="wqw selected-master hipster-widget__selected-master">
             <div class="selected-master__leftbar">
                 <img class="selected-master__avatar" src="img/Master1.jpg" alt="фото выбранного мастера">
             </div>
-            <div class="selected-master__rightbar">
+            <div class="selected-master__rightbar selected-master__spec_show">
                 <div class="selected-master__info">
                     <div class="selected-master__master-info">
                         <span class="selected-master__name" data-id="">Юлия Антохина</span>
                         <span class="selected-master__spec" data-id="">Премиум-стилист</span>
                     </div>
-                    <div class="selected-master__quick-write2">
+                    <div class="selected-master__quick-write">
                         <div class="selected-master__time" data-id="">
                             <img class="selected-master__timeicon" src="img/ClockButtonIcon.svg" alt="Иконка часов">
                             <span class="selected-master__timetext" data-id="">10:15</span>
@@ -86,84 +87,74 @@
                 </button>
             </div>
         </div>
-        <div class="selected-service-info quick_change">
-            <div class="selected-service-info__main">
-                <h4 class="selected-service-info__title">
+
+        <!--Панель пикнутой\ых услуг-->
+        <div class="ft selected-service hipster-widget__selected-service ">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
                     <span data-id="">Окрашивание волос</span>
                 </h4>
-                <div class="selected-service-info__group">
-                    <p class="selected-service-info__subtitle">
-                        <span class="selected-service-info__subtitle_margin">400</span>
-                        <span>
-                                            <img class="selected-service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
-                                        </span>
+                <div class="selected-service__group">
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">400</span>
+                        <span><img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля"></span>
                     </p>
-                    <p class="selected-service-info__subtitle">
-                        <span class="selected-service-info__subtitle_margin">40</span>
-                        <span class="selected-service-info__subtitle_margin">мин</span>
-                        <span>
-                                            <img class="selected-service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
-                                        </span>
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">40</span>
+                        <span class="selected-service__subtitle_margin">мин</span>
+                        <span><img class="selected-service__time-icon" src="img/TimeIcon.svg" alt="иконка времени"></span>
                     </p>
                 </div>
             </div>
-            <div class="selected-service-info__rightbar">
+            <div class="selected-service__rightbar">
                 <button class="selected-service__closebtn">
-                    <img class="selected-service__closebtn" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
                 </button>
             </div>
         </div>
-        <div class="selected-service-info quick_change">
-            <div class="selected-service-info__main">
-                <h4 class="selected-service-info__title">
+        <div class="sd selected-service hipster-widget__selected-service ">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
                     <span data-id="">Окрашивание волос</span>
                 </h4>
-                <div class="selected-service-info__group">
-                    <p class="selected-service-info__subtitle">
-                        <span class="selected-service-info__subtitle_margin">400</span>
-                        <span>
-                                            <img class="selected-service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
-                                        </span>
+                <div class="selected-service__group">
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">400</span>
+                        <span><img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля"></span>
                     </p>
-                    <p class="selected-service-info__subtitle">
-                        <span class="selected-service-info__subtitle_margin">40</span>
-                        <span class="selected-service-info__subtitle_margin">мин</span>
-                        <span>
-                                            <img class="selected-service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
-                                        </span>
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">40</span>
+                        <span class="selected-service__subtitle_margin">мин</span>
+                        <span><img class="selected-service__time-icon" src="img/TimeIcon.svg" alt="иконка времени"></span>
                     </p>
                 </div>
             </div>
-            <div class="selected-service-info__rightbar">
+            <div class="selected-service__rightbar">
                 <button class="selected-service__closebtn">
-                    <img class="selected-service__closebtn" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
                 </button>
             </div>
         </div>
-        <div class="selected-service-info quick_change">
-            <div class="selected-service-info__main">
-                <h4 class="selected-service-info__title">
+        <div class="te selected-service hipster-widget__selected-service ">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
                     <span data-id="">Окрашивание волос</span>
                 </h4>
-                <div class="selected-service-info__group">
-                    <p class="selected-service-info__subtitle">
-                        <span class="selected-service-info__subtitle_margin">400</span>
-                        <span>
-                                            <img class="selected-service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
-                                        </span>
+                <div class="selected-service__group">
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">400</span>
+                        <span><img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля"></span>
                     </p>
-                    <p class="selected-service-info__subtitle">
-                        <span class="selected-service-info__subtitle_margin">40</span>
-                        <span class="selected-service-info__subtitle_margin">мин</span>
-                        <span>
-                                            <img class="selected-service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
-                                        </span>
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">40</span>
+                        <span class="selected-service__subtitle_margin">мин</span>
+                        <span><img class="selected-service__time-icon" src="img/TimeIcon.svg" alt="иконка времени"></span>
                     </p>
                 </div>
             </div>
-            <div class="selected-service-info__rightbar">
+            <div class="selected-service__rightbar">
                 <button class="selected-service__closebtn">
-                    <img class="selected-service__closebtn" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
                 </button>
             </div>
         </div>
@@ -188,6 +179,7 @@
                 <span data-id="">Услуги</span>
             </button>
         </div>
+
         <!--Панель поиска-->
         <div class="search-bar hipster-widget__search">
             <div class="search-bar__leftbar">
@@ -207,6 +199,7 @@
                 </button>
             </div>
         </div>
+
         <!--Пикер быстрой записи-->
         <div class="quickwrite-bar hipster-widget__quickwrite">
             <span data-id="" class="quickwrite-bar__headline">Март</span>
@@ -251,6 +244,7 @@
                 </div>
             </div>
         </div>
+
         <!--Карточки мастеров-->
         <div class="hipster-widget__cards">
             <div class="rect-card hipster-widget__card-item">
@@ -259,7 +253,7 @@
                 </div>
                 <div class="rect-card__rightbar">
                     <div class="rect-card__master-info">
-                        <span class="rect-card__name quick_change" data-change="selected-master">Алина Кравцова</span>
+                        <span class="rect-card__name quick_change" data-change="wqw">Алина Кравцова</span>
                         <span class="rect-card__rating">
                         <img src="img/BlackStarButtonIcon.svg" alt="иконка рейтинга">
                         <span>9.8</span>
@@ -267,7 +261,7 @@
                     </div>
                     <span class="rect-card__master-spec">Просто-стилист</span>
                     <div class="rect-card__quickwrite-list">
-                        <span class="rect-card__quickwrite-headline quick_change" data-change="selected-master2">Быстрая запись</span>
+                        <span class="rect-card__quickwrite-headline quick_change" data-change="qw">Быстрая запись</span>
                         <div class="rect-card__quickwrite-dates">
                             <button class="rect-card__quickwrite-date">
                                 <span data-id="">01.11</span>
@@ -602,11 +596,11 @@
                 </div>
             </div>
         </div>
+
         <!--Список Услуг-->
         <div class="services-list hipster-widget__services-list" style="display: none;">
             <div class="services-list__content">
-                <div class="simple-category simple-category_show class_change simple-category__category_border_shadow"
-                     data-class="simple-category_show">
+                <div class="simple-category simple-category_show simple-category__category_border_shadow class_change" data-class="simple-category_show">
                     <div class="simple-category__category hipster-widget__simple-category">
                         <h3 class="simple-category__title">
                             <span data-id="">Уход за волосами</span>
@@ -616,7 +610,7 @@
                         </div>
                     </div>
                     <ul class="simple-category__list">
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="ft">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -641,7 +635,7 @@
                                 <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
                             </div>
                         </li>
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="sd">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -666,7 +660,7 @@
                                 <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
                             </div>
                         </li>
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="te">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -768,8 +762,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="simple-category class_change simple-category__category_border_shadow"
-                     data-class="simple-category_show">
+                <div class="simple-category class_change simple-category__category_border_shadow quick_change" data-class="simple-category_show">
                     <div class="simple-category__category hipster-widget__simple-category">
                         <h3 class="simple-category__title">
                             <span data-id="">Уход за волосами</span>
@@ -779,7 +772,7 @@
                         </div>
                     </div>
                     <ul class="simple-category__list">
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="ft">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -804,7 +797,7 @@
                                 <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
                             </div>
                         </li>
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="sd">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -829,7 +822,7 @@
                                 <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
                             </div>
                         </li>
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="te">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -931,8 +924,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="simple-category simple-category_show class_change simple-category__category_border_shadow"
-                     data-class="simple-category_show">
+                <div class="simple-category simple-category_show class_change simple-category__category_border_shadow" data-class="simple-category_show">
                     <div class="simple-category__category hipster-widget__simple-category">
                         <h3 class="simple-category__title">
                             <span data-id="">Уход за волосами</span>
@@ -942,7 +934,7 @@
                         </div>
                     </div>
                     <ul class="simple-category__list">
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="ft">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -967,7 +959,7 @@
                                 <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
                             </div>
                         </li>
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="sd">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -992,7 +984,7 @@
                                 <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
                             </div>
                         </li>
-                        <li class="service-info">
+                        <li class="service-info quick_change" data-change="te">
                             <div class="service-info__main">
                                 <h4 class="service-info__title">
                                     <span data-id="">Окрашивание волос</span>
@@ -1097,6 +1089,7 @@
             </div>
         </div>
     </main>
+
     <!--Панель навигации (меню)-->
     <footer class="hipster-widget__footer">
         <nav class="main-menu hipster-widget__nav">
