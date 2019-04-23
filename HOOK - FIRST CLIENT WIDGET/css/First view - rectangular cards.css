@@ -243,9 +243,14 @@ body{
     width: 100%;
 }
 
+.selected-master__info{
+    width: 85%;
+}
+
 .selected-master__master-info{
     display: flex;
     flex-direction: column;
+
 }
 
 .selected-master__avatar{
@@ -310,6 +315,8 @@ body{
 
 .selected-master__closebtn {
     display: flex;
+    justify-content: flex-end;
+    width: 15%;
     border: none;
     background: none;
 }
@@ -338,6 +345,7 @@ body{
 .selected-service__main {
     display: flex;
     flex-direction: column;
+    width: 85%;
 }
 
 .selected-service__group{
@@ -354,8 +362,9 @@ body{
 .selected-service__rightbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     font-size: 20px;
+    width: 15%;
     color: var(--main-color-gray);
 }
 
