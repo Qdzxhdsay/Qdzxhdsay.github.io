@@ -319,7 +319,7 @@ body{
     justify-content: flex-end;
     border: none;
     background: none;
-    padding: 5px 0;
+    padding: 10px 8px 10px 0;
 }
 
 .selected-master__closeicon {
@@ -382,7 +382,7 @@ body{
     display: flex;
     border: none;
     background: none;
-    padding: 5px 0;
+    padding: 10px 8px 10px 0;
 }
 
 .selected-service__closeicon{
