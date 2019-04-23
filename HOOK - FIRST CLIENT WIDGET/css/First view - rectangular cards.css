@@ -57,14 +57,14 @@ body{
 /* {Позиционирование} компонента selected-master */
 
 .hipster-widget__selected-master{
-    width: 90%;
+    width: 95%;
     margin: 10px 0;
 }
 
 /* {Позиционирование} компонента selected-service */
 
 .hipster-widget__selected-service{
-    width: 90%;
+    width: 95%;
     margin: 10px 0 0 3px;
 }
 
