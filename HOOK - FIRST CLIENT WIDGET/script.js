@@ -1,7 +1,12 @@
 let headerShadow;
-
+let defaultInfo;
+let masterInfo;
+let headerCloseBtn;
 document.addEventListener('DOMContentLoaded', function () {
     headerShadow = document.getElementsByClassName('main-header hipster-widget__header')[0];
+    defaultInfo = document.getElementsByClassName('main-header__defaulinfo')[0];
+    masterInfo = document.getElementsByClassName('main-header__masterpicked')[0];
+    headerCloseBtn = document.getElementsByClassName('main-header__closebtn')[0];
 
     window.addEventListener('scroll', function() {
     if(window.pageYOffset>0){
@@ -9,6 +14,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }else{
         headerShadow.classList.remove('dropShadow');
     }
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 280) {
+            headerShadow.classList.add('dropShadow');
+            defaultInfo.classList.add('mainhide');
+            masterInfo.classList.remove('mainhide');
+            headerCloseBtn.classList.remove('mainhide');
+        } else {
+            headerShadow.classList.remove('dropShadow');
+            defaultInfo.classList.remove('mainhide');
+            masterInfo.classList.add('mainhide');
+            headerCloseBtn.classList.add('mainhide');
+        }
+
+    });
 });
 
 });

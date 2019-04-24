@@ -18,13 +18,22 @@
             <button class="main-header__navbtn">
                 <img data-id="" src="img/ArrowLeftButton2.svg" alt="Кнопка назад">
             </button>
+            <button class="main-header__closebtn mainhide">
+                <img class="main-header__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+            </button>
         </div>
         <div class="main-header__midbar">
-            <span data-id="" class="main-header__headline">Your Co</span>
-            <img data-id="" class="main-header__logo" src="img/MainLogo2.svg" alt="Логотип Компании">
+            <div class="main-header__defaulinfo">
+                <span data-id="" class="main-header__headline">Your Co</span>
+                <img data-id="" class="main-header__logo" src="img/MainLogo2.svg" alt="Логотип Компании">
+            </div>
+            <div class="main-header__masterpicked mainhide">
+                <img data-id="" class="main-header__avatar main-header__avatar_shadow" src="img/Master1.jpg" alt="Аватар мастера">
+                <span data-id="" class="main-header__name">Алина Кравцова</span>
+            </div>
         </div>
         <div class="main-header__rightbar">
-            <button class="main-header__navbtn main-header__navbtn_btnshow">
+            <button class="main-header__navbtn mo1">
                 <img data-id="" src="img/ArrowRightButton2.svg" alt="Кнопка Вперед">
             </button>
         </div>
@@ -41,7 +50,7 @@
             <div class="selected-master__rightbar selected-master__quick-write_show">
                 <div class="selected-master__info">
                     <div class="selected-master__master-info">
-                        <span class="selected-master__name" data-id="">Юлия Антохина</span>
+                        <span class="selected-master__name" data-id="">Алина Кравцова</span>
                         <span class="selected-master__spec" data-id="">Премиум-стилист</span>
                     </div>
                     <div class="selected-master__quick-write">
@@ -55,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="selected-master__closebtn">
+                <button class="selected-master__closebtn quick_change" data-change="qw">
                     <img class="selected-master__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
                 </button>
             </div>
@@ -68,7 +77,7 @@
             <div class="selected-master__rightbar selected-master__spec_show">
                 <div class="selected-master__info">
                     <div class="selected-master__master-info">
-                        <span class="selected-master__name" data-id="">Юлия Антохина</span>
+                        <span class="selected-master__name" data-id="">Алина Кравцова</span>
                         <span class="selected-master__spec" data-id="">Премиум-стилист</span>
                     </div>
                     <div class="selected-master__quick-write">
@@ -82,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="selected-master__closebtn">
+                <button class="selected-master__closebtn quick_change" data-change="wqw">
                     <img class="selected-master__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
                 </button>
             </div>
@@ -161,8 +170,8 @@
         <!--Кнопки выбора-->
         <div class="select-buttons hipster-widget__select-buttons">
             <button class="mast select-buttons__btnitem select-buttons_pickedbtn class_add class_drop quick_hide quick_open"
-                    data-hide="services-list"
-                    data-open="hipster-widget__cards"
+                    data-hide="sh1"
+                    data-open="mo1"
                     data-drop="service"
                     data-add="mast"
                     data-classd="select-buttons_pickedbtn"
@@ -170,8 +179,8 @@
                 <span data-id="">Мастера</span>
             </button>
             <button class="service select-buttons__btnitem class_add class_drop quick_hide quick_open"
-                    data-hide="hipster-widget__cards"
-                    data-open="services-list"
+                    data-hide="mh1"
+                    data-open="so1"
                     data-drop="mast"
                     data-add="service"
                     data-classd="select-buttons_pickedbtn"
@@ -183,13 +192,14 @@
         <!--Панель поиска-->
         <div class="search-bar hipster-widget__search">
             <div class="search-bar__leftbar">
-                <label for="search" class="visually-hidden">Поиск</label>
+                <label for="search" class="visually-hidden">Поиск мастера</label>
+                <label for="services" class="visually-hidden">Поиск услуги</label>
                 <form action="" method="get" class="search-bar__form" id="searchform">
                     <button class="search-bar__navbtn search-bar__navbtn_custompadding">
                         <img data-id="" class="search-bar__searchicon" src="img/SearchButton.svg" alt="Кнопка поиск">
                     </button>
-                    <input id="search" class="search-bar__input" name="search" type="text"
-                           placeholder="Выбрать мастера">
+                    <input id="search" class="search-bar__input mh1 mo1" name="search" type="text" placeholder="Выбрать мастера">
+                    <input id="services" class="search-bar__input mainhide sh1 so1" name="search" type="text" placeholder="Выбрать услуги">
                 </form>
             </div>
             <div class="search-bar__rightbar">
@@ -246,7 +256,7 @@
         </div>
 
         <!--Карточки мастеров-->
-        <div class="hipster-widget__cards">
+        <div class="hipster-widget__cards mo1 mh1">
             <div class="rect-card hipster-widget__card-item">
                 <div class="rect-card__leftbar">
                     <img class="rect-card__avatar" src="img/Master1.jpg" alt="Фото мастера">
@@ -598,7 +608,7 @@
         </div>
 
         <!--Список Услуг-->
-        <div class="services-list hipster-widget__services-list" style="display: none;">
+        <div class="services-list hipster-widget__services-list so1 sh1" style="display: none;">
             <div class="services-list__content">
                 <div class="simple-category simple-category_show simple-category__category_border_shadow class_change" data-class="simple-category_show">
                     <div class="simple-category__category hipster-widget__simple-category">
@@ -765,7 +775,7 @@
                 <div class="simple-category class_change simple-category__category_border_shadow quick_change" data-class="simple-category_show">
                     <div class="simple-category__category hipster-widget__simple-category">
                         <h3 class="simple-category__title">
-                            <span data-id="">Уход за волосами</span>
+                            <span data-id="">Уход за волосами и жопными кудрями</span>
                         </h3>
                         <div class="simple-category__btn">
                             <img src="img/ArrowRightButton2.svg" alt="Иконка категории">
