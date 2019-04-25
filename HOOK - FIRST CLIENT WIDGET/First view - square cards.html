@@ -8,54 +8,210 @@
     <title>SQUARE CARD FIRST HOOK CLIENT WIDGET</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css/First%20view%20-%20square%20card%20new.css">
+    <link rel="stylesheet" href="css/First%20view%20-%20square%20cards.css">
 </head>
 <body>
 <section class="hipster-widget">
-    <div class="main-header hipster-widget__header">
+    <!--Шапка виджета-->
+    <header class="main-header hipster-widget__header">
         <div class="main-header__leftbar">
             <button class="main-header__navbtn">
                 <img data-id="" src="img/ArrowLeftButton2.svg" alt="Кнопка назад">
             </button>
+            <button class="main-header__closebtn mainhide">
+                <img class="main-header__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+            </button>
         </div>
         <div class="main-header__midbar">
-            <span data-id="" class="main-header__headline">Your Co</span>
-            <img data-id="" class="main-header__logo" src="img/MainLogo2.svg" alt="Логотип Компании">
+            <div class="main-header__defaulinfo">
+                <span data-id="" class="main-header__headline">Your Co</span>
+                <img data-id="" class="main-header__logo" src="img/MainLogo2.svg" alt="Логотип Компании">
+            </div>
+            <div class="main-header__masterpicked mainhide">
+                <img data-id="" class="main-header__avatar main-header__avatar_shadow" src="img/Master1.jpg" alt="Аватар мастера">
+                <span data-id="" class="main-header__name">Алина Кравцова</span>
+            </div>
         </div>
         <div class="main-header__rightbar">
-            <button class="main-header__navbtn main-header__navbtn_btnshow">
+            <button class="main-header__navbtn mo1">
                 <img data-id="" src="img/ArrowRightButton2.svg" alt="Кнопка Вперед">
             </button>
         </div>
-    </div>
-    <div class="hipster-widget__content">
+    </header>
+    <!--Контент виджета-->
+    <main class="hipster-widget__content">
+        <!--Панель пикнутого мастера-->
+
+        <!--с быстрой записью-->
+        <div class="qw selected-master hipster-widget__selected-master">
+            <div class="selected-master__leftbar">
+                <img class="selected-master__avatar" src="img/Master1.jpg" alt="фото выбранного мастера">
+            </div>
+            <div class="selected-master__rightbar selected-master__quick-write_show">
+                <div class="selected-master__info">
+                    <div class="selected-master__master-info">
+                        <span class="selected-master__name" data-id="">Алина Кравцова</span>
+                        <span class="selected-master__spec" data-id="">Премиум-стилист</span>
+                    </div>
+                    <div class="selected-master__quick-write">
+                        <div class="selected-master__time" data-id="">
+                            <img class="selected-master__timeicon" src="img/ClockButtonIcon.svg" alt="Иконка часов">
+                            <span class="selected-master__timetext" data-id="">10:15</span>
+                        </div>
+                        <div class="selected-master__date" data-id="">
+                            <img class="selected-master__dateicon" src="img/CalendarButtonIcon.svg" alt="Иконка календаря">
+                            <span class="selected-master__datetext" data-id="">19-01-19</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="selected-master__closebtn quick_change" data-change="qw">
+                    <img class="selected-master__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+        <!--без быстрой записи -->
+        <div class="wqw selected-master hipster-widget__selected-master">
+            <div class="selected-master__leftbar">
+                <img class="selected-master__avatar" src="img/Master1.jpg" alt="фото выбранного мастера">
+            </div>
+            <div class="selected-master__rightbar selected-master__spec_show">
+                <div class="selected-master__info">
+                    <div class="selected-master__master-info">
+                        <span class="selected-master__name" data-id="">Алина Кравцова</span>
+                        <span class="selected-master__spec" data-id="">Премиум-стилист</span>
+                    </div>
+                    <div class="selected-master__quick-write">
+                        <div class="selected-master__time" data-id="">
+                            <img class="selected-master__timeicon" src="img/ClockButtonIcon.svg" alt="Иконка часов">
+                            <span class="selected-master__timetext" data-id="">10:15</span>
+                        </div>
+                        <div class="selected-master__date" data-id="">
+                            <img class="selected-master__dateicon" src="img/CalendarButtonIcon.svg" alt="Иконка календаря">
+                            <span class="selected-master__datetext" data-id="">19-01-19</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="selected-master__closebtn quick_change" data-change="wqw">
+                    <img class="selected-master__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+
+        <!--Панель пикнутой\ых услуг-->
+        <div class="ft selected-service hipster-widget__selected-service quick_change" data-change="ft">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
+                    <span data-id="">Окрашивание волос</span>
+                </h4>
+                <div class="selected-service__group">
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">400</span>
+                        <span><img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля"></span>
+                    </p>
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">40</span>
+                        <span class="selected-service__subtitle_margin">мин</span>
+                        <span><img class="selected-service__time-icon" src="img/TimeIcon.svg" alt="иконка времени"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="selected-service__rightbar">
+                <button class="selected-service__closebtn">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+        <div class="sd selected-service hipster-widget__selected-service quick_change" data-change="sd">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
+                    <span data-id="">Окрашивание волос</span>
+                </h4>
+                <div class="selected-service__group">
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">400</span>
+                        <span><img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля"></span>
+                    </p>
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">40</span>
+                        <span class="selected-service__subtitle_margin">мин</span>
+                        <span><img class="selected-service__time-icon" src="img/TimeIcon.svg" alt="иконка времени"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="selected-service__rightbar">
+                <button class="selected-service__closebtn">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+        <div class="te selected-service hipster-widget__selected-service quick_change" data-change="te">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
+                    <span data-id="">Окрашивание волос</span>
+                </h4>
+                <div class="selected-service__group">
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">400</span>
+                        <span><img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля"></span>
+                    </p>
+                    <p class="selected-service__subtitle">
+                        <span class="selected-service__subtitle_margin">40</span>
+                        <span class="selected-service__subtitle_margin">мин</span>
+                        <span><img class="selected-service__time-icon" src="img/TimeIcon.svg" alt="иконка времени"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="selected-service__rightbar">
+                <button class="selected-service__closebtn">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+        <!--Кнопки выбора-->
         <div class="select-buttons hipster-widget__select-buttons">
-            <button class="select-buttons__btnitem select-buttons_pickedbtn">
+            <button class="mast select-buttons__btnitem select-buttons_pickedbtn class_add class_drop quick_hide quick_open"
+                    data-hide="sh1"
+                    data-open="mo1"
+                    data-drop="service"
+                    data-add="mast"
+                    data-classd="select-buttons_pickedbtn"
+                    data-classa="select-buttons_pickedbtn">
                 <span data-id="">Мастера</span>
             </button>
-            <button class="select-buttons__btnitem">
+            <button class="service select-buttons__btnitem class_add class_drop quick_hide quick_open"
+                    data-hide="mh1"
+                    data-open="so1"
+                    data-drop="mast"
+                    data-add="service"
+                    data-classd="select-buttons_pickedbtn"
+                    data-classa="select-buttons_pickedbtn">
                 <span data-id="">Услуги</span>
             </button>
         </div>
+
+        <!--Панель поиска-->
         <div class="search-bar hipster-widget__search">
             <div class="search-bar__leftbar">
-                <label for="search" class="visually-hidden">Поиск по мастерам</label>
+                <label for="search" class="visually-hidden">Поиск мастера</label>
+                <label for="services" class="visually-hidden">Поиск услуги</label>
                 <form action="" method="get" class="search-bar__form" id="searchform">
                     <button class="search-bar__navbtn search-bar__navbtn_custompadding">
                         <img data-id="" class="search-bar__searchicon" src="img/SearchButton.svg" alt="Кнопка поиск">
                     </button>
-                    <input id="search" class="search-bar__input" name="search" type="text"
-                           placeholder="Выбрать мастера">
+                    <input id="search" class="search-bar__input mh1 mo1" name="search" type="text" placeholder="Выбрать мастера">
+                    <input id="services" class="search-bar__input mainhide sh1 so1" name="search" type="text" placeholder="Выбрать услуги">
                 </form>
             </div>
             <div class="search-bar__rightbar">
-                <button id="quickPicker" class="search-bar__navbtn">
+                <button class="search-bar__navbtn quick_change class_add" data-add="serv" data-classa="super-hide" data-change="quickwrite-bar">
                     <img data-id="" class="search-bar__quickwriteicon" src="img/CalendarButtonIcon.svg"
                          alt="Кнопка быстрая запись">
                 </button>
             </div>
         </div>
-        <div id="quickPickerBtn" class="quickwrite-bar hipster-widget__quickwrite">
+
+        <!--Пикер быстрой записи-->
+        <div class="quickwrite-bar hipster-widget__quickwrite">
             <span data-id="" class="quickwrite-bar__headline">Март</span>
             <div class="quickwrite-bar__picker">
                 <div class="quickwrite-bar__leftbar">
@@ -65,7 +221,7 @@
                 </div>
                 <div class="quickwrite-bar__midbar">
                     <ul class="quickwrite-bar__picker-list">
-                        <li class="quickwrite-bar__item">
+                        <li class="quickwrite-bar__item quickwrite-bar__pickeddate">
                             <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">9</span>
                             <span data-id="" class="quickwrite-bar__datetext">Пн</span>
                         </li>
@@ -73,7 +229,7 @@
                             <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">10</span>
                             <span data-id="" class="quickwrite-bar__datetext">Вт</span>
                         </li>
-                        <li class="quickwrite-bar__item quickwrite-bar__pickeddate">
+                        <li class="quickwrite-bar__item">
                             <span data-id="" class="quickwrite-bar__datenum quickwrite-bar__custom-datenum">11</span>
                             <span data-id="" class="quickwrite-bar__datetext">Ср</span>
                         </li>
@@ -98,7 +254,9 @@
                 </div>
             </div>
         </div>
-        <div class="hipster-widget__cards">
+
+        <!--Карточки мастеров-->
+        <div class="hipster-widget__cards mo1 mh1">
             <div class="square-card hipster-widget__item">
                 <div class="square-card__topbar">
                     <button class="square-card__applybtn">
@@ -111,7 +269,7 @@
                 </div>
                 <div class="square-card__midbar">
                     <img class="square-card__avatar" data-id="" src="img/Master1.jpg" alt="фото мастера">
-                    <h3 class="square-card__name">
+                    <h3 class="square-card__name quick_change" data-change="wqw">
                         <span  data-id="">Алина Кравцова</span>
                     </h3>
                     <p class="square-card__spec">
@@ -119,9 +277,9 @@
                     </p>
                 </div>
                 <div class="square-card__bottombar">
-                    <button class="square-card__quickbtn">17.03</button>
-                    <button class="square-card__quickbtn">18.03</button>
-                    <button class="square-card__quickbtn">19.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">17.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">18.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">19.03</button>
                 </div>
             </div>
             <div class="square-card hipster-widget__item">
@@ -168,7 +326,7 @@
                 </div>
                 <div class="square-card__midbar">
                     <img class="square-card__avatar" data-id="" src="img/Master1.jpg" alt="фото мастера">
-                    <h3 class="square-card__name">
+                    <h3 class="square-card__name quick_change" data-change="wqw">
                         <span  data-id="">Алина Кравцова</span>
                     </h3>
                     <p class="square-card__spec">
@@ -176,9 +334,9 @@
                     </p>
                 </div>
                 <div class="square-card__bottombar">
-                    <button class="square-card__quickbtn">17.03</button>
-                    <button class="square-card__quickbtn">18.03</button>
-                    <button class="square-card__quickbtn">19.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">17.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">18.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">19.03</button>
                 </div>
             </div>
             <div class="square-card hipster-widget__item">
@@ -193,7 +351,7 @@
                 </div>
                 <div class="square-card__midbar">
                     <img class="square-card__avatar" data-id="" src="img/Master1.jpg" alt="фото мастера">
-                    <h3 class="square-card__name">
+                    <h3 class="square-card__name quick_change" data-change="wqw">
                         <span  data-id="">Алина Кравцова</span>
                     </h3>
                     <p class="square-card__spec">
@@ -201,9 +359,9 @@
                     </p>
                 </div>
                 <div class="square-card__bottombar">
-                    <button class="square-card__quickbtn">17.03</button>
-                    <button class="square-card__quickbtn">18.03</button>
-                    <button class="square-card__quickbtn">19.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">17.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">18.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">19.03</button>
                 </div>
             </div>
             <div class="square-card hipster-widget__item">
@@ -218,7 +376,7 @@
                 </div>
                 <div class="square-card__midbar">
                     <img class="square-card__avatar" data-id="" src="img/Master1.jpg" alt="фото мастера">
-                    <h3 class="square-card__name">
+                    <h3 class="square-card__name quick_change" data-change="wqw">
                         <span  data-id="">Алина Кравцова</span>
                     </h3>
                     <p class="square-card__spec">
@@ -226,9 +384,9 @@
                     </p>
                 </div>
                 <div class="square-card__bottombar">
-                    <button class="square-card__quickbtn">17.03</button>
-                    <button class="square-card__quickbtn">18.03</button>
-                    <button class="square-card__quickbtn">19.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">17.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">18.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">19.03</button>
                 </div>
             </div>
             <div class="square-card hipster-widget__item">
@@ -243,7 +401,7 @@
                 </div>
                 <div class="square-card__midbar">
                     <img class="square-card__avatar" data-id="" src="img/Master1.jpg" alt="фото мастера">
-                    <h3 class="square-card__name">
+                    <h3 class="square-card__name quick_change" data-change="wqw">
                         <span  data-id="">Алина Кравцова</span>
                     </h3>
                     <p class="square-card__spec">
@@ -251,47 +409,593 @@
                     </p>
                 </div>
                 <div class="square-card__bottombar">
-                    <button class="square-card__quickbtn">17.03</button>
-                    <button class="square-card__quickbtn">18.03</button>
-                    <button class="square-card__quickbtn">19.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">17.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">18.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">19.03</button>
+                </div>
+            </div>
+            <div class="square-card hipster-widget__item">
+                <div class="square-card__topbar">
+                    <button class="square-card__applybtn">
+                        <img class="square-card__applybtnicon" src="img/ApplyButton.svg" data-id="" alt="кнопка выбора мастера">
+                    </button>
+                    <div class="square-card__rating">
+                        <img class="square-card__ratingicon" data-id="" src="img/BlackStar.svg" alt="иконка рейтинга">
+                        <span class="square-card__ratingtext" data-id="">9.8</span>
+                    </div>
+                </div>
+                <div class="square-card__midbar">
+                    <img class="square-card__avatar" data-id="" src="img/Master1.jpg" alt="фото мастера">
+                    <h3 class="square-card__name quick_change" data-change="wqw">
+                        <span  data-id="">Алина Кравцова</span>
+                    </h3>
+                    <p class="square-card__spec">
+                        <span data-id="">Мастер маникюра</span>
+                    </p>
+                </div>
+                <div class="square-card__bottombar">
+                    <button class="square-card__quickbtn quick_change" data-change="qw">17.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">18.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">19.03</button>
+                </div>
+            </div>
+            <div class="square-card hipster-widget__item">
+                <div class="square-card__topbar">
+                    <button class="square-card__applybtn">
+                        <img class="square-card__applybtnicon" src="img/ApplyButton.svg" data-id="" alt="кнопка выбора мастера">
+                    </button>
+                    <div class="square-card__rating">
+                        <img class="square-card__ratingicon" data-id="" src="img/BlackStar.svg" alt="иконка рейтинга">
+                        <span class="square-card__ratingtext" data-id="">9.8</span>
+                    </div>
+                </div>
+                <div class="square-card__midbar">
+                    <img class="square-card__avatar" data-id="" src="img/Master1.jpg" alt="фото мастера">
+                    <h3 class="square-card__name quick_change" data-change="wqw">
+                        <span  data-id="">Алина Кравцова</span>
+                    </h3>
+                    <p class="square-card__spec">
+                        <span data-id="">Мастер маникюра</span>
+                    </p>
+                </div>
+                <div class="square-card__bottombar">
+                    <button class="square-card__quickbtn quick_change" data-change="qw">17.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">18.03</button>
+                    <button class="square-card__quickbtn quick_change" data-change="qw">19.03</button>
                 </div>
             </div>
         </div>
-    </div>
-    <nav class="main-menu hipster-widget__nav">
-        <ul class="main-menu__list">
-            <li class="main-menu__item">
-                <button class="main-menu__item-btn">
-                    <img src="img/HomeButtonICon.svg" alt="иконка главной странцы">
-                    <span>Главная</span>
-                </button>
-            </li>
-            <li class="main-menu__item">
-                <button class="main-menu__item-btn">
-                    <img src="img/ShopBagButtonIcon.svg" alt="иконка главной странцы">
-                    <span>Магазин</span>
-                </button>
-            </li>
-            <li class="main-menu__item">
-                <button class="main-menu__item-btn">
-                    <img src="img/CalendarButtonIcon.svg" alt="иконка главной странцы">
-                    <span>Записаться</span>
-                </button>
-            </li>
-            <li class="main-menu__item">
-                <button class="main-menu__item-btn">
-                    <img src="img/SaleButtonIcon.svg" alt="иконка главной странцы">
-                    <span>Скидки</span>
-                </button>
-            </li>
-            <li class="main-menu__item">
-                <button class="main-menu__item-btn">
-                    <img src="img/ProfileButtonIcon.svg" alt="иконка главной странцы">
-                    <span>Профиль</span>
-                </button>
-            </li>
-        </ul>
-    </nav>
+
+        <!--Список Услуг-->
+        <div class="services-list hipster-widget__services-list so1 sh1" style="display: none;">
+            <div class="services-list__content">
+                <div class="simple-category simple-category_show simple-category__category_border_shadow class_change" data-class="simple-category_show">
+                    <div class="simple-category__category hipster-widget__simple-category">
+                        <h3 class="simple-category__title">
+                            <span data-id="">Уход за волосами</span>
+                        </h3>
+                        <div class="simple-category__btn">
+                            <img src="img/ArrowRightButton2.svg" alt="Иконка категории">
+                        </div>
+                    </div>
+                    <ul class="simple-category__list">
+                        <li class="service-info quick_change" data-change="ft">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info quick_change" data-change="sd">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info quick_change" data-change="te">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="simple-category class_change simple-category__category_border_shadow quick_change" data-class="simple-category_show">
+                    <div class="simple-category__category hipster-widget__simple-category">
+                        <h3 class="simple-category__title">
+                            <span data-id="">Уход за волосами и жопными кудрями</span>
+                        </h3>
+                        <div class="simple-category__btn">
+                            <img src="img/ArrowRightButton2.svg" alt="Иконка категории">
+                        </div>
+                    </div>
+                    <ul class="simple-category__list">
+                        <li class="service-info quick_change" data-change="ft">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info quick_change" data-change="sd">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info quick_change" data-change="te">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="simple-category simple-category_show class_change simple-category__category_border_shadow" data-class="simple-category_show">
+                    <div class="simple-category__category hipster-widget__simple-category">
+                        <h3 class="simple-category__title">
+                            <span data-id="">Уход за волосами</span>
+                        </h3>
+                        <div class="simple-category__btn">
+                            <img src="img/ArrowRightButton2.svg" alt="Иконка категории">
+                        </div>
+                    </div>
+                    <ul class="simple-category__list">
+                        <li class="service-info quick_change" data-change="ft">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info quick_change" data-change="sd">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info quick_change" data-change="te">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                        <li class="service-info">
+                            <div class="service-info__main">
+                                <h4 class="service-info__title">
+                                    <span data-id="">Окрашивание волос</span>
+                                </h4>
+                                <div class="service-info__group">
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">400</span>
+                                        <span>
+                                            <img class="service-info__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                        </span>
+                                    </p>
+                                    <p class="service-info__subtitle">
+                                        <span class="service-info__subtitle_margin">40</span>
+                                        <span class="service-info__subtitle_margin">мин</span>
+                                        <span>
+                                            <img class="service-info__time-icon" src="img/TimeIcon.svg" alt="иконка времени">
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-info__rightbar">
+                                <img class="service-info__infoicon" src="img/ServiceInfoIcon2.svg" alt="иконка больше информации">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Панель навигации (меню)-->
+    <footer class="hipster-widget__footer">
+        <nav class="main-menu hipster-widget__nav">
+            <ul class="main-menu__list">
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/HomeButtonICon.svg" alt="иконка главной странцы">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/ShopBagButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Магазин</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/CalendarButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Записаться</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/SaleButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Скидки</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/ProfileButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Профиль</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </section>
 <script src="script.js" type="text/javascript"></script>
 </body>
