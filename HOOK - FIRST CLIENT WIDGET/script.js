@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 280) {
+        if (window.pageYOffset > 200) {
             headerShadow.classList.add('dropShadow');
             defaultInfo.classList.add('mainhide');
             masterInfo.classList.remove('mainhide');
