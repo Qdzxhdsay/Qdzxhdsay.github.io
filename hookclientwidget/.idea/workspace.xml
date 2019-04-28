@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="" />
+    <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HOOK - FIRST CLIENT WIDGET/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HOOK - FIRST CLIENT WIDGET/Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HOOK - FIRST CLIENT WIDGET/img/porftfoliowork2.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a5caec0-01c9-423b-8d65-aadc5a8b31cf" name="Default Changelist" comment="" />
+    <list default="true" id="8a5caec0-01c9-423b-8d65-aadc5a8b31cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/porftfoliowork2.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="363">
+              <caret line="105" column="76" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
               <folding>
                 <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -199,13 +202,13 @@
         <option value="$PROJECT_DIR$/css/First view - square cards.css" />
         <option value="$PROJECT_DIR$/css/Profile.css" />
         <option value="$PROJECT_DIR$/scriptProfile.js" />
-        <option value="$PROJECT_DIR$/Profile.html" />
         <option value="$PROJECT_DIR$/First view - rectangular cards.html" />
         <option value="$PROJECT_DIR$/First view - square cards.html" />
+        <option value="$PROJECT_DIR$/Profile.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="101" />
     <option name="y" value="215" />
     <option name="width" value="1440" />
@@ -302,12 +305,12 @@
       <workItem from="1556174525020" duration="8868000" />
       <workItem from="1556263450277" duration="1616000" />
       <workItem from="1556265376119" duration="8821000" />
-      <workItem from="1556449657185" duration="5638000" />
+      <workItem from="1556449657185" duration="5989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177767000" />
+    <option name="totallyTimeSpent" value="178118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -471,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="363">
+          <caret line="105" column="76" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
           <folding>
             <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
