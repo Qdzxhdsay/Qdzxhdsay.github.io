@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scriptProfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
@@ -22,15 +22,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="651">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#div#1;n#div#0;n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -302,12 +302,12 @@
       <workItem from="1556174525020" duration="8868000" />
       <workItem from="1556263450277" duration="1616000" />
       <workItem from="1556265376119" duration="8821000" />
-      <workItem from="1556449657185" duration="5488000" />
+      <workItem from="1556449657185" duration="5638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177617000" />
+    <option name="totallyTimeSpent" value="177767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -462,14 +462,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scriptProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="651">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#div#1;n#div#0;n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -502,13 +509,6 @@
             <element signature="n#div#1;n#div#2;n#div#4;n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scriptProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
