@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="" />
+    <list default="true" id="48e3347b-4fcf-4ece-b583-82ae54c44ee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HOOK - FIRST CLIENT WIDGET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HOOK - FIRST CLIENT WIDGET/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
+            <state relative-caret-position="378">
               <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -238,7 +241,6 @@
         <option value="$PROJECT_DIR$/FirstView6.html" />
         <option value="$PROJECT_DIR$/css/FirstView6.css" />
         <option value="$PROJECT_DIR$/css/FirstView4.css" />
-        <option value="$PROJECT_DIR$/Profile.html" />
         <option value="$PROJECT_DIR$/css/Profile.css" />
         <option value="$PROJECT_DIR$/Profile2.html" />
         <option value="$PROJECT_DIR$/scriptprofile.js" />
@@ -249,12 +251,13 @@
         <option value="$PROJECT_DIR$/FirstView2.2.html" />
         <option value="$PROJECT_DIR$/script2.js" />
         <option value="$PROJECT_DIR$/css/FirstView5.css" />
+        <option value="$PROJECT_DIR$/Profile.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="215" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1440" />
     <option name="height" value="815" />
   </component>
@@ -293,7 +296,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HOOK - FIRST CLIENT WIDGET" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -365,14 +368,15 @@
       <workItem from="1556265376256" duration="3175000" />
       <workItem from="1556381536596" duration="4000" />
       <workItem from="1556449647974" duration="676000" />
+      <workItem from="1557123244868" duration="1204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75966000" />
+    <option name="totallyTimeSpent" value="77170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.16787839" />
@@ -625,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
+        <state relative-caret-position="378">
           <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
           <folding>
             <element signature="n#div#0;n#section#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
