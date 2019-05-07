@@ -35,13 +35,21 @@ body{
     width: 100%;
     height: auto;
 
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+
     fill: var(--light-coral-chocolate);
 }
 
 .main-block-triangleCap{
     width: 100%;
     height: auto;
-
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
     fill: white;
 }
 
@@ -62,7 +70,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 85%;
 
 }
 
@@ -91,7 +99,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95%;
+    width: 97%;
     margin: -30px 0 0 0;
 }
 
@@ -798,7 +806,7 @@ body{
 .rect-card__avatar{
     width: 65px;
     height: 65px;
-    margin: 0 12px 0 0;
+    margin: 0 10px 0 0;
     border-radius: 50%;
 }
 
