@@ -21,10 +21,87 @@
     --main-color-deepgray: #7D7D7D;
     --main-color-gray-opacity:rgba(236,236,236,0.5);
     --main-shadow-color: #d6d6d6;
+    --light-coral-chocolate: #f2f2f2;
 }
 
 body{
     font-family: Roboto,sans-serif;
+    background-color: #ece9e7;
+}
+
+.top-block-triangleCap{
+    width: 100%;
+    height: auto;
+
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+
+    fill: var(--light-coral-chocolate);
+}
+
+.main-block-triangleCap{
+    width: 100%;
+    height: auto;
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    fill: white;
+}
+
+
+.hipster-widget__top-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    z-index: 9;
+}
+
+.hipster-widget__top-bar-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--light-coral-chocolate);
+    padding: 0 0 10px 0;
+    margin: -2px 0 0 0;
+}
+
+
+.hipster-widget__main-bar-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    bottom: 0;
+    height: 100%;
+    margin: -2px 0 0 0;
+    background-color: var(--main-color-white);
+}
+
+.hipster-widget__main-bar{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 97%;
+    bottom: 0;
+    margin: -30px 0 0 0;
+}
+
+
+.select-buttons_btnitem-hr{
+    height: 3px;
+    border-radius: 10px;
+    background-color: #F3CFC2;
+    border: none;
+    visibility: hidden;
+    margin: 10px 0 0 0;
 }
 
 /* (Позиционирование} Общей обертки всего виджета */
@@ -47,10 +124,11 @@ body{
 
 .hipster-widget__content{
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 60px 0 60px 0;
+    margin: 75px 0 60px 0;
 }
 
 
@@ -61,7 +139,7 @@ body{
 }
 
 .hipster-widget__profile-services{
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 .hipster-widget__profile-comment{
