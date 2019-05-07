@@ -132,15 +132,15 @@ body{
 /* {Позиционирование} компонента selected-master */
 
 .hipster-widget__selected-master{
-    width: 93%;
+    width: 88%;
     margin: 10px 0;
 }
 
 /* {Позиционирование} компонента selected-service */
 
 .hipster-widget__selected-service{
-    width: 93%;
-    margin: 10px 0 0 3px;
+    width: 88%;
+    margin: 5px 0 0 3px;
 }
 
 /* {Позиционирование} компонента select-buttons */
