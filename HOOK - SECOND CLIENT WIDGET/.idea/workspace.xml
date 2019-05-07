@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5caec0-01c9-423b-8d65-aadc5a8b31cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/First view - rectangular cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/First view - rectangular cards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/First view - rectangular cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/First view - rectangular cards.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/First view - rectangular cards.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+            <state relative-caret-position="329">
+              <caret line="94" column="110" selection-start-line="94" selection-start-column="110" selection-end-line="94" selection-end-column="110" />
               <folding>
                 <element signature="n#button#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -46,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="249">
+              <caret line="571" lean-forward="true" selection-start-line="571" selection-end-line="571" />
             </state>
           </provider>
         </entry>
@@ -68,9 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>workEdite</find>
-      <find>master-cards-container</find>
-      <find>master-card-info</find>
       <find>squarequick-card</find>
       <find>square-card</find>
       <find>master-card-bottombar</find>
@@ -98,6 +96,9 @@
       <find>select-buttons_pickedbtn</find>
       <find>drop</find>
       <find>selected-master__avatar</find>
+      <find>selected-service</find>
+      <find>selected-service__subtitle</find>
+      <find>selected-master__spec</find>
     </findStrings>
     <replaceStrings>
       <replace>headerShadow</replace>
@@ -137,8 +138,8 @@
         <option value="$PROJECT_DIR$/First view - square cards.html" />
         <option value="$PROJECT_DIR$/Profile.html" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/First view - rectangular cards.html" />
         <option value="$PROJECT_DIR$/css/First view - rectangular cards.css" />
+        <option value="$PROJECT_DIR$/First view - rectangular cards.html" />
       </list>
     </option>
   </component>
@@ -237,12 +238,12 @@
       <workItem from="1556449657185" duration="6978000" />
       <workItem from="1557123245102" duration="691000" />
       <workItem from="1557128829943" duration="13006000" />
-      <workItem from="1557219455236" duration="3209000" />
+      <workItem from="1557219455236" duration="8960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196013000" />
+    <option name="totallyTimeSpent" value="201764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -408,10 +409,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="571" lean-forward="true" selection-start-line="571" selection-end-line="571" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/First view - rectangular cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="329">
+          <caret line="94" column="110" selection-start-line="94" selection-start-column="110" selection-end-line="94" selection-end-column="110" />
           <folding>
             <element signature="n#button#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -425,13 +433,6 @@
             <element signature="n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
         </state>
       </provider>
     </entry>

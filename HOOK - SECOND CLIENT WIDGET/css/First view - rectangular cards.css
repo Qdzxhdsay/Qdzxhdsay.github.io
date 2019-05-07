@@ -379,6 +379,7 @@ body{
 .selected-master__quick-write{
     display: none;
     align-items: center;
+    margin: 5px 0 0 0;
 }
 
 /* [Модификатор] - для показа строки быстрой записи у пикнутого мастера */
@@ -396,8 +397,8 @@ body{
     display: none;
     font-size: 0.65rem;
     font-weight: 300;
-    margin: 3px 0 0 0;
-    color: var(--main-color-gray);
+    margin: 6px 0 0 0;
+    color: var(--main-color-deepgray);
 }
 
 /* [Модификатор] - для показа строки специализации у пикнутого мастера */
@@ -409,25 +410,35 @@ body{
 .selected-master__time{
     display: flex;
     align-items: center;
-    margin: 3px 5px 0 0;
+    margin: 0 5px 0 0;
 }
 
 .selected-master__timetext{
     font-size: 0.65rem;
     font-weight: 300;
     margin: 2px 0 0 0;
+    color: var(--main-color-deepgray);
+}
+
+.selected-master__timeicon{
+    margin: 0 2px 0 0;
 }
 
 .selected-master__date{
     display: flex;
     align-items: center;
-    margin: 3px 0 0 5px;
+    margin: 0 0 0 5px;
 }
 
 .selected-master__datetext{
     margin: 2px 0 0 0;
     font-size: 0.65rem;
     font-weight: 300;
+    color: var(--main-color-deepgray);
+}
+
+.selected-master__dateicon{
+    margin: 0 2px 0 0;
 }
 
 .selected-master__closebtn {
@@ -466,6 +477,7 @@ body{
 
 .selected-service__group{
     display: flex;
+    margin: 3px 0 0 0;
 }
 
 .selected-service__title {
@@ -506,19 +518,6 @@ body{
     height: 14px;
 }
 
-/* Ховер эффект при наведении на услуги из списка*/
-
-.selected-service:hover .selected-service__title {
-    opacity: 0.8;
-}
-
-/* Модификатор выбранной услуги из списка*/
-
-.selected-service_picked .selected-service__title {
-    opacity: 1;
-}
-
-
 .selected-simple-category__category{
     display: flex;
     width: 95%;
@@ -538,26 +537,39 @@ body{
     padding: 0 0 0 15px;
 }
 
-
-.selected-service__subtitle {
+.selected-service__subtitle-price {
     display: flex;
-    font-size: 0.8rem;
+    align-items: center;
+    font-size: 0.65rem;
     font-weight: 300;
     color: var(--main-color-deepgray);
-    margin: 5px 10px 5px 0;
+    margin: 0 4px 0 0;
+}
+
+.selected-service__subtitle-time{
+    display: flex;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 0 0 0 4px;
+}
+.selected-service__subtitle-pricetext{
+    margin: 0 0 0 2px;
+}
+
+.selected-service__subtitle-timenumber{
+    margin: 0 1px 0 2px;
 }
 
 .selected-service__rubble-icon {
-    width: 7px;
-    height: 9px;
+    width: 6px;
+    height: 7px;
+    margin: 0 0 1px 0;
 }
 
 .selected-service__time-icon{
-    width: 13px;
-}
-
-.selected-service__subtitle_margin{
-    margin: 0 3px 0 0;
+    margin: 0 0 2px 0;
 }
 
 /* <--------------------------------------------------------------------------------> */
@@ -1073,7 +1085,7 @@ body{
 
 .service-info__infoicon{
     width: 20px;
-    padding: 0 3px;
+    padding: 0 3px 0 0;
 }
 
 /* ~Ховер эффект~ при наведении на услуги из списка */
