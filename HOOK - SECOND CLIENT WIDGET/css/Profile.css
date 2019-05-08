@@ -88,7 +88,7 @@ body{
     position: absolute;
     flex-direction: column;
     align-items: center;
-    height: 90%;
+    height: calc(100% - 150px);
     width: 97%;
     bottom: 0;
     margin: -30px 0 0 0;
@@ -153,7 +153,7 @@ body{
 /* {Позиционирование} компонента select-buttons */
 
 .hipster-widget__select-buttons{
-    width: 93%;
+    width: 75%;
     margin: 20px 0 0 0;
 }
 
@@ -173,16 +173,17 @@ body{
     justify-content: center;
     align-items: center;
     height: 60px;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: var(--main-color-white);
+    background-color: transparent;
     z-index: 10;
 }
 
 .dropShadow{
     box-shadow: 0 5px 16px -4px var(--main-shadow-color);
+    background-color: var(--main-color-white);
 }
 
 .main-header__leftbar{
@@ -313,6 +314,13 @@ body{
 .profile-card__avatar{
     width: 120px;
     height: auto;
+    border-radius: 50%;
+}
+
+/* [Модификатор] - квадратная аватрка профиля + тень */
+
+.profile-card__avatar_shadow{
+    border-radius: 0;
     box-shadow:  6px 6px 0 var(--main-shadow-color);
 }
 
@@ -326,7 +334,7 @@ body{
     font-size: 0.9rem;
     font-weight: 300;
     margin: 10px 0 0 0;
-    color: var(--main-color-gray);
+    color: var(--main-color-deepgray);
 }
 
 .profile-card__rating{
@@ -359,7 +367,7 @@ body{
     align-items: center;
     width: 26%;
     margin: 3%;
-    border: 1px solid var(--main-color-gray);
+    border-radius: 10px;
     box-shadow:  4px 4px 0 var(--main-shadow-color);
 }
 
@@ -372,7 +380,7 @@ body{
 }
 
 .select-buttons__btnitem{
-    width: 40vw;
+    width: 26vw;
     height: 32px;
     padding: 0;
     margin: 0;
@@ -384,14 +392,20 @@ body{
     outline: none;
 }
 
-/* [Модификатор] - активной/выбранной кнопки */
+/*!* [Модификатор] - активной/выбранной кнопки *!
 
 .select-buttons_pickedbtn{
     border: 1px solid var(--main-color-gray);
     box-shadow: 4px 4px 0 var(--main-shadow-color);
     background-color: var(--main-color-white);
-}
+}*/
 
+
+/* [Модификатор] - активной/выбранной кнопки */
+
+.select-buttons_pickedbtn .select-buttons_btnitem-hr{
+    visibility: visible;
+}
 /* <--------------------------------------------------------------------------------> */
 
 .main-menu{

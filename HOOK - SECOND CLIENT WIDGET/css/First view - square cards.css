@@ -397,8 +397,9 @@ body {
     flex-direction: column;
 }
 
-.selected-service__group {
+.selected-service__group{
     display: flex;
+    margin: 3px 0 0 0;
 }
 
 .selected-service__title {
@@ -422,7 +423,7 @@ body {
     color: var(--main-color-gray);
 }
 
-.selected-service__infoicon {
+.selected-service__infoicon{
     width: 20px;
     padding: 0 3px;
 }
@@ -434,63 +435,63 @@ body {
     padding: 10px 8px 10px 0;
 }
 
-.selected-service__closeicon {
+.selected-service__closeicon{
     width: 14px;
     height: 14px;
 }
 
-/* Ховер эффект при наведении на услуги из списка*/
-
-.selected-service:hover .selected-service__title {
-    opacity: 0.8;
-}
-
-/* Модификатор выбранной услуги из списка*/
-
-.selected-service_picked .selected-service__title {
-    opacity: 1;
-}
-
-
-.selected-simple-category__category {
+.selected-simple-category__category{
     display: flex;
     width: 95%;
     justify-content: space-between;
 }
 
-.selected-simple-category__category_border_shadow .simple-category__category {
+.selected-simple-category__category_border_shadow .simple-category__category{
     padding: 8px 0;
     border: 1px solid var(--main-color-gray);
     box-shadow: 4px 4px 0 var(--main-shadow-color);
     background-color: var(--main-color-white);
 }
 
-.selected-simple-category__category_border_shadow .service-info__main {
+.selected-simple-category__category_border_shadow .service-info__main{
     border-left: 1px solid var(--main-color-gray);
     margin: 0 0 15px 0;
     padding: 0 0 0 15px;
 }
 
-
-.selected-service__subtitle {
+.selected-service__subtitle-price {
     display: flex;
-    font-size: 0.8rem;
+    align-items: center;
+    font-size: 0.65rem;
     font-weight: 300;
     color: var(--main-color-deepgray);
-    margin: 5px 10px 5px 0;
+    margin: 0 4px 0 0;
+}
+
+.selected-service__subtitle-time{
+    display: flex;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 0 0 0 4px;
+}
+.selected-service__subtitle-pricetext{
+    margin: 0 0 0 2px;
+}
+
+.selected-service__subtitle-timenumber{
+    margin: 0 1px 0 2px;
 }
 
 .selected-service__rubble-icon {
-    width: 7px;
-    height: 9px;
+    width: 6px;
+    height: 7px;
+    margin: 0 0 1px 0;
 }
 
-.selected-service__time-icon {
-    width: 13px;
-}
-
-.selected-service__subtitle_margin {
-    margin: 0 3px 0 0;
+.selected-service__time-icon{
+    margin: 0 0 2px 0;
 }
 
 /* <--------------------------------------------------------------------------------> */
