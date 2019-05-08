@@ -886,7 +886,7 @@ body{
     margin: 0 5px;
     font-size: 0.625rem;
     border-radius: 14px;
-    border: 1px solid var(--main-color-gray);
+    border: 1px solid var(--main-color-lightgray);
     background: none;
 }
 
@@ -921,6 +921,7 @@ body{
     display: flex;
     width: 100%;
     height: 60px;
+    border-radius: 8px 8px 0 0;
     box-shadow: 0 -5px 16px -4px var(--main-shadow-color);
     position: fixed;
     bottom: 0;
