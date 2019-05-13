@@ -1,6 +1,6 @@
 /* Сниппет для скрытия элементов, но позволяющий получать доступ для сео(например скрывать заголовки которых нет в дизайне) */
 
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -13,25 +13,25 @@
 
 /* Переменные с цветами */
 
-:root {
+:root{
     --main-color-white: #fff;
     --main-color-black: #333333;
     --main-color-lightgray: #e9e9e9;
     --main-color-gray: #b2b2b2;
     --main-color-deepgray: #7D7D7D;
-    --main-color-gray-opacity: rgba(236, 236, 236, 0.5);
+    --main-color-gray-opacity:rgba(236,236,236,0.5);
     --main-shadow-color: #d6d6d6;
+    --light-coral-chocolate: #f2f2f2;
 }
 
-body {
-
-    font-family: Roboto, sans-serif;
+body{
+    font-family: Roboto,sans-serif;
+    background-color: #ece9e7;
 }
 
+/* {Позиционирование} Общей обертки всего виджета */
 
-/* (Позиционирование} Общей обертки всего виджета */
-
-.hipster-widget {
+.hipster-widget{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,54 +39,125 @@ body {
     width: 100%;
 }
 
+/* {Позиционирование} Верхнего (выезжающего блока) с пикнутыми мастерами\услугами */
+
+/* Общая обертка верхнего (выезжающего блока) с пикнутыми мастерами\услугами */
+
+.hipster-widget__top-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+/* SVG крышка верхнего (выезжающего блока) с пикнутыми мастерами\услугами */
+
+.top-block-triangleCap{
+    width: 100%;
+    height: auto;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    fill: var(--light-coral-chocolate);
+}
+
+/* Контент верхнего (выезжающего блока) с пикнутыми мастерами\услугами */
+
+.hipster-widget__top-bar-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--light-coral-chocolate);
+    padding: 0 0 30px 0;
+    margin: -2px 0 0 0;
+}
+
+/* {Позиционирование} Основного блока с контентом */
+
+/* Общая обертка основного блока с контентом */
+
+.hipster-widget__main-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    margin: -30px 0 0 0;
+}
+
+/* SVG крышка основного блока с контентом */
+
+.main-block-triangleCap{
+    width: 100%;
+    height: auto;
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    fill: white;
+}
+
+/* Контент основного блока */
+
+.hipster-widget__main-bar-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: -2px 0 0 0;
+    background-color: var(--main-color-white);
+}
+
 /* {Позиционирование} компонента main-header */
 
-.hipster-widget__header {
+.hipster-widget__header{
     width: 100%;
 }
 
 /* {Позиционирование} Обертки контента всего виджета */
 
-.hipster-widget__content {
+.hipster-widget__content{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 60px 0 60px 0;
+    margin: 75px 0 60px 0;
 }
 
 /* {Позиционирование} компонента selected-master */
 
-.hipster-widget__selected-master {
+.hipster-widget__selected-master{
     width: 93%;
     margin: 10px 0;
 }
 
 /* {Позиционирование} компонента selected-service */
 
-.hipster-widget__selected-service {
+.hipster-widget__selected-service{
     width: 93%;
-    margin: 10px 0 0 3px;
+    margin: 5px 0 0 3px;
 }
 
 /* {Позиционирование} компонента select-buttons */
 
-.hipster-widget__select-buttons {
-    width: 93%;
+.hipster-widget__select-buttons{
+    width: 75%;
     margin: 20px 0 0 0;
 }
 
 /* {Позиционирование} компонента search-bar */
 
-.hipster-widget__search {
+.hipster-widget__search{
     width: 100%;
     margin: 20px 0 0 0;
 }
 
 /* {Позиционирование} компонента quickwrite-bar */
 
-.hipster-widget__quickwrite {
-    width: 96%;
+.hipster-widget__quickwrite{
+    width: 70%;
     margin: 10px 0 0 0;
 }
 
@@ -96,7 +167,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 94%;
+    width: 96%;
     margin: 15px 0 15px 0;
 }
 
@@ -106,31 +177,31 @@ body {
 
 /* [Модификатор] - для для скрытия / раскрытия карточек мастеров  */
 
-.hipster-widget__cards_show {
+.hipster-widget__cards_show{
     display: flex;
 }
 
-.hipster-widget__card-item {
+.hipster-widget__card-item{
     margin: 30px 0 0 0;
 }
 
 /* {Позиционирование} компонента services-list */
 
-.hipster-widget__services-list {
+.hipster-widget__services-list{
     width: 100%;
     margin: 10px 0 10px 0;
 }
 
 /* {Позиционирование} компонента simple-category */
 
-.hipster-widget__simple-category {
+.hipster-widget__simple-category{
     margin: 10px 0 10px 0;
     width: 95%;
 }
 
 /* {Позиционирование} компонента main-menu */
 
-.hipster-widget__nav {
+.hipster-widget__nav{
     display: flex;
     width: 100%;
 }
@@ -139,31 +210,31 @@ body {
 
 /* |Компонент| main-header */
 
-.main-header {
+.main-header{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: var(--main-color-white);
+    background-color: transparent;
     z-index: 10;
 }
 
-.dropShadow {
+.dropShadow{
     box-shadow: 0 5px 16px -4px var(--main-shadow-color);
+    background-color: var(--main-color-white);
 }
 
-.main-header__leftbar {
+.main-header__leftbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    width: 20%;
     height: 30px;
 }
-
 
 .main-header__closebtn {
     display: flex;
@@ -178,7 +249,7 @@ body {
     height: 16px;
 }
 
-.main-header__midbar {
+.main-header__midbar{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,74 +257,74 @@ body {
     height: 30px;
 }
 
-.main-header__defaulinfo {
+.main-header__defaulinfo{
     display: flex;
-    transition: visibility 0.8s linear, opacity 0.8s linear;
+    transition: visibility 0.8s linear,opacity 0.8s linear;
 }
 
-.main-header__masterpicked {
+.main-header__masterpicked{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    transition: visibility 0.8s linear, opacity 0.8s linear;
+    width: 100%;
+    transition: visibility 0.8s linear,opacity 0.8s linear;
 }
 
-.main-header__avatar {
+.main-header__avatar{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin: 0 20px 0 0;
 }
 
-.main-header__avatar_shadow {
+.main-header__avatar_shadow{
     box-shadow: 4px 4px 0 var(--main-shadow-color);
     border-radius: 0;
 }
 
-.main-header__name {
+.main-header__name{
     font-size: 1rem;
     font-weight: 300;
 }
 
-.main-header__rightbar {
+.main-header__rightbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    width: 20%;
     height: 30px;
 }
 
 /* Стилизация заголовка и логотипа в шапке */
 
-.main-header__headline {
+.main-header__headline{
     margin: 5px 5px 0 0;
     font-size: 1rem;
     font-weight: 300;
 }
 
-.main-header__logo {
+.main-header__logo{
     width: 25px;
     height: 25px;
 }
 
 /* Стилизация навигационных кнопок вперед/назад в main-header */
 
-.main-header__navbtn {
+.main-header__navbtn{
     display: none;
     border: none;
     background: none;
     padding: 0;
 }
 
-.main-header__navbtn img {
+.main-header__navbtn img{
     width: 20px;
     height: 20px;
 }
 
 /* [Модификатор] - для появления навигационных кнопок вперед/назад в main-header */
 
-.main-header__navbtn_btnshow {
+.main-header__navbtn_btnshow{
     display: flex;
 }
 
@@ -261,106 +332,109 @@ body {
 
 /* Классы мимикрирующие под id для работы АНТУХА */
 
-/* висит на карточке только с быстрой записью */
-.qw {
+/* Висит на карточке только с быстрой записью */
+.qw{
 
 }
 
-/* висит на карточке только со специализацией */
-.wqw {
+/* Висит на карточке только со специализацией */
+.wqw{
 
 }
 
 /* |Компонент| selected-master */
 
-.selected-master {
+.selected-master{
     display: none;
-    height: 55px;
-    border: 1px solid var(--main-color-gray);
-    box-shadow: 4px 4px 0 var(--main-shadow-color);
 }
 
-.selected-master__leftbar {
+.selected-master__leftbar{
     display: flex;
     align-items: center;
-    width: 20%;
 }
 
-.selected-master__rightbar {
+.selected-master__rightbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 
-.selected-master__info {
-
-}
-
-.selected-master__master-info {
+.selected-master__master-info{
     display: flex;
     flex-direction: column;
-
 }
 
-.selected-master__avatar {
+.selected-master__avatar{
     width: 40px;
     height: 40px;
-    padding: 0 8px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
 }
 
-.selected-master__quick-write {
+.selected-master__quick-write{
     display: none;
     align-items: center;
+    margin: 5px 0 0 0;
 }
 
 /* [Модификатор] - для показа строки быстрой записи у пикнутого мастера */
 
-.selected-master__quick-write_show .selected-master__quick-write {
+.selected-master__quick-write_show .selected-master__quick-write{
     display: flex;
 }
 
-.selected-master__name {
+.selected-master__name{
     font-size: 1rem;
     font-weight: 300;
 }
 
-.selected-master__spec {
+.selected-master__spec{
     display: none;
     font-size: 0.65rem;
     font-weight: 300;
-    margin: 3px 0 0 0;
-    color: var(--main-color-gray);
+    margin: 6px 0 0 0;
+    color: var(--main-color-deepgray);
 }
 
 /* [Модификатор] - для показа строки специализации у пикнутого мастера */
 
-.selected-master__spec_show .selected-master__spec {
+.selected-master__spec_show .selected-master__spec{
     display: flex;
 }
 
-.selected-master__time {
+.selected-master__time{
     display: flex;
     align-items: center;
-    margin: 3px 5px 0 0;
+    margin: 0 5px 0 0;
 }
 
-.selected-master__timetext {
+.selected-master__timetext{
     font-size: 0.65rem;
     font-weight: 300;
     margin: 2px 0 0 0;
+    color: var(--main-color-deepgray);
 }
 
-.selected-master__date {
+.selected-master__timeicon{
+    margin: 0 2px 0 0;
+}
+
+.selected-master__date{
     display: flex;
     align-items: center;
-    margin: 3px 0 0 5px;
+    margin: 0 0 0 5px;
 }
 
-.selected-master__datetext {
+.selected-master__datetext{
     margin: 2px 0 0 0;
     font-size: 0.65rem;
     font-weight: 300;
+    color: var(--main-color-deepgray);
+}
+
+.selected-master__dateicon{
+    margin: 0 2px 0 0;
 }
 
 .selected-master__closebtn {
@@ -368,7 +442,7 @@ body {
     justify-content: flex-end;
     border: none;
     background: none;
-    padding: 10px 8px 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 .selected-master__closeicon {
@@ -376,7 +450,7 @@ body {
     height: 14px;
 }
 
-.master-picked-quick-time {
+.master-picked-quick-time{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -432,7 +506,7 @@ body {
     display: flex;
     border: none;
     background: none;
-    padding: 10px 8px 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 .selected-service__closeicon{
@@ -498,14 +572,14 @@ body {
 
 /* |Компонент| select-buttons */
 
-.select-buttons {
+.select-buttons{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.select-buttons__btnitem {
-    width: 40vw;
+.select-buttons__btnitem{
+    width: 26vw;
     height: 32px;
     padding: 0;
     margin: 0;
@@ -517,58 +591,50 @@ body {
     outline: none;
 }
 
-/* [Модификатор] - активной/выбранной кнопки */
-
-.select-buttons_pickedbtn {
-    border: 1px solid var(--main-color-gray);
-    box-shadow: 4px 4px 0 var(--main-shadow-color);
-    background-color: var(--main-color-white);
+.select-buttons_btnitem-hr{
+    height: 3px;
+    border-radius: 10px;
+    background-color: #F3CFC2;
+    border: none;
+    visibility: hidden;
+    margin: 10px 0 0 0;
 }
 
-/* Состояние активной кнопки */
+/* [Модификатор] - активной/выбранной кнопки */
 
-/*.select-buttons__btnitem:active{
-    background-color: var(--main-color-lightgray);
-    color: var(--main-color-black);
-
-}*/
-
-/* Состояние выбранной кнопки */
-/*.select-buttons__btnitem:focus {
-    border: 1px solid var(--main-color-gray);
-    box-shadow: 4px 4px 0 var(--main-shadow-color);
-    background-color: var(--main-color-white);
-}*/
+.select-buttons_pickedbtn .select-buttons_btnitem-hr{
+    visibility: visible;
+}
 
 /* <--------------------------------------------------------------------------------> */
 
 /* |Компонент| search-bar */
 
-.search-bar {
+.search-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    background-color: var(--main-color-lightgray);
+    background-color: var(--light-coral-chocolate);
 }
 
-.search-bar__leftbar {
+.search-bar__leftbar{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 85%;
 }
 
-.search-bar__rightbar {
+.search-bar__rightbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    width: 16%;
 }
 
 /* Стилизация навигационных кнопок поиск/быстрая запись в search-bar */
 
-.search-bar__navbtn {
+.search-bar__navbtn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -579,28 +645,28 @@ body {
 
 /* [Модификатор] - кастомный padding для кнопки поиск в search-bar */
 
-.search-bar__navbtn_custompadding {
+.search-bar__navbtn_custompadding{
     padding: 5px 15px 5px 20px;
 }
 
-.search-bar__searchicon {
+.search-bar__searchicon{
     width: 18px;
     height: 18px;
 }
 
-.search-bar__quickwriteicon {
-    width: 15px;
-    height: 15px;
+.search-bar__quickwriteicon{
+    width: 16px;
+    height: 16px;
 }
 
-.search-bar__form {
+.search-bar__form{
     display: flex;
     align-items: center;
 }
 
 /* Стилизация input'a в search-bar */
 
-.search-bar__input {
+.search-bar__input{
     font-size: 0.85rem;
     font-weight: 300;
     height: 20px;
@@ -608,7 +674,7 @@ body {
     border: none;
 }
 
-.search-bar__input::placeholder {
+.search-bar__input::placeholder{
     line-height: 20px;
 }
 
@@ -616,7 +682,7 @@ body {
 
 /* |Компонент| quickwrite-bar */
 
-.quickwrite-bar {
+.quickwrite-bar{
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -625,23 +691,23 @@ body {
 
 /* [Модификатор] - скрытие/раскрытие по клику блока quickwrite-bar */
 
-.quickwrite-bar_show {
+.quickwrite-bar_show{
     display: flex;
 }
 
-.quickwrite-bar__picker {
+.quickwrite-bar__picker{
     display: flex;
     width: 100%;
 }
 
-.quickwrite-bar__leftbar {
+.quickwrite-bar__leftbar{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.quickwrite-bar__midbar {
+.quickwrite-bar__midbar{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -649,14 +715,14 @@ body {
     width: 100%;
 }
 
-.quickwrite-bar__rightbar {
+.quickwrite-bar__rightbar{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.quickwrite-bar__picker-list {
+.quickwrite-bar__picker-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -666,7 +732,7 @@ body {
     width: 90%;
 }
 
-.quickwrite-bar__item {
+.quickwrite-bar__item{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -675,23 +741,23 @@ body {
     font-weight: 300;
 }
 
-.quickwrite-bar__custom-datenum {
+.quickwrite-bar__custom-datenum{
     padding: 0 0 5px 0;
     font-weight: 400;
 }
 
-.quickwrite-bar__pickeddate .quickwrite-bar__custom-datenum {
+.quickwrite-bar__pickeddate .quickwrite-bar__custom-datenum{
     font-size: 1.1rem;
 }
 
-.quickwrite-bar__pickeddate {
+.quickwrite-bar__pickeddate{
     background: #5e5e5e;
     color: var(--main-color-white);
     padding: 6px 12px;
     border-radius: 5px;
 }
 
-.quickwrite-bar__headline {
+.quickwrite-bar__headline{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -701,7 +767,7 @@ body {
     margin: 0 0 15px 0;
 }
 
-.quickwrite-bar__navbtn {
+.quickwrite-bar__navbtn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -873,7 +939,8 @@ body {
     text-align: center;
 }
 
-.main-menu {
+
+.main-menu{
     display: flex;
     width: 100%;
     height: 60px;
@@ -886,7 +953,7 @@ body {
     z-index: 10;
 }
 
-.main-menu__list {
+.main-menu__list{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -896,11 +963,11 @@ body {
     list-style-type: none;
 }
 
-.main-menu__item {
+.main-menu__item{
     display: flex;
 }
 
-.main-menu__item-btn {
+.main-menu__item-btn{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -910,7 +977,7 @@ body {
     font-size: 0.625rem;
 }
 
-.main-menu__item-btn img {
+.main-menu__item-btn img{
     width: 20px;
     height: 20px;
     margin: 0 0 5px 0;
@@ -932,12 +999,11 @@ body {
 
 /* [Модификатор] - для для скрытия / раскрытия сервис листа */
 
-
-.service-list_show {
+.service-list_show{
     display: flex;
 }
 
-.services-list__content {
+.services-list__content{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -959,7 +1025,7 @@ body {
     font-weight: 300;
     margin: 0;
     line-height: 24px;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
     width: 88%;
 }
 
@@ -982,11 +1048,11 @@ body {
 
 /* [Модификатор] - для открытия закрытия списка (по умолчанию) */
 
-.simple-category_show .simple-category__btn {
+.simple-category_show .simple-category__btn{
     transform: rotate(90deg);
 }
 
-.simple-category_show .simple-category__list {
+.simple-category_show .simple-category__list{
     display: flex;
 }
 
@@ -1010,10 +1076,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    padding: 0 0 10px 25px;
+    padding: 0 0 10px 10px;
 }
 
-.service-info__group {
+.service-info__group{
     display: flex;
 }
 
@@ -1030,7 +1096,7 @@ body {
     justify-content: center;
     font-size: 20px;
     color: var(--main-color-gray);
-    width: 10%;
+    width: 12%;
 }
 
 .service-info__rightbar i {
@@ -1039,15 +1105,8 @@ body {
     color: var(--main-color-gray);
 }
 
-.service-info__infoicon {
+.service-info__infoicon{
     width: 20px;
-    padding: 0 3px;
-}
-
-/* ~Ховер эффект~ при наведении на услуги из списка */
-
-.service-info:hover .service-info__title {
-    opacity: 0.8;
 }
 
 /* [Модификатор] - выбранной услуги из списка */
@@ -1056,7 +1115,7 @@ body {
     opacity: 1;
 }
 
-.simple-category__category {
+.simple-category__category{
     display: flex;
     width: 95%;
     justify-content: space-between;
@@ -1064,14 +1123,14 @@ body {
 
 /* [Модификатор] - рамка и тень для категорий */
 
-.simple-category__category_border_shadow .simple-category__category {
+.simple-category__category_border_shadow .simple-category__category{
     padding: 8px 0;
     border: 1px solid var(--main-color-gray);
     box-shadow: 4px 4px 0 var(--main-shadow-color);
     background-color: var(--main-color-white);
 }
 
-.simple-category__category_border_shadow .service-info__main {
+.simple-category__category_border_shadow .service-info__main{
     border-left: 1px solid var(--main-color-gray);
     margin: 0 0 15px 0;
     padding: 0 0 0 15px;
@@ -1090,153 +1149,53 @@ body {
     height: 9px;
 }
 
-.service-info__time-icon {
+.service-info__time-icon{
     width: 13px;
 }
 
-.service-info__subtitle_margin {
+.service-info__subtitle_margin{
     margin: 0 3px 0 0;
 }
 
 /* <--------------------------------------------------------------------------------> */
 
+/* Класс для скрытия элментов */
 
-.mainhide {
+.mainhide{
     display: none;
 }
 
+/* <--------------------------------------------------------------------------------> */
 
-.vs {
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: visibility 0.3s linear, opacity 0.3s linear;
-}
+/* Media Запросы */
 
-.vm {
-    opacity: 0 !important;
-    visibility: hidden !important;
-    transition: visibility 0.8s linear, opacity 0.8s linear;
-}
-
-
-/*
-@media (min-width: 375px) {
-
-    !* Шрифты *!
-    html {
-        font-size: 18px;
-    }
-
-    .square-card__quickwritelist {
-        height: 130px;
-    }
-
-    .square-card__quickwritelistbtn {
-        width: 29%;
-        height: 26px;
-        font-size: 0.625rem;
-        padding: 0 5px;
-        margin: 8px 4px 8px 4px;
-    }
-
-    .square-card__avatar {
-        width: 45%;
-    }
-}
-
-@media (min-width: 400px) {
-
-    !* Шрифты *!
-    html {
-        font-size: 18px;
-    }
-
-    .square-card__quickwritelist {
-        height: 160px;
-    }
-
+@media (min-width: 375px){
 
 }
-*/
 
-@media (min-width: 375px) {
+@media (min-width: 400px){
 
-    /* Шрифты */
-    html {
-        font-size: 18px;
-    }
-
-    .square-card__quickwritelist {
-        height: 130px;
-    }
-
-    .square-card__headline {
-        font-size: 0.65rem;
-    }
-
-    .square-card__spec {
-        font-size: 0.65rem;
-    }
-
-    .square-card__name {
-        font-size: 0.85rem;
-    }
-
-    .square-card__quickwritelistbtn {
-        width: 29%;
-        height: 26px;
-        font-size: 0.625rem;
-        padding: 0 5px;
-        margin: 10px 4px 10px 4px;
-    }
-
-    .square-card__avatar {
-        width: 45%;
-    }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 768px){
 
-    /* Шрифты */
-    html {
-        font-size: 18px;
+    .hipster-widget__select-buttons {
+        width: 70%;
+    }
+    .select-buttons__btnitem {
+        width: 18vw;
+    }
+    .hipster-widget__main-bar {
+        margin: -40px 0 0 0;
+    }
+    .hipster-widget__top-bar-content {
+        padding: 0 0 45px 0;
     }
 
-    .square-card__quickwritelist {
-        height: 160px;
+    .hipster-widget__cards {
+        width: 94%;
     }
-
-    .square-card__headline {
-        font-size: 0.7rem;
-    }
-
-    .square-card__spec {
-        font-size: 0.7rem;
-    }
-
-    .square-card__name {
-        font-size: 0.9rem;
-    }
-
-    .square-card__quickwritelistbtn {
-        width: 29%;
-        height: 28px;
-        font-size: 0.625rem;
-        padding: 0 5px;
-        margin: 12px 4px 12px 4px;
-    }
-
-    .square-card__quickwritelistbottombtn {
-        height: 28px;
-        margin: 7px 4px 7px 4px;
-    }
-
-    .square-card__avatar {
-        width: 50%;
+    .search-bar__form {
+        padding: 0 0 0 4%;
     }
 }
-
-.square-card__avatar {
-    width: 50%;
-}
-
