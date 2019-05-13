@@ -547,16 +547,26 @@ body{
     display: none;
 }
 
+/* <--------------------------------------------------------------------------------> */
 
+/* Media Запросы */
 
-/*
-
-@media (min-width: 375px) {
-
+@media (min-width: 375px){
 
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px){
 
+}
 
-}*/
+@media (min-width: 768px){
+
+    .hipster-widget__select-buttons {
+        width: 70%;
+    }
+    .select-buttons__btnitem {
+        width: 18vw;
+    }
+    
+}
+
