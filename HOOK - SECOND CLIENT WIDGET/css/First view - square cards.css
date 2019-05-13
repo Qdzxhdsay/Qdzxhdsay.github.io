@@ -157,7 +157,7 @@ body{
 /* {Позиционирование} компонента quickwrite-bar */
 
 .hipster-widget__quickwrite{
-    width: 70%;
+    width: 96%;
     margin: 10px 0 0 0;
 }
 
@@ -1197,5 +1197,33 @@ body{
     }
     .search-bar__form {
         padding: 0 0 0 4%;
+    }
+    .hipster-widget__quickwrite{
+        width: 70%;
+    }
+    .square-card {
+        width: 29vw;
+        height: 39vw;
+    }
+
+    .square-card__quickwritelistbtn {
+        width: 29%;
+        height: 35px;
+        font-size: 0.625rem;
+        margin: 10px 5px 10px 5px;
+        border-radius: 30px;
+    }
+
+    .square-card__quickwritelist {
+        height: 165px;
+    }
+
+    .square-card__quickwritelistbottombtn {
+        width: 29%;
+        height: 35px;
+        margin: 10px 5px 10px 5px;
+        border-radius: 30px;
+        background: none;
+        border: 1px solid var(--main-color-lightgray);
     }
 }

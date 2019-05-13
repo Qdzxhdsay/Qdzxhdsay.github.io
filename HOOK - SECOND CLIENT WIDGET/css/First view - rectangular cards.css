@@ -157,7 +157,7 @@ body{
 /* {Позиционирование} компонента quickwrite-bar */
 
 .hipster-widget__quickwrite{
-    width: 70%;
+    width: 96%;
     margin: 10px 0 0 0;
 }
 
@@ -1159,5 +1159,8 @@ body{
     }
     .search-bar__form {
         padding: 0 0 0 4%;
+    }
+    .hipster-widget__quickwrite{
+        width: 70%;
     }
 }
