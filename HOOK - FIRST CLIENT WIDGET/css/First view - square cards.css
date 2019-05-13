@@ -58,14 +58,14 @@ body {
 /* {Позиционирование} компонента selected-master */
 
 .hipster-widget__selected-master {
-    width: 93%;
+    width: 86%;
     margin: 10px 0;
 }
 
 /* {Позиционирование} компонента selected-service */
 
 .hipster-widget__selected-service {
-    width: 93%;
+    width: 86%;
     margin: 10px 0 0 3px;
 }
 
@@ -273,94 +273,110 @@ body {
 
 /* |Компонент| selected-master */
 
-.selected-master {
+.selected-master{
     display: none;
-    height: 55px;
-    border: 1px solid var(--main-color-gray);
-    box-shadow: 4px 4px 0 var(--main-shadow-color);
 }
 
-.selected-master__leftbar {
+.selected-master__leftbar{
     display: flex;
     align-items: center;
-    width: 20%;
 }
 
-.selected-master__rightbar {
+.selected-master__rightbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 
-.selected-master__info {
-
-}
-
-.selected-master__master-info {
+.selected-master__master-info{
     display: flex;
     flex-direction: column;
-
 }
 
-.selected-master__avatar {
+.selected-master__avatar{
     width: 40px;
     height: 40px;
-    padding: 0 8px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
 }
 
-.selected-master__quick-write {
+.selected-master__quick-write{
     display: none;
     align-items: center;
+    margin: 5px 0 0 0;
 }
 
 /* [Модификатор] - для показа строки быстрой записи у пикнутого мастера */
 
-.selected-master__quick-write_show .selected-master__quick-write {
+.selected-master__quick-write_show .selected-master__quick-write{
     display: flex;
 }
 
-.selected-master__name {
+.selected-master_shadow_border{
+    padding: 8px 8px;
+    border: 1px solid var(--main-color-gray);
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+    background-color: var(--main-color-white);
+}
+
+.selected-master_shadow_border .selected-master__avatar{
+    border-radius: 0;
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+}
+
+
+.selected-master__name{
     font-size: 1rem;
     font-weight: 300;
 }
 
-.selected-master__spec {
+.selected-master__spec{
     display: none;
     font-size: 0.65rem;
     font-weight: 300;
-    margin: 3px 0 0 0;
-    color: var(--main-color-gray);
+    margin: 6px 0 0 0;
+    color: var(--main-color-deepgray);
 }
 
 /* [Модификатор] - для показа строки специализации у пикнутого мастера */
 
-.selected-master__spec_show .selected-master__spec {
+.selected-master__spec_show .selected-master__spec{
     display: flex;
 }
 
-.selected-master__time {
+.selected-master__time{
     display: flex;
     align-items: center;
-    margin: 3px 5px 0 0;
+    margin: 0 5px 0 0;
 }
 
-.selected-master__timetext {
+.selected-master__timetext{
     font-size: 0.65rem;
     font-weight: 300;
     margin: 2px 0 0 0;
+    color: var(--main-color-deepgray);
 }
 
-.selected-master__date {
+.selected-master__timeicon{
+    margin: 0 2px 0 0;
+}
+
+.selected-master__date{
     display: flex;
     align-items: center;
-    margin: 3px 0 0 5px;
+    margin: 0 0 0 5px;
 }
 
-.selected-master__datetext {
+.selected-master__datetext{
     margin: 2px 0 0 0;
     font-size: 0.65rem;
     font-weight: 300;
+    color: var(--main-color-deepgray);
+}
+
+.selected-master__dateicon{
+    margin: 0 2px 0 0;
 }
 
 .selected-master__closebtn {
@@ -368,7 +384,7 @@ body {
     justify-content: flex-end;
     border: none;
     background: none;
-    padding: 10px 8px 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 .selected-master__closeicon {
@@ -376,7 +392,7 @@ body {
     height: 14px;
 }
 
-.master-picked-quick-time {
+.master-picked-quick-time{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -397,8 +413,9 @@ body {
     flex-direction: column;
 }
 
-.selected-service__group {
+.selected-service__group{
     display: flex;
+    margin: 3px 0 0 0;
 }
 
 .selected-service__title {
@@ -422,7 +439,7 @@ body {
     color: var(--main-color-gray);
 }
 
-.selected-service__infoicon {
+.selected-service__infoicon{
     width: 20px;
     padding: 0 3px;
 }
@@ -431,13 +448,69 @@ body {
     display: flex;
     border: none;
     background: none;
-    padding: 10px 8px 10px 0;
+    padding: 10px 0 10px 0;
 }
 
-.selected-service__closeicon {
+.selected-service__closeicon{
     width: 14px;
     height: 14px;
 }
+
+.selected-simple-category__category{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.selected-simple-category__category_border_shadow .simple-category__category{
+    padding: 8px 0;
+    border: 1px solid var(--main-color-gray);
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+    background-color: var(--main-color-white);
+}
+
+.selected-simple-category__category_border_shadow .service-info__main{
+    border-left: 1px solid var(--main-color-gray);
+    margin: 0 0 15px 0;
+    padding: 0 0 0 15px;
+}
+
+.selected-service__subtitle-price {
+    display: flex;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 0 4px 0 0;
+}
+
+.selected-service__subtitle-time{
+    display: flex;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 0 0 0 4px;
+}
+.selected-service__subtitle-pricetext{
+    margin: 0 0 0 2px;
+}
+
+.selected-service__subtitle-timenumber{
+    margin: 0 1px 0 2px;
+}
+
+.selected-service__rubble-icon {
+    width: 6px;
+    height: 7px;
+    margin: 0 0 1px 0;
+}
+
+.selected-service__time-icon{
+    margin: 0 0 2px 0;
+}
+
+/* <--------------------------------------------------------------------------------> */
 
 /* Ховер эффект при наведении на услуги из списка*/
 
@@ -452,20 +525,20 @@ body {
 }
 
 
-.selected-simple-category__category {
+.selected-simple-category__category{
     display: flex;
     width: 95%;
     justify-content: space-between;
 }
 
-.selected-simple-category__category_border_shadow .simple-category__category {
+.selected-simple-category__category_border_shadow .simple-category__category{
     padding: 8px 0;
     border: 1px solid var(--main-color-gray);
     box-shadow: 4px 4px 0 var(--main-shadow-color);
     background-color: var(--main-color-white);
 }
 
-.selected-simple-category__category_border_shadow .service-info__main {
+.selected-simple-category__category_border_shadow .service-info__main{
     border-left: 1px solid var(--main-color-gray);
     margin: 0 0 15px 0;
     padding: 0 0 0 15px;
@@ -485,11 +558,11 @@ body {
     height: 9px;
 }
 
-.selected-service__time-icon {
+.selected-service__time-icon{
     width: 13px;
 }
 
-.selected-service__subtitle_margin {
+.selected-service__subtitle_margin{
     margin: 0 3px 0 0;
 }
 
@@ -562,7 +635,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    width: 16%;
 }
 
 /* Стилизация навигационных кнопок поиск/быстрая запись в search-bar */
@@ -588,8 +661,8 @@ body {
 }
 
 .search-bar__quickwriteicon {
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
 }
 
 .search-bar__form {
@@ -1028,7 +1101,7 @@ body {
     justify-content: center;
     font-size: 20px;
     color: var(--main-color-gray);
-    width: 10%;
+    width: 12%;
 }
 
 .service-info__rightbar i {
@@ -1038,8 +1111,7 @@ body {
 }
 
 .service-info__infoicon {
-    width: 20px;
-    padding: 0 3px;
+    width: 20px;.search-bar__quickwriteicon
 }
 
 /* ~Ховер эффект~ при наведении на услуги из списка */
@@ -1238,3 +1310,38 @@ body {
     width: 50%;
 }
 
+/* Media Запросы */
+
+@media (min-width: 375px){
+
+}
+
+@media (min-width: 400px){
+
+}
+
+@media (min-width: 768px){
+
+    .hipster-widget__select-buttons {
+        width: 80%;
+    }
+    .select-buttons__btnitem {
+        width: 30vw;
+    }
+    .hipster-widget__main-bar {
+        margin: -40px 0 0 0;
+    }
+    .hipster-widget__top-bar-content {
+        padding: 0 0 45px 0;
+    }
+
+    .hipster-widget__cards {
+        width: 94%;
+    }
+    .search-bar__form {
+        padding: 0 0 0 4%;
+    }
+    .hipster-widget__quickwrite{
+        width: 70%;
+    }
+}
