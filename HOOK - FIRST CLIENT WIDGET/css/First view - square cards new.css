@@ -816,7 +816,8 @@ body {
 .square-card {
     display: flex;
     flex-direction: column;
-    width: 49%;
+    width: 45vw;
+
     border-radius: 0;
     box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.14);
     background: var(--main-color-white);
@@ -886,14 +887,14 @@ body {
     font-size: 0.8rem;
     line-height: 18px;
     font-weight: normal;
-    margin: 8px 5px 5px 5px;
+    margin: 8px 5px 0 5px;
     text-align: center;
 }
 
 .square-card__spec {
     font-size: 0.625rem;
     line-height: 18px;
-    margin: 0 10% 5px 10%;
+    margin: 10px 10% 0 10%;
     text-align: center;
     color: var(--main-color-gray);
 }
