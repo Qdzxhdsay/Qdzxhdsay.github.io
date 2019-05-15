@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CHECKOUTEND</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/Checkoutend.css">
+</head>
+<body>
+<section class="hipster-widget">
+    <!--Шапка виджета-->
+    <header class="main-header hipster-widget__header">
+        <div class="main-header__leftbar">
+            <button class="main-header__navbtn">
+                <img data-id="" src="img/ArrowLeftButton2.svg" alt="Кнопка назад">
+            </button>
+            <button class="main-header__closebtn mainhide">
+                <img class="main-header__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+            </button>
+        </div>
+        <div class="main-header__midbar">
+            <div class="main-header__defaulinfo">
+                <span data-id="" class="main-header__headline">Your Co</span>
+                <img data-id="" class="main-header__logo" src="img/MainLogo2.svg" alt="Логотип Компании">
+            </div>
+            <div class="main-header__masterpicked mainhide">
+                <img data-id="" class="main-header__avatar" src="img/Master1.jpg" alt="Аватар мастера">
+                <span data-id="" class="main-header__name">Алина Кравцова</span>
+            </div>
+        </div>
+        <div class="main-header__rightbar">
+            <button class="main-header__navbtn mainhide">
+                <img data-id="" src="img/ArrowRightButton2.svg" alt="Кнопка Вперед">
+            </button>
+        </div>
+    </header>
+    <!--Контент виджета-->
+    <main class="hipster-widget__content">
+        <!--Чекаут карта-->
+        <div class="checkout-card hipster-widget__master-profile">
+            <img class="checkout-card__avatar" src="img/Master1.jpg" alt="фото мастера">
+            <span class="checkout-card__name" data-id="">Алина Кравцова</span>
+            <span class="checkout-card__spec" data-id="">Топ-стилист</span>
+            <div class="checkout-card__rating">
+                <img  class="checkout-card__ratingicon" src="img/BlackStar.svg" alt="Иконка рейтинг мастера">
+                <img  class="checkout-card__ratingicon" src="img/BlackStar.svg" alt="Иконка рейтинг мастера">
+                <img  class="checkout-card__ratingicon" src="img/BlackStar.svg" alt="Иконка рейтинг мастера">
+                <img  class="checkout-card__ratingicon" src="img/BlackStar.svg" alt="Иконка рейтинг мастера">
+                <img  class="checkout-card__ratingicon" src="img/StarEmpty.svg" alt="Иконка рейтинг мастера">
+            </div>
+        </div>
+  <!--      &lt;!&ndash;Линия разделитель с заголовком&ndash;&gt;
+        <div class="separate-line hipster-widget__separate-line">
+            <span class="separate-line__headline">Дата и время записи:</span>
+        </div>-->
+        <!--Линия разделитель с датой и временем записи-->
+        <div class="separate-line hipster-widget__separate-line">
+            <div class="checkout-datetime hipster-widget__datetime">
+                <div class="checkout-datetime__time" data-id="">
+                    <img class="checkout-datetime__timeicon" src="img/ClockButtonIconGray.svg" alt="Иконка часов">
+                    <span class="checkout-datetime__timetext" data-id="">10:15</span>
+                </div>
+                <div class="checkout-datetime__date" data-id="">
+                    <img class="checkout-datetime__dateicon" src="img/CalendarButtonIconGray.svg" alt="Иконка календаря">
+                    <span class="checkout-datetime__datetext" data-id="">19-01-19</span>
+                </div>
+            </div>
+        </div>
+        <!--Панель пикнутой\ых услуг-->
+        <div class="ft selected-service hipster-widget__selected-service quick_change" data-change="ft">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
+                    <span data-id="">Окрашивание волос</span>
+                </h4>
+                <div class="selected-service__group">
+                            <span class="selected-service__subtitle-price">
+                                <img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                <span class="selected-service__subtitle-pricetext">400</span>
+
+                            </span>
+                    <span class="selected-service__subtitle-time">
+                                <img class="selected-service__time-icon" src="img/ClockButtonIconGray.svg" alt="иконка времени">
+                                <span class="selected-service__subtitle-timenumber">40</span>
+                                <span class="selected-service__subtitle-timetext">мин</span>
+
+                            </span>
+                </div>
+            </div>
+            <div class="selected-service__rightbar">
+                <button class="selected-service__closebtn">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+        <div class="sd selected-service hipster-widget__selected-service quick_change" data-change="sd">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
+                    <span data-id="">Окрашивание волос</span>
+                </h4>
+                <div class="selected-service__group">
+                            <span class="selected-service__subtitle-price">
+                                <img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                <span class="selected-service__subtitle-pricetext">400</span>
+
+                            </span>
+                    <span class="selected-service__subtitle-time">
+                                <img class="selected-service__time-icon" src="img/ClockButtonIconGray.svg" alt="иконка времени">
+                                <span class="selected-service__subtitle-timenumber">40</span>
+                                <span class="selected-service__subtitle-timetext">мин</span>
+
+                            </span>
+                </div>
+            </div>
+            <div class="selected-service__rightbar">
+                <button class="selected-service__closebtn">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+        <div class="te selected-service hipster-widget__selected-service quick_change" data-change="te">
+            <div class="selected-service__main">
+                <h4 class="selected-service__title">
+                    <span data-id="">Окрашивание волос</span>
+                </h4>
+                <div class="selected-service__group">
+                            <span class="selected-service__subtitle-price">
+                                <img class="selected-service__rubble-icon" src="img/RubbleIcon.png" alt="иконка рубля">
+                                <span class="selected-service__subtitle-pricetext">400</span>
+
+                            </span>
+                    <span class="selected-service__subtitle-time">
+                                <img class="selected-service__time-icon" src="img/ClockButtonIconGray.svg" alt="иконка времени">
+                                <span class="selected-service__subtitle-timenumber">40</span>
+                                <span class="selected-service__subtitle-timetext">мин</span>
+
+                            </span>
+                </div>
+            </div>
+            <div class="selected-service__rightbar">
+                <button class="selected-service__closebtn">
+                    <img class="selected-service__closeicon" src="img/CrossButton.svg" alt="кнопка отмены выбора мастера">
+                </button>
+            </div>
+        </div>
+        <form action="" class="checkout-form hipster-widget__checkout-form">
+            <label for="name" class="visually-hidden">Имя</label>
+            <input id="name" class="checkout-form__input name" type="text" placeholder="Имя">
+            <label for="surname" class="visually-hidden">Фамилия</label>
+            <input id="surname" class="checkout-form__input surname" type="text" placeholder="Фамилия">
+            <div class="checkout-form__telephone">
+                <label for="telephonemask" class="visually-hidden">Маска региона</label>
+                <label for="telephonenumber" class="visually-hidden">Телефон</label>
+                <input id="telephonemask" class="checkout-form__input mask" type="text" placeholder="+7">
+                <input id="telephonenumber" class="checkout-form__input telephone" type="text" placeholder="Телефон">
+            </div>
+            <label for="email" class="visually-hidden">Email</label>
+            <input id="email" class="checkout-form__input email" type="text" placeholder="Емаил">
+            <label for="comment" class="visually-hidden">Комментарий</label>
+            <input id="comment" class="checkout-form__input comment" type="text" placeholder="Коментарий">
+        </form>
+    </main>
+
+    <!--Панель навигации (меню)-->
+    <footer class="hipster-widget__footer">
+        <nav class="main-menu hipster-widget__nav">
+            <ul class="main-menu__list">
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/HomeButtonICon.svg" alt="иконка главной странцы">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/ShopBagButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Магазин</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/CalendarButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Записаться</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/SaleButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Скидки</span>
+                    </button>
+                </li>
+                <li class="main-menu__item">
+                    <button class="main-menu__item-btn">
+                        <img src="img/ProfileButtonIcon.svg" alt="иконка главной странцы">
+                        <span>Профиль</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</section>
+<script src="scriptProfile.js" type="text/javascript"></script>
+</body>
+</html>

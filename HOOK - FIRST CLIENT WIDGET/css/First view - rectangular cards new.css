@@ -94,6 +94,10 @@ body{
     margin: -27px 0 0 0;
     padding: 0 0 16px 0;
 }
+
+.hipster-widget__quickwritelist{
+    margin: 10px 0 0 0;
+}
 /* {Позиционирование} компонента cards */
 
 .hipster-widget__cards{
@@ -523,7 +527,6 @@ body{
     opacity: 1;
 }
 
-
 .selected-simple-category__category{
     display: flex;
     width: 95%;
@@ -542,7 +545,6 @@ body{
     margin: 0 0 15px 0;
     padding: 0 0 0 15px;
 }
-
 
 .selected-service__subtitle {
     display: flex;
@@ -921,9 +923,6 @@ body{
     margin: 0;
 }
 
-
-
-
 .rect-card__quickwritelist{
     display: flex;
     flex-wrap: wrap;
@@ -945,21 +944,9 @@ body{
     border: 1px solid var(--main-color-lightgray);
 }
 
+/* <--------------------------------------------------------------------------------> */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* |Компонент| main-menu */
 
 .main-menu{
     display: flex;
@@ -1007,8 +994,6 @@ body{
 
 /* |Компонент| services-list */
 
-/* обертка всего контента */
-
 .services-list {
     display: flex;
     flex-direction: column;
@@ -1018,8 +1003,6 @@ body{
 }
 
 /* [Модификатор] - для для скрытия / раскрытия сервис листа */
-
-
 
 .service-list_show{
     display: flex;
@@ -1031,7 +1014,9 @@ body{
     width: 100%;
 }
 
-/* simple-category блок */
+/* <--------------------------------------------------------------------------------> */
+
+/* |Компонент| simple-category */
 
 .simple-category {
     display: flex;
@@ -1131,18 +1116,6 @@ body{
     width: 20px;
 }
 
-/* ~Ховер эффект~ при наведении на услуги из списка */
-
-.service-info:hover .service-info__title {
-    opacity: 0.8;
-}
-
-/* [Модификатор] - выбранной услуги из списка */
-
-.service-info_picked .service-info__title {
-    opacity: 1;
-}
-
 .simple-category__category{
     display: flex;
     width: 95%;
@@ -1186,7 +1159,6 @@ body{
 }
 
 /* <--------------------------------------------------------------------------------> */
-
 
 .mainhide{
     display: none;

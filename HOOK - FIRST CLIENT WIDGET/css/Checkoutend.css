@@ -1,0 +1,579 @@
+/* Сниппет для скрытия элементов, но позволяющий получать доступ для сео(например скрывать заголовки которых нет в дизайне) */
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Переменные с цветами */
+
+:root{
+    --main-color-white: #fff;
+    --main-color-black: #333333;
+    --main-color-lightgray: #e9e9e9;
+    --main-color-gray: #b2b2b2;
+    --main-color-deepgray: #7D7D7D;
+    --main-color-gray-opacity:rgba(236,236,236,0.5);
+    --main-shadow-color: #d6d6d6;
+}
+
+body{
+    font-family: Roboto,sans-serif;
+}
+
+/* (Позиционирование} Общей обертки всего виджета */
+
+.hipster-widget{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* {Позиционирование} компонента main-header */
+
+.hipster-widget__header{
+    width: 100%;
+}
+
+/* {Позиционирование} компонента selected-service */
+
+.hipster-widget__selected-service{
+    width: 86%;
+    margin: 10px 0 0 3px;
+}
+
+/* {Позиционирование} Обертки контента всего виджета */
+
+.hipster-widget__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 60px 0 60px 0;
+}
+
+/* {Позиционирование} компонента master-profile */
+
+.hipster-widget__master-profile{
+    margin: 10px 0 0 0;
+}
+
+
+.hipster-widget__datetime{
+    margin: -10px 0 5px 0;
+}
+
+
+
+
+.hipster-widget__separate-line{
+    margin: 40px 0 0 0;
+
+}
+
+
+.hipster-widget__checkout-form{
+    margin: 15px 0 0 0;
+}
+
+
+
+/* {Позиционирование} компонента main-menu */
+
+.hipster-widget__nav{
+    display: flex;
+    width: 100%;
+}
+
+/* <--------------------------------------------------------------------------------> */
+
+/* |Компонент| main-header */
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    transition: all ease-in 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color-white);
+    z-index: 10;
+}
+
+.dropShadow{
+    box-shadow: 0 5px 16px -4px var(--main-shadow-color);
+}
+
+.main-header__leftbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 30px;
+}
+
+.main-header__closebtn {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    background: none;
+    padding: 10px 8px 10px 0;
+}
+
+.main-header__closeicon {
+    width: 16px;
+    height: 16px;
+}
+
+.main-header__midbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 30px;
+}
+
+.main-header__defaulinfo{
+    display: flex;
+    transition: visibility 0.8s linear,opacity 0.8s linear;
+}
+
+.main-header__masterpicked{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    transition: visibility 0.8s linear,opacity 0.8s linear;
+}
+
+.main-header__avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+
+/* [Модификатор] - квадратная аватарка+тень в main-header */
+
+.main-header__avatar_shadow{
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+    border-radius: 0;
+}
+
+.main-header__name{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.main-header__rightbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 30px;
+}
+
+/* Стилизация заголовка и логотипа в шапке */
+
+.main-header__headline{
+    margin: 5px 5px 0 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.main-header__logo{
+    width: 25px;
+    height: 25px;
+}
+
+/* Стилизация навигационных кнопок вперед/назад в main-header */
+
+.main-header__navbtn{
+    display: none;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.main-header__navbtn img{
+    width: 20px;
+    height: 20px;
+}
+
+/* [Модификатор] - для появления навигационных кнопок вперед/назад в main-header */
+
+.main-header__navbtn_btnshow{
+    display: flex;
+}
+
+/* <--------------------------------------------------------------------------------> */
+
+/* |Компонент| Checkout-card */
+
+.checkout-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-card__avatar{
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* [Модификатор] - квадратная аватарка+тень в Profile-card*/
+
+.checkout-card__avatar_shadow{
+    box-shadow: 6px 6px 0 var(--main-shadow-color);
+    border-radius: 0;
+}
+
+.checkout-card__name{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 20px 0 0 0;
+}
+
+.checkout-card__spec {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+    color: var(--main-color-gray);
+}
+
+.checkout-card__rating{
+    margin: 8px 0 0 0;
+}
+
+/* <--------------------------------------------------------------------------------> */
+
+/* |Компонент| checkout-datetime */
+
+.checkout-datetime{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 5px 15px 5px;
+}
+
+.checkout-datetime__time{
+    display: flex;
+    align-items: center;
+    margin: 0 5px 0 0;
+}
+
+.checkout-datetime__timetext{
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 2px 0 0 0;
+    color: var(--main-color-deepgray);
+}
+
+.checkout-datetime__timeicon{
+    margin: 0 2px 0 0;
+    width: 15px;
+    height: 15px;
+}
+
+.checkout-datetime__date{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5px;
+}
+
+.checkout-datetime__datetext{
+    margin: 2px 0 0 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+}
+
+.checkout-datetime__dateicon{
+    margin: 0 2px 0 0;
+    width: 15px;
+    height: 15px;
+}
+
+
+
+/* <--------------------------------------------------------------------------------> */
+
+.separate-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-top: 1px solid var(--main-color-deepgray) ;
+}
+
+.separate-line__headline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: #ffffff;
+    margin: -10px 0 0 0;
+    padding: 0 8px;
+}
+
+
+
+
+/* <--------------------------------------------------------------------------------> */
+
+/* |Компонент| selected-service */
+
+.selected-service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected-service__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-service__group{
+    display: flex;
+    margin: 3px 0 0 0;
+}
+
+.selected-service__title {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 4px 0;
+    transition: all 0.3s;
+}
+
+.selected-service__rightbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: var(--main-color-gray);
+}
+
+.selected-service__rightbar i {
+    font-size: 16px;
+    padding: 0 5px;
+    color: var(--main-color-gray);
+}
+
+.selected-service__infoicon{
+    width: 20px;
+    padding: 0 3px;
+}
+
+.selected-service__closebtn {
+    display: flex;
+    border: none;
+    background: none;
+    padding: 10px 0 10px 0;
+}
+
+.selected-service__closeicon{
+    width: 14px;
+    height: 14px;
+}
+
+.selected-simple-category__category{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.selected-simple-category__category_border_shadow .simple-category__category{
+    padding: 8px 0;
+    border: 1px solid var(--main-color-gray);
+    box-shadow: 4px 4px 0 var(--main-shadow-color);
+    background-color: var(--main-color-white);
+}
+
+.selected-simple-category__category_border_shadow .service-info__main{
+    border-left: 1px solid var(--main-color-gray);
+    margin: 0 0 15px 0;
+    padding: 0 0 0 15px;
+}
+
+.selected-service__subtitle-price {
+    display: flex;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 0 4px 0 0;
+}
+
+.selected-service__subtitle-time{
+    display: flex;
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--main-color-deepgray);
+    margin: 0 0 0 4px;
+}
+.selected-service__subtitle-pricetext{
+    margin: 0 0 0 2px;
+}
+
+.selected-service__subtitle-timenumber{
+    margin: 0 1px 0 2px;
+}
+
+.selected-service__rubble-icon {
+    width: 6px;
+    height: 7px;
+    margin: 0 0 1px 0;
+}
+
+.selected-service__time-icon{
+    margin: 0 0 2px 0;
+}
+
+/* <--------------------------------------------------------------------------------> */
+
+
+.checkout-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkout-form__input{
+    margin: 15px 15px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid var(--main-color-deepgray);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.checkout-form__input::placeholder{
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--main-color-gray);
+}
+
+.checkout-form__telephone{
+    width: 41%;
+    margin: 15px 15px;
+}
+
+.name{
+    width: 40%;
+}
+
+.surname{
+    width: 40%;
+}
+
+.mask{
+    width: 12%;
+    margin: 0;
+}
+
+.telephone{
+    width: 85%;
+    margin: 0;
+}
+
+.email{
+    width: 40%;
+}
+
+.comment{
+    width: 88%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* |Компонент| main-header */
+
+.main-menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 -5px 16px -4px var(--main-shadow-color);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-color-white);
+    z-index: 10;
+}
+
+.main-menu__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-menu__item{
+    display: flex;
+}
+
+.main-menu__item-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+    border: none;
+    align-items: center;
+    font-size: 0.625rem;
+}
+
+.main-menu__item-btn img{
+    width: 20px;
+    height: 20px;
+    margin: 0 0 5px 0;
+}
+
+/* <--------------------------------------------------------------------------------> */
+
+
+
+
+
+.mainhide{
+    display: none;
+}
+
+
+
+/*
+
+@media (min-width: 375px) {
+
+
+}
+
+@media (min-width: 400px) {
+
+
+}*/
