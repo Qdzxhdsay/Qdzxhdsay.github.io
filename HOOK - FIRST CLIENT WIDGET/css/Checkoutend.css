@@ -82,7 +82,7 @@ body{
 
 .hipster-widget__checkout-form{
     margin: 15px 0 0 0;
-    width: 98%;
+    width: 90%;
 }
 
 
@@ -450,7 +450,7 @@ body{
 .checkout-form{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .checkout-form__input{
@@ -472,18 +472,18 @@ body{
 .checkout-form__telephone{
     display: flex;
     justify-content: space-between;
-    width: 40%;
-    margin: 15px 10px 15px 0;
+    width: 49%;
+    margin: 15px 0 15px 0;
 }
 
 .name{
-    width: 40%;
-    margin: 15px 10px 15px 0;
+    width: 49%;
+    margin: 15px 0 15px 0;
 }
 
 .surname{
-    width: 40%;
-    margin: 15px 0 15px 10px;
+    width: 49%;
+    margin: 15px 0 15px 0;
 }
 
 .mask{
@@ -492,17 +492,17 @@ body{
 }
 
 .telephone{
-    width: 78%;
-    margin: 0;
+    width: 80%;
+    margin: 0 0 0 5px;
 }
 
 .email{
-    width: 40%;
-    margin: 15px 0 15px 10px;
+    width: 49%;
+    margin: 15px 0 15px 0;
 }
 
 .comment{
-    width: 86%;
+    width: 100%;
     margin: 15px 0;
 }
 
