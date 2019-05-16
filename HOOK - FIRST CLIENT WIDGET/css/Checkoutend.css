@@ -454,7 +454,7 @@ body{
 }
 
 .checkout-form__input{
-    margin: 15px 15px;
+    
     height: 35px;
     border: none;
     border-bottom: 1px solid var(--main-color-deepgray);
@@ -472,36 +472,36 @@ body{
 
 .checkout-form__telephone{
     width: 40%;
-    margin: 15px 15px 15px 0;
+    margin: 15px 10px 15px 0;
 }
 
 .name{
     width: 40%;
-    margin: 15px 15px 15px 0;
+    margin: 15px 10px 15px 0;
 }
 
 .surname{
     width: 40%;
-    margin: 15px 0 15px 15px;
+    margin: 15px 0 15px 10px;
 }
 
 .mask{
-    width: 15%;
+    width: 48%;
     margin: 0;
 }
 
 .telephone{
-    width: 85%;
+    width: 48%;
     margin: 0;
 }
 
 .email{
     width: 40%;
-    margin: 15px 0 15px 15px;
+    margin: 15px 0 15px 10px;
 }
 
 .comment{
-    width: 89%;
+    width: 86%;
     margin: 15px 0;
 }
 
