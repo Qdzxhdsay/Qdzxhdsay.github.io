@@ -472,17 +472,17 @@ body{
 .checkout-form__telephone{
     display: flex;
     justify-content: space-between;
-    width: 49%;
+    width: 45%;
     margin: 15px 0 15px 0;
 }
 
 .name{
-    width: 49%;
+    width: 45%;
     margin: 15px 0 15px 0;
 }
 
 .surname{
-    width: 49%;
+    width: 45%;
     margin: 15px 0 15px 0;
 }
 
@@ -497,7 +497,7 @@ body{
 }
 
 .email{
-    width: 49%;
+    width: 45%;
     margin: 15px 0 15px 0;
 }
 
