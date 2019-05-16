@@ -459,6 +459,8 @@ body{
     border-bottom: 1px solid var(--main-color-deepgray);
     font-weight: 300;
     font-size: 1rem;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 .checkout-form__input::placeholder{
