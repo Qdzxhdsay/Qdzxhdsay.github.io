@@ -85,8 +85,14 @@ body{
     width: 90%;
 }
 
+.hipster-widget__toggle-reminder{
+    margin: 20px 0 30px 0;
+}
 
-
+.hipster-widget__big-button{
+    margin: 10px 0 40px 0;
+    width: 90%;
+}
 /* {Позиционирование} компонента main-menu */
 
 .hipster-widget__nav{
@@ -591,9 +597,123 @@ body{
 
 
 
+.toggle-reminder{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.toggle-reminder__leftbar{
+    display: flex;
+    width: 85%;
+}
+
+.toggle-reminder__text{
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+
+.toggle-reminder__rightbar{
+    display: flex;
+    width: 15%;
+}
 
 
 
+.ios-toggle,.ios-toggle:active{
+    position:absolute;
+    top:-5000px;
+    height:0;
+    width:0;
+    opacity:0;
+    border:none;
+    outline:none;
+}
+.checkbox-label{
+    display:block;
+    position:relative;
+    padding:10px;
+    width:100%;
+    height:4px;
+    /*border-radius*/
+    -webkit-border-radius:18px;
+    -moz-border-radius:18px;
+    border-radius:18px;
+    background:#f8f8f8;
+    cursor:pointer;
+}
+.checkbox-label:before{
+    content:'';
+    display:block;
+    position:absolute;
+    z-index:1;
+    height:20px;
+    width:20px;
+    /*border-radius*/
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+    top:2px;
+    left:0;
+    right:auto;
+    background:white;
+    /*box-shadow*/
+    -webkit-box-shadow:0 3px 3px rgba(0,0,0,.2),0 0 0 2px #dddddd;
+    -moz-box-shadow:0 3px 3px rgba(0,0,0,.2),0 0 0 2px #dddddd;
+    box-shadow:0 3px 3px rgba(0,0,0,.2),0 0 0 2px #dddddd;
+}
+
+.ios-toggle:checked + .checkbox-label{
+    /*box-shadow*/
+    -webkit-box-shadow:inset 0 0 0 20px rgba(19,191,17,1),0 0 0 2px rgba(19,191,17,1);
+    -moz-box-shadow:inset 0 0 0 20px rgba(19,191,17,1),0 0 0 2px rgba(19,191,17,1);
+    box-shadow:inset 0 0 0 20px rgba(19,191,17,1),0 0 0 2px rgba(19,191,17,1);
+}
+.ios-toggle:checked + .checkbox-label:before{
+    left:calc(100% - 20px);
+    /*box-shadow*/
+    -webkit-box-shadow:0 0 0 2px transparent,0 3px 3px rgba(0,0,0,.3);
+    -moz-box-shadow:0 0 0 2px transparent,0 3px 3px rgba(0,0,0,.3);
+    box-shadow:0 0 0 2px transparent,0 3px 3px rgba(0,0,0,.3);
+}
+
+/* GREEN CHECKBOX */
+
+#checkbox1 + .checkbox-label{
+    /*box-shadow*/
+    -webkit-box-shadow:inset 0 0 0 0 rgba(19,191,17,1),0 0 0 2px #dddddd;
+    -moz-box-shadow:inset 0 0 0 0 rgba(19,191,17,1),0 0 0 2px #dddddd;
+    box-shadow:inset 0 0 0 0 rgba(19,191,17,1),0 0 0 2px #dddddd;
+}
+#checkbox1:checked + .checkbox-label{
+    /*box-shadow*/
+    -webkit-box-shadow:inset 0 0 0 18px rgba(19,191,17,1),0 0 0 2px rgba(19,191,17,1);
+    -moz-box-shadow:inset 0 0 0 18px rgba(19,191,17,1),0 0 0 2px rgba(19,191,17,1);
+    box-shadow:inset 0 0 0 18px rgba(19,191,17,1),0 0 0 2px rgba(19,191,17,1);
+}
+#checkbox1:checked + .checkbox-label:after{
+    color:rgba(19,191,17,1);
+}
+
+
+
+
+.big-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-button__btn{
+    background: none;
+    border-radius: 6px;
+    border: 1px solid var(--main-color-deepgray);
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 300;
+}
 
 
 
