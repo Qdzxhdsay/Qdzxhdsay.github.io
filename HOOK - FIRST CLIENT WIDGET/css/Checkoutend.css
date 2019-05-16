@@ -454,7 +454,6 @@ body{
 }
 
 .checkout-form__input{
-    
     height: 35px;
     border: none;
     border-bottom: 1px solid var(--main-color-deepgray);
@@ -471,6 +470,8 @@ body{
 }
 
 .checkout-form__telephone{
+    display: flex;
+    justify-content: space-between;
     width: 40%;
     margin: 15px 10px 15px 0;
 }
@@ -486,12 +487,12 @@ body{
 }
 
 .mask{
-    width: 48%;
+    width: 20%;
     margin: 0;
 }
 
 .telephone{
-    width: 48%;
+    width: 78%;
     margin: 0;
 }
 
