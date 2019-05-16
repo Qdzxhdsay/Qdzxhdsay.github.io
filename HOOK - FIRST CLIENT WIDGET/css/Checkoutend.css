@@ -515,6 +515,27 @@ body{
     justify-content: center;
 }
 
+.checkout-form__name{
+    display: flex;
+    width: 100%;
+}
+
+.checkout-form__surname{
+    display: flex;
+    width: 100%;
+}
+
+.checkout-form__email{
+    display: flex;
+    width: 100%;
+}
+
+.checkout-form__comment{
+    display: flex;
+    width: 100%;
+}
+
+
 .checkout-form__input{
     height: 35px;
     border: none;

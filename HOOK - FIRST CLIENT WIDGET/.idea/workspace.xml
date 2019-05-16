@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a5caec0-01c9-423b-8d65-aadc5a8b31cf" name="Default Changelist" comment="" />
+    <list default="true" id="8a5caec0-01c9-423b-8d65-aadc5a8b31cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Checkoutend.html" beforeDir="false" afterPath="$PROJECT_DIR$/Checkoutend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Checkoutend.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Checkoutend.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Checkoutend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="123" column="103" selection-start-line="123" selection-start-column="103" selection-end-line="123" selection-end-column="103" />
+            <state relative-caret-position="325">
+              <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
               <folding>
                 <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -60,6 +63,7 @@
                 <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#form#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -78,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/Checkoutend.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="465" column="1" lean-forward="true" selection-start-line="465" selection-start-column="1" selection-end-line="465" selection-end-column="1" />
+            <state relative-caret-position="460">
+              <caret line="534" column="16" selection-start-line="534" selection-start-column="16" selection-end-line="534" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -293,12 +297,12 @@
       <workItem from="1557815776054" duration="4000" />
       <workItem from="1557817007005" duration="598000" />
       <workItem from="1557818856321" duration="32860000" />
-      <workItem from="1558002782153" duration="8294000" />
+      <workItem from="1558002782153" duration="8698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229598000" />
+    <option name="totallyTimeSpent" value="230002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="0" />
@@ -559,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Checkoutend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="123" column="103" selection-start-line="123" selection-start-column="103" selection-end-line="123" selection-end-column="103" />
+        <state relative-caret-position="325">
+          <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
           <folding>
             <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -569,6 +573,7 @@
             <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#form#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -576,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/Checkoutend.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="465" column="1" lean-forward="true" selection-start-line="465" selection-start-column="1" selection-end-line="465" selection-end-column="1" />
+        <state relative-caret-position="460">
+          <caret line="534" column="16" selection-start-line="534" selection-start-column="16" selection-end-line="534" selection-end-column="16" />
         </state>
       </provider>
     </entry>
