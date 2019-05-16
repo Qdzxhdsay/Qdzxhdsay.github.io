@@ -472,7 +472,7 @@ body{
 .checkout-form__telephone{
     display: flex;
     justify-content: space-between;
-    width: calc(40% + 5px);
+    width: calc(41% + 5px);
     margin: 15px 0 15px 0;
 }
 
@@ -487,12 +487,12 @@ body{
 }
 
 .mask{
-    width: 15%;
+    width: 18%;
     margin: 0;
 }
 
 .telephone{
-    width: 85%;
+    width: 82%;
     margin: 0 0 0 5px;
 }
 
