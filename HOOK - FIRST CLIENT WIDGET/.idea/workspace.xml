@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a5caec0-01c9-423b-8d65-aadc5a8b31cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Checkoutend.html" beforeDir="false" afterPath="$PROJECT_DIR$/Checkoutend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Checkoutend.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Checkoutend.css" afterDir="false" />
-    </list>
+    <list default="true" id="8a5caec0-01c9-423b-8d65-aadc5a8b31cf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Checkoutend.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
@@ -88,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards new.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2689">
@@ -191,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -297,15 +294,15 @@
       <workItem from="1557815776054" duration="4000" />
       <workItem from="1557817007005" duration="598000" />
       <workItem from="1557818856321" duration="32860000" />
-      <workItem from="1558002782153" duration="18313000" />
+      <workItem from="1558002782153" duration="18324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239617000" />
+    <option name="totallyTimeSpent" value="239628000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="880" extended-state="1" />
+    <frame x="-8" y="-8" width="1552" height="880" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18217821" />
@@ -547,10 +544,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards new.css">
+    <entry file="file://$PROJECT_DIR$/Checkoutend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2689">
-          <caret line="496" column="1" lean-forward="true" selection-start-line="496" selection-start-column="1" selection-end-line="496" selection-end-column="1" />
+        <state relative-caret-position="560">
+          <caret line="176" column="51" selection-start-line="176" selection-start-column="51" selection-end-line="176" selection-end-column="51" />
+          <folding>
+            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#form#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,21 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Checkoutend.html">
+    <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards new.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="176" column="51" selection-start-line="176" selection-start-column="51" selection-end-line="176" selection-end-column="51" />
-          <folding>
-            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#form#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="2689">
+          <caret line="496" column="1" lean-forward="true" selection-start-line="496" selection-start-column="1" selection-end-line="496" selection-end-column="1" />
         </state>
       </provider>
     </entry>
