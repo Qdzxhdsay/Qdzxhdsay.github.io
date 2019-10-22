@@ -1,0 +1,303 @@
+.libraryschool__content{
+    align-items: center;
+}
+
+.header{
+    display: flex;
+}
+
+.libraryschool__header{
+    margin: -10px 0 0 0;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainoffer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.mainoffer__bg{
+    width: 100%;
+    height: 100%;
+    margin: -7px 0 0 0;
+}
+
+.advantages{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+ }
+
+.advantages__item{
+    display: flex;
+    width: 25%;
+    padding: 5% 0 5% 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__img{
+    width: 25%;
+    height: auto;
+}
+
+.advantages__text{
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.variants{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.variants__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.variants_first{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.variants_second{
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+
+.variants_three{
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+}
+
+.variants__offer{
+    width: 60%;
+}
+
+.variants_swap{
+    order: 1;
+}
+
+.variants__headline{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.variants__text{
+    font-family: "Roboto",sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+.variants__img{
+    margin: -120px 0 0 0;
+    width: 300px;
+    height: auto;
+}
+
+.variants_imgfix{
+    margin: -50px 0 0 0;
+    width: 330px;
+    height: 350px;
+}
+
+
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.contacts__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background: url(../img/bg4.png);
+    height: 350px;
+
+}
+
+.contacts__infocont{
+    margin: 0 0 0 25px;
+    height: 350px;
+}
+
+.contacts__tel{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contacts__telheadline {
+    font-family: "Roboto",sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: white;
+    margin: 30px 0 20px 0;
+}
+.contacts__telone{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 0 15px 0;
+}
+.contacts__teltwo{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 0 15px 0;
+}
+
+.contacts__socheadline{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: white;
+    margin: 10px 0 15px 0;
+}
+
+.contacts__whatsapp{
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.contacts__vk{
+    color: white;
+    font-size: 1.7rem;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+}
+
+.contacts__ok{
+    color: white;
+    font-size: 1.7rem;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+}
+
+.contacts__adress{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: white;
+    margin: 20px 0 15px 0;
+}
+
+.contacts__adresstext{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: white;
+    margin: 20px 0 15px 0;
+}
+.contacs__map{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+#myMap{
+    width: 100%;
+    height: 350px;
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .variants__offer {
+        width: 50%;
+    }
+
+    .variants__img {
+        margin: -90px 0 0 0;
+        width: 300px;
+        height: auto;
+    }
+
+    .variants_imgfix {
+        margin: -50px 0 0 0;
+        width: 330px;
+        height: 350px;
+    }
+    .contacts__infocont {
+        margin: 0 0 0 25px;
+        height: 330px;
+    }
+}
+
+@media (max-width: 767px) {
+    html{
+        font-size: 12px;
+    }
+    .advantages{
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__item{
+        padding: 5% 0 0 0;
+        width: 65%;
+
+    }
+    .variants__item{
+       flex-direction: column;
+        height: auto;
+    }
+
+    .variants__offer{
+        width: 60%;
+        margin: 20px 0 0 0;
+    }
+
+    .variants__img{
+        margin: 30px 0 30px 0;
+        width: 250px;
+        height: auto;
+    }
+
+    .variants_imgfix{
+        margin: 30px 0 0 0;
+    }
+    .variants_swap{
+        order:0;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .contacts__info{
+        width: 100%;
+        height: 310px;
+    }
+    .contacs__map{
+        width: 100%;
+    }
+    #myMap{
+        height: 350px;
+    }
+
+}

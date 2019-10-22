@@ -1,0 +1,515 @@
+/* Сниппет для скрытия элементов, но позволяющий получать доступ для сео(например скрывать заголовки которых нет в дизайне) */
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Переменные с цветами */
+
+:root{
+    --white: #fff;
+    --black: #333333;
+
+}
+
+/* {Позиционирование} Общей обертки всего сайта */
+
+.brandsite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* {Позиционирование} блока header */
+
+.brandsite__header {
+    width: 94%;
+    margin: 75px 0 0 0;
+}
+
+/* {Позиционирование} контента content */
+
+.brandsite__content{
+
+}
+
+/* {Позиционирование} блока clickbait */
+
+.brandsite__clickbait{
+    width: 94%;
+    margin: 75px 0 0 0;
+}
+
+/* {Позиционирование} блока calltoaction */
+
+.brandsite__calltoaction{
+    width: 94%;
+    margin: 75px 0 0 0;
+}
+
+/* {Позиционирование} блока pickyuordesign */
+
+.brandsite__pickyourdesign{
+    width: 94%;
+    margin: 75px 0 0 0;
+}
+
+/* {Позиционирование} блока socialintegration */
+
+.brandsite__socialintegration{
+    width: 90%;
+    margin: 75px 0 0 0;
+}
+
+/* <--------------------------------------------------------------------------------> */
+
+/* |Компонент| header */
+
+.header{
+    display: flex;
+    align-items: flex-start;
+}
+
+.header__leftbar{
+    display: flex;
+    width: 25%;
+}
+
+.header__midbar{
+    display: flex;
+    width: 50%;
+}
+
+.header__rightbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__logo-img{
+    width: 165px;
+    height: 45px;
+}
+
+.header__logo-subtitle{
+    width: 60%;
+    margin: 8px 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.main-menu{
+    display: flex;
+    width: 100%;
+}
+
+.main-menu__list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-menu__item{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 0;
+}
+
+.main-menu__item-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+    border: none;
+    outline: none;
+    align-items: center;
+    font-size: 2.25rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+}
+
+.main-menu__btn-hr{
+    height: 5px;
+    border-radius: 10px;
+    background-color: #DB316A;
+    border: none;
+    visibility: hidden;
+    margin: 10px 0 0 0;
+}
+/* [Модификатор] - активной/выбранной кнопки */
+
+.main-menu_pickedbtn .main-menu__btn-hr{
+    visibility: visible;
+}
+
+.header__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #DB316A;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+    box-shadow: 6px 6px 4px -1px rgba(0,0,0,0.20);
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    transition: 0.2s;
+}
+
+.create-btn:hover{
+    background: #dd186e;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickbait{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clickbait__leftbar{
+    display: flex;
+    width: 25%;
+}
+
+.clickbait__midbar{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.clickbait__rightbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.clicbait__slogan{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.25rem;
+    line-height: 2.65rem;
+    font-weight: 300;
+}
+
+.bold_text{
+    font-weight: 700;
+}
+
+.clickbait__screen{
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.clickbait__variants{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.clickbait__item{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+
+}
+
+.clickbait__item-icon{
+    margin: 0 10px 0 0;
+}
+
+.clickbait__item-headline{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.calltoaction{
+    display: flex;
+    justify-content: center;
+}
+
+.calltoaction__img{
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 0 0 2%;
+}
+
+.pickyourdesign{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.pickyourdesign__item{
+    display: flex;
+    margin: 0 4%;
+}
+
+.pickyourdesign__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.pickyourdesign__headline{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+    font-weight: 300;
+    margin: 20px 0 0 0;
+}
+
+.socialinteration{
+    display: flex;
+}
+
+.socialintegration__picture{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socialinteration__slogan{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.socialinteration__headline{
+    text-align: end;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.25rem;
+    line-height: 2.95rem;
+    font-weight: 300;
+}
+
+.socialinteration__img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.socialinteration__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #DB316A;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+    box-shadow: 6px 6px 4px -1px rgba(0,0,0,0.20);
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    transition: 0.2s;
+}
+
+
+
+.brandapp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;height: 1200px;
+    background: url(../img/WomanBg.svg) 100% 100% no-repeat;
+    background-size: auto;
+}
+
+
+
+
+.branapp__buffer{
+    width: 20%;
+}
+
+.brandapp__offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 750px;
+}
+
+.brandapp__headline{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.25rem;
+    line-height: 1.85rem;
+    font-weight: 300;
+    color: white;
+}
+
+.brandapp__hr{
+    width: 80px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    margin: 5px 0 5px 0;
+}
+
+
+
+.brandapp__advantages{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.brandapp__item{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.brandapp__item-headline{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+    font-weight: 300;
+    color: white;
+}
+
+.brandapp__item-icon{
+    margin: 0 20px 0 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.brandapp__info{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+.brandapp__stores{
+    display: flex;
+}
+
+.brandapp__playmarket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+
+.brandapp__playmarket-headline{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+
+.brandapp__playmarket-icon{
+    margin: 0 10px 0 10px;
+}
+
+.brandapp__appstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+
+
+.brandapp__appstore-headline{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+
+.brandapp__appstore-icon{
+    margin: 0 10px 0 10px;
+}
+
+.brandapp__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #DB316A;
+    border-radius: 50px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+    box-shadow: 6px 6px 4px -1px rgba(0,0,0,0.20);
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    transition: 0.2s;
+ }
+
+
+.bb{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;height: 1500px;
+    background: url(../img/Shestoyblock.svg) 10% 100% no-repeat;
+    background-size: cover;
+}
