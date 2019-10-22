@@ -15,92 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/First view - rectangular cards new.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5040">
-              <caret line="664" column="61" selection-start-line="664" selection-start-column="61" selection-end-line="664" selection-end-column="61" />
-              <folding>
-                <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#5;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#5;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#6;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#6;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#div#8;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/First view - square cards new.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="308" column="56" selection-start-line="308" selection-start-column="56" selection-end-line="308" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19257">
-              <caret line="923" column="30" selection-start-line="923" selection-start-column="30" selection-end-line="923" selection-end-column="30" />
-              <folding>
-                <element signature="e#1009#1128#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Checkoutend.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2916#3141#0" />
-                <element signature="n#div#1;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#form#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#form#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/Checkoutend.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="23" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -298,16 +213,15 @@
       <workItem from="1561719689942" duration="3222000" />
       <workItem from="1562054014322" duration="599000" />
       <workItem from="1571736071223" duration="121000" />
-      <workItem from="1571736201296" duration="121000" />
+      <workItem from="1571736201296" duration="324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248630000" />
+    <option name="totallyTimeSpent" value="248833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="-10" width="1940" height="1100" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18191378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,9 +354,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/First view - rectangular cards new.html">
+    <entry file="file://$PROJECT_DIR$/fvscn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
+        <state relative-caret-position="447">
+          <caret line="308" column="56" selection-start-line="308" selection-start-column="56" selection-end-line="308" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fvrcn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
           <caret line="664" column="61" selection-start-line="664" selection-start-column="61" selection-end-line="664" selection-end-column="61" />
           <folding>
             <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -472,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/First view - rectangular cards.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19257">
+        <state relative-caret-position="877">
           <caret line="923" column="30" selection-start-line="923" selection-start-column="30" selection-end-line="923" selection-end-column="30" />
           <folding>
             <element signature="e#1009#1128#0" />
@@ -504,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/First view - square cards new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="308" column="56" selection-start-line="308" selection-start-column="56" selection-end-line="308" selection-end-column="56" />
         </state>
       </provider>
     </entry>
